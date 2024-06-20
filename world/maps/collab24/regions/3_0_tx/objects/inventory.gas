@@ -1,3 +1,14 @@
+[t:gold,n:0x03000012]
+{
+	[aspect]
+	{
+	  i gold_value = 4711;
+	}
+	[placement]
+	{
+	  p position = -1.48062,0,0.796809,0x5eab80d7;
+	}
+}
 [t:xp_combatm_exp_item,n:0x03000004]
 {
 	[aspect]
