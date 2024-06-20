@@ -33,9 +33,15 @@
 	0x0310056c = t_xxx_cnr_tee-hal-hal-08-r;
 	0x0310056d = t_xxx_cnr_tee-rmp-rmp-08-l;
 	0x0310056e = t_xxx_cnr_tee-rmp-rmp-08-r;
+	0x031005bd = t_xxx_dgn_flr_ele-round-alpha-strip;
+	0x031005bf = t_xxx_dgn_flr_ele-round-groundplate-terrain;
+	0x031005c6 = t_xxx_dgn_flr_ele-round-platform-nochain;
+	0x031005c8 = t_xxx_dgn_flr_ele-round-tube-62m;
 	0x031006b3 = t_xxx_flr_04x04-v0;
 	0x031006b7 = t_xxx_flr_04x08-v0;
 	0x031006b8 = t_xxx_flr_08x08-v0;
+	0x031006b9 = t_xxx_flr_08x08-v1;
+	0x031006ba = t_xxx_flr_08x08-v2;
 	0x031006bb = t_xxx_flr_08x08-v3;
 	0x0310072d = t_xxx_hal_cnr-ccav;
 	0x0310072e = t_xxx_hal_cnr-cnvx;
@@ -65,7 +71,6 @@
 	0x03100864 = t_xxx_pth_08x04-g;
 	0x03100865 = t_xxx_pth_08x04-h;
 	0x03100866 = t_xxx_pth_08x04-i;
-	0x03100867 = t_xxx_pth_08x04-j;
 	0x03100869 = t_xxx_pth_08x08-b;
 	0x0310086f = t_xxx_pth_08x08-h;
 	0x03100883 = t_xxx_rmp_cnr-ccav;
@@ -83,6 +88,11 @@
 	0x0310089b = t_xxx_rmp_tx-wal-04-thck-r;
 	0x0310089c = t_xxx_rmp_tx-wal-04-thin-l;
 	0x0310089d = t_xxx_rmp_tx-wal-04-thin-r;
+	0x0310090f = t_xxx_ruin_stairs-08x04-a;
+	0x03100910 = t_xxx_ruin_stairs-cncv-a;
+	0x03100913 = t_xxx_ruin_support-08x04-a;
+	0x03100914 = t_xxx_ruin_support-08x08-a;
+	0x03100919 = t_xxx_ruin_wall-cnr-a;
 	0x031009e6 = t_xxx_wal_02a-diag-thick-l;
 	0x031009e7 = t_xxx_wal_02a-diag-thick-r;
 	0x031009e8 = t_xxx_wal_02a-diag-thin-l;

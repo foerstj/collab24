@@ -23,31 +23,6 @@
 	  p position = -3.24348,-0.0033474,-0.503853,0xb9ebdee7;
 	}
 }
-[t:sign_glb_01,n:0x031006a3]
-{
-	[common]
-	{
-		dev_instance_text = "sign 6";
-		screen_name = "Hovart's Folly, 54";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = -1.06149,-1.27242,-2.399,0x99e13ca5;
-	}
-}
-[t:sign_glb_01,n:0x031006bf]
-{
-	[common]
-	{
-		screen_name = "Ancient Crypt";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.980785,0,-0.19509;
-	  p position = -1.0889,-1,-2.43905,0x99e13ca5;
-	}
-}
 [t:sign_glb_01,n:0x0310074b]
 {
 	[common]
@@ -71,6 +46,31 @@
 	{
 	  q orientation = 0,0.19509,0,-0.980785;
 	  p position = 2.20365,0.187231,1.60361,0x6976f80f;
+	}
+}
+[t:sign_glb_01,n:0x031006a3]
+{
+	[common]
+	{
+		dev_instance_text = "sign 6";
+		screen_name = "Hovart's Folly, 54";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -1.06149,-1.27242,-2.399,0x99e13ca5;
+	}
+}
+[t:sign_glb_01,n:0x031006bf]
+{
+	[common]
+	{
+		screen_name = "Ancient Crypt";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.980785,0,-0.19509;
+	  p position = -1.0889,-1,-2.43905,0x99e13ca5;
 	}
 }
 [t:respawn_statue,n:0x031008de]
