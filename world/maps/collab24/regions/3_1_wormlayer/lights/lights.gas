@@ -15,10 +15,10 @@
 	  f outer_radius = 0.000000;
 		[direction]
 		{
-		  x node = 0x6F350CDF;
+		  x node = 0xE71B0736;
 		  f x = 0.000000;
 		  f y = 0.707107;
-		  f z = 0.707107;
+		  f z = -0.707107;
 		}
 	}
 	[t:directional,n:light_0xf198fbe5]
@@ -36,10 +36,10 @@
 	  f outer_radius = 0.000000;
 		[direction]
 		{
-		  x node = 0x6F350CDF;
-		  f x = 0.402250;
+		  x node = 0xE71B0736;
+		  f x = -0.402250;
 		  f y = 0.829038;
-		  f z = -0.388448;
+		  f z = 0.388448;
 		}
 	}
 }
