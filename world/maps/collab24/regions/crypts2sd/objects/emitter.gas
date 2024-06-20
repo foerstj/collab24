@@ -1,4 +1,4 @@
-[t:emt_sound,n:0x0850068f]
+[t:emt_sound,n:0x0310068f]
 {
 	[placement]
 	{
@@ -11,7 +11,7 @@
 		event_sound = "amb_wind_02";
 	}
 }
-[t:emt_sound,n:0x0850068e]
+[t:emt_sound,n:0x0310068e]
 {
 	[placement]
 	{
@@ -23,7 +23,7 @@
 		event_sound = "amb_wind_02";
 	}
 }
-[t:emt_sound,n:0x0850068a]
+[t:emt_sound,n:0x0310068a]
 {
 	[placement]
 	{
@@ -37,7 +37,7 @@
 	  f repeat_rate = 11;
 	}
 }
-[t:emt_sound,n:0x0850068b]
+[t:emt_sound,n:0x0310068b]
 {
 	[placement]
 	{
@@ -49,7 +49,7 @@
 		event_sound = "env_brook";
 	}
 }
-[t:emt_sound,n:0x0850068d]
+[t:emt_sound,n:0x0310068d]
 {
 	[placement]
 	{
@@ -62,7 +62,7 @@
 		event_sound = "amb_wind_02";
 	}
 }
-[t:emt_sound,n:0x08500689]
+[t:emt_sound,n:0x03100689]
 {
 	[placement]
 	{
@@ -75,7 +75,7 @@
 		event_sound = "env_brook";
 	}
 }
-[t:emt_sound,n:0x08500691]
+[t:emt_sound,n:0x03100691]
 {
 	[placement]
 	{
@@ -88,7 +88,7 @@
 		event_sound = "amb_wind_02";
 	}
 }
-[t:emt_sound,n:0x08500690]
+[t:emt_sound,n:0x03100690]
 {
 	[placement]
 	{
@@ -101,7 +101,7 @@
 		event_sound = "amb_wind_02";
 	}
 }
-[t:emt_sound,n:0x0850068c]
+[t:emt_sound,n:0x0310068c]
 {
 	[placement]
 	{

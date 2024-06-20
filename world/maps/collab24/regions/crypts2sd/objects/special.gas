@@ -1,4 +1,4 @@
-[t:trigger_generic,n:0x085008f2]
+[t:trigger_generic,n:0x031008f2]
 {
 	[common]
 	{
@@ -28,7 +28,7 @@
 	  p position = 0.163576,-1.65096,-2.62034,0x49e31314;
 	}
 }
-[t:trigger_generic,n:0x085008f3]
+[t:trigger_generic,n:0x031008f3]
 {
 	[common]
 	{
@@ -58,7 +58,7 @@
 	  p position = -0.331673,1.8944,3.54274,0x49e31314;
 	}
 }
-[t:trigger_generic,n:0x0850027d]
+[t:trigger_generic,n:0x0310027d]
 {
 	[common]
 	{
@@ -66,8 +66,8 @@
 		{
 			[*]
 			{
-				action* = fade_nodes(0xA7BC2565,1,3,-1,"out:black"), group(1);
-				action* = fade_nodes(0xA7BC2565,1,3,-1,"in"), group(2);
+				action* = fade_nodes(0x00000031,1,3,-1,"out:black"), group(1);
+				action* = fade_nodes(0x00000031,1,3,-1,"in"), group(2);
 			  b can_self_destruct = true;
 				condition* = party_member_entered_trigger_group("crypts2sd_house_1","on_every_enter"), group(1);
 				condition* = party_member_left_trigger_group("crypts2sd_house_1","on_every_leave"), group(2);
@@ -88,14 +88,14 @@
 	  p position = -0.407394,-3,1.34663,0x07a5fd47;
 	}
 }
-[t:use_point,n:0x085007d3]
+[t:use_point,n:0x031007d3]
 {
 	[placement]
 	{
 	  p position = 0.854942,-3,-0.785507,0x07a5fd47;
 	}
 }
-[t:use_point,n:0x085007d4]
+[t:use_point,n:0x031007d4]
 {
 	[placement]
 	{
@@ -103,7 +103,7 @@
 	  p position = 1.12708,-3,-4.4556,0x07a5fd47;
 	}
 }
-[t:trigger_generic,n:0x085007d5]
+[t:trigger_generic,n:0x031007d5]
 {
 	[common]
 	{
@@ -132,7 +132,7 @@
 	  p position = 0.306465,-3,-3.28069,0x07a5fd47;
 	}
 }
-[t:trigger_generic,n:0x085007d9]
+[t:trigger_generic,n:0x031007d9]
 {
 	[common]
 	{
@@ -160,7 +160,7 @@
 	  p position = 0.922104,-3,0.30928,0x07a5fd47;
 	}
 }
-[t:trigger_generic,n:0x085004d7]
+[t:trigger_generic,n:0x031004d7]
 {
 	[common]
 	{
@@ -170,7 +170,7 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_crypts2sd_1");
-				action* = fade_nodes(0xA7BC2565,1,1,-1,"in"), doc("crypts2sd_roof");
+				action* = fade_nodes(0x00000031,1,1,-1,"in"), doc("crypts2sd_roof");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(3.000000,1.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -190,7 +190,7 @@
 	  p position = -0.0193481,0.00552943,-3.9942,0x1ac58c34;
 	}
 }
-[t:trigger_generic,n:0x085004d8]
+[t:trigger_generic,n:0x031004d8]
 {
 	[common]
 	{
@@ -200,7 +200,7 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_abc_r1_1");
-				action* = fade_nodes(0xA7BC2565,1,1,-1,"out:black"), doc("crypts2sd_roof");
+				action* = fade_nodes(0x00000031,1,1,-1,"out:black"), doc("crypts2sd_roof");
 				action* = set_player_world_location("hovart_marsh");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(2.200000,1.000000,0.500000,"on_every_enter");
@@ -221,7 +221,7 @@
 	  p position = -0.0638123,0,-2.7149,0x1ac58c34;
 	}
 }
-[t:trigger_generic,n:0x085004d9]
+[t:trigger_generic,n:0x031004d9]
 {
 	[common]
 	{
@@ -231,7 +231,7 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_crypts2sd_1");
-				action* = fade_nodes(0xA7BC2565,1,1,-1,"in"), doc("crypts2sd_roof");
+				action* = fade_nodes(0x00000031,1,1,-1,"in"), doc("crypts2sd_roof");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(2.000000,1.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -252,7 +252,7 @@
 	  p position = -3.14703,0.130138,-2.49464,0x1ac58c34;
 	}
 }
-[t:trigger_generic,n:0x085004da]
+[t:trigger_generic,n:0x031004da]
 {
 	[common]
 	{
@@ -262,7 +262,7 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_crypts2sd_1");
-				action* = fade_nodes(0xA7BC2565,1,1,-1,"in"), doc("crypts2sd_roof");
+				action* = fade_nodes(0x00000031,1,1,-1,"in"), doc("crypts2sd_roof");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(2.000000,1.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -283,14 +283,14 @@
 	  p position = 3.0598,0.036633,-2.60068,0x1ac58c34;
 	}
 }
-[t:use_point,n:0x085008e3]
+[t:use_point,n:0x031008e3]
 {
 	[placement]
 	{
 	  p position = 0.390221,2,1.21683,0xbe2612c4;
 	}
 }
-[t:trigger_generic,n:0x085004d4]
+[t:trigger_generic,n:0x031004d4]
 {
 	[common]
 	{
@@ -299,7 +299,7 @@
 		{
 			[*]
 			{
-				action* = fade_nodes(0xA7BC2565,1,-1,-1,"in"), doc("crypts2sd");
+				action* = fade_nodes(0x00000031,1,-1,-1,"in"), doc("crypts2sd");
 				action* = fade_nodes(0xACA10100,1,-1,-1,"in"), doc("abc_r1");
 				action* = fade_nodes(0xACA20100,1,-1,-1,"in"), doc("sd_r1");
 			  b can_self_destruct = true;
@@ -321,7 +321,7 @@
 	  p position = -0.00128174,-0.7,-4.25653,0xb17cdcf1;
 	}
 }
-[t:trigger_generic,n:0x085004d5]
+[t:trigger_generic,n:0x031004d5]
 {
 	[common]
 	{
@@ -351,7 +351,7 @@
 	  p position = -0.0720673,0.3,-5.87064,0xb17cdcf1;
 	}
 }
-[t:trigger_generic,n:0x085004d6]
+[t:trigger_generic,n:0x031004d6]
 {
 	[common]
 	{
@@ -360,7 +360,7 @@
 		{
 			[*]
 			{
-				action* = fade_nodes(0xA7BC2565,1,-1,-1,"out:black"), doc("crypts2sd");
+				action* = fade_nodes(0x00000031,1,-1,-1,"out:black"), doc("crypts2sd");
 				action* = set_player_world_location("ancient_crypts");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(2.200000,2.000000,0.500000,"on_every_enter");
@@ -381,7 +381,7 @@
 	  p position = -0.00469971,-2.3,-2.07285,0xb17cdcf1;
 	}
 }
-[t:trigger_generic,n:0x085008f0]
+[t:trigger_generic,n:0x031008f0]
 {
 	[common]
 	{
@@ -411,7 +411,7 @@
 	  p position = -0.877394,0.773368,-0.643208,0x8429896e;
 	}
 }
-[t:trigger_generic,n:0x085008f1]
+[t:trigger_generic,n:0x031008f1]
 {
 	[common]
 	{
@@ -441,7 +441,7 @@
 	  p position = 0.54701,-0.50798,-1.42803,0xb204aa65;
 	}
 }
-[t:trigger_generic,n:0x085008ee]
+[t:trigger_generic,n:0x031008ee]
 {
 	[common]
 	{
@@ -471,7 +471,7 @@
 	  p position = -2.06946,-3.33892,-0.383835,0xd3b4a239;
 	}
 }
-[t:trigger_generic,n:0x085008ef]
+[t:trigger_generic,n:0x031008ef]
 {
 	[common]
 	{
@@ -501,7 +501,7 @@
 	  p position = 1.82095,-0.332081,-0.440353,0xd3b4a239;
 	}
 }
-[t:trigger_generic,n:0x085004de]
+[t:trigger_generic,n:0x031004de]
 {
 	[common]
 	{
@@ -511,7 +511,7 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_sd_r1_1");
-				action* = fade_nodes(0xA7BC2565,1,2,-1,"out:black"), doc("crypts2sd_roof");
+				action* = fade_nodes(0x00000031,1,2,-1,"out:black"), doc("crypts2sd_roof");
 				action* = set_player_world_location("hovart_marsh");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(2.000000,1.000000,1.000000,"on_every_enter");
@@ -532,7 +532,7 @@
 	  p position = 0.0192566,-2,-5.67538,0x59aafb23;
 	}
 }
-[t:trigger_generic,n:0x085004e1]
+[t:trigger_generic,n:0x031004e1]
 {
 	[common]
 	{
@@ -542,7 +542,7 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_crypts2sd_2");
-				action* = fade_nodes(0xA7BC2565,1,2,-1,"in"), doc("crypts2sd_roof");
+				action* = fade_nodes(0x00000031,1,2,-1,"in"), doc("crypts2sd_roof");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,1.000000,1.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -563,7 +563,7 @@
 	  p position = 1.78053,0,1.17797,0xc8598c98;
 	}
 }
-[t:trigger_generic,n:0x085004df]
+[t:trigger_generic,n:0x031004df]
 {
 	[common]
 	{
@@ -573,7 +573,7 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_crypts2sd_2");
-				action* = fade_nodes(0xA7BC2565,1,2,-1,"in"), doc("crypts2sd_roof");
+				action* = fade_nodes(0x00000031,1,2,-1,"in"), doc("crypts2sd_roof");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,1.000000,3.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -593,7 +593,7 @@
 	  p position = 2.48686,0,8.58307e-005,0x05f520a5;
 	}
 }
-[t:trigger_generic,n:0x085004e0]
+[t:trigger_generic,n:0x031004e0]
 {
 	[common]
 	{
@@ -603,7 +603,7 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_crypts2sd_2");
-				action* = fade_nodes(0xA7BC2565,1,2,-1,"in"), doc("crypts2sd_roof");
+				action* = fade_nodes(0x00000031,1,2,-1,"in"), doc("crypts2sd_roof");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,1.000000,1.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -623,7 +623,7 @@
 	  p position = -1.08523,0,-1.82456,0x94048807;
 	}
 }
-[t:trigger_generic,n:0x085008ec]
+[t:trigger_generic,n:0x031008ec]
 {
 	[common]
 	{
@@ -653,7 +653,7 @@
 	  p position = 1.34847,-1.56467,-4.31921,0x87b049df;
 	}
 }
-[t:trigger_generic,n:0x085008ed]
+[t:trigger_generic,n:0x031008ed]
 {
 	[common]
 	{
@@ -683,14 +683,14 @@
 	  p position = -1.53526,1.29815,0.0949326,0x87b049df;
 	}
 }
-[t:use_point,n:0x085008eb]
+[t:use_point,n:0x031008eb]
 {
 	[placement]
 	{
 	  p position = 1.46839,3.99497,3.24243,0xb67dfc94;
 	}
 }
-[t:trigger_generic,n:0x0850051c]
+[t:trigger_generic,n:0x0310051c]
 {
 	[common]
 	{
@@ -720,7 +720,7 @@
 	  p position = 1.74545,0.753535,0.488258,0x1cf5f10d;
 	}
 }
-[t:trigger_generic,n:0x0850051d]
+[t:trigger_generic,n:0x0310051d]
 {
 	[common]
 	{
@@ -750,7 +750,7 @@
 	  p position = -0.889109,-1.33173,-2.75135,0x1cf5f10d;
 	}
 }
-[t:trigger_generic,n:0x0850051e]
+[t:trigger_generic,n:0x0310051e]
 {
 	[common]
 	{
@@ -780,7 +780,7 @@
 	  p position = -1.1306,0.321686,-0.243263,0x18cf5a31;
 	}
 }
-[t:trigger_generic,n:0x0850051f]
+[t:trigger_generic,n:0x0310051f]
 {
 	[common]
 	{
@@ -810,7 +810,7 @@
 	  p position = 0.888077,-1.35562,-2.94321,0x18cf5a31;
 	}
 }
-[t:trigger_generic,n:0x08500522]
+[t:trigger_generic,n:0x03100522]
 {
 	[common]
 	{
@@ -840,7 +840,7 @@
 	  p position = -0.577263,-0.394102,-0.58168,0x508083c5;
 	}
 }
-[t:trigger_generic,n:0x08500523]
+[t:trigger_generic,n:0x03100523]
 {
 	[common]
 	{
@@ -870,7 +870,7 @@
 	  p position = -4.44918,-2.68857,-1.1479,0x508083c5;
 	}
 }
-[t:trigger_generic,n:0x08500518]
+[t:trigger_generic,n:0x03100518]
 {
 	[common]
 	{
@@ -900,7 +900,7 @@
 	  p position = 3.60795,1.35909,2.26169,0x3774e3df;
 	}
 }
-[t:trigger_generic,n:0x08500519]
+[t:trigger_generic,n:0x03100519]
 {
 	[common]
 	{
@@ -930,7 +930,7 @@
 	  p position = 1.19591,-1.39869,-2.0868,0x3774e3df;
 	}
 }
-[t:trigger_generic,n:0x085004db]
+[t:trigger_generic,n:0x031004db]
 {
 	[common]
 	{
@@ -939,7 +939,7 @@
 		{
 			[*]
 			{
-				action* = fade_nodes(0xA7BC2565,1,-1,-1,"in"), doc("crypts2sd");
+				action* = fade_nodes(0x00000031,1,-1,-1,"in"), doc("crypts2sd");
 				action* = fade_nodes(0xACA20100,1,-1,-1,"in"), doc("sd_r1");
 				action* = fade_nodes(0xACA10100,1,-1,-1,"in"), doc("abc_r1");
 			  b can_self_destruct = true;
@@ -961,7 +961,7 @@
 	  p position = -0.00836658,0.0999999,-4.24054,0xdafa0f08;
 	}
 }
-[t:trigger_generic,n:0x085004dc]
+[t:trigger_generic,n:0x031004dc]
 {
 	[common]
 	{
@@ -991,7 +991,7 @@
 	  p position = -0.0102301,1.1,-5.70317,0xdafa0f08;
 	}
 }
-[t:trigger_generic,n:0x085004dd]
+[t:trigger_generic,n:0x031004dd]
 {
 	[common]
 	{
@@ -1000,7 +1000,7 @@
 		{
 			[*]
 			{
-				action* = fade_nodes(0xA7BC2565,1,-1,-1,"out:black"), doc("crypts2sd");
+				action* = fade_nodes(0x00000031,1,-1,-1,"out:black"), doc("crypts2sd");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(2.200000,2.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
