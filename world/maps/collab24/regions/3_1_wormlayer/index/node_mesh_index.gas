@@ -1,8 +1,5 @@
 [node_mesh_index]
 {
-	0x0310014b = t_cry01_portal-base-a;
-	0x0310014c = t_cry01_portal-ground-a;
-	0x0310014d = t_cry01_portal-roof-a;
 	0x0310053d = t_xxx_cnr_02a-ccav;
 	0x0310053e = t_xxx_cnr_02a-cnvx;
 	0x0310053f = t_xxx_cnr_02a-tx-02b-ccav-thick-l;
@@ -40,14 +37,6 @@
 	0x031006b7 = t_xxx_flr_04x08-v0;
 	0x031006b8 = t_xxx_flr_08x08-v0;
 	0x031006bb = t_xxx_flr_08x08-v3;
-	0x031006d3 = t_xxx_flr_gravestone-1-a;
-	0x031006d4 = t_xxx_flr_gravestone-2-a;
-	0x031006d5 = t_xxx_flr_gravestone-3-a;
-	0x031006d6 = t_xxx_flr_gravestone-4-a;
-	0x031006f3 = t_xxx_flr_rockwall-cap-b;
-	0x031006f4 = t_xxx_flr_rockwall-thick-a;
-	0x031006f5 = t_xxx_flr_rockwall-thin-a;
-	0x031006f6 = t_xxx_flr_rockwall-turn-a;
 	0x0310072d = t_xxx_hal_cnr-ccav;
 	0x0310072e = t_xxx_hal_cnr-cnvx;
 	0x0310072f = t_xxx_hal_ctx-cncv-04-l;
@@ -64,7 +53,7 @@
 	0x03100741 = t_xxx_hal_tx-wal-04-l;
 	0x03100742 = t_xxx_hal_tx-wal-04-r;
 	0x03100853 = t_xxx_pth_02b-ccav;
-	0x03100856 = t_xxx_pth_02b-thin;
+	0x03100857 = t_xxx_pth_04x04-a;
 	0x03100858 = t_xxx_pth_04x04-b;
 	0x03100859 = t_xxx_pth_04x04-c;
 	0x0310085a = t_xxx_pth_04x04-d;
@@ -72,7 +61,7 @@
 	0x0310085c = t_xxx_pth_04x04-f;
 	0x0310085d = t_xxx_pth_04x04-g;
 	0x0310085f = t_xxx_pth_08x04-b;
-	0x03100861 = t_xxx_pth_08x04-d;
+	0x03100860 = t_xxx_pth_08x04-c;
 	0x03100864 = t_xxx_pth_08x04-g;
 	0x03100865 = t_xxx_pth_08x04-h;
 	0x03100866 = t_xxx_pth_08x04-i;
@@ -94,10 +83,6 @@
 	0x0310089b = t_xxx_rmp_tx-wal-04-thck-r;
 	0x0310089c = t_xxx_rmp_tx-wal-04-thin-l;
 	0x0310089d = t_xxx_rmp_tx-wal-04-thin-r;
-	0x031008ec = t_xxx_ruin_block-04x04-b;
-	0x031008ef = t_xxx_ruin_flr-04x04-b;
-	0x03100908 = t_xxx_ruin_pillar-a;
-	0x0310090a = t_xxx_ruin_pillar-c;
 	0x031009e6 = t_xxx_wal_02a-diag-thick-l;
 	0x031009e7 = t_xxx_wal_02a-diag-thick-r;
 	0x031009e8 = t_xxx_wal_02a-diag-thin-l;
