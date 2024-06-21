@@ -1,0 +1,41 @@
+[t:template,n:c24_3_base_spell_shard_zap]
+{
+	specializes = base_spell_monster;
+
+	category_name = "magic";
+	[magic]
+	{
+		cast_range = 12;
+		cast_reload_delay = 1;
+		mana_cost = 0;
+		requires_line_of_sight = true;
+		speed_bias = 1;
+		target_type_flags = tt_conscious_enemy;
+		usage_context_flags = uc_offensive;
+	}
+	[spell_default] {}
+
+    // stats from spell_mucosa_poison
+	[attack]
+	{
+		damage_max = 15;
+		damage_min = 10;
+	}
+}
+
+[t:template,n:c24_3_spell_shard_zap_green]
+{
+    specializes = c24_3_base_spell_shard_zap;
+
+	[common]
+	{
+		[template_triggers]
+		{
+			[*]
+			{
+				action* = call_sfx_script("shard_zap_green");
+				condition* = receive_world_message("we_req_cast");
+			}
+		}
+	}
+}
