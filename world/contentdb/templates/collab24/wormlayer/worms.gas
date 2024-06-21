@@ -1,0 +1,277 @@
+[t:template,n:googore_base]  // = googore
+{
+	doc = "googore";
+	specializes = actor_evil;
+    category_name = "1W_evil_d";
+
+	[actor]
+	{
+		race	= other;
+
+		[skills]
+		{
+			strength =  	18, 0;
+			intelligence =  7, 0;
+			dexterity =  	10, 0;
+			melee =  		40, 0;
+		}
+	}
+
+	[aspect]
+	{
+		draw_shadow 		= false;
+		model				= m_c_edm_gg_pos_1;
+		experience_value	= 17000;
+		life				= 1330;
+		max_life			= 1330;
+		mana				= 10;
+		max_mana			= 10;
+		[voice]
+		{
+			[enemy_spotted]	{ priority = high; * = s_e_call_googore_SED;  }
+		}
+	}
+
+	[attack]
+	{
+		attack_range	= 0.5;
+		damage_min		= 160;
+		damage_max		= 180;
+	}
+
+	[body]
+	{
+		avg_move_velocity = 1.0;
+        [bone_translator]
+		{
+			 kill_bone			= bone16;
+			 weapon_bone		= bone07;
+			 shield_bone		= bone07;
+			 body_anterior		= bone07;
+			 body_mid			= bone16;
+			 body_posterior		= bone01;
+		}
+		[chore_dictionary]
+		{
+			chore_prefix = a_c_edm_gg_fs;
+
+			[chore_attack]
+			{
+				skrit = select_attack;
+				chore_stances = 0;
+
+				anim_files:00 = at;
+			}
+			[chore_magic]
+			{
+				skrit = select_attack;
+				chore_stances = 0;
+
+				anim_files:00 = at-02;
+			}
+			[chore_die]
+			{
+				skrit = select_transition;
+				chore_stances = 0;
+
+				anim_files:00 = di;
+			}
+
+			[chore_default]
+			{
+				skrit = infinite_loop;
+				chore_stances = 0;
+
+				anim_files:00 = dfs;
+			}
+			[chore_misc]
+			{
+				chore_stances = 0;
+				skrit = select_transition;
+				[anim_files]
+				{
+					slep = ds;
+					wake = rv;
+				}
+			}
+			[chore_fidget]
+			{
+				skrit = select_fidget;
+				chore_stances = 0;
+
+				anim_files:00 = dff;
+			}
+
+			[chore_walk]
+			{
+				skrit = select_walk;
+				chore_stances = 0;
+
+				anim_files:00 = rv;
+			}
+		}
+	}
+	[generator_in_object]
+	{
+		child_template_name = hole_cav_01;
+		spawn_event = WE_ENEMY_SPOTTED;
+		spawn_chance = 1.0;
+		spawn_delay = 0.5;
+		fade_kid = true;
+	}
+    [inventory]
+	{
+		selected_active_location = il_active_primary_spell;
+		[other] { il_active_primary_spell=spell_googore_spit; }
+	}
+	[common]
+	{
+		screen_name="Googore";
+		membership=monster,immune_freeze;
+		[template_triggers]
+		{
+			[*]
+			{
+				action* = call_sfx_script("googore_goo");
+				condition* = receive_world_message("we_anim_sfx",1);
+			}
+
+			[*]
+			{
+				action* = call_sfx_script("googore_goo");
+				condition* = receive_world_message("we_anim_die");
+			}
+		}
+	}
+	[defend] { defense=380; }
+	[mind]
+	{
+		actor_weapon_preference					= WP_MAGIC;
+		actor_auto_switches_to_magic			= true;
+		actor_auto_switches_to_karate			= true;
+		actor_auto_switches_to_melee			= true;
+
+		jat_startup 							= world\ai\jobs\common\job_startup_reveal.skrit
+			?invisible 							= true;
+
+		jat_die 								= world\ai\jobs\actors\evil\job_die_delete.skrit;
+
+		jat_flee_from_object					= jat_none;
+		jat_guard         						= jat_none;
+		jat_move          						= jat_none;
+		jat_patrol         						= jat_none;
+
+		on_enemy_entered_icz_switch_to_melee	= true;
+
+		actor_auto_fidgets 						= false;
+		movement_orders							= mo_hold;
+		inner_comfort_zone_range				= 1.9;
+		melee_engage_range 						= 2.0;
+		personal_space_range					= 1.5;
+		ranged_engage_range 					= 14.0;
+		sight_range								= 14.0;
+		sight_origin_height						= 2;
+	}
+
+}
+
+[t:template,n:c24_3_googore]
+{
+    specializes = googore_base;
+
+    // stats & loot from rector
+	[actor]
+	{
+		[skills]
+		{
+			strength =  	12, 0;
+			intelligence =  7, 0;
+			dexterity =  	2, 0;
+            combat_magic =  4,  0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 44;
+		life = 41;
+        max_life = 41;
+        mana = 14;
+        max_mana = 14;
+	}
+	[attack]
+	{
+		damage_max = 18;
+		damage_min = 14;
+	}
+	[defend] { defense=25; }
+	[inventory]
+	{
+   		selected_active_location = il_active_primary_spell;
+		[other] { il_active_primary_spell=c24_3_spell_googore_spit; }
+
+    	[pcontent]
+		{
+			[oneof*]
+			{
+            	[oneof*]
+				{
+					chance = 0.1;
+					il_main = #ring/12-20;
+				}
+				[oneof*]
+				{
+	            	chance = 0.004;
+	            	il_main = #weapon/-rare(1)/19-28;
+	                il_main = #armor/-rare(1)/18-66;
+                    il_main = #*/-rare(1)/19-28;
+                }
+			}
+		}
+	}
+}
+
+[t:template,n:spell_googore_spit_base]  // = spell_googore_spit
+{
+	category_name = "magic";
+	doc = "spell googore spit";
+	specializes = base_spell_monster;
+	[attack]
+	{
+		damage_max = 180;
+		damage_min = 170;
+	}
+	[common]
+	{
+		[template_triggers]
+		{
+			[*]
+			{
+				action* = call_sfx_script("googore_spit");
+				condition* = receive_world_message("we_req_cast");
+			}
+		}
+	}
+	[magic]
+	{
+		cast_range = 14;
+		cast_reload_delay = 1;
+		mana_cost = 0;
+		requires_line_of_sight = true;
+		speed_bias = 1;
+		target_type_flags = tt_conscious_enemy;
+		usage_context_flags = uc_offensive;
+	}
+	[spell_default] {}
+}
+
+[t:template,n:c24_3_spell_googore_spit]
+{
+    specializes = spell_googore_spit_base;
+
+    // stats from spell_rector_burn
+	[attack]
+	{
+		damage_max = 22;
+		damage_min = 17;
+	}
+}
