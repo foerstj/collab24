@@ -1,0 +1,17 @@
+[t:template,n:mushrooms_cav_05_x2]
+{
+	category_name = "foliage";
+	doc = "shroom_white_delicate_lg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.25;
+		lodfi_upper = 0.6;
+		model = m_i_cav_mushrooms-05;
+		[textures]
+		{
+			0 = b_i_cav_mushrooms-01;
+		}
+        scale_base = 2;  // ADDED
+	}
+}
