@@ -1,0 +1,45 @@
+[t:template,n:spell_googore_spit_base]  // = spell_googore_spit
+{
+	category_name = "magic";
+	doc = "spell googore spit";
+	specializes = base_spell_monster;
+	[attack]
+	{
+		damage_max = 180;
+		damage_min = 170;
+	}
+	[common]
+	{
+		[template_triggers]
+		{
+			[*]
+			{
+				action* = call_sfx_script("googore_spit");
+				condition* = receive_world_message("we_req_cast");
+			}
+		}
+	}
+	[magic]
+	{
+		cast_range = 14;
+		cast_reload_delay = 1;
+		mana_cost = 0;
+		requires_line_of_sight = true;
+		speed_bias = 1;
+		target_type_flags = tt_conscious_enemy;
+		usage_context_flags = uc_offensive;
+	}
+	[spell_default] {}
+}
+
+[t:template,n:c24_3_spell_googore_spit]
+{
+    specializes = spell_googore_spit_base;
+
+    // stats from spell_rector_burn
+	[attack]
+	{
+		damage_max = 22;
+		damage_min = 17;
+	}
+}
