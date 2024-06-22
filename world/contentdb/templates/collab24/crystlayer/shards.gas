@@ -56,7 +56,20 @@
 			frag_glb_shard_green_05 = 3;
 		}
 	}
-  	[common] { screen_name = "Green Shard"; }
+  	[common]
+    {
+        screen_name = "Green Shard";
+		[template_triggers]
+		{
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				no_trig_bits = true;
+				action* = call_sfx_script("unique_light_green(sgx)");
+			}
+		}
+    }
 	[inventory]
 	{
 		[other] { il_active_primary_spell=c24_3_spell_shard_zap_green; }
