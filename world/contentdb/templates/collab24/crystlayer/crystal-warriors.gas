@@ -1,0 +1,41 @@
+[t:template,n:c24_3_crystal_archer]
+{
+    specializes = ice_archer_base;
+
+    aspect:textures:0 = b_i_cav_gems-01-static;
+  	[common]
+    {
+        screen_name = "Crystal Archer";
+		[template_triggers]
+		{
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				no_trig_bits = true;
+				action* = call_sfx_script("unique_light_cyan(sgx)");
+			}
+		}
+    }
+}
+
+[t:template,n:c24_3_crystal_warrior]
+{
+    specializes = ice_warrior_base;
+
+    aspect:textures:0 = b_i_cav_gems-01-static;
+  	[common]
+    {
+        screen_name = "Crystal Warrior";
+		[template_triggers]
+		{
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				no_trig_bits = true;
+				action* = call_sfx_script("unique_light_cyan(sgx)");
+			}
+		}
+    }
+}
