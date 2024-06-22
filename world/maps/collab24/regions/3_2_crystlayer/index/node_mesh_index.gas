@@ -118,7 +118,6 @@
 	0x03200a08 = t_xxx_wal_04-thck;
 	0x03200a09 = t_xxx_wal_04-thin;
 	0x03200a0d = t_xxx_wal_04-tx-08-r;
-	0x03200a1d = t_xxx_wal_08-thck;
 	0x03200a1e = t_xxx_wal_08-thin;
 	0x03200a23 = t_xxx_wal_08-tx-12-l;
 	0x03200a2b = t_xxx_wal_12-diag-thick-l;
@@ -139,11 +138,4 @@
 	0x03200a87 = t_xxx_wal_cave-tx-abc-base-front-a;
 	0x03200a89 = t_xxx_wal_cave-tx-abc-sides-front-a;
 	0x03200a8b = t_xxx_wal_cave-tx-abc-top-front-a;
-	0x03200d37 = t_grs02_grs01-tx-grs02-04x04-b;
-	0x03200d38 = t_grs02_grs01-tx-grs02-04x04-c;
-	0x03200d3a = t_grs02_grs01-tx-grs02-08x04-c;
-	0x03200d3c = t_grs02_grs01-tx-grs02-08x04-e;
-	0x03200d3d = t_grs02_grs01-tx-grs02-08x04-f;
-	0x03200d40 = t_grs02_wal-12-tx-grs01-l;
-	0x03200d41 = t_grs02_wal-12-tx-grs01-r;
 }

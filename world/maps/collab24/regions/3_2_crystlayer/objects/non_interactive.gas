@@ -2754,7 +2754,7 @@
 	[placement]
 	{
 	  q orientation = 0,-0.0784592,0,0.996917;
-	  p position = -0.186729,0,-0.79126,0x54e1c009;
+	  p position = 0.705,0,1.06658,0x34d7de36;
 	}
 }
 [t:tree_des_pine_01,n:0x032001d5]
@@ -8371,8 +8371,8 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,-0.833886,0,0.551937;
-	  p position = -1.44931,0,-0.512997,0xc98c9934;
+	  q orientation = 0,0.551937,0,0.833886;
+	  p position = 1.255,0,-0.0848541,0xf2ee29c6;
 	}
 }
 [t:bush_grs_08,n:0x032002c9]
@@ -8383,8 +8383,8 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.998135,0,-0.0610486;
-	  p position = -2.99131,0,-0.0850754,0xc98c9934;
+	  q orientation = 0,0.0610486,0,0.998135;
+	  p position = 1.94802,0,0.887104,0xf2ee29c6;
 	}
 }
 [t:tree_des_pine_01,n:0x032001d7]
