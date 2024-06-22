@@ -48,6 +48,35 @@
 			frag_glb_crystal_teal_08 = 2;
 		}
 	}
+
+    // stats from krug_throw
+	[actor]
+	{
+		[skills]
+		{
+			  dexterity = 10, 0;
+			  intelligence = 7, 0;
+			  ranged = 2,  0;
+			  strength = 7, 0;
+		}
+	}
+	[aspect]
+	{
+		  experience_value = 27;
+		  life = 23;
+		  mana = 6;
+		  max_life = 23;
+		  max_mana = 6;
+	}
+	[attack]
+	{
+		  damage_max = 9;
+		  damage_min = 7;
+	}
+	[defend]
+	{
+		  defense = 22;
+	}
 }
 
 [t:template,n:c24_3_crystal_warrior]
@@ -99,6 +128,35 @@
 			frag_glb_crystal_teal_07 = 1;
 			frag_glb_crystal_teal_08 = 3;
 		}
+	}
+
+    // stats from krug_raider
+	[actor]
+	{
+		[skills]
+		{
+			  dexterity = 8,  0;
+			  intelligence = 6,  0;
+			  melee = 3,  0;
+			  strength = 11, 0;
+		}
+	}
+	[aspect]
+	{
+		  experience_value = 36;
+		  life = 30;
+		  mana = 12;
+		  max_life = 30;
+		  max_mana = 1;
+	}
+	[attack]
+	{
+		  damage_max = 16;
+		  damage_min = 12;
+	}
+	[defend]
+	{
+		  defense = 42;
 	}
 }
 
@@ -350,5 +408,34 @@
 			frag_glb_crystal_purple_07 = 1;
 			frag_glb_crystal_purple_08 = 3;
 		}
+	}
+
+    // stats from krug_guard
+	[actor]
+	{
+		[skills]
+		{
+			  dexterity = 11,  0;
+			  intelligence = 7,  0;
+			  melee = 4,  0;
+			  strength = 13, 0;
+		}
+	}
+	[aspect]
+	{
+		  experience_value = 61;
+		  life = 55;
+		  mana = 14;
+		  max_life = 55;
+		  max_mana = 14;
+	}
+	[attack]
+	{
+		  damage_max = 26;
+		  damage_min = 22;
+	}
+	[defend]
+	{
+		  defense = 57;
 	}
 }

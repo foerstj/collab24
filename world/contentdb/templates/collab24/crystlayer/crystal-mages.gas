@@ -40,4 +40,68 @@
 			}
 		}
 	}
+
+    // stats & loot from krug_shaman
+	[actor]
+	{
+		[skills]
+		{
+			  combat_magic = 3, 0;
+			  dexterity = 4, 0;
+			  intelligence = 8, 0;
+			  melee = 1, 0;
+			  strength = 8, 0;
+		}
+	}
+	[aspect]
+	{
+		  experience_value = 16;
+		  life = 19;
+		  mana = 81;
+		  max_life = 19;
+		  max_mana = 81;
+	}
+	[attack]
+	{
+		  damage_max = 12;
+		  damage_min = 8;
+	}
+	[defend]
+	{
+		  defense = 22;
+	}
+	[inventory]
+	{
+		[pcontent]
+		{
+			[oneof*]
+			{
+				[gold*]
+				{
+					  chance = 0.3;
+					  max = 41;
+					  min = 24;
+				}
+				[oneof*]
+				{
+					  il_main = potion_mana_small;
+					  il_main = potion_health_small;
+					  max = 2;
+					  min = 1;
+                      chance = 0.3;
+				}
+				[all*]
+				{
+					  chance = 0.3;
+					  il_main = spell_fireshot;
+				}
+				[oneof*]
+				{
+					  chance = 0.1;
+					  il_main = book_glb_magic_01;
+					  il_main = #body,ro/12-17;
+				}
+             }
+		}
+	}
 }
