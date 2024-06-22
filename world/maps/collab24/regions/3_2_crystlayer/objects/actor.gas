@@ -850,57 +850,6 @@
 	  p position = 2.64266,0,0.771302,0x2c589a5d;
 	}
 }
-[t:mp_dwarf_legionnaire_guard,n:0x0320046d]
-{
-	[aspect]
-	{
-	  b is_collidable = false;
-		model = m_c_gan_df_pos_a3;
-	}
-	[check_level]
-	{
-	  b check_level = true;
-	  f high_level = 45;
-	  f high_level_2w = 81;
-	  f high_level_3w = 108;
-	  f low_level = 40;
-	  f low_level_2w = 77;
-	  f low_level_3w = 106;
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_guard;
-			* = conversation_guard_high;
-			* = conversation_guard_low;
-			* = conversation_guard_red;
-			* = zconversation_directions;
-		}
-	}
-	[inventory]
-	{
-		[equipment]
-		{
-			es_chest = bd_ch_r_g_c_avg;
-			es_feet = bo_bo_ch_f_g_c_avg;
-			es_forearms = gl_ga_bl_f_g_c_avg;
-			es_head = he_ca_pl_avg;
-			es_weapon_hand = ax_g_c_2h1b_avg;
-		}
-	}
-	[mind]
-	{
-	  b actor_may_attack = false;
-	  b actor_may_be_attacked = false;
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = 1.66994,0,1.54838,0x49459f13;
-	}
-}
 [t:droog_archer_reveal,n:0x03200510]
 {
 	[placement]
