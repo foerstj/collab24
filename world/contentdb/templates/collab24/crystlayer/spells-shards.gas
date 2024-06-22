@@ -39,3 +39,37 @@
 		}
 	}
 }
+
+[t:template,n:c24_3_spell_shard_zap_teal]
+{
+    specializes = c24_3_base_spell_shard_zap;
+
+	[common]
+	{
+		[template_triggers]
+		{
+			[*]
+			{
+				action* = call_sfx_script("shard_zap_teal");
+				condition* = receive_world_message("we_req_cast");
+			}
+		}
+	}
+}
+
+[t:template,n:c24_3_spell_shard_zap_blue]
+{
+    specializes = c24_3_base_spell_shard_zap;
+
+	[common]
+	{
+		[template_triggers]
+		{
+			[*]
+			{
+				action* = call_sfx_script("shard_zap_blue");
+				condition* = receive_world_message("we_req_cast");
+			}
+		}
+	}
+}

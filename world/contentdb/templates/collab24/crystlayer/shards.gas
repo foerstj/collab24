@@ -75,3 +75,81 @@
 		[other] { il_active_primary_spell=c24_3_spell_shard_zap_green; }
 	}
 }
+
+[t:template,n:c24_3_shard_teal]
+{
+    specializes = c24_3_base_shard;
+
+    [aspect]
+    {
+		[textures] { 0 = b_i_cav_gems-01-static; }  // teal
+    }
+	[physics]
+	{
+		[break_particulate]
+		{
+			frag_glb_shard_teal_01 = 1;
+			frag_glb_shard_teal_02 = 1;
+			frag_glb_shard_teal_03 = 2;
+			frag_glb_shard_teal_04 = 3;
+			frag_glb_shard_teal_05 = 3;
+		}
+	}
+  	[common]
+    {
+        screen_name = "Teal Shard";
+		[template_triggers]
+		{
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				no_trig_bits = true;
+				action* = call_sfx_script("unique_light_cyan(sgx)");
+			}
+		}
+    }
+	[inventory]
+	{
+		[other] { il_active_primary_spell=c24_3_spell_shard_zap_teal; }
+	}
+}
+
+[t:template,n:c24_3_shard_blue]
+{
+    specializes = c24_3_base_shard;
+
+    [aspect]
+    {
+		[textures] { 0 = b_i_cav_gems-04-static; }  // blue
+    }
+	[physics]
+	{
+		[break_particulate]
+		{
+			frag_glb_shard_blue_01 = 1;
+			frag_glb_shard_blue_02 = 1;
+			frag_glb_shard_blue_03 = 2;
+			frag_glb_shard_blue_04 = 3;
+			frag_glb_shard_blue_05 = 3;
+		}
+	}
+  	[common]
+    {
+        screen_name = "Blue Shard";
+		[template_triggers]
+		{
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				no_trig_bits = true;
+				action* = call_sfx_script("unique_light_blue(sgx)");
+			}
+		}
+    }
+	[inventory]
+	{
+		[other] { il_active_primary_spell=c24_3_spell_shard_zap_blue; }
+	}
+}
