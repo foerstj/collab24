@@ -2,8 +2,29 @@
 {
 	[placement]
 	{
-	  q orientation = 0,-0.434445,0,0.900698;
-	  p position = -0.939522,0.0216726,-0.298786,0x3f899faa;
+	  q orientation = 0,0.329691,0,0.944089;
+	  p position = 3.84098,-1.17833,-2.78025,0x34a9a70d;
+	}
+}
+[t:c24_3_crystal_mage,n:0x03200359]
+{
+	[placement]
+	{
+	  p position = -1.63742,0,1.39458,0xb1a9f103;
+	}
+}
+[t:c24_3_crystal_mage,n:0x0320035a]
+{
+	[placement]
+	{
+	  p position = 0.346028,0,1.6277,0xb1a9f103;
+	}
+}
+[t:c24_3_crystal_mage,n:0x0320035b]
+{
+	[placement]
+	{
+	  p position = 3.01314,0,2.85742,0xb1a9f103;
 	}
 }
 [t:c24_3_shard_green,n:0x03200472]
