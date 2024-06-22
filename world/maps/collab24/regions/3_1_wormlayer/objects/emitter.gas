@@ -7,7 +7,7 @@
 	[sound_emitter]
 	{
 	  b continual_loop = true;
-		event_sound = "amb_wind_02";
+		event_sound = "amb_wind_monotonic";
 	}
 }
 [t:emt_sound,n:0x0310068a]
@@ -19,7 +19,7 @@
 	}
 	[sound_emitter]
 	{
-		event_sound = "env_wolf_howl";
+		event_sound = "env_spider_scurry";
 	  f max_repeat_rate = 37;
 	  f repeat_rate = 11;
 	}
