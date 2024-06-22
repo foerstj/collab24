@@ -1,4 +1,4 @@
-[t:animate_elevator,n:0x00500105]
+[t:animate_elevator,n:0x03200105]
 {
 	[nodal_tex_anim]
 	{
@@ -9,7 +9,7 @@
 	  p position = -1.29622,0.15,-0.223454,0x94c06162;
 	}
 }
-[t:animate_elevator,n:0x0050045a]
+[t:animate_elevator,n:0x0320045a]
 {
 	[nodal_tex_anim]
 	{
@@ -20,7 +20,7 @@
 	  p position = -1.33937,0.15,-0.238376,0x94180e88;
 	}
 }
-[t:animate_elevator,n:0x00500104]
+[t:animate_elevator,n:0x03200104]
 {
 	[nodal_tex_anim]
 	{

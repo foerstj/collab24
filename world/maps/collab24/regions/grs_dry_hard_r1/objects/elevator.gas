@@ -1,4 +1,4 @@
-[t:elevator_2s_2c_2n,n:0x00500031]
+[t:elevator_2s_2c_2n,n:0x03200031]
 {
 	[elevator_2s_2c_2n]
 	{
@@ -18,15 +18,15 @@
 	  x elevator_node = 0x94C06162;
 		level1_message = we_req_deactivate;
 	  f level1_message_delay = 0;
-	  x level1_scid = 0x00500105;
+	  x level1_scid = 0x03200105;
 		level2_message = we_req_deactivate;
 	  f level2_message_delay = 0;
-	  x level2_scid = 0x00500105;
+	  x level2_scid = 0x03200105;
 		material = "dc_pulley";
 	  f moving1_message_delay = 0;
-	  x moving1_scid = 0x00500105;
+	  x moving1_scid = 0x03200105;
 	  f moving2_message_delay = 0;
-	  x moving2_scid = 0x00500105;
+	  x moving2_scid = 0x03200105;
 	}
 	[placement]
 	{
@@ -34,7 +34,7 @@
 	  p position = -0.112106,1.74572,-0.464485,0x94c06162;
 	}
 }
-[t:elevator_2s_2c_2n,n:0x00500047]
+[t:elevator_2s_2c_2n,n:0x03200047]
 {
 	[elevator_2s_2c_2n]
 	{
@@ -54,15 +54,15 @@
 	  x elevator_node = 0x94180E88;
 		level1_message = we_req_deactivate;
 	  f level1_message_delay = 0;
-	  x level1_scid = 0x0050045A;
+	  x level1_scid = 0x0320045A;
 		level2_message = we_req_deactivate;
 	  f level2_message_delay = 0;
-	  x level2_scid = 0x0050045A;
+	  x level2_scid = 0x0320045A;
 		material = "dc_pulley";
 	  f moving1_message_delay = 0;
-	  x moving1_scid = 0x0050045A;
+	  x moving1_scid = 0x0320045A;
 	  f moving2_message_delay = 0;
-	  x moving2_scid = 0x0050045A;
+	  x moving2_scid = 0x0320045A;
 	}
 	[placement]
 	{
@@ -70,7 +70,7 @@
 	  p position = 0.00688171,1.26123,-0.308784,0x94180e88;
 	}
 }
-[t:elevator_2s_2c_2n,n:0x00500036]
+[t:elevator_2s_2c_2n,n:0x03200036]
 {
 	[elevator_2s_2c_2n]
 	{
@@ -90,15 +90,15 @@
 	  x elevator_node = 0x191D74EA;
 		level1_message = we_req_deactivate;
 	  f level1_message_delay = 0;
-	  x level1_scid = 0x00500104;
+	  x level1_scid = 0x03200104;
 		level2_message = we_req_deactivate;
 	  f level2_message_delay = 0;
-	  x level2_scid = 0x00500104;
+	  x level2_scid = 0x03200104;
 		material = "dc_pulley";
 	  f moving1_message_delay = 0;
-	  x moving1_scid = 0x00500104;
+	  x moving1_scid = 0x03200104;
 	  f moving2_message_delay = 0;
-	  x moving2_scid = 0x00500104;
+	  x moving2_scid = 0x03200104;
 	}
 	[placement]
 	{
