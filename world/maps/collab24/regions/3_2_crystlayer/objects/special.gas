@@ -14,7 +14,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_grs_dry_hard_r1_1_2");
+				action* = mood_change("collab24_3_crystlayer_green");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(5.000000,1.000000,4.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -33,35 +33,6 @@
 	{
 	  q orientation = 0,-0.707107,0,0.707107;
 	  p position = -1.95661,-0.340275,-0.0164642,0x2a647ca5;
-	}
-}
-[t:trigger_change_mood_box,n:0x03200518]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = mood_change("multiplayer_world_grs_dry_hard_r1_1_2");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(5.000000,1.000000,1.500000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  q orientation = 0,0.980785,0,-0.19509;
-	  p position = -1.82728,-1.90735e-006,-0.714554,0x4c873516;
 	}
 }
 [t:use_point,n:0x032004a9]
@@ -117,7 +88,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_grs_dry_hard_r1_1");
+				action* = mood_change("collab24_3_crystlayer_green");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(4.000000,1.000000,4.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -181,35 +152,6 @@
 	{
 	  q orientation = 0,-0.707107,0,0.707107;
 	  p position = 2.16088,0,-1.71559,0x3864f38e;
-	}
-}
-[t:trigger_change_mood_box,n:0x03200517]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = mood_change("multiplayer_world_grs_dry_hard_r1_1_2");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(5.000000,1.000000,1.500000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.923879,0,0.382683;
-	  p position = -1.1855,0,-1.14935,0x95bfcac5;
 	}
 }
 [t:trigger_change_mood_box,n:0x0320051b]
