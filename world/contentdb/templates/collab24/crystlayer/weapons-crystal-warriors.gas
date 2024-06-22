@@ -42,6 +42,13 @@
 		ammo_template = arrow_crystal;
     }
     common:screen_name = "Crystal Bow";
+
+    // stats from rock_krug (krug_throw)
+	[attack]
+	{
+		damage_max = 12;
+		damage_min = 11;
+	}
 }
 
 [t:template,n:arrow_ice_base]
@@ -102,4 +109,11 @@
 		textures:0 = b_i_cav_gems-03-static;  // green
 	}
     common:screen_name = "Crystal Sword";
+
+    // stats from ax_d_c_1h1b_avg (krug_raider)
+	[attack]
+	{
+	  f damage_max = 17.000000;
+	  f damage_min = 14.000000;
+	}
 }

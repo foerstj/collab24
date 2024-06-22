@@ -8,7 +8,7 @@
 		selected_active_location = il_active_primary_spell;
 		[other]
 		{
-			il_active_primary_spell = spell_ice_mage_iceblast;
+			il_active_primary_spell = c24_3_spell_crystal_mage_iceblast;
 			il_spell_1 = c24_3_spell_summon_crystal_warriors_monster;
 		}
 	}
@@ -17,7 +17,7 @@
 		jat_cast 						= world\ai\jobs\common\job_cast.skrit
 			?rand_spell					= true
 			&spell_chances				= "0.5,                     0.5"
-			&spells						= "spell_ice_mage_iceblast, c24_3_spell_summon_crystal_warriors_monster";
+			&spells						= "c24_3_spell_crystal_mage_iceblast, c24_3_spell_summon_crystal_warriors_monster";
     }
 
     // reveal
