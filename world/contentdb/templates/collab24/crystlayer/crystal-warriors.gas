@@ -25,6 +25,7 @@
     }
     [inventory]
     {
+		spew_equipped_kill_count = ;
     	[pcontent]
 		{
 			[all*]
@@ -62,6 +63,7 @@
     }
     [inventory]
     {
+		spew_equipped_kill_count = ;
     	[pcontent]
 		{
 			[all*]
@@ -298,6 +300,7 @@
     }
     [inventory]
     {
+		spew_equipped_kill_count = ;
     	[pcontent]
 		{
 			[all*]
