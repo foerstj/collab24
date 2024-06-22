@@ -51,7 +51,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_grs_dry_hard_r1_4");
+				action* = mood_change("collab24_3_crystlayer_blue");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(5.000000,1.000000,4.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -133,7 +133,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_grs_dry_hard_r1_3");
+				action* = mood_change("collab24_3_crystlayer_teal");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(5.000000,1.000000,4.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -162,7 +162,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_grs_dry_hard_r1_3");
+				action* = mood_change("collab24_3_crystlayer_teal");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(5.000000,1.000000,4.000000,"on_every_enter");
 			  f delay = 0.000000;
