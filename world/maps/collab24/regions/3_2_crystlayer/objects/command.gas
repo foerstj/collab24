@@ -20,14 +20,3 @@
 	  p position = -1.33937,0.15,-0.238376,0x94180e88;
 	}
 }
-[t:animate_elevator,n:0x03200104]
-{
-	[nodal_tex_anim]
-	{
-	  x siege_node = 0x1D2A5B4E;
-	}
-	[placement]
-	{
-	  p position = -1.36276,0.15,-0.1007,0x191d74ea;
-	}
-}
