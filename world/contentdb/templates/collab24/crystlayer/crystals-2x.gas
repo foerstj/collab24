@@ -1,0 +1,293 @@
+[t:template,n:crystals_cav_01_base]
+{
+	category_name = "rocks";
+	doc = "sr_crystals_sm_teal";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.1;
+		lodfi_upper = 0.8;
+		model = m_i_cav_gems-01;
+	}
+}
+[t:template,n:crystals_cav_02_base]
+{
+	category_name = "rocks";
+	doc = "sr_crystals_sm_prpl";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.1;
+		lodfi_upper = 0.8;
+		model = m_i_cav_gems-01;
+		[textures]
+		{
+			0 = b_i_cav_gems-02-static;
+		}
+	}
+}
+[t:template,n:crystals_cav_03_base]
+{
+	category_name = "rocks";
+	doc = "sr_crystals_sm_grn";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.1;
+		lodfi_upper = 0.8;
+		model = m_i_cav_gems-01;
+		[textures]
+		{
+			0 = b_i_cav_gems-03-static;
+		}
+	}
+}
+[t:template,n:crystals_cav_04_base]
+{
+	category_name = "rocks";
+	doc = "sr_crystals_sm_blu";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.1;
+		lodfi_upper = 0.8;
+		model = m_i_cav_gems-01;
+		[textures]
+		{
+			0 = b_i_cav_gems-04-static;
+		}
+	}
+}
+[t:template,n:crystals_cav_05_base]
+{
+	category_name = "rocks";
+	doc = "sr_crystals_lg_teal";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		does_block_camera = TRUE;
+		lodfi_lower = 0.2;
+		lodfi_upper = 1;
+		model = m_i_cav_gems-02;
+	}
+}
+[t:template,n:crystals_cav_06_base]
+{
+	category_name = "rocks";
+	doc = "sr_crystals_lg_prpl";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		does_block_camera = TRUE;
+		lodfi_lower = 0.2;
+		lodfi_upper = 1;
+		model = m_i_cav_gems-02;
+		[textures]
+		{
+			0 = b_i_cav_gems-02-static;
+		}
+	}
+}
+[t:template,n:crystals_cav_07_base]
+{
+	category_name = "rocks";
+	doc = "sr_crystals_lg_grn";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		does_block_camera = TRUE;
+		lodfi_lower = 0.2;
+		lodfi_upper = 1;
+		model = m_i_cav_gems-02;
+		[textures]
+		{
+			0 = b_i_cav_gems-03-static;
+		}
+	}
+}
+[t:template,n:crystals_cav_08_base]
+{
+	category_name = "rocks";
+	doc = "sr_crystals_lg_blu";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		does_block_camera = TRUE;
+		lodfi_lower = 0.2;
+		lodfi_upper = 1;
+		model = m_i_cav_gems-02;
+		[textures]
+		{
+			0 = b_i_cav_gems-04-static;
+		}
+	}
+}
+[t:template,n:crystals_cav_09_base]
+{
+	category_name = "rocks";
+	doc = "sr_crystals_med_teal";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		does_block_camera = TRUE;
+		lodfi_lower = 0.1;
+		lodfi_upper = 0.8;
+		model = m_i_cav_gems-03;
+	}
+	[generic_emitter]
+	{
+		rep_freq_min = 25;
+		rep_freq_max = 35;
+		other_effect = crystal_spark;
+		other_params = "[color0(.5,1,1)]";
+	}
+}
+[t:template,n:crystals_cav_10_base]
+{
+	category_name = "rocks";
+	doc = "sr_crystals_med_prpl";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		does_block_camera = TRUE;
+		lodfi_lower = 0.1;
+		lodfi_upper = 0.8;
+		model = m_i_cav_gems-03;
+		[textures]
+		{
+			0 = b_i_cav_gems-02-static;
+		}
+	}
+	[generic_emitter]
+	{
+		rep_freq_min = 25;
+		rep_freq_max = 35;
+		other_effect = crystal_spark;
+		other_params = "[color0(1,.5,1)]";
+	}
+}
+[t:template,n:crystals_cav_11_base]
+{
+	category_name = "rocks";
+	doc = "sr_cyrstals_med_grn";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		does_block_camera = TRUE;
+		lodfi_lower = 0.1;
+		lodfi_upper = 0.8;
+		model = m_i_cav_gems-03;
+		[textures]
+		{
+			0 = b_i_cav_gems-03-static;
+		}
+	}
+	[generic_emitter]
+	{
+		rep_freq_min = 25;
+		rep_freq_max = 35;
+		other_effect = crystal_spark;
+		other_params = "[color0(.5,1,.5)]";
+	}
+}
+[t:template,n:crystals_cav_12_base]
+{
+	category_name = "rocks";
+	doc = "sr_crystals_med_blu";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		does_block_camera = TRUE;
+		lodfi_lower = 0.1;
+		lodfi_upper = 0.8;
+		model = m_i_cav_gems-03;
+		[textures]
+		{
+			0 = b_i_cav_gems-04-static;
+		}
+	}
+	[generic_emitter]
+	{
+		rep_freq_min = 25;
+		rep_freq_max = 35;
+		other_effect = crystal_spark;
+		other_params = "[color0(.5,.5,1)]";
+	}
+}
+[t:template,n:crystals_cav_13_base]
+{
+	category_name = "rocks";
+	doc = "sr_crystal_teal";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.35;
+		lodfi_upper = 0.8;
+		model = m_i_cav_gems-04;
+	}
+}
+[t:template,n:crystals_cav_14_base]
+{
+	category_name = "rocks";
+	doc = "sr_crystal_prpl";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.3;
+		lodfi_upper = 0.75;
+		model = m_i_cav_gems-04;
+		[textures]
+		{
+			0 = b_i_cav_gems-02-static;
+		}
+	}
+}
+[t:template,n:crystals_cav_15_base]
+{
+	category_name = "rocks";
+	doc = "sr_crystal_grn";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.3;
+		lodfi_upper = 0.75;
+		model = m_i_cav_gems-04;
+		[textures]
+		{
+			0 = b_i_cav_gems-03-static;
+		}
+	}
+}
+[t:template,n:crystals_cav_16_base]
+{
+	category_name = "rocks";
+	doc = "sr_crystal_blu";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.2;
+		lodfi_upper = 0.8;
+		model = m_i_cav_gems-04;
+		[textures]
+		{
+			0 = b_i_cav_gems-04-static;
+		}
+	}
+}
+
+[t:template,n:crystals_cav_01_x2] { specializes = crystals_cav_01_base; aspect:scale_base = 1.26; }
+[t:template,n:crystals_cav_02_x2] { specializes = crystals_cav_02_base; aspect:scale_base = 1.26; }
+[t:template,n:crystals_cav_03_x2] { specializes = crystals_cav_03_base; aspect:scale_base = 1.26; }
+[t:template,n:crystals_cav_04_x2] { specializes = crystals_cav_04_base; aspect:scale_base = 1.26; }
+[t:template,n:crystals_cav_05_x2] { specializes = crystals_cav_05_base; aspect:scale_base = 1.26; }
+[t:template,n:crystals_cav_06_x2] { specializes = crystals_cav_06_base; aspect:scale_base = 1.26; }
+[t:template,n:crystals_cav_07_x2] { specializes = crystals_cav_07_base; aspect:scale_base = 1.26; }
+[t:template,n:crystals_cav_08_x2] { specializes = crystals_cav_08_base; aspect:scale_base = 1.26; }
+[t:template,n:crystals_cav_09_x2] { specializes = crystals_cav_09_base; aspect:scale_base = 1.26; }
+[t:template,n:crystals_cav_10_x2] { specializes = crystals_cav_10_base; aspect:scale_base = 1.26; }
+[t:template,n:crystals_cav_11_x2] { specializes = crystals_cav_11_base; aspect:scale_base = 1.26; }
+[t:template,n:crystals_cav_12_x2] { specializes = crystals_cav_12_base; aspect:scale_base = 1.26; }
+[t:template,n:crystals_cav_13_x2] { specializes = crystals_cav_13_base; aspect:scale_base = 1.26; }
+[t:template,n:crystals_cav_14_x2] { specializes = crystals_cav_14_base; aspect:scale_base = 1.26; }
+[t:template,n:crystals_cav_15_x2] { specializes = crystals_cav_15_base; aspect:scale_base = 1.26; }
+[t:template,n:crystals_cav_16_x2] { specializes = crystals_cav_16_base; aspect:scale_base = 1.26; }
