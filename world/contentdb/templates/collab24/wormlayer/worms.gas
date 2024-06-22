@@ -229,3 +229,139 @@
 		}
 	}
 }
+
+
+[t:template,n:dsx_grub_base]  // = dsx_grub
+{
+  doc = "dsx_grub";
+  specializes = actor_evil;
+  category_name = "1W_evil_d";
+  [actor]
+    {
+      race	= other;
+
+      [skills]
+	{
+	  strength =  	  5, 0;
+	  intelligence =  5, 0;
+	  dexterity =  	  4, 0;
+	  melee =  	  1, 0;
+	}
+    }
+  [aspect]
+    {
+      model			= m_c_edm_gb_pos_1;
+      experience_value	        = 6;
+      life			= 9;
+      max_life			= 9;
+      mana                      = 0;
+      max_mana                  = 0;
+      material = flesh;
+      [voice]
+	{
+	  [die] { * = s_e_die_grub_SED; }
+	  [attack] { * = s_e_attack_grub_SED; }
+	}
+    }
+  [attack]
+    {
+      damage_min		= 5;
+      damage_max		= 13;
+      attack_range	        = 0.5;
+    }
+
+  [body]
+    {
+      avg_move_velocity = 1.0;
+      [bone_translator]
+	{
+	  kill_bone			= bone01;
+	  weapon_bone		= spine_1;
+	  shield_bone		= spine_1;
+	  body_anterior		= spine_1;
+	  body_mid			= spine_3;
+	  body_posterior		= spine_5;
+	}
+      [chore_dictionary]
+	{
+	  chore_prefix = a_c_edm_gb_fs;
+
+	  [chore_attack]
+	    {
+	      skrit = select_attack;
+	      chore_stances = 0;
+				[anim_files]
+				{
+					//00 = at; - commented out - this attack animation doesn't play a sound, for some reason...
+					00 = at-02; 
+				}
+	    }
+
+	  [chore_die]
+	    {
+	      skrit = select_transition;
+	      chore_stances = 0;
+
+	    anim_files:00 = di;
+	    }
+
+	  [chore_default]
+	    {
+	      skrit = infinite_loop;
+	      chore_stances = 0;
+
+	    anim_files:00 = dfs;
+	    }
+
+	  [chore_fidget]
+	    {
+	      skrit = select_fidget;
+	      chore_stances = 0;
+
+	    anim_files:00 = dff;
+	    anim_files:01 = dff-02;
+	    }
+
+	  [chore_walk]
+	    {
+	      skrit = select_walk;
+	      chore_stances = 0;
+
+	    anim_files:00 = wl;
+	    anim_files:01 = wl-02;
+	    }
+	}
+    }
+  [common] { screen_name = "Ice Grub"; }
+  [defend] { defense = 10; }
+  [mind]
+    {
+      jat_fidget	= world\ai\jobs\common\job_fidget.skrit;
+		
+      melee_engage_range  	= 14;
+      personal_space_range	= 0.7;
+      ranged_engage_range 	= 14.0;
+      sight_range				= 14.0;
+    }
+  [physics]
+    {
+      explode_when_killed = true;
+      break_effect = blood_mist;
+      break_sound = s_e_meat_explosion;
+      [break_particulate]
+	{
+	  frag_glb_googore_grub_01 = 1;
+	  frag_glb_googore_grub_02 = 1;
+	  frag_glb_googore_grub_03 = 1;
+	  frag_glb_googore_grub_04 = 1;
+	  frag_glb_googore_grub_05 = 1;
+	}
+    }
+}
+
+[t:template,n:c24_3_grub]
+{
+    specializes = dsx_grub_base;
+
+    [common] { screen_name = "Grub"; }
+}

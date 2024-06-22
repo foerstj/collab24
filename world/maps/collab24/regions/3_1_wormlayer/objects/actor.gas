@@ -1,4 +1,4 @@
-[t:dsx_grub,n:0x0310052f]
+[t:c24_3_grub,n:0x0310052f]
 {
 	[placement]
 	{
@@ -6,7 +6,7 @@
 	  p position = -1.36702,0,2.69337,0x3e8e2752;
 	}
 }
-[t:dsx_grub,n:0x03100530]
+[t:c24_3_grub,n:0x03100530]
 {
 	[placement]
 	{
@@ -14,21 +14,21 @@
 	  p position = -0.294373,0,1.78797,0x3e8e2752;
 	}
 }
-[t:dsx_grub,n:0x0310058f]
+[t:c24_3_grub,n:0x0310058f]
 {
 	[placement]
 	{
 	  p position = -1.64793,0,-1.4692,0x3e8e2752;
 	}
 }
-[t:dsx_grub,n:0x03100590]
+[t:c24_3_grub,n:0x03100590]
 {
 	[placement]
 	{
 	  p position = 0.633007,0,0.143469,0x3e8e2752;
 	}
 }
-[t:dsx_grub,n:0x03100533]
+[t:c24_3_grub,n:0x03100533]
 {
 	[placement]
 	{
@@ -63,21 +63,21 @@
 	  p position = -2.48935,9.53674e-007,-0.64218,0x4783f5f6;
 	}
 }
-[t:dsx_grub,n:0x031008a7]
+[t:c24_3_grub,n:0x031008a7]
 {
 	[placement]
 	{
 	  p position = -2.53691,0,0.639963,0x38eda97d;
 	}
 }
-[t:dsx_grub,n:0x031008a8]
+[t:c24_3_grub,n:0x031008a8]
 {
 	[placement]
 	{
 	  p position = -2.88912,0,-1.30937,0x38eda97d;
 	}
 }
-[t:dsx_grub,n:0x031008a9]
+[t:c24_3_grub,n:0x031008a9]
 {
 	[placement]
 	{
@@ -98,42 +98,42 @@
 	  p position = 2.21594,0,0.923537,0xb9ebdee7;
 	}
 }
-[t:dsx_grub,n:0x0310051a]
+[t:c24_3_grub,n:0x0310051a]
 {
 	[placement]
 	{
 	  p position = -2.66588,0,1.27357,0x6fd71172;
 	}
 }
-[t:dsx_grub,n:0x03100123]
+[t:c24_3_grub,n:0x03100123]
 {
 	[placement]
 	{
 	  p position = -0.706885,-1,-3.66618,0x67c55d9f;
 	}
 }
-[t:dsx_grub,n:0x03100122]
+[t:c24_3_grub,n:0x03100122]
 {
 	[placement]
 	{
 	  p position = 2.63477,-1,3.58174,0x99f5ac19;
 	}
 }
-[t:dsx_grub,n:0x03100515]
+[t:c24_3_grub,n:0x03100515]
 {
 	[placement]
 	{
 	  p position = 3.43157,-1.90735e-006,1.40969,0x23b7f22a;
 	}
 }
-[t:dsx_grub,n:0x03100398]
+[t:c24_3_grub,n:0x03100398]
 {
 	[placement]
 	{
 	  p position = 1.16447,0,-1.04309,0x6165e4ac;
 	}
 }
-[t:dsx_grub,n:0x0310050b]
+[t:c24_3_grub,n:0x0310050b]
 {
 	[placement]
 	{
@@ -256,21 +256,21 @@
 	  p position = -0.302808,0.151403,-2.58874,0x9036cebf;
 	}
 }
-[t:dsx_grub,n:0x0310028b]
+[t:c24_3_grub,n:0x0310028b]
 {
 	[placement]
 	{
 	  p position = 1.03991,0,-1.72309,0x2cb9c867;
 	}
 }
-[t:dsx_grub,n:0x031002b5]
+[t:c24_3_grub,n:0x031002b5]
 {
 	[placement]
 	{
 	  p position = 0.132442,0,-0.586005,0x2cb9c867;
 	}
 }
-[t:dsx_grub,n:0x031002d2]
+[t:c24_3_grub,n:0x031002d2]
 {
 	[placement]
 	{
@@ -320,7 +320,7 @@
 	  p position = -3.68871,0,1.04794,0x97335c38;
 	}
 }
-[t:dsx_grub,n:0x03100185]
+[t:c24_3_grub,n:0x03100185]
 {
 	[placement]
 	{
@@ -334,21 +334,21 @@
 	  p position = 3.73879,0,-1.53034,0x4446d794;
 	}
 }
-[t:dsx_grub,n:0x03100529]
+[t:c24_3_grub,n:0x03100529]
 {
 	[placement]
 	{
 	  p position = 1.47293,-1.90735e-006,-1.49866,0x5d20626f;
 	}
 }
-[t:dsx_grub,n:0x0310052a]
+[t:c24_3_grub,n:0x0310052a]
 {
 	[placement]
 	{
 	  p position = -0.158289,0,0.636071,0x5d20626f;
 	}
 }
-[t:dsx_grub,n:0x0310052b]
+[t:c24_3_grub,n:0x0310052b]
 {
 	[placement]
 	{
@@ -397,28 +397,28 @@
 	  p position = 1.01266,0,1.99424,0x7b4450cf;
 	}
 }
-[t:dsx_grub,n:0x0310011f]
+[t:c24_3_grub,n:0x0310011f]
 {
 	[placement]
 	{
 	  p position = 1.95977,0.239376,0.32237,0x20451d51;
 	}
 }
-[t:dsx_grub,n:0x03100304]
+[t:c24_3_grub,n:0x03100304]
 {
 	[placement]
 	{
 	  p position = -0.736996,0.460623,-0.275851,0x20451d51;
 	}
 }
-[t:dsx_grub,n:0x0310031b]
+[t:c24_3_grub,n:0x0310031b]
 {
 	[placement]
 	{
 	  p position = 0.180763,-0.0903816,-2.02582,0x20451d51;
 	}
 }
-[t:dsx_grub,n:0x0310037e]
+[t:c24_3_grub,n:0x0310037e]
 {
 	[placement]
 	{
@@ -565,28 +565,28 @@
 	  p position = -1.00085,0,-1.64488,0x8a3fd4c0;
 	}
 }
-[t:dsx_grub,n:0x03100124]
+[t:c24_3_grub,n:0x03100124]
 {
 	[placement]
 	{
 	  p position = 0.842052,0,0.522449,0x0e11767c;
 	}
 }
-[t:dsx_grub,n:0x0310051b]
+[t:c24_3_grub,n:0x0310051b]
 {
 	[placement]
 	{
 	  p position = -1.4401,0,-1.40137,0x0e11767c;
 	}
 }
-[t:dsx_grub,n:0x03100520]
+[t:c24_3_grub,n:0x03100520]
 {
 	[placement]
 	{
 	  p position = -2.49112,-1.90735e-006,1.63886,0x0e11767c;
 	}
 }
-[t:dsx_grub,n:0x03100125]
+[t:c24_3_grub,n:0x03100125]
 {
 	[placement]
 	{
@@ -614,28 +614,28 @@
 	  p position = 1.35989,0,0.409923,0x9eee9f5f;
 	}
 }
-[t:dsx_grub,n:0x03100531]
+[t:c24_3_grub,n:0x03100531]
 {
 	[placement]
 	{
 	  p position = 2.80281,0,-1.5077,0x08d7c7c5;
 	}
 }
-[t:dsx_grub,n:0x03100532]
+[t:c24_3_grub,n:0x03100532]
 {
 	[placement]
 	{
 	  p position = 3.35893,0,-0.368078,0x08d7c7c5;
 	}
 }
-[t:dsx_grub,n:0x03100591]
+[t:c24_3_grub,n:0x03100591]
 {
 	[placement]
 	{
 	  p position = 0.252142,0,-1.50003,0xa45bbaac;
 	}
 }
-[t:dsx_grub,n:0x03100592]
+[t:c24_3_grub,n:0x03100592]
 {
 	[placement]
 	{
@@ -649,7 +649,7 @@
 	  p position = -1.60977,0,0.780518,0xb9124bc5;
 	}
 }
-[t:dsx_grub,n:0x0310058d]
+[t:c24_3_grub,n:0x0310058d]
 {
 	[placement]
 	{
@@ -657,14 +657,14 @@
 	  p position = -0.377029,0,0.691704,0x22a38f8b;
 	}
 }
-[t:dsx_grub,n:0x0310058e]
+[t:c24_3_grub,n:0x0310058e]
 {
 	[placement]
 	{
 	  p position = -2.59155,0,0.360519,0x22a38f8b;
 	}
 }
-[t:dsx_grub,n:0x031008a6]
+[t:c24_3_grub,n:0x031008a6]
 {
 	[placement]
 	{
@@ -678,14 +678,14 @@
 	  p position = 3.72766,0,0.046577,0x6c0b3bc9;
 	}
 }
-[t:dsx_grub,n:0x031008ac]
+[t:c24_3_grub,n:0x031008ac]
 {
 	[placement]
 	{
 	  p position = 0.408569,8,5.20935,0x04be9ba5;
 	}
 }
-[t:dsx_grub,n:0x031008ad]
+[t:c24_3_grub,n:0x031008ad]
 {
 	[placement]
 	{
@@ -706,42 +706,42 @@
 	  p position = 1.69033,0,1.98007,0x71d7a671;
 	}
 }
-[t:dsx_grub,n:0x031008ab]
+[t:c24_3_grub,n:0x031008ab]
 {
 	[placement]
 	{
 	  p position = -1.88663,-5.98425,-5.09672,0x7250e73e;
 	}
 }
-[t:dsx_grub,n:0x03100893]
+[t:c24_3_grub,n:0x03100893]
 {
 	[placement]
 	{
 	  p position = 2.36411,0,1.91254,0xb13e2e49;
 	}
 }
-[t:dsx_grub,n:0x031008a2]
+[t:c24_3_grub,n:0x031008a2]
 {
 	[placement]
 	{
 	  p position = 3.36489,9.53674e-007,-0.179956,0xb13e2e49;
 	}
 }
-[t:dsx_grub,n:0x031008a3]
+[t:c24_3_grub,n:0x031008a3]
 {
 	[placement]
 	{
 	  p position = 2.38521,0,-0.0045948,0x4d0cdd93;
 	}
 }
-[t:dsx_grub,n:0x031008a4]
+[t:c24_3_grub,n:0x031008a4]
 {
 	[placement]
 	{
 	  p position = 0.403341,-1.90735e-006,-0.721967,0x4d0cdd93;
 	}
 }
-[t:dsx_grub,n:0x031008a5]
+[t:c24_3_grub,n:0x031008a5]
 {
 	[placement]
 	{
