@@ -1,3 +1,10 @@
+[t:use_point,n:0x03200361]
+{
+	[placement]
+	{
+	  p position = -2.82783,-3,2.9016,0x4894d590;
+	}
+}
 [t:use_point,n:0x032004a9]
 {
 	[placement]
@@ -205,13 +212,6 @@
 	{
 	  q orientation = 0,-0.707107,0,0.707107;
 	  p position = 2.16088,0,-1.71559,0x3864f38e;
-	}
-}
-[t:use_point,n:0x03200361]
-{
-	[placement]
-	{
-	  p position = -2.82783,-3,2.9016,0x4894d590;
 	}
 }
 [t:use_point,n:0x03200362]

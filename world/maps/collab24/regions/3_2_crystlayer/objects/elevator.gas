@@ -74,9 +74,17 @@
 {
 	[elevator_2s_1c_2n]
 	{
+	  i connect_door_level1 = 4;
+	  i connect_door_level2 = 4;
 	  x connect_node_level1 = 0x903618F6;
 	  x connect_node_level2 = 0x656F3843;
+	  f duration = 16;
+	  i elevator_door_level1 = 1;
+	  i elevator_door_level2 = 1;
 	  x elevator_node = 0x895B3882;
+		material = "dm_small";
+		moving1_actioninfo = "0x00000032,1,-1,-1,out:black,0;0x00000033,2,-1,-1,out:black,0;0x00000033,1,-1,-1,in,4;collab24_3_shroomlayer_1,4";
+		moving2_actioninfo = "collab24_3_crystlayer_blue,4;0x00000033,1,-1,-1,out:black,12;0x00000033,2,-1,-1,in,16;0x00000032,1,-1,-1,in,16";
 	}
 	[placement]
 	{
