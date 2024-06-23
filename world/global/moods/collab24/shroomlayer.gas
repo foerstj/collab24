@@ -35,7 +35,7 @@
 		fog_far_dist		= 60.0f;
 		fog_lowdetail_near_dist		= 25.0f;
 		fog_lowdetail_far_dist		= 45.0f;
-		fog_color			= 0xFF402040;
+		fog_color			= 0xFF402040;  // TBD
 		fog_density			= 0.5f;
 	}
 
