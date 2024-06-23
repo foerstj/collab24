@@ -2,7 +2,7 @@
 {
 	[t:start_group,n:default]
 	{
-	  b default = true;
+	  b default = false;
 		description = "This is the default group.";
 	  b dev_only = false;
 	  i id = 0;
@@ -25,7 +25,7 @@
 	}
 	[t:start_group,n:test]
 	{
-	  b default = false;
+	  b default = true;
 		description = "";
 	  b dev_only = false;
 	  i id = 1698412;
@@ -33,13 +33,13 @@
 		[start_position]
 		{
 		  i id = 1;
-			position = 1.112489,0.000000,1.259815,0x26B2A132;
+			position = -0.052067,-0.600000,-0.874881,0x007EEAA4;
 			[camera]
 			{
 			  f azimuth = 0.500000;
 			  f distance = 20.000000;
 			  f orbit = 0.000000;
-				position = 1.112489,0.000000,1.259815,0x26B2A132;
+				position = 0.000000,0.000000,0.000000,0x007EEAA4;
 			}
 		}
 		[world_levels]
