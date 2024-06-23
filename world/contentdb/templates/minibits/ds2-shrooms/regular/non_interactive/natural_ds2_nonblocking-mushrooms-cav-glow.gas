@@ -1,4 +1,5 @@
-[t:template,n:ds2_shroom_cav_glow_01]
+[t:template,n:ds2_shroom_cav_glow_01] { specializes = ds2_shroom_cav_glow_01_base; }
+[t:template,n:ds2_shroom_cav_glow_01_base]
 {
 	category_name = "misc";
 	doc = "shroom_cyan_glow";
@@ -18,7 +19,9 @@
 	//	effect				= "efct_shroom_glow_01";
 	//}
 }
-[t:template,n:ds2_shroom_cav_glow_02]
+
+[t:template,n:ds2_shroom_cav_glow_02] { specializes = ds2_shroom_cav_glow_02_base; }
+[t:template,n:ds2_shroom_cav_glow_02_base]
 {
 	category_name = "misc";
 	doc = "shroom_violet_glow";
@@ -38,7 +41,9 @@
 	//	effect				= "efct_shroom_glow_02";
 	//}
 }
-[t:template,n:ds2_shroom_cav_glow_03]
+
+[t:template,n:ds2_shroom_cav_glow_03] { specializes = ds2_shroom_cav_glow_03_base; }
+[t:template,n:ds2_shroom_cav_glow_03_base]
 {
 	category_name = "misc";
 	doc = "shroom_blue_glow";
@@ -58,7 +63,9 @@
 	//	effect				= "efct_shroom_glow_03";
 	//}
 }
-[t:template,n:ds2_shroom_cav_glow_05]
+
+[t:template,n:ds2_shroom_cav_glow_05] { specializes = ds2_shroom_cav_glow_05_base; }
+[t:template,n:ds2_shroom_cav_glow_05_base]
 {
 	category_name = "misc";
 	doc = "shroom_orange_glow";

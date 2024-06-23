@@ -1,4 +1,5 @@
-[t:template,n:shroom_cav_wall_01]
+[t:template,n:shroom_cav_wall_01] { specializes = shroom_cav_wall_01_base; }
+[t:template,n:shroom_cav_wall_01_base]
 {
 	category_name = "misc";
 	doc = "shroom_wall_cyan_xlg";
@@ -18,7 +19,9 @@
 	//	effect				= "efct_shroom_glow_05";
 	//}
 }
-[t:template,n:shroom_cav_wall_02]
+
+[t:template,n:shroom_cav_wall_02] { specializes = shroom_cav_wall_02_base; }
+[t:template,n:shroom_cav_wall_02_base]
 {
 	category_name = "misc";
 	doc = "shroom_wall_violet_lg";
@@ -38,7 +41,9 @@
 	//	effect				= "efct_shroom_glow_06";
 	//}
 }
-[t:template,n:shroom_cav_wall_03]
+
+[t:template,n:shroom_cav_wall_03] { specializes = shroom_cav_wall_03_base; }
+[t:template,n:shroom_cav_wall_03_base]
 {
 	category_name = "misc";
 	doc = "shroom_wall_blue_xlg";
@@ -58,7 +63,9 @@
 	//	effect				= "efct_shroom_glow_07";
 	//}
 }
-[t:template,n:shroom_cav_wall_04]
+
+[t:template,n:shroom_cav_wall_04] { specializes = shroom_cav_wall_04_base; }
+[t:template,n:shroom_cav_wall_04_base]
 {
 	category_name = "misc";
 	doc = "shroom_wall_cream_lg";

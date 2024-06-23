@@ -1,4 +1,5 @@
-[t:template,n:mushroom_glb_cluster_01]
+[t:template,n:mushroom_glb_cluster_01] { specializes = mushroom_glb_cluster_01_base; }
+[t:template,n:mushroom_glb_cluster_01_base]
 {
 	category_name = "misc";
 	doc = "mushroom_glb_cluster_01";

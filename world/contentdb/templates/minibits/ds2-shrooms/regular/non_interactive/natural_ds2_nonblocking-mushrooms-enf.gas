@@ -1,4 +1,5 @@
-[t:template,n:mushroom_enf_01]
+[t:template,n:mushroom_enf_01] { specializes = mushroom_enf_01_base; }
+[t:template,n:mushroom_enf_01_base]
 {
 	category_name = "misc";
  	doc = "enchforest_shroom_lg_red";
@@ -21,7 +22,9 @@
 	//	effect				= "efct_shroom_glow_09";
 	//}
 }
-[t:template,n:mushroom_enf_02]
+
+[t:template,n:mushroom_enf_02] { specializes = mushroom_enf_02_base; }
+[t:template,n:mushroom_enf_02_base]
 {
 	category_name = "misc";
  	doc = "enchforest_shroom_lg_green";
@@ -44,7 +47,9 @@
 	//	effect				= "efct_shroom_glow_10";
 	//}
 }
-[t:template,n:mushroom_enf_03]
+
+[t:template,n:mushroom_enf_03] { specializes = mushroom_enf_03_base; }
+[t:template,n:mushroom_enf_03_base]
 {
 	category_name = "misc";
  	doc = "enchforest_shroom_lg_yellow";
@@ -67,7 +72,9 @@
 	//	effect				= "efct_shroom_glow_11";
 	//}
 }
-[t:template,n:mushroom_enf_04]
+
+[t:template,n:mushroom_enf_04] { specializes = mushroom_enf_04_base; }
+[t:template,n:mushroom_enf_04_base]
 {
 	category_name = "misc";
  	doc = "enchforest_shroom_lg_orange";

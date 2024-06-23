@@ -1,4 +1,5 @@
-[t:template,n:shroom_cav_wall_05]
+[t:template,n:shroom_cav_wall_05] { specializes = shroom_cav_wall_05_base; }
+[t:template,n:shroom_cav_wall_05_base]
 {
 	category_name = "misc";
 	doc = "shroom_wall_orange_xlg";
@@ -9,7 +10,8 @@
 	}
 }
 
-[t:template,n:ds2_shroom_cav_glow_04]
+[t:template,n:ds2_shroom_cav_glow_04] { specializes = ds2_shroom_cav_glow_04_base; }
+[t:template,n:ds2_shroom_cav_glow_04_base]
 {
 	category_name = "misc";
 	doc = "shroom_cream_glow";
