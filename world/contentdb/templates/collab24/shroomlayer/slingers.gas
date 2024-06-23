@@ -66,3 +66,138 @@
         }
 	}
 }
+
+
+[t:template,n:dsx_jungle_slinger_boss_base]  // = dsx_jungle_slinger_boss
+{
+	category_name = "1W_evil_d";
+	doc = "dsx_jungle_slinger_boss";
+	specializes = dsx_jungle_slinger_base;
+	[actor]
+	{
+		[skills]
+		{
+			strength 		=  10, 0;
+			intelligence 	=  8, 0;
+			dexterity 		=  9, 0;
+			ranged 			=  5, 0;
+			combat_magic	=  5, 0;
+			nature_magic	=  5, 0;
+		}
+	}
+	[aspect]
+	{
+		scale_base = 1.6;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 25;
+		damage_min = 20;
+	}
+	[common]
+	{
+		screen_name = "Jungle Slinger Camora";
+    		membership = monster,immune_charm,immune_control,immune_freeze,immune_polymorph,immune_align_change,immune_explode; 	
+		[template_triggers]
+		{
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				no_trig_bits = true;
+				action* = call_sfx_script("unique_ray_purple"); // Placeholder
+			}
+
+		}
+	}
+	[defend] { defense=44; }
+	[inventory]
+	{
+		selected_active_location = il_active_primary_spell;
+		[other] { il_active_primary_spell=dsx_spell_jungle_slinger_boss; }
+		
+		[pcontent]
+		{
+			/* Generated: Tue Jun 17 11:13:15 2003
+			Level 7, Special */
+			[all*]
+			{
+				[gold*]
+				{
+					chance = 0.2;
+					min = 45;
+					max = 89;
+				}
+				[oneof*]
+				{
+					il_main = amulet_ilorn;
+				}
+				[oneof*]
+				{
+					chance = 0.088888888888889;
+					il_main = potion_mana_small;
+					il_main = potion_health_small;
+				}
+				[oneof*]
+				{
+					il_main = #weapon/20-22;
+					il_main = #armor/8-53;
+					il_main = #*/20-22;
+				}
+				[oneof*]
+				{
+					il_main = #weapon/-rare(1)/22-30;
+					il_main = #armor/-rare(1)/15-71;
+					il_main = #*/-rare(1)/22-30;
+				}
+			}
+		}
+	}
+}
+
+[t:template,n:c24_3_slinger_boss]
+{
+    specializes = dsx_jungle_slinger_boss_base;
+
+    common:screen_name = "Shroom Slinger Camora";
+	[inventory]
+	{
+		[pcontent]
+		{
+			/* Generated: Tue Jun 17 11:13:15 2003
+			Level 7, Special */
+			[all*]
+			{
+				[gold*]
+				{
+					chance = 0.2;
+					min = 45;
+					max = 89;
+				}
+				//[oneof*]
+				//{
+				//	il_main = amulet_ilorn;
+				//}
+				[oneof*]
+				{
+					chance = 0.088888888888889;
+					il_main = potion_mana_small;
+					il_main = potion_health_small;
+				}
+				[oneof*]
+				{
+					il_main = #weapon/20-22;
+					il_main = #armor/8-53;
+					il_main = #*/20-22;
+				}
+				[oneof*]
+				{
+					il_main = #weapon/-rare(1)/22-30;
+					il_main = #armor/-rare(1)/15-71;
+					il_main = #*/-rare(1)/22-30;
+				}
+			}
+		}
+	}
+}

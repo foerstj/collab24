@@ -90,6 +90,20 @@
 {
     specializes = dsx_noctiss_base;
 
+	[common]
+	{
+		[template_triggers]
+		{
+			[*]
+			{
+				single_shot = true;
+				action* = call_sfx_script("ghost_eye_glow");
+				action* = call_sfx_script("darkling_reveal");  // ADDED
+				condition* = receive_world_message("we_enemy_spotted");
+			}
+		}
+	}
+
     // stats & loot from darkling
 	[actor]
 	{

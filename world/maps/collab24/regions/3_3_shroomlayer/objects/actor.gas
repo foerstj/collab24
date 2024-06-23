@@ -207,12 +207,8 @@
 	  p position = -0.667313,-1,-3.92992,0x6efc5d99;
 	}
 }
-[t:dsx_jungle_slinger_boss,n:0x033010cc]
+[t:c24_3_slinger_boss,n:0x033010cc]
 {
-	[common]
-	{
-		screen_name = "Shroom Slinger Camora";
-	}
 	[placement]
 	{
 	  q orientation = 0,0.66262,0,0.748956;
