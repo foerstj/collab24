@@ -115,15 +115,15 @@
 	[placement]
 	{
 	  q orientation = 0,0.986286,0,0.165047;
-	  p position = 3.87434,-12,-3.12563,0xbc67a214;
+	  p position = -18.1344,-12,-16.3708,0x296fde74;
 	}
 }
 [t:barrel_glb_fh_r1,n:0x033010da]
 {
 	[placement]
 	{
-	  q orientation = 0,0.798635,0,-0.601815;
-	  p position = 2.93255,-12,-3.73455,0xbc67a214;
+	  q orientation = 0,0.601815,0,0.798635;
+	  p position = 3.82619,-0.999999,-3.97033,0x12dce0a3;
 	}
 }
 [t:barrel_glb_fh_r1,n:0x033010d3]

@@ -46,15 +46,6 @@
 	0x033006b8 = t_xxx_flr_08x08-v0;
 	0x033006ba = t_xxx_flr_08x08-v2;
 	0x033006bb = t_xxx_flr_08x08-v3;
-	0x0330070e = t_xxx_for_tx-wal-02b-l;
-	0x0330070f = t_xxx_for_tx-wal-02b-r;
-	0x03300710 = t_xxx_for_tx-wal-12-l;
-	0x03300711 = t_xxx_for_tx-wal-12-r;
-	0x03300714 = t_xxx_for_wal-cnr-concave-a;
-	0x03300715 = t_xxx_for_wal-cnr-convex-a;
-	0x03300716 = t_xxx_for_wal-diag-08-l;
-	0x03300717 = t_xxx_for_wal-diag-08-r;
-	0x0330071b = t_xxx_for_wal-straight-08-a;
 	0x03300855 = t_xxx_pth_02b-thick;
 	0x03300856 = t_xxx_pth_02b-thin;
 	0x03300857 = t_xxx_pth_04x04-a;
@@ -156,6 +147,8 @@
 	0x03300a2e = t_xxx_wal_12-diag-thin-r;
 	0x03300a33 = t_xxx_wal_12-thck;
 	0x03300a34 = t_xxx_wal_12-thin;
+	0x03300a35 = t_xxx_wal_12-tx-02b-l;
+	0x03300a36 = t_xxx_wal_12-tx-02b-r;
 	0x03300a39 = t_xxx_wal_12-tx-24-l;
 	0x03300a3a = t_xxx_wal_12-tx-24-r;
 	0x03300a3b = t_xxx_wal_12-tx-rmp-l;
