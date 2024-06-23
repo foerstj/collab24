@@ -26,6 +26,8 @@
 	0x0320056e = t_xxx_cnr_tee-rmp-rmp-08-r;
 	0x032005bd = t_xxx_dgn_flr_ele-round-alpha-strip;
 	0x032005bf = t_xxx_dgn_flr_ele-round-groundplate-terrain;
+	0x032005c6 = t_xxx_dgn_flr_ele-round-platform-nochain;
+	0x032005c8 = t_xxx_dgn_flr_ele-round-tube-62m;
 	0x032005c9 = t_xxx_dgn_flr_ele-round-tube-bottom;
 	0x032006b3 = t_xxx_flr_04x04-v0;
 	0x032006b4 = t_xxx_flr_04x04-v1;

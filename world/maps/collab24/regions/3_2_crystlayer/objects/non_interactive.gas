@@ -10,8 +10,8 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.131102,0,0.991369;
-	  p position = 1.42631,0,0.478142,0x5b3cb3e4;
+	  q orientation = 0,-0.608301,0,0.793707;
+	  p position = -0.7531,0,-0.438166,0xb44dc850;
 	}
 }
 [t:crystals_cav_04,n:0x03200724]
@@ -26,7 +26,7 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.998029,0,-0.06275;
+	  q orientation = 0,0.750084,0,0.661342;
 	  p position = -0.998143,0,-0.297506,0x5b3cb3e4;
 	}
 }
@@ -43,7 +43,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.522743,0,0.85249;
-	  p position = -1.34812,0,-0.341238,0x5b3cb3e4;
+	  p position = -1.98007,0,-0.640006,0x5b3cb3e4;
 	}
 }
 [t:crystals_cav_02_x2,n:0x032002e8]
@@ -106,8 +106,8 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.167905,0,0.985803;
-	  p position = 1.50245,0,-1.44679,0xb44dc850;
+	  q orientation = 0,0.815795,0,0.578341;
+	  p position = 3.29167,0.45,3.72142,0xc5ced20d;
 	}
 }
 [t:crystals_cav_08,n:0x032007b0]
@@ -314,8 +314,8 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.911588,0,0.411106;
-	  p position = 1.38209,0,0.0689588,0xea3565af;
+	  q orientation = 0,0.935286,0,-0.353894;
+	  p position = 1.56087,0,-0.0228996,0x112cd330;
 	}
 }
 [t:crystals_cav_04,n:0x032006c4]
@@ -330,8 +330,8 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.532283,0,0.846567;
-	  p position = 0.354695,0,1.14816,0xea3565af;
+	  q orientation = 0,0.974994,0,0.222232;
+	  p position = 2.64006,0,1.00449,0x112cd330;
 	}
 }
 [t:crystals_cav_04,n:0x03200716]
@@ -346,8 +346,8 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.857101,0,0.515148;
-	  p position = 1.7648,0,-0.410575,0xea3565af;
+	  q orientation = 0,0.970327,0,-0.241797;
+	  p position = 1.08134,0,-0.405613,0x112cd330;
 	}
 }
 [t:crystals_cav_04,n:0x032006fe]
@@ -362,8 +362,8 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.971864,0,0.235542;
-	  p position = -0.0324685,0,-0.240403,0xb9562bda;
+	  q orientation = 0,-0.853765,0,0.520658;
+	  p position = -1.41802,0,1.70836,0x112cd330;
 	}
 }
 [t:crystals_cav_08_x2,n:0x032001fa]
@@ -378,8 +378,8 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,-0.446197,0,0.894935;
-	  p position = 3.5988,0,-0.881647,0x6a980fd1;
+	  q orientation = 0,0.894935,0,0.446197;
+	  p position = 1.62426,0,1.83813,0xb44dc850;
 	}
 }
 [t:crystals_cav_04_x2,n:0x03200267]
@@ -395,7 +395,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.544639,0,0.83867;
-	  p position = 3.77083,0,-1.71329,0x6a980fd1;
+	  p position = 0.548752,0,1.13941,0x9554a1fd;
 	}
 }
 [t:crystals_cav_02_x2,n:0x032002e9]
@@ -411,39 +411,7 @@
 	[placement]
 	{
 	  q orientation = 0,-0.537299,0,0.843392;
-	  p position = 3.23068,0,-0.615537,0x6a980fd1;
-	}
-}
-[t:crystals_cav_04,n:0x032006c5]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.93563;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.954443,0,0.298392;
-	  p position = 0.362883,0,-1.21989,0x6a980fd1;
-	}
-}
-[t:crystals_cav_04,n:0x0320072c]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.983649;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.754014,0,0.656858;
-	  p position = -3.84787,0,1.50758,0x6a980fd1;
+	  p position = 1.69311,0,1.14934,0x9554a1fd;
 	}
 }
 [t:crystals_cav_12,n:0x03200778]
@@ -458,24 +426,8 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.949733,0,-0.313062;
-	  p position = -2.45105,0,1.28064,0x6a980fd1;
-	}
-}
-[t:crystals_cav_12,n:0x0320077a]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.1338;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.123589,0,0.992334;
-	  p position = -1.00397,0,-1.1233,0x6a980fd1;
+	  q orientation = 0,0.892931,0,0.450194;
+	  p position = 1.54174,0,1.22484,0x112cd330;
 	}
 }
 [t:crystals_cav_08,n:0x032007b2]
@@ -490,8 +442,8 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.170696,0,-0.985324;
-	  p position = -3.46897,0,-0.687602,0x6a980fd1;
+	  q orientation = 0,-0.817429,0,0.576029;
+	  p position = 3.16568,0,-0.416377,0x2b811602;
 	}
 }
 [t:crystals_cav_08,n:0x032007b3]
@@ -506,24 +458,8 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.836355,0,-0.548188;
-	  p position = -3.4353,0,0.338499,0x6a980fd1;
-	}
-}
-[t:crystals_cav_08,n:0x032007b4]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.986411;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.830614,0,-0.556849;
-	  p position = -0.0895896,0,-1.27411,0x6a980fd1;
+	  q orientation = 0,0.97902,0,0.203765;
+	  p position = 2.13958,0,-0.382707,0x2b811602;
 	}
 }
 [t:crystals_cav_08,n:0x032007d3]
@@ -538,8 +474,8 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.335899,0,-0.941898;
-	  p position = -1.03011,0,1.25628,0x6a980fd1;
+	  q orientation = 0,0.428506,0,0.903539;
+	  p position = 0.433897,0,1.35422,0xae70caec;
 	}
 }
 [t:crystals_cav_12,n:0x0320076c]
@@ -571,7 +507,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.987688,0,0.156434;
-	  p position = -3.75574,0,1.44712,0x9554a1fd;
+	  p position = -3.76176,0,0.97619,0x9554a1fd;
 	}
 }
 [t:crystals_cav_04,n:0x032006a7]
@@ -715,7 +651,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.76001,0,-0.649912;
-	  p position = -1.36598,0,1.70863,0x9554a1fd;
+	  p position = -1.37005,0,1.42268,0x9554a1fd;
 	}
 }
 [t:crystals_cav_12,n:0x03200776]
@@ -762,8 +698,8 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.830595,0,-0.556877;
-	  p position = 2.07896,0,1.67348,0x2b811602;
+	  q orientation = 0,-0.554262,0,0.832342;
+	  p position = 2.21903,-3,-2.86718,0x4894d590;
 	}
 }
 [t:crystals_cav_04,n:0x032006b1]
@@ -842,8 +778,8 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.426539,0,-0.904469;
-	  p position = 0.617522,0,0.699144,0x2b811602;
+	  q orientation = 0,0.672391,0,0.740196;
+	  p position = 0.397902,-3,-3.09834,0x4894d590;
 	}
 }
 [t:crystals_cav_12,n:0x0320078a]
@@ -55080,5 +55016,53 @@
 	{
 	  q orientation = 0,0.440311,0,-0.897845;
 	  p position = -0.993265,12,1.32503,0xc4df62d6;
+	}
+}
+[t:crystals_cav_08,n:0x032007b4]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.986411;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.830614,0,0.556849;
+	  p position = -0.258497,0,-0.0700388,0x5e96a757;
+	}
+}
+[t:crystals_cav_12,n:0x0320077a]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.1338;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.614295,0,0.789076;
+	  p position = 3.05458,-3,-2.11076,0x4894d590;
+	}
+}
+[t:crystals_cav_04,n:0x0320072c]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.983649;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.0686997,0,0.997637;
+	  p position = 0.486279,0,1.57546,0x2b811602;
 	}
 }
