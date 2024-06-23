@@ -2,6 +2,7 @@
 {
 	[generator_advanced_a2]
 	{
+		child_template_name = "c24_3_slinger";
 	  x initial_command = 0x0330152B;
 	}
 	[placement]
