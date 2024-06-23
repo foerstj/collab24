@@ -2,8 +2,7 @@
 {
 	[common]
 	{
-		dev_instance_text = "sign_7";
-		screen_name = "Town of Quillrabe, 105";
+		screen_name = "Shroomington";
 	}
 	[placement]
 	{
@@ -15,7 +14,7 @@
 {
 	[common]
 	{
-		screen_name = "Town of Crystwind, 15";
+		screen_name = "Ghanawaland";
 	}
 	[placement]
 	{
@@ -27,8 +26,7 @@
 {
 	[common]
 	{
-		dev_instance_text = "sign_3";
-		screen_name = "Town of Quillrabe, 69";
+		screen_name = "Shroomington";
 	}
 	[placement]
 	{
@@ -40,7 +38,7 @@
 {
 	[common]
 	{
-		screen_name = "Town of Crystwind, 44";
+		screen_name = "Ghanawaland";
 	}
 	[placement]
 	{
@@ -100,8 +98,7 @@
 {
 	[common]
 	{
-		dev_instance_text = "sign_8";
-		screen_name = "Town of Quillrabe, 72";
+		screen_name = "Shroomington";
 	}
 	[placement]
 	{
@@ -113,7 +110,7 @@
 {
 	[common]
 	{
-		screen_name = "Town of Crystwind, 34";
+		screen_name = "Ghanawaland";
 	}
 	[placement]
 	{
@@ -155,8 +152,7 @@
 {
 	[common]
 	{
-		dev_instance_text = "sign_6";
-		screen_name = "Town of Quillrabe, 79";
+		screen_name = "Shroomington";
 	}
 	[placement]
 	{
@@ -168,37 +164,12 @@
 {
 	[common]
 	{
-		dev_instance_text = "sign_4";
-		screen_name = "Town of Quillrabe, 109";
+		screen_name = "Shroomington";
 	}
 	[placement]
 	{
 	  q orientation = 0,-0.707107,0,0.707107;
 	  p position = 1.52034,-0.188934,0.614069,0x1e499a67;
-	}
-}
-[t:sign_glb_01,n:0x03200307]
-{
-	[common]
-	{
-		screen_name = "Town of Crystwind, 12";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.707106,0,0.707107;
-	  p position = -0.314572,-4.76837e-007,-1.99213,0x730c7052;
-	}
-}
-[t:sign_glb_01,n:0x032003b1]
-{
-	[common]
-	{
-		screen_name = "Town of Elddim, 186";
-	}
-	[placement]
-	{
-	  q orientation = 0,-8.9407e-008,0,1;
-	  p position = -0.646692,-0.490438,-1.90692,0x730c7052;
 	}
 }
 [t:respawn_statue,n:0x032004d5]
@@ -214,8 +185,7 @@
 {
 	[common]
 	{
-		dev_instance_text = "sign_5";
-		screen_name = "Town of Quillrabe, 96";
+		screen_name = "Shroomington";
 	}
 	[placement]
 	{
@@ -227,7 +197,7 @@
 {
 	[common]
 	{
-		screen_name = "Town of Crystwind, 16";
+		screen_name = "Ghanawaland";
 	}
 	[placement]
 	{
