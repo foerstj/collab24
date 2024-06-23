@@ -45,19 +45,6 @@
 	  i time_chunk = 1;
 	}
 }
-[t:emt_sound,n:0x033004c6]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.608761,0,0.793353;
-	  p position = -0.00744629,24.0135,0.513161,0xe363acec;
-	}
-	[sound_emitter]
-	{
-	  b continual_loop = true;
-		event_sound = "amb_wind_01";
-	}
-}
 [t:emt_sound,n:0x03300eb7]
 {
 	[placement]
@@ -72,6 +59,19 @@
 	  i start_hour = 1;
 	  i stop_hour = 4;
 	  i time_chunk = 1;
+	}
+}
+[t:emt_sound,n:0x033004c6]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.608761,0,0.793353;
+	  p position = -0.00744629,24.0135,0.513161,0xe363acec;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "amb_wind_01";
 	}
 }
 [t:emt_sound,n:0x033000f3]
