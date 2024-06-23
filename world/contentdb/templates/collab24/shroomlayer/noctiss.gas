@@ -1,0 +1,156 @@
+[t:template,n:dsx_noctiss_base]  // = dsx_noctiss
+//balanced for Level 15
+{
+	category_name = "1W_evil_d";
+	doc = "dsx_noctiss";
+	specializes = noctiss_base;
+	
+	[actor]
+	{
+		[skills]
+		{
+			strength =		15, 0;
+			intelligence =	8, 0;
+			dexterity =		11, 0;
+			nature_magic =	14, 0;
+			combat_magic =	14, 0;
+		}
+	}
+	[aspect]
+	{			
+		experience_value = 596;
+		life = 369;
+		max_life = 369;
+		mana = 14;
+		max_mana = 14;
+	}
+
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 54;
+		damage_min = 46;
+	}
+
+	[common]
+	{
+		screen_name="Noctiss";
+		membership=monster;
+		[template_triggers]
+		{
+			[*]
+			{
+				single_shot = true;
+				action* = call_sfx_script("ghost_eye_glow");
+				condition* = receive_world_message("we_enemy_spotted");
+			}
+		}
+	}
+	[defend] { defense=113; }
+
+	[inventory]
+	{
+		spew_equipped_kill_count = ;		
+		selected_active_location = il_active_primary_spell;
+		[other] { il_active_primary_spell=dsx_spell_noctiss_sap; }
+
+			
+	}
+
+	[mind]
+	{
+		melee_engage_range = 14;
+		personal_space_range = 0.7;
+		ranged_engage_range = 14.0;
+		sight_range = 14.0;
+
+		jat_startup = world\ai\jobs\common\job_startup_reveal.skrit
+			?invisible = true;
+	
+		jat_fidget	= world\ai\jobs\common\job_fidget.skrit;
+	
+		actor_auto_fidgets = false;
+		sight_origin_height = 1;
+	
+		actor_weapon_preference			= WP_MAGIC;
+		actor_auto_switches_to_magic	= true;
+		actor_auto_switches_to_karate	= false;
+		actor_auto_switches_to_melee	= false;
+	}
+
+	[physics]
+	{
+		break_effect = ghost_die;
+		explode_when_killed = true;
+		gib_gore_good = true;
+	}
+}
+
+[t:template,n:c24_3_base_noctiss]
+{
+    specializes = dsx_noctiss_base;
+
+    // stats & loot from darkling
+	[actor]
+	{
+		[skills]
+		{
+			strength =  15, 0;
+			intelligence =  8, 0;
+			dexterity =  13, 0;
+			combat_magic =  10,  0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 85;
+		life = 46;
+		max_life = 46;
+		mana = 16;
+		max_mana = 16;
+	}
+	[attack]
+	{
+		damage_max = 35;
+		damage_min = 30;
+	}
+	[defend] { defense=38; }
+	[inventory]
+	{
+    	[pcontent]
+		{
+			[all*]
+			{
+   				chance = 0.03;
+                il_main = #nmagic/5-11;
+                il_main = #cmagic/3-8;
+			}
+			[oneof*]
+			{
+				chance = 0.3;
+				il_main = #*/25-31;
+				il_main = #armor/12-66;
+			}
+		}
+	}
+}
+[t:template,n:c24_3_noctiss_red]
+{
+    specializes = c24_3_base_noctiss;
+
+    aspect:textures:0 = b_c_edm_noctiss;
+	[inventory]
+	{
+		[other] { il_active_primary_spell = c24_3_spell_noctiss_sap_red; }
+	}
+}
+[t:template,n:c24_3_noctiss_blue]
+{
+    specializes = c24_3_base_noctiss;
+
+    aspect:textures:0 = b_c_edm_noctiss_02;
+	[inventory]
+	{
+		[other] { il_active_primary_spell = c24_3_spell_noctiss_sap_blue; }
+	}
+}

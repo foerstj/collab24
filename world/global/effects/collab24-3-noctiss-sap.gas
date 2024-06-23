@@ -1,0 +1,72 @@
+[effect_script*]
+{
+	name	=noctiss_sap_blue;
+
+	script	=[[	
+			
+			sound play s_e_spell_lower_melee_to_hit_cast at #SOURCE_POSITION dist 10 30;
+			
+			sfx create flurry #TARGET_KB 
+				"radius(.5)count(14)dur(.5)tin(.1)tout(.1)color0(.05,.1,.6)grow_params(0,2,2.4)
+				ts(3)";
+			sfx attach_point #PEEK @body_mid target;
+			sfx start #POP;
+			
+			sfx create curve #TARGET_KB
+				"curvature(.6)model(0)scale(.5)color0(.05,.1,.6)ts(5.125)";
+			sfx target #PEEK source;
+			sfx attach_point #PEEK @shield_bone source;
+			sfx offset_bone #PEEK v<0 .165 0> target;
+			sfx start #POP;
+			
+			sfx create curve #TARGET_KB 
+				"must_update()curvature(.6)model(0)scale(.5)color0(.05,.1,.6)ts(5.125)delay(.03)";
+			sfx target #PEEK source;
+			sfx attach_point #PEEK @shield_bone source;
+			sfx offset_bone #PEEK v<0 .165 0> target;
+			sfx start #POP;
+			
+			sfx create curve #TARGET_KB 
+				"must_update()curvature(.6)model(0)scale(.5)color0(.05,.1,.6)ts(5.125)delay(.06)";
+			sfx target #PEEK source;
+			sfx attach_point #PEEK @shield_bone source;
+			sfx offset_bone #PEEK v<0 .165 0> target;
+			sfx start #POP;
+			
+			sfx create curve #TARGET_KB 
+				"must_update()curvature(.6)model(0)scale(.5)color0(.05,.1,.6)ts(5.125)delay(.09)";
+			sfx target #PEEK source;
+			sfx attach_point #PEEK @weapon_bone source;
+			sfx offset_bone #PEEK v<0 .165 0> target;
+			sfx start #POP;
+			
+			sfx create curve #TARGET_KB 
+				"must_update()curvature(.6)model(0)scale(.5)color0(.05,.1,.6)ts(5.125)delay(.12)";
+			sfx target #PEEK source;
+			sfx attach_point #PEEK @weapon_bone source;
+			sfx offset_bone #PEEK v<0 .165 0> target;
+			sfx start #POP;
+			
+			sfx create curve #TARGET_KB 
+				"must_update()curvature(.6)model(0)scale(.5)color0(.05,.1,.6)ts(5.125)delay(.15)";
+			sfx target #PEEK source;
+			sfx attach_point #PEEK @weapon_bone source;
+			sfx offset_bone #PEEK v<0 .165 0> target;
+			sfx start #POP;
+			
+			worldmsg WE_SPELL_SYNC_MID #OWNER_GOID #OWNER_GOID #TARGET_GOID;
+			
+			sfx create flurry #SOURCE 
+				"delay(.2)ts(4)radius(.5)count(10)dur(.25)tin(.1)tout(.1)
+				color0(.05,.1,.6)grow_params(.75,.66,0)";
+			sfx attach_point #PEEK @shield_bone target;
+			sfx start #POP;
+			
+			sfx create flurry #SOURCE 
+				"delay(.25)ts(4)radius(.5)count(10)dur(.25)tin(.1)tout(.1)
+				color0(.05,.1,.6)grow_params(.75,.66,0)";
+			sfx attach_point #PEEK @weapon_bone target;
+			sfx start #POP;
+			
+			]];
+}
