@@ -32534,446 +32534,6 @@
 	  p position = -3.33329,-12,-4.74858,0xbf8cab94;
 	}
 }
-[t:c24_3_shroom_bush_01,n:0x03300717]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.09555;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.654185,0,-0.756334;
-	  p position = 1.75277,-6,-0.629625,0xdf644de1;
-	}
-}
-[t:shroom_cav_group_09,n:0x033008e9]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.84214;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.998196,0,0.060031;
-	  p position = 1.49187,-6,-0.109947,0xdf644de1;
-	}
-}
-[t:c24_3_shroom_tree_cyan_9m,n:0x03300271]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.76253;
-	}
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0x4AA5D681;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.678223,0,0.734856;
-	  p position = 0.296526,0,0.726402,0xe5b4414f;
-	}
-}
-[t:c24_3_shroom_bush_01,n:0x03300532]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.19414;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.406083,0,0.913836;
-	  p position = 0.719534,0,-0.166019,0xe5b4414f;
-	}
-}
-[t:c24_3_shroom_bush_01,n:0x033006b7]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.17829;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.522334,0,-0.852741;
-	  p position = -1.15546,0,-0.784184,0xe5b4414f;
-	}
-}
-[t:shroom_cav_group_09,n:0x03300968]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.871481;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.481861,0,0.876248;
-	  p position = -1.01768,0,-0.84197,0xe5b4414f;
-	}
-}
-[t:shroom_cav_group_09,n:0x033005cd]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.20017;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.965406,0,0.26075;
-	  p position = -19.1077,-12,-16.7935,0x10a5c5d0;
-	}
-}
-[t:shroom_cav_group_09,n:0x03300976]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.940411;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.600229,0,-0.799828;
-	  p position = -16.6022,-12,-16.8715,0x10a5c5d0;
-	}
-}
-[t:c24_3_shroom_tree_cyan_6m,n:0x03300e82]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.986738;
-	}
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0x321E33C8;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.507538,0,0.861629;
-	  p position = 2.5833,8,5.13053,0x13b80a19;
-	}
-}
-[t:c24_3_shroom_bush_01,n:0x03300fd0]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.977334;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.987688,0,-0.156435;
-	  p position = 3.53034,5.88996,5.18832,0x13b80a19;
-	}
-}
-[t:c24_3_shroom_bush_01,n:0x03300fd2]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.12049;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.594823,0,0.803857;
-	  p position = 0.304852,8,4.34528,0x13b80a19;
-	}
-}
-[t:c24_3_shroom_tree_red_lg,n:0x03301455]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.835444;
-	}
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0xF526959B;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.953717,0,0.300706;
-	  p position = 1.99621,-3.67508,-0.189619,0x13b80a19;
-	}
-}
-[t:c24_3_shroom_tree_cyan_9m,n:0x03300c9d]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.916706;
-	}
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0xFCF81A7A;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.515038,0,-0.857167;
-	  p position = 0.531216,6,0.305328,0xfbe8b250;
-	}
-}
-[t:c24_3_shroom_bush_01,n:0x03300fd1]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.01674;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.130526,0,-0.991445;
-	  p position = 1.87586,6,-0.780285,0xfbe8b250;
-	}
-}
-[t:c24_3_shroom_tree_red_lg,n:0x03301456]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.17658;
-	}
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0xE155FCD8;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.953717,0,0.300706;
-	  p position = 0.0830269,-5.79083,-4.97494,0xfbe8b250;
-	}
-}
-[t:c24_3_shroom_tree_cyan_9m,n:0x03300c28]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.905348;
-	}
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0xEC549D72;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.62932,0,-0.777146;
-	  p position = 1.29497,1.90735e-006,1.14033,0xd82b06bb;
-	}
-}
-[t:c24_3_shroom_bush_01,n:0x03300fd3]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.976034;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.992546,0,-0.12187;
-	  p position = -0.0560265,3.8147e-006,-1.61231,0xd82b06bb;
-	}
-}
-[t:c24_3_shroom_bush_01,n:0x03300fd4]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.01894;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.737277,0,-0.67559;
-	  p position = 1.35493,3.8147e-006,0.34306,0xd82b06bb;
-	}
-}
-[t:shroom_cav_group_09,n:0x033000b8]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.17189;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.885958,0,-0.463766;
-	  p position = -0.281922,-12,-5.61269,0xfe26ff4f;
-	}
-}
-[t:c24_3_shroom_tree_cyan_6m,n:0x0330028a]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.87364;
-	}
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0x4CEEB0B5;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.491003,0,0.871158;
-	  p position = -3.19552,12,0.51108,0xfe26ff4f;
-	}
-}
-[t:c24_3_shroom_bush_01,n:0x0330052e]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.91501;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.347993,0,-0.937497;
-	  p position = -3.86403,12,-0.109024,0xfe26ff4f;
-	}
-}
-[t:c24_3_shroom_bush_01,n:0x03300778]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.18626;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.209747,0,-0.977756;
-	  p position = -1.69253,12,0.719231,0xfe26ff4f;
-	}
-}
-[t:c24_3_shroom_tree_cyan_9m,n:0x0330084b]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.0319;
-	}
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0xD3915156;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.978148,0,0.207912;
-	  p position = 3.98954,-12,-4.2862,0xfe26ff4f;
-	}
-}
-[t:c24_3_shroom_tree_cyan_6m,n:0x03300e83]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.16323;
-	}
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0x63FF4598;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.999048,0,-0.0436195;
-	  p position = 0.735317,-12,-5.5813,0xfe26ff4f;
-	}
-}
-[t:c24_3_shroom_bush_01,n:0x03300fd5]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.06895;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.798635,0,-0.601815;
-	  p position = 2.78275,-12,-5.8047,0xfe26ff4f;
-	}
-}
-[t:c24_3_shroom_tree_cyan_9m,n:0x0330024e]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.80192;
-	}
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0xFCA416D8;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.567001,0,-0.823717;
-	  p position = 1.22373,0,0.598539,0x737bd28a;
-	}
-}
-[t:c24_3_shroom_tree_cyan_9m,n:0x0330024f]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.87197;
-	}
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0xBFCAA026;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.17508,0,-0.984554;
-	  p position = -2.20224,0,0.0547314,0x737bd28a;
-	}
-}
-[t:c24_3_shroom_tree_cyan_6m,n:0x0330028b]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.89445;
-	}
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0xDAD63FF0;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.765343,0,0.643623;
-	  p position = -2.94074,0,0.834259,0x737bd28a;
-	}
-}
-[t:c24_3_shroom_bush_01,n:0x03300505]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.85164;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.556198,0,-0.83105;
-	  p position = 1.41366,0,0.273169,0x737bd28a;
-	}
-}
-[t:c24_3_shroom_bush_01,n:0x03300526]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.89772;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.819219,0,-0.573481;
-	  p position = -1.46471,0,-0.133692,0x737bd28a;
-	}
-}
-[t:c24_3_shroom_bush_01,n:0x033007d3]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.08927;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.530869,0,-0.847454;
-	  p position = 0.374905,0,1.53213,0x737bd28a;
-	}
-}
 [t:shroom_cav_group_09,n:0x033008ef]
 {
 	[aspect]
@@ -33126,79 +32686,239 @@
 	  p position = -2.4468,-5.86737,-0.812693,0x143780c2;
 	}
 }
-[t:c24_3_shroom_tree_cyan_9m,n:0x03300067]
+[t:c24_3_shroom_tree_cyan_9m,n:0x0330024e]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.12907;
+	  f scale_multiplier = 0.80192;
 	}
 	[light_flicker_lightweight]
 	{
-	  x siege_light = 0x04AA5080;
+	  x siege_light = 0xFCA416D8;
 	}
 	[placement]
 	{
-	  q orientation = 0,0.927184,0,-0.374607;
-	  p position = 2.6083,-3.80024,-0.276358,0xd70319e7;
+	  q orientation = 0,0.567001,0,-0.823717;
+	  p position = 1.22373,0,0.598539,0x737bd28a;
 	}
 }
-[t:c24_3_shroom_bush_01,n:0x03300101]
+[t:c24_3_shroom_tree_cyan_9m,n:0x0330024f]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.04163;
+	  f scale_multiplier = 0.87197;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xBFCAA026;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.17508,0,-0.984554;
+	  p position = -2.20224,0,0.0547314,0x737bd28a;
+	}
+}
+[t:c24_3_shroom_tree_cyan_6m,n:0x0330028b]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.89445;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xDAD63FF0;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.765343,0,0.643623;
+	  p position = -2.94074,0,0.834259,0x737bd28a;
+	}
+}
+[t:c24_3_shroom_bush_01,n:0x03300505]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.85164;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.556198,0,-0.83105;
+	  p position = 1.41366,0,0.273169,0x737bd28a;
+	}
+}
+[t:c24_3_shroom_bush_01,n:0x03300526]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.89772;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.819219,0,-0.573481;
+	  p position = -1.46471,0,-0.133692,0x737bd28a;
+	}
+}
+[t:c24_3_shroom_bush_01,n:0x033007d3]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.08927;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.530869,0,-0.847454;
+	  p position = 0.374905,0,1.53213,0x737bd28a;
+	}
+}
+[t:shroom_cav_group_09,n:0x033000b8]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.17189;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.885958,0,-0.463766;
+	  p position = -0.281922,-12,-5.61269,0xfe26ff4f;
+	}
+}
+[t:c24_3_shroom_tree_cyan_6m,n:0x0330028a]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.87364;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x4CEEB0B5;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.491003,0,0.871158;
+	  p position = -3.19552,12,0.51108,0xfe26ff4f;
+	}
+}
+[t:c24_3_shroom_bush_01,n:0x0330052e]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.91501;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.347993,0,-0.937497;
+	  p position = -3.86403,12,-0.109024,0xfe26ff4f;
+	}
+}
+[t:c24_3_shroom_bush_01,n:0x03300778]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.18626;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.209747,0,-0.977756;
+	  p position = -1.69253,12,0.719231,0xfe26ff4f;
+	}
+}
+[t:c24_3_shroom_tree_cyan_9m,n:0x0330084b]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.0319;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xD3915156;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.978148,0,0.207912;
+	  p position = 3.98954,-12,-4.2862,0xfe26ff4f;
+	}
+}
+[t:c24_3_shroom_tree_cyan_6m,n:0x03300e83]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.16323;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x63FF4598;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.999048,0,-0.0436195;
+	  p position = 0.735317,-12,-5.5813,0xfe26ff4f;
+	}
+}
+[t:c24_3_shroom_bush_01,n:0x03300fd5]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.06895;
 	}
 	[placement]
 	{
 	  q orientation = 0,0.798635,0,-0.601815;
-	  p position = 2.70097,-3.76259,0.0265007,0xd70319e7;
+	  p position = 2.78275,-12,-5.8047,0xfe26ff4f;
 	}
 }
-[t:c24_3_shroom_tree_cyan_9m,n:0x03300068]
+[t:shroom_cav_group_09,n:0x033009a2]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.0639;
+	  f scale_multiplier = 1.05032;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.946343,0,-0.323163;
+	  p position = -3.22442,-4,-1.93196,0xe6a8fac2;
+	}
+}
+[t:c24_3_shroom_tree_cyan_9m,n:0x0330005b]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.973382;
 	}
 	[light_flicker_lightweight]
 	{
-	  x siege_light = 0xDBD26834;
+	  x siege_light = 0xAD0D4101;
 	}
 	[placement]
 	{
-	  q orientation = 0,0.422618,0,0.906308;
-	  p position = 0.797115,11.9489,3.82118,0xbb88a706;
+	  q orientation = 0,0.909961,0,0.414693;
+	  p position = -2.21146,15.9675,3.86987,0x793a3412;
 	}
 }
-[t:c24_3_shroom_bush_01,n:0x03300100]
+[t:c24_3_shroom_bush_01,n:0x033000f5]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.18146;
+	  f scale_multiplier = 1.00559;
 	}
 	[placement]
 	{
-	  q orientation = 0,0.996195,0,-0.0871559;
-	  p position = 0.877556,11.9624,3.86836,0xbb88a706;
+	  q orientation = 0,0.25038,0,0.968148;
+	  p position = -1.87128,15.9547,3.79132,0x793a3412;
 	}
 }
-[t:c24_3_shroom_bush_01,n:0x033007d8]
+[t:shroom_cav_group_09,n:0x033003a9]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 0.84937;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.677425,0,-0.735592;
-	  p position = 1.00148,11.8569,2.91865,0xbb88a706;
-	}
-}
-[t:shroom_cav_group_09,n:0x03300954]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.872554;
+	  f scale_multiplier = 1.2021;
 	}
 	[common]
 	{
@@ -33206,71 +32926,59 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.416339,0,0.909209;
-	  p position = 0.400724,0,1.39944,0x501669eb;
+	  q orientation = 0,0.542539,0,0.84003;
+	  p position = -15.2999,-12,-16.2586,0xc452a617;
 	}
 }
-[t:c24_3_shroom_tree_cyan_9m,n:0x03300066]
+[t:c24_3_shroom_tree_cyan_6m,n:0x03300124]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 0.936594;
+	  f scale_multiplier = 1.0992;
 	}
 	[light_flicker_lightweight]
 	{
-	  x siege_light = 0x7356DC67;
+	  x siege_light = 0x0AB523E6;
 	}
 	[placement]
 	{
-	  q orientation = 0,0.700909,0,0.71325;
-	  p position = 0.118214,12,1.22182,0x0040a6cb;
+	  q orientation = 0,0.430511,0,-0.902585;
+	  p position = 3.36394,-1.90735e-006,0.411249,0x8c0e4553;
 	}
 }
-[t:c24_3_shroom_bush_01,n:0x03300102]
+[t:c24_3_shroom_tree_cyan_6m,n:0x03300126]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 0.961219;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.760406,0,-0.649448;
-	  p position = 0.0270147,12,1.36274,0x0040a6cb;
-	}
-}
-[t:c24_3_shroom_tree_cyan_9m,n:0x03300c9e]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.937451;
+	  f scale_multiplier = 1.12208;
 	}
 	[light_flicker_lightweight]
 	{
-	  x siege_light = 0x1ED51ED2;
+	  x siege_light = 0x206B241B;
 	}
 	[placement]
 	{
-	  q orientation = 0,0.979925,0,-0.199368;
-	  p position = -2.66625,-12,-5.16731,0x0040a6cb;
+	  q orientation = 0,0.601815,0,0.798635;
+	  p position = -3.14012,0,-0.946932,0x8c0e4553;
 	}
 }
-[t:c24_3_shroom_bush_01,n:0x03300fd6]
+[t:c24_3_shroom_bush_01,n:0x033001aa]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.03842;
+	  f scale_multiplier = 1.00507;
 	}
 	[placement]
 	{
-	  q orientation = 0,0.878817,0,0.477159;
-	  p position = -1.23413,-12,-5.16949,0x0040a6cb;
+	  q orientation = 0,0.992546,0,-0.12187;
+	  p position = -1.84617,0,-0.609268,0x8c0e4553;
 	}
 }
-[t:shroom_cav_group_09,n:0x033008a7]
+[t:shroom_cav_group_09,n:0x03300491]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 0.832587;
+	  f scale_multiplier = 0.849161;
 	}
 	[common]
 	{
@@ -33278,139 +32986,143 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.229222,0,0.973374;
-	  p position = 1.81253,-11.9817,-1.87224,0x2909d9ee;
+	  q orientation = 0,0.938468,0,0.345366;
+	  p position = -0.112128,0,-1.67912,0x8c0e4553;
 	}
 }
-[t:c24_3_shroom_tree_red_lg,n:0x03301457]
+[t:c24_3_shroom_tree_cyan_9m,n:0x0330005a]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.10373;
+	  f scale_multiplier = 0.942177;
 	}
 	[light_flicker_lightweight]
 	{
-	  x siege_light = 0x58EFB70D;
+	  x siege_light = 0x5F379C5F;
 	}
 	[placement]
 	{
-	  q orientation = 0,0.83867,0,-0.544639;
-	  p position = 1.99874,2,-2.65357,0x14315e78;
+	  q orientation = 0,0.987688,0,0.156434;
+	  p position = -2.2234,0,-2.75987,0xf16e9fef;
 	}
 }
-[t:c24_3_shroom_tree_red_lg,n:0x03301458]
+[t:c24_3_shroom_trunk,n:0x03300073]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.14237;
+	  f scale_multiplier = 1.39873;
 	}
 	[light_flicker_lightweight]
 	{
-	  x siege_light = 0xF7B24DE7;
+	  x siege_light = 0x124B6D2E;
 	}
 	[placement]
 	{
-	  q orientation = 0,0.333807,0,0.942641;
-	  p position = -2.08188,2,-1.79218,0x14315e78;
+	  q orientation = 0,0.147809,0,0.989016;
+	  p position = -1.58979,0,1.7651,0xf16e9fef;
 	}
 }
-[t:c24_3_shroom_tree_red_lg,n:0x03301459]
+[t:c24_3_shroom_bush_01,n:0x033000f4]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 0.7938;
+	  f scale_multiplier = 1.04154;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.970296,0,0.241922;
+	  p position = -2.42704,0,-3.11414,0xf16e9fef;
+	}
+}
+[t:shroom_cav_group_09,n:0x03300719]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.14509;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.893442,0,-0.449179;
+	  p position = 3.77774,0,-1.8934,0xf16e9fef;
+	}
+}
+[t:c24_3_shroom_trunk,n:0x0330007a]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.20131;
 	}
 	[light_flicker_lightweight]
 	{
-	  x siege_light = 0xB4658ED9;
+	  x siege_light = 0xFBB45C2D;
 	}
 	[placement]
 	{
-	  q orientation = 0,0.656059,0,0.75471;
-	  p position = -0.669677,2,0.459118,0x14315e78;
+	  q orientation = 0,0.529919,0,0.848048;
+	  p position = 2.54945,3.91008,1.78714,0xfcbee795;
 	}
 }
-[t:shroom_cav_group_09,n:0x03300165]
+[t:c24_3_shroom_tree_cyan_9m,n:0x0330007b]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.01214;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.959666,0,0.281142;
-	  p position = 1.70171,0,-1.49737,0x92511903;
-	}
-}
-[t:shroom_cav_group_09,n:0x033003e0]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.21893;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.999396,0,-0.034737;
-	  p position = -0.222206,0,0.99566,0x92511903;
-	}
-}
-[t:shroom_cav_group_09,n:0x033009a8]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.08932;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.990886,0,0.134701;
-	  p position = -2.48006,0,-1.28045,0x92511903;
-	}
-}
-[t:c24_3_shroom_tree_cyan_9m,n:0x03300c9f]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.04256;
+	  f scale_multiplier = 1.16;
 	}
 	[light_flicker_lightweight]
 	{
-	  x siege_light = 0x8EB340A7;
+	  x siege_light = 0xF820FE59;
 	}
 	[placement]
 	{
-	  q orientation = 0,0.608761,0,-0.793353;
-	  p position = 1.13032,3.8147e-006,-0.627231,0x92511903;
+	  q orientation = 0,0.216439,0,-0.976296;
+	  p position = 1.91293,3.96978,3.33193,0xfcbee795;
 	}
 }
-[t:c24_3_shroom_bush_01,n:0x03300fdc]
+[t:c24_3_shroom_bush_01,n:0x033000a5]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 0.924296;
+	  f scale_multiplier = 1.06847;
 	}
 	[placement]
 	{
-	  q orientation = 0,0.956305,0,0.292372;
-	  p position = -1.17329,0,0.242039,0x92511903;
+	  q orientation = 0,0.642788,0,0.766044;
+	  p position = -2.76039,-3.74781,-1.54589,0xfcbee795;
 	}
 }
-[t:shroom_cav_group_09,n:0x033003ed]
+[t:c24_3_shroom_bush_01,n:0x033000a6]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.24822;
+	  f scale_multiplier = 1.06057;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.987688,0,-0.156435;
+	  p position = -1.12723,-4,-3.61831,0xfcbee795;
+	}
+}
+[t:c24_3_shroom_bush_01,n:0x033000f2]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.15014;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.017452,0,-0.999848;
+	  p position = 1.51452,3.98317,3.08175,0xfcbee795;
+	}
+}
+[t:shroom_cav_group_09,n:0x033006c6]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.975618;
 	}
 	[common]
 	{
@@ -33418,15 +33130,15 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.326111,0,-0.945331;
-	  p position = 0.016673,0,-1.77697,0x3afecab0;
+	  q orientation = 0,0.668201,0,0.74398;
+	  p position = -0.9539,-3.8788,-2.45943,0xfcbee795;
 	}
 }
-[t:shroom_cav_group_09,n:0x033007b8]
+[t:shroom_cav_group_09,n:0x03300a72]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 0.968434;
+	  f scale_multiplier = 0.908265;
 	}
 	[common]
 	{
@@ -33434,87 +33146,31 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.312606,0,0.949883;
-	  p position = -2.66887,0,-1.00751,0x3afecab0;
+	  q orientation = 0,0.352171,0,0.935936;
+	  p position = -3.82378,-4,-3.12063,0xfcbee795;
 	}
 }
-[t:c24_3_shroom_tree_red_lg,n:0x0330145a]
+[t:c24_3_shroom_tree_cyan_6m,n:0x03300125]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.018;
+	  f scale_multiplier = 1.32282;
 	}
 	[light_flicker_lightweight]
 	{
-	  x siege_light = 0x5CF52434;
+	  x siege_light = 0xCEBC1E2F;
 	}
 	[placement]
 	{
-	  q orientation = 0,0.999657,0,-0.0261771;
-	  p position = 3.87667,0,0.575971,0x3afecab0;
+	  q orientation = 0,0.309017,0,-0.951057;
+	  p position = 0.231316,2,1.87445,0x875118d7;
 	}
 }
-[t:c24_3_shroom_tree_cyan_9m,n:0x03300d74]
+[t:shroom_cav_group_09,n:0x0330088a]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.03961;
-	}
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0xE1F41D82;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.382683,0,-0.92388;
-	  p position = -5.49974,0.549999,2.11479,0x13c52644;
-	}
-}
-[t:c24_3_shroom_bush_01,n:0x03300fd9]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.09495;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.422618,0,0.906308;
-	  p position = -5.78461,0.550011,0.170616,0x13c52644;
-	}
-}
-[t:c24_3_shroom_bush_01,n:0x03300fda]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.0516;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.843392,0,0.537299;
-	  p position = -4.43762,0.550003,1.78242,0x13c52644;
-	}
-}
-[t:c24_3_shroom_tree_red_lg,n:0x0330145e]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.10877;
-	}
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0x71B7F9EA;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.766044,0,0.642788;
-	  p position = -6.80596,2,-0.414143,0x44b6d5e9;
-	}
-}
-[t:shroom_cav_group_09,n:0x0330073b]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.27583;
+	  f scale_multiplier = 0.853706;
 	}
 	[common]
 	{
@@ -33522,852 +33178,32 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.945413,0,-0.325876;
-	  p position = -2.92028,0,0.366581,0x3a9619b5;
+	  q orientation = 0,0.961786,0,0.273802;
+	  p position = 0.892177,-2,-1.54637,0xa89647e1;
 	}
 }
-[t:shroom_cav_group_09,n:0x033008b3]
+[t:c24_3_shroom_bush_01,n:0x033001a8]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 0.843278;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.985796,0,0.167948;
-	  p position = -1.06587,0,-1.94375,0x3a9619b5;
-	}
-}
-[t:shroom_cav_group_09,n:0x03300965]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.996305;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.999841,0,-0.017835;
-	  p position = -3.26473,0,-1.94066,0x3a9619b5;
-	}
-}
-[t:c24_3_shroom_bush_01,n:0x03300fdb]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.964637;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.898794,0,-0.438371;
-	  p position = -0.423506,0,1.59768,0x3a9619b5;
-	}
-}
-[t:c24_3_shroom_tree_red_lg,n:0x0330145f]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.968082;
-	}
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0x28D094BA;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.788011,0,-0.615662;
-	  p position = -1.80404,3.8147e-006,-0.786325,0x3a9619b5;
-	}
-}
-[t:shroom_cav_group_09,n:0x0330078a]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.911568;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.579426,0,-0.815025;
-	  p position = -3.70916,0,0.23582,0x15f5f577;
-	}
-}
-[t:c24_3_shroom_tree_red_lg,n:0x0330145d]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.16349;
-	}
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0x7851A459;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.642787,0,-0.766045;
-	  p position = -1.72051,-3.8147e-006,-1.06249,0x15f5f577;
-	}
-}
-[t:shroom_cav_group_09,n:0x033008a5]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.918101;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.828288,0,-0.560302;
-	  p position = 1.48553,-12,-4.99058,0x27080197;
-	}
-}
-[t:c24_3_shroom_tree_cyan_9m,n:0x03300cb0]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.09212;
-	}
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0x59CF0796;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.798635,0,-0.601815;
-	  p position = -2.21695,-12,-5.20328,0x27080197;
-	}
-}
-[t:c24_3_shroom_tree_red_lg,n:0x03301440]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.13011;
-	}
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0xE66975EF;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.979925,0,0.199368;
-	  p position = 0.0956287,12,1.15188,0x27080197;
-	}
-}
-[t:shroom_cav_group_09,n:0x03300a24]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.914824;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.983618,0,0.180267;
-	  p position = -0.748205,-12,-1.87068,0xcea54977;
-	}
-}
-[t:c24_3_shroom_tree_cyan_9m,n:0x0330004a]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.927034;
-	}
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0xDB9F9AE6;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.292371,0,-0.956305;
-	  p position = 1.30864,0,-1.15118,0xcacb32d9;
-	}
-}
-[t:c24_3_shroom_bush_01,n:0x0330009c]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.10877;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.139173,0,0.990268;
-	  p position = 1.40674,0,-0.99716,0xcacb32d9;
-	}
-}
-[t:c24_3_shroom_bush_01,n:0x0330009d]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.956184;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.906308,0,-0.422619;
-	  p position = 3.28454,-9.53674e-007,-3.01634,0xcacb32d9;
-	}
-}
-[t:c24_3_shroom_bush_01,n:0x0330009e]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.920112;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.446198,0,0.894934;
-	  p position = 0.369893,0,-2.79268,0xcacb32d9;
-	}
-}
-[t:c24_3_shroom_bush_01,n:0x0330009f]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.15277;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.309017,0,0.951056;
-	  p position = -1.95089,0,-2.56068,0xcacb32d9;
-	}
-}
-[t:c24_3_shroom_bush_01,n:0x033000a0]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.0762;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.052336,0,0.99863;
-	  p position = 0.0662222,0,-0.182442,0xcacb32d9;
-	}
-}
-[t:c24_3_shroom_tree_cyan_6m,n:0x03300103]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.01303;
-	}
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0x21CF553B;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.694658,0,0.71934;
-	  p position = 3.36388,0,0.973928,0xcacb32d9;
-	}
-}
-[t:shroom_cav_group_09,n:0x03300779]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.808115;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.99123,0,0.13215;
-	  p position = 2.00973,0,0.508431,0xcacb32d9;
-	}
-}
-[t:shroom_cav_group_09,n:0x03300924]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.24505;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.452149,0,0.891943;
-	  p position = 0.122593,0,-0.441828,0xcacb32d9;
-	}
-}
-[t:shroom_cav_group_09,n:0x03300958]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.10877;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.628368,0,0.777916;
-	  p position = 0.411544,0,0.79058,0xcacb32d9;
-	}
-}
-[t:shroom_cav_group_09,n:0x033009d4]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.24277;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.027695,0,0.999616;
-	  p position = 2.42666,0,2.31308,0xcacb32d9;
-	}
-}
-[t:c24_3_shroom_tree_cyan_9m,n:0x03300044]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.935647;
-	}
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0x1363DE90;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.996195,0,0.0871556;
-	  p position = -0.401964,0,-1.53257,0xdfac630c;
-	}
-}
-[t:c24_3_shroom_bush_01,n:0x0330009a]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.957373;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.45399,0,-0.891007;
-	  p position = 0.161034,0,0.566488,0xdfac630c;
-	}
-}
-[t:shroom_cav_group_09,n:0x033003ad]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.824953;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.411257,0,-0.911519;
-	  p position = 2.51008,0,0.773635,0xdfac630c;
-	}
-}
-[t:shroom_cav_group_09,n:0x03300749]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.964192;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.860962,0,-0.508669;
-	  p position = 2.50926,0,1.45041,0xdfac630c;
-	}
-}
-[t:shroom_cav_group_09,n:0x0330095d]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.990209;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.655892,0,-0.754854;
-	  p position = 3.14749,0,-0.246486,0xdfac630c;
-	}
-}
-[t:c24_3_shroom_bush_02,n:0x033015b3]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = -0.190744,0,1.16762,0xdfac630c;
-	}
-}
-[t:c24_3_shroom_bush_02,n:0x033015b5]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = -2.81874,0,0.00488853,0xdfac630c;
-	}
-}
-[t:c24_3_shroom_tree_cyan_9m,n:0x03300043]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.08083;
-	}
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0x92A125EE;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.284015,0,0.95882;
-	  p position = -1.01671,0,-2.80921,0xe345036e;
-	}
-}
-[t:c24_3_shroom_bush_01,n:0x03300167]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.952522;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.406737,0,0.913546;
-	  p position = -3.62352,0,-1.97083,0xe345036e;
-	}
-}
-[t:shroom_cav_group_09,n:0x033004fe]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.820604;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.597805,0,0.801642;
-	  p position = -1.98985,0,-1.04198,0xe345036e;
-	}
-}
-[t:shroom_cav_group_09,n:0x033007c0]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.05137;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.829211,0,0.558935;
-	  p position = -1.46976,0,2.97648,0xe345036e;
-	}
-}
-[t:shroom_cav_group_09,n:0x033007c2]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.932688;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.898784,0,-0.438393;
-	  p position = 3.53941,0,-2.41186,0xe345036e;
-	}
-}
-[t:shroom_cav_group_09,n:0x033007fb]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.993116;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.562605,0,-0.826726;
-	  p position = -3.65611,0,-2.29009,0xe345036e;
-	}
-}
-[t:shroom_cav_group_09,n:0x03300893]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.19951;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.786713,0,0.617318;
-	  p position = 2.16981,0,-3.07314,0xe345036e;
-	}
-}
-[t:shroom_cav_group_09,n:0x0330089f]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.28403;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.954629,0,-0.297799;
-	  p position = -1.9457,0,-3.68675,0xe345036e;
-	}
-}
-[t:shroom_cav_group_09,n:0x0330091b]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.238;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.220115,0,-0.975474;
-	  p position = 2.43149,0,-2.1007,0xe345036e;
-	}
-}
-[t:shroom_cav_group_09,n:0x03300a0a]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.19297;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.050221,0,0.998738;
-	  p position = 1.90776,0,-2.22343,0xe345036e;
-	}
-}
-[t:shroom_cav_group_09,n:0x03300a98]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.0268;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.123733,0,0.992316;
-	  p position = 3.10302,0,-2.5756,0xe345036e;
-	}
-}
-[t:shroom_cav_group_09,n:0x03300694]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.90812;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.880018,0,-0.474941;
-	  p position = -0.412186,0,-3.73453,0xfed345a9;
-	}
-}
-[t:shroom_cav_group_09,n:0x03300728]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.947596;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.309779,0,0.950809;
-	  p position = 2.87388,0,2.3675,0xfed345a9;
-	}
-}
-[t:shroom_cav_group_09,n:0x0330087f]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.880218;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.439949,0,0.898023;
-	  p position = -2.97802,0,-2.59363,0xfed345a9;
-	}
-}
-[t:shroom_cav_group_09,n:0x0330092e]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.07884;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.645171,0,-0.764038;
-	  p position = 0.760521,0,1.52057,0xfed345a9;
-	}
-}
-[t:c24_3_shroom_bush_01,n:0x03300a58]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.14867;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.165048,0,0.986286;
-	  p position = -2.99934,0,-2.98365,0xfed345a9;
-	}
-}
-[t:shroom_cav_group_02,n:0x03300ffe]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.11469;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.766044,0,0.642788;
-	  p position = 0.915564,0,2.64183,0xfed345a9;
-	}
-}
-[t:shroom_cav_group_02,n:0x03301227]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.964627;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.870356,0,0.492423;
-	  p position = 1.56779,0,3.92093,0xfed345a9;
-	}
-}
-[t:shroom_cav_group_02,n:0x03301228]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.11489;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.99863,0,0.0523359;
-	  p position = 3.39505,0,3.64361,0xfed345a9;
-	}
-}
-[t:c24_3_shroom_tree_red_md,n:0x033013e8]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.05041;
+	  f scale_multiplier = 0.954258;
 	}
 	[placement]
 	{
 	  q orientation = 0,0.446198,0,-0.894935;
-	  p position = 0.911648,0,-2.84895,0xfed345a9;
+	  p position = -1.30748,1.9807,0.983289,0xa9845132;
 	}
 }
-[t:c24_3_shroom_tree_red_md,n:0x033013e9]
+[t:c24_3_shroom_bush_01,n:0x033001a9]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 0.814292;
+	  f scale_multiplier = 1.03112;
 	}
 	[placement]
 	{
-	  q orientation = 0,0.96363,0,0.267238;
-	  p position = 2.33862,0,-2.81763,0xfed345a9;
-	}
-}
-[t:c24_3_shroom_tree_red_md,n:0x033013ea]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.17807;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.848048,0,-0.529919;
-	  p position = -2.71981,0,3.54696,0xfed345a9;
-	}
-}
-[t:c24_3_shroom_tree_cyan_6m,n:0x0330010b]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.37592;
-	}
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0xF5050BDE;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.333807,0,0.942641;
-	  p position = 2.16881,0,-0.0473545,0x7150fbb1;
-	}
-}
-[t:c24_3_shroom_tree_cyan_6m,n:0x0330010c]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.081;
-	}
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0x7F4892E2;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.760406,0,-0.649448;
-	  p position = 1.10131,-1.90735e-006,-2.91456,0x7150fbb1;
-	}
-}
-[t:c24_3_shroom_bush_01,n:0x0330016a]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.08685;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.866026,0,0.5;
-	  p position = 1.62489,0,0.284826,0x7150fbb1;
-	}
-}
-[t:c24_3_shroom_bush_01,n:0x0330016b]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.906907;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.48481,0,0.874619;
-	  p position = 0.929659,0,-2.4112,0x7150fbb1;
-	}
-}
-[t:c24_3_shroom_bush_01,n:0x0330016c]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.14472;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.984808,0,0.173648;
-	  p position = 3.0786,0,-3.02749,0x7150fbb1;
-	}
-}
-[t:shroom_cav_group_02,n:0x03301213]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.904546;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.894934,0,0.446198;
-	  p position = -0.277199,1.90735e-006,2.50325,0x7150fbb1;
-	}
-}
-[t:shroom_cav_group_02,n:0x03301229]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.0726;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.85264,0,-0.522499;
-	  p position = -2.12123,0,2.53875,0x7150fbb1;
-	}
-}
-[t:shroom_cav_group_09,n:0x033008f9]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.22374;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.852495,0,0.522736;
-	  p position = -2.16766,0,1.82219,0xdbba4746;
-	}
-}
-[t:shroom_cav_group_02,n:0x0330122a]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.02491;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.656059,0,-0.75471;
-	  p position = 0.648655,-1.90735e-006,1.56928,0xdbba4746;
+	  q orientation = 0,0.939693,0,-0.34202;
+	  p position = -1.02325,0,-1.12886,0x7b7426e2;
 	}
 }
 [t:c24_3_shroom_tree_cyan_9m,n:0x03300046]
@@ -34572,6 +33408,98 @@
 	{
 	  q orientation = 0,-0.19509,0,0.980785;
 	  p position = 1.50106,0,-0.832792,0xcef2c71b;
+	}
+}
+[t:c24_3_shroom_tree_cyan_6m,n:0x0330010b]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.37592;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xF5050BDE;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.333807,0,0.942641;
+	  p position = 2.16881,0,-0.0473545,0x7150fbb1;
+	}
+}
+[t:c24_3_shroom_tree_cyan_6m,n:0x0330010c]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.081;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x7F4892E2;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.760406,0,-0.649448;
+	  p position = 1.10131,-1.90735e-006,-2.91456,0x7150fbb1;
+	}
+}
+[t:c24_3_shroom_bush_01,n:0x0330016a]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.08685;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.866026,0,0.5;
+	  p position = 1.62489,0,0.284826,0x7150fbb1;
+	}
+}
+[t:c24_3_shroom_bush_01,n:0x0330016b]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.906907;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.48481,0,0.874619;
+	  p position = 0.929659,0,-2.4112,0x7150fbb1;
+	}
+}
+[t:c24_3_shroom_bush_01,n:0x0330016c]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.14472;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.984808,0,0.173648;
+	  p position = 3.0786,0,-3.02749,0x7150fbb1;
+	}
+}
+[t:shroom_cav_group_02,n:0x03301213]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.904546;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.894934,0,0.446198;
+	  p position = -0.277199,1.90735e-006,2.50325,0x7150fbb1;
+	}
+}
+[t:shroom_cav_group_02,n:0x03301229]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.0726;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.85264,0,-0.522499;
+	  p position = -2.12123,0,2.53875,0x7150fbb1;
 	}
 }
 [t:c24_3_shroom_tree_cyan_9m,n:0x03300045]
@@ -41079,32 +40007,260 @@
 	  p position = -5.38657,-3.95,-1.77397,0xbfa99ff9;
 	}
 }
-[t:c24_3_shroom_tree_cyan_9m,n:0x03300059]
+[t:c24_3_shroom_tree_cyan_9m,n:0x03300c9d]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 0.975701;
+	  f scale_multiplier = 0.916706;
 	}
 	[light_flicker_lightweight]
 	{
-	  x siege_light = 0x9F889C56;
+	  x siege_light = 0xFCF81A7A;
 	}
 	[placement]
 	{
-	  q orientation = 0,0.945519,0,0.325568;
-	  p position = 2.81632,15.9884,3.9535,0x58e49c92;
+	  q orientation = 0,0.515038,0,-0.857167;
+	  p position = 0.531216,6,0.305328,0xfbe8b250;
 	}
 }
-[t:c24_3_shroom_bush_01,n:0x033000f6]
+[t:c24_3_shroom_bush_01,n:0x03300fd1]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 0.927158;
+	  f scale_multiplier = 1.01674;
 	}
 	[placement]
 	{
-	  q orientation = 0,0.902585,0,0.430511;
-	  p position = 2.88153,15.9792,3.91698,0x58e49c92;
+	  q orientation = 0,0.130526,0,-0.991445;
+	  p position = 1.87586,6,-0.780285,0xfbe8b250;
+	}
+}
+[t:c24_3_shroom_tree_red_lg,n:0x03301456]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.17658;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xE155FCD8;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.953717,0,0.300706;
+	  p position = 0.0830269,-5.79083,-4.97494,0xfbe8b250;
+	}
+}
+[t:c24_3_shroom_tree_cyan_6m,n:0x03300e82]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.986738;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x321E33C8;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.507538,0,0.861629;
+	  p position = 2.5833,8,5.13053,0x13b80a19;
+	}
+}
+[t:c24_3_shroom_bush_01,n:0x03300fd0]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.977334;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.987688,0,-0.156435;
+	  p position = 3.53034,5.88996,5.18832,0x13b80a19;
+	}
+}
+[t:c24_3_shroom_bush_01,n:0x03300fd2]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.12049;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.594823,0,0.803857;
+	  p position = 0.304852,8,4.34528,0x13b80a19;
+	}
+}
+[t:c24_3_shroom_tree_red_lg,n:0x03301455]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.835444;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xF526959B;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.953717,0,0.300706;
+	  p position = 1.99621,-3.67508,-0.189619,0x13b80a19;
+	}
+}
+[t:shroom_cav_group_09,n:0x033005cd]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.20017;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.965406,0,0.26075;
+	  p position = -19.1077,-12,-16.7935,0x10a5c5d0;
+	}
+}
+[t:shroom_cav_group_09,n:0x03300976]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.940411;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.600229,0,-0.799828;
+	  p position = -16.6022,-12,-16.8715,0x10a5c5d0;
+	}
+}
+[t:c24_3_shroom_tree_cyan_9m,n:0x03300271]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.76253;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x4AA5D681;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.678223,0,0.734856;
+	  p position = 0.296526,0,0.726402,0xe5b4414f;
+	}
+}
+[t:c24_3_shroom_bush_01,n:0x03300532]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.19414;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.406083,0,0.913836;
+	  p position = 0.719534,0,-0.166019,0xe5b4414f;
+	}
+}
+[t:c24_3_shroom_bush_01,n:0x033006b7]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.17829;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.522334,0,-0.852741;
+	  p position = -1.15546,0,-0.784184,0xe5b4414f;
+	}
+}
+[t:shroom_cav_group_09,n:0x03300968]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.871481;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.481861,0,0.876248;
+	  p position = -1.01768,0,-0.84197,0xe5b4414f;
+	}
+}
+[t:c24_3_shroom_bush_01,n:0x03300717]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.09555;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.654185,0,-0.756334;
+	  p position = 1.75277,-6,-0.629625,0xdf644de1;
+	}
+}
+[t:shroom_cav_group_09,n:0x033008e9]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.84214;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.998196,0,0.060031;
+	  p position = 1.49187,-6,-0.109947,0xdf644de1;
+	}
+}
+[t:c24_3_shroom_tree_cyan_9m,n:0x03300c28]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.905348;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xEC549D72;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.62932,0,-0.777146;
+	  p position = 1.29497,1.90735e-006,1.14033,0xd82b06bb;
+	}
+}
+[t:c24_3_shroom_bush_01,n:0x03300fd3]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.976034;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.992546,0,-0.12187;
+	  p position = -0.0560265,3.8147e-006,-1.61231,0xd82b06bb;
+	}
+}
+[t:c24_3_shroom_bush_01,n:0x03300fd4]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.01894;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.737277,0,-0.67559;
+	  p position = 1.35493,3.8147e-006,0.34306,0xd82b06bb;
 	}
 }
 [t:c24_3_shroom_tree_cyan_6m,n:0x03300131]
@@ -41147,364 +40303,48 @@
 	  p position = 1.93309,-20,-3.74875,0x04e8e2c0;
 	}
 }
-[t:c24_3_shroom_tree_cyan_9m,n:0x03300057]
+[t:c24_3_shroom_tree_cyan_6m,n:0x0330012b]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.00003;
+	  f scale_multiplier = 1.18835;
 	}
 	[light_flicker_lightweight]
 	{
-	  x siege_light = 0x5A4F7485;
+	  x siege_light = 0xBE88B40D;
 	}
 	[placement]
 	{
-	  q orientation = 0,0.979925,0,0.199368;
-	  p position = 2.52509,-3.8147e-006,-0.116114,0x2dde7286;
+	  q orientation = 0,0.891007,0,0.45399;
+	  p position = 2.72658,16,-1.17399,0xb4d4b228;
 	}
 }
-[t:c24_3_shroom_trunk,n:0x03300074]
+[t:c24_3_shroom_tree_cyan_9m,n:0x03300d75]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.27904;
+	  f scale_multiplier = 1.06074;
 	}
 	[light_flicker_lightweight]
 	{
-	  x siege_light = 0x50063D09;
+	  x siege_light = 0xD4F6FACA;
 	}
 	[placement]
 	{
-	  q orientation = 0,0.0697562,0,-0.997564;
-	  p position = -0.613941,0,-0.253968,0x2dde7286;
+	  q orientation = 0,0.182235,0,-0.983255;
+	  p position = -3.63851,-16,-4.14061,0xb4d4b228;
 	}
 }
-[t:c24_3_shroom_bush_01,n:0x033000f7]
+[t:c24_3_shroom_bush_01,n:0x03300fd8]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 0.988765;
+	  f scale_multiplier = 1.06277;
 	}
 	[placement]
 	{
-	  q orientation = 0,0.866025,0,-0.5;
-	  p position = 2.68351,0,-0.187714,0x2dde7286;
-	}
-}
-[t:c24_3_shroom_bush_01,n:0x033001a0]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.90229;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.939693,0,0.34202;
-	  p position = -0.202785,0,1.12917,0x2dde7286;
-	}
-}
-[t:shroom_cav_group_09,n:0x0330076d]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.10485;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.234193,0,-0.97219;
-	  p position = 0.343609,0,0.389071,0x2dde7286;
-	}
-}
-[t:c24_3_shroom_tree_red_lg,n:0x03301441]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.943445;
-	}
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0x9B7C0C8C;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.224951,0,0.97437;
-	  p position = -2.28313,0,1.43954,0x64d38341;
-	}
-}
-[t:c24_3_shroom_bush_01,n:0x033000f9]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.00451;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.953717,0,-0.300706;
-	  p position = -2.93532,0,0.179043,0x1399908e;
-	}
-}
-[t:c24_3_shroom_tree_cyan_6m,n:0x0330012f]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.18572;
-	}
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0x56165173;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.999848,0,0.0174523;
-	  p position = 0.955389,1.90735e-006,3.02878,0x1399908e;
-	}
-}
-[t:c24_3_shroom_tree_cyan_6m,n:0x03300130]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.31843;
-	}
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0x33B4E155;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.965926,0,0.258819;
-	  p position = -2.1605,-1.90735e-006,2.41988,0x1399908e;
-	}
-}
-[t:c24_3_shroom_bush_01,n:0x033001ab]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.927745;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.788011,0,-0.615662;
-	  p position = -0.5336,0,1.1028,0x1399908e;
-	}
-}
-[t:c24_3_shroom_bush_01,n:0x033001ac]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.961571;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.995396,0,0.0958456;
-	  p position = 2.92138,0,1.90994,0x1399908e;
-	}
-}
-[t:shroom_cav_group_09,n:0x03300470]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.947292;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.998167,0,0.060522;
-	  p position = 3.6801,0,2.60807,0x1399908e;
-	}
-}
-[t:shroom_cav_group_09,n:0x033007b4]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.97912;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.9995,0,-0.031627;
-	  p position = -2.1681,0,-0.333448,0x1399908e;
-	}
-}
-[t:shroom_cav_group_09,n:0x03300832]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.21563;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.948606,0,0.316459;
-	  p position = -0.624721,0,1.48496,0x1399908e;
-	}
-}
-[t:shroom_cav_group_09,n:0x0330094b]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.951732;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.137822,0,0.990457;
-	  p position = 1.62752,0,-3.02094,0x1399908e;
-	}
-}
-[t:c24_3_shroom_tree_red_lg,n:0x03301442]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.09168;
-	}
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0xDE5CDEEA;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.833886,0,-0.551937;
-	  p position = 1.87145,0,-3.26197,0x1399908e;
-	}
-}
-[t:shroom_cav_group_09,n:0x033004d4]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.04184;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.569578,0,0.821937;
-	  p position = -2.86989,0,-0.96023,0x5d7760d6;
-	}
-}
-[t:shroom_cav_group_09,n:0x0330075f]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.924406;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.307432,0,0.95157;
-	  p position = 3.37436,0,-2.81707,0x5d7760d6;
-	}
-}
-[t:shroom_cav_group_09,n:0x033009b9]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.23977;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.812955,0,0.582327;
-	  p position = 1.71806,0,0.448256,0x5d7760d6;
-	}
-}
-[t:shroom_cav_group_09,n:0x03300a39]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.24914;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.220939,0,0.975288;
-	  p position = 0.690298,0,0.742544,0x5d7760d6;
-	}
-}
-[t:c24_3_shroom_tree_red_lg,n:0x03301445]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.11808;
-	}
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0xAEF4E228;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.707107,0,-0.707107;
-	  p position = -0.973976,0,-3.46934,0x5d7760d6;
-	}
-}
-[t:c24_3_shroom_tree_cyan_6m,n:0x0330012e]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.29718;
-	}
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0x193D16C4;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.222891,0,-0.974843;
-	  p position = 0.526535,0,1.69551,0x78ee2bed;
-	}
-}
-[t:c24_3_shroom_bush_01,n:0x0330019f]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.17218;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.190809,0,0.981627;
-	  p position = 0.789656,0,1.67538,0x78ee2bed;
-	}
-}
-[t:c24_3_shroom_tree_red_lg,n:0x03301443]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.757255;
-	}
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0x7947D60E;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.267238,0,0.96363;
-	  p position = 0.34651,-1.90735e-006,-0.863961,0x78ee2bed;
+	  q orientation = 0,0.999657,0,0.0261768;
+	  p position = -0.72231,-16,-5.17205,0xb4d4b228;
 	}
 }
 [t:c24_3_shroom_tree_cyan_9m,n:0x0330005c]
@@ -41797,6 +40637,250 @@
 	{
 	  q orientation = 0,0.113203,0,0.993572;
 	  p position = 0.478113,0,2.11796,0x3a765425;
+	}
+}
+[t:c24_3_shroom_tree_red_lg,n:0x03301441]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.943445;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x9B7C0C8C;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.224951,0,0.97437;
+	  p position = -2.28313,0,1.43954,0x64d38341;
+	}
+}
+[t:shroom_cav_group_09,n:0x033004d4]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.04184;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.569578,0,0.821937;
+	  p position = -2.86989,0,-0.96023,0x5d7760d6;
+	}
+}
+[t:shroom_cav_group_09,n:0x0330075f]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.924406;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.307432,0,0.95157;
+	  p position = 3.37436,0,-2.81707,0x5d7760d6;
+	}
+}
+[t:shroom_cav_group_09,n:0x033009b9]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.23977;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.812955,0,0.582327;
+	  p position = 1.71806,0,0.448256,0x5d7760d6;
+	}
+}
+[t:shroom_cav_group_09,n:0x03300a39]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.24914;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.220939,0,0.975288;
+	  p position = 0.690298,0,0.742544,0x5d7760d6;
+	}
+}
+[t:c24_3_shroom_tree_red_lg,n:0x03301445]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.11808;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xAEF4E228;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,-0.707107;
+	  p position = -0.973976,0,-3.46934,0x5d7760d6;
+	}
+}
+[t:c24_3_shroom_bush_01,n:0x033000f9]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.00451;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.953717,0,-0.300706;
+	  p position = -2.93532,0,0.179043,0x1399908e;
+	}
+}
+[t:c24_3_shroom_tree_cyan_6m,n:0x0330012f]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.18572;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x56165173;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.999848,0,0.0174523;
+	  p position = 0.955389,1.90735e-006,3.02878,0x1399908e;
+	}
+}
+[t:c24_3_shroom_tree_cyan_6m,n:0x03300130]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.31843;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x33B4E155;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.965926,0,0.258819;
+	  p position = -2.1605,-1.90735e-006,2.41988,0x1399908e;
+	}
+}
+[t:c24_3_shroom_bush_01,n:0x033001ab]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.927745;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.788011,0,-0.615662;
+	  p position = -0.5336,0,1.1028,0x1399908e;
+	}
+}
+[t:c24_3_shroom_bush_01,n:0x033001ac]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.961571;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.995396,0,0.0958456;
+	  p position = 2.92138,0,1.90994,0x1399908e;
+	}
+}
+[t:shroom_cav_group_09,n:0x03300470]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.947292;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.998167,0,0.060522;
+	  p position = 3.6801,0,2.60807,0x1399908e;
+	}
+}
+[t:shroom_cav_group_09,n:0x033007b4]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.97912;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.9995,0,-0.031627;
+	  p position = -2.1681,0,-0.333448,0x1399908e;
+	}
+}
+[t:shroom_cav_group_09,n:0x03300832]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.21563;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.948606,0,0.316459;
+	  p position = -0.624721,0,1.48496,0x1399908e;
+	}
+}
+[t:shroom_cav_group_09,n:0x0330094b]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.951732;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.137822,0,0.990457;
+	  p position = 1.62752,0,-3.02094,0x1399908e;
+	}
+}
+[t:c24_3_shroom_tree_red_lg,n:0x03301442]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.09168;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xDE5CDEEA;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.833886,0,-0.551937;
+	  p position = 1.87145,0,-3.26197,0x1399908e;
 	}
 }
 [t:shroom_cav_group_09,n:0x0330075b]
@@ -42903,6 +41987,50 @@
 	  p position = -1.3066,-1.90735e-006,-1.52489,0xee97dd70;
 	}
 }
+[t:c24_3_shroom_tree_cyan_6m,n:0x0330012e]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.29718;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x193D16C4;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.222891,0,-0.974843;
+	  p position = 0.526535,0,1.69551,0x78ee2bed;
+	}
+}
+[t:c24_3_shroom_bush_01,n:0x0330019f]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.17218;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.190809,0,0.981627;
+	  p position = 0.789656,0,1.67538,0x78ee2bed;
+	}
+}
+[t:c24_3_shroom_tree_red_lg,n:0x03301443]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.757255;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x7947D60E;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.267238,0,0.96363;
+	  p position = 0.34651,-1.90735e-006,-0.863961,0x78ee2bed;
+	}
+}
 [t:c24_3_shroom_tree_cyan_9m,n:0x03300092]
 {
 	[aspect]
@@ -43251,11 +42379,67 @@
 	  p position = 3.25892,0,-0.601923,0x5faa64c9;
 	}
 }
-[t:shroom_cav_group_09,n:0x0330088a]
+[t:c24_3_shroom_tree_cyan_9m,n:0x03300057]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 0.853706;
+	  f scale_multiplier = 1.00003;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x5A4F7485;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.979925,0,0.199368;
+	  p position = 2.52509,-3.8147e-006,-0.116114,0x2dde7286;
+	}
+}
+[t:c24_3_shroom_trunk,n:0x03300074]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.27904;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x50063D09;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.0697562,0,-0.997564;
+	  p position = -0.613941,0,-0.253968,0x2dde7286;
+	}
+}
+[t:c24_3_shroom_bush_01,n:0x033000f7]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.988765;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.866025,0,-0.5;
+	  p position = 2.68351,0,-0.187714,0x2dde7286;
+	}
+}
+[t:c24_3_shroom_bush_01,n:0x033001a0]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.90229;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.939693,0,0.34202;
+	  p position = -0.202785,0,1.12917,0x2dde7286;
+	}
+}
+[t:shroom_cav_group_09,n:0x0330076d]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.10485;
 	}
 	[common]
 	{
@@ -43263,400 +42447,36 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.961786,0,0.273802;
-	  p position = 0.892177,-2,-1.54637,0xa89647e1;
+	  q orientation = 0,0.234193,0,-0.97219;
+	  p position = 0.343609,0,0.389071,0x2dde7286;
 	}
 }
-[t:c24_3_shroom_tree_cyan_9m,n:0x0330005a]
+[t:c24_3_shroom_tree_cyan_9m,n:0x03300059]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 0.942177;
+	  f scale_multiplier = 0.975701;
 	}
 	[light_flicker_lightweight]
 	{
-	  x siege_light = 0x5F379C5F;
+	  x siege_light = 0x9F889C56;
 	}
 	[placement]
 	{
-	  q orientation = 0,0.987688,0,0.156434;
-	  p position = -2.2234,0,-2.75987,0xf16e9fef;
+	  q orientation = 0,0.945519,0,0.325568;
+	  p position = 2.81632,15.9884,3.9535,0x58e49c92;
 	}
 }
-[t:c24_3_shroom_trunk,n:0x03300073]
+[t:c24_3_shroom_bush_01,n:0x033000f6]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.39873;
-	}
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0x124B6D2E;
+	  f scale_multiplier = 0.927158;
 	}
 	[placement]
 	{
-	  q orientation = 0,0.147809,0,0.989016;
-	  p position = -1.58979,0,1.7651,0xf16e9fef;
-	}
-}
-[t:c24_3_shroom_bush_01,n:0x033000f4]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.04154;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.970296,0,0.241922;
-	  p position = -2.42704,0,-3.11414,0xf16e9fef;
-	}
-}
-[t:shroom_cav_group_09,n:0x03300719]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.14509;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.893442,0,-0.449179;
-	  p position = 3.77774,0,-1.8934,0xf16e9fef;
-	}
-}
-[t:c24_3_shroom_tree_cyan_6m,n:0x03300124]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.0992;
-	}
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0x0AB523E6;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.430511,0,-0.902585;
-	  p position = 3.36394,-1.90735e-006,0.411249,0x8c0e4553;
-	}
-}
-[t:c24_3_shroom_tree_cyan_6m,n:0x03300126]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.12208;
-	}
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0x206B241B;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.601815,0,0.798635;
-	  p position = -3.14012,0,-0.946932,0x8c0e4553;
-	}
-}
-[t:c24_3_shroom_bush_01,n:0x033001aa]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.00507;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.992546,0,-0.12187;
-	  p position = -1.84617,0,-0.609268,0x8c0e4553;
-	}
-}
-[t:shroom_cav_group_09,n:0x03300491]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.849161;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.938468,0,0.345366;
-	  p position = -0.112128,0,-1.67912,0x8c0e4553;
-	}
-}
-[t:c24_3_shroom_tree_cyan_9m,n:0x0330005b]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.973382;
-	}
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0xAD0D4101;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.909961,0,0.414693;
-	  p position = -2.21146,15.9675,3.86987,0x793a3412;
-	}
-}
-[t:c24_3_shroom_bush_01,n:0x033000f5]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.00559;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.25038,0,0.968148;
-	  p position = -1.87128,15.9547,3.79132,0x793a3412;
-	}
-}
-[t:shroom_cav_group_09,n:0x033003a9]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.2021;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.542539,0,0.84003;
-	  p position = -15.2999,-12,-16.2586,0xc452a617;
-	}
-}
-[t:c24_3_shroom_tree_cyan_6m,n:0x0330012b]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.18835;
-	}
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0xBE88B40D;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.891007,0,0.45399;
-	  p position = 2.72658,16,-1.17399,0xb4d4b228;
-	}
-}
-[t:c24_3_shroom_tree_cyan_9m,n:0x03300d75]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.06074;
-	}
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0xD4F6FACA;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.182235,0,-0.983255;
-	  p position = -3.63851,-16,-4.14061,0xb4d4b228;
-	}
-}
-[t:c24_3_shroom_bush_01,n:0x03300fd8]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.06277;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.999657,0,0.0261768;
-	  p position = -0.72231,-16,-5.17205,0xb4d4b228;
-	}
-}
-[t:c24_3_shroom_trunk,n:0x0330007a]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.20131;
-	}
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0xFBB45C2D;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.529919,0,0.848048;
-	  p position = 2.54945,3.91008,1.78714,0xfcbee795;
-	}
-}
-[t:c24_3_shroom_tree_cyan_9m,n:0x0330007b]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.16;
-	}
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0xF820FE59;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.216439,0,-0.976296;
-	  p position = 1.91293,3.96978,3.33193,0xfcbee795;
-	}
-}
-[t:c24_3_shroom_bush_01,n:0x033000a5]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.06847;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.642788,0,0.766044;
-	  p position = -2.76039,-3.74781,-1.54589,0xfcbee795;
-	}
-}
-[t:c24_3_shroom_bush_01,n:0x033000a6]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.06057;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.987688,0,-0.156435;
-	  p position = -1.12723,-4,-3.61831,0xfcbee795;
-	}
-}
-[t:c24_3_shroom_bush_01,n:0x033000f2]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.15014;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.017452,0,-0.999848;
-	  p position = 1.51452,3.98317,3.08175,0xfcbee795;
-	}
-}
-[t:shroom_cav_group_09,n:0x033006c6]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.975618;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.668201,0,0.74398;
-	  p position = -0.9539,-3.8788,-2.45943,0xfcbee795;
-	}
-}
-[t:shroom_cav_group_09,n:0x03300a72]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.908265;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.352171,0,0.935936;
-	  p position = -3.82378,-4,-3.12063,0xfcbee795;
-	}
-}
-[t:c24_3_shroom_tree_cyan_9m,n:0x03300047]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.15671;
-	}
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0x11BDF80E;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.713251,0,0.700909;
-	  p position = -18.0462,12,-14.1169,0x509e76e1;
-	}
-}
-[t:c24_3_shroom_bush_01,n:0x033000f1]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.18375;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.453991,0,0.891007;
-	  p position = -18.0604,12,-13.9813,0x509e76e1;
-	}
-}
-[t:c24_3_shroom_tree_cyan_6m,n:0x03300125]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.32282;
-	}
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0xCEBC1E2F;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.309017,0,-0.951057;
-	  p position = 0.231316,2,1.87445,0x875118d7;
-	}
-}
-[t:c24_3_shroom_bush_01,n:0x033001a9]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.03112;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.939693,0,-0.34202;
-	  p position = -1.02325,0,-1.12886,0x7b7426e2;
-	}
-}
-[t:c24_3_shroom_bush_01,n:0x033001a8]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.954258;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.446198,0,-0.894935;
-	  p position = -1.30748,1.9807,0.983289,0xa9845132;
-	}
-}
-[t:shroom_cav_group_09,n:0x033009a2]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.05032;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.946343,0,-0.323163;
-	  p position = -3.22442,-4,-1.93196,0xe6a8fac2;
+	  q orientation = 0,0.902585,0,0.430511;
+	  p position = 2.88153,15.9792,3.91698,0x58e49c92;
 	}
 }
 [t:c24_3_shroom_bush_01,n:0x033003fe]
@@ -44803,6 +43623,1006 @@
 	  p position = 3.11013,0,0.0230912,0xf360915e;
 	}
 }
+[t:c24_3_shroom_tree_cyan_9m,n:0x03300043]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.08083;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x92A125EE;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.284015,0,0.95882;
+	  p position = -1.01671,0,-2.80921,0xe345036e;
+	}
+}
+[t:c24_3_shroom_bush_01,n:0x03300167]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.952522;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.406737,0,0.913546;
+	  p position = -3.62352,0,-1.97083,0xe345036e;
+	}
+}
+[t:shroom_cav_group_09,n:0x033004fe]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.820604;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.597805,0,0.801642;
+	  p position = -1.98985,0,-1.04198,0xe345036e;
+	}
+}
+[t:shroom_cav_group_09,n:0x033007c0]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.05137;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.829211,0,0.558935;
+	  p position = -1.46976,0,2.97648,0xe345036e;
+	}
+}
+[t:shroom_cav_group_09,n:0x033007c2]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.932688;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.898784,0,-0.438393;
+	  p position = 3.53941,0,-2.41186,0xe345036e;
+	}
+}
+[t:shroom_cav_group_09,n:0x033007fb]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.993116;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.562605,0,-0.826726;
+	  p position = -3.65611,0,-2.29009,0xe345036e;
+	}
+}
+[t:shroom_cav_group_09,n:0x03300893]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.19951;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.786713,0,0.617318;
+	  p position = 2.16981,0,-3.07314,0xe345036e;
+	}
+}
+[t:shroom_cav_group_09,n:0x0330089f]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.28403;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.954629,0,-0.297799;
+	  p position = -1.9457,0,-3.68675,0xe345036e;
+	}
+}
+[t:shroom_cav_group_09,n:0x0330091b]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.238;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.220115,0,-0.975474;
+	  p position = 2.43149,0,-2.1007,0xe345036e;
+	}
+}
+[t:shroom_cav_group_09,n:0x03300a0a]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.19297;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.050221,0,0.998738;
+	  p position = 1.90776,0,-2.22343,0xe345036e;
+	}
+}
+[t:shroom_cav_group_09,n:0x03300a98]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.0268;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.123733,0,0.992316;
+	  p position = 3.10302,0,-2.5756,0xe345036e;
+	}
+}
+[t:shroom_cav_group_09,n:0x03300694]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.90812;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.880018,0,-0.474941;
+	  p position = -0.412186,0,-3.73453,0xfed345a9;
+	}
+}
+[t:shroom_cav_group_09,n:0x03300728]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.947596;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.309779,0,0.950809;
+	  p position = 2.87388,0,2.3675,0xfed345a9;
+	}
+}
+[t:shroom_cav_group_09,n:0x0330087f]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.880218;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.439949,0,0.898023;
+	  p position = -2.97802,0,-2.59363,0xfed345a9;
+	}
+}
+[t:shroom_cav_group_09,n:0x0330092e]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.07884;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.645171,0,-0.764038;
+	  p position = 0.760521,0,1.52057,0xfed345a9;
+	}
+}
+[t:c24_3_shroom_bush_01,n:0x03300a58]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.14867;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.165048,0,0.986286;
+	  p position = -2.99934,0,-2.98365,0xfed345a9;
+	}
+}
+[t:shroom_cav_group_02,n:0x03300ffe]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.11469;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.766044,0,0.642788;
+	  p position = 0.915564,0,2.64183,0xfed345a9;
+	}
+}
+[t:shroom_cav_group_02,n:0x03301227]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.964627;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.870356,0,0.492423;
+	  p position = 1.56779,0,3.92093,0xfed345a9;
+	}
+}
+[t:shroom_cav_group_02,n:0x03301228]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.11489;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.99863,0,0.0523359;
+	  p position = 3.39505,0,3.64361,0xfed345a9;
+	}
+}
+[t:c24_3_shroom_tree_red_md,n:0x033013e8]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.05041;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.446198,0,-0.894935;
+	  p position = 0.911648,0,-2.84895,0xfed345a9;
+	}
+}
+[t:c24_3_shroom_tree_red_md,n:0x033013e9]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.814292;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.96363,0,0.267238;
+	  p position = 2.33862,0,-2.81763,0xfed345a9;
+	}
+}
+[t:c24_3_shroom_tree_red_md,n:0x033013ea]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.17807;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.848048,0,-0.529919;
+	  p position = -2.71981,0,3.54696,0xfed345a9;
+	}
+}
+[t:shroom_cav_group_09,n:0x033008f9]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.22374;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.852495,0,0.522736;
+	  p position = -2.16766,0,1.82219,0xdbba4746;
+	}
+}
+[t:shroom_cav_group_02,n:0x0330122a]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.02491;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.656059,0,-0.75471;
+	  p position = 0.648655,-1.90735e-006,1.56928,0xdbba4746;
+	}
+}
+[t:c24_3_shroom_tree_cyan_9m,n:0x03300d74]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.03961;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xE1F41D82;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.382683,0,-0.92388;
+	  p position = -5.49974,0.549999,2.11479,0x13c52644;
+	}
+}
+[t:c24_3_shroom_bush_01,n:0x03300fd9]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.09495;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.422618,0,0.906308;
+	  p position = -5.78461,0.550011,0.170616,0x13c52644;
+	}
+}
+[t:c24_3_shroom_bush_01,n:0x03300fda]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.0516;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.843392,0,0.537299;
+	  p position = -4.43762,0.550003,1.78242,0x13c52644;
+	}
+}
+[t:c24_3_shroom_tree_red_lg,n:0x03301457]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.10373;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x58EFB70D;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.83867,0,-0.544639;
+	  p position = 1.99874,2,-2.65357,0x14315e78;
+	}
+}
+[t:c24_3_shroom_tree_red_lg,n:0x03301458]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.14237;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xF7B24DE7;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.333807,0,0.942641;
+	  p position = -2.08188,2,-1.79218,0x14315e78;
+	}
+}
+[t:c24_3_shroom_tree_red_lg,n:0x03301459]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.7938;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xB4658ED9;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.656059,0,0.75471;
+	  p position = -0.669677,2,0.459118,0x14315e78;
+	}
+}
+[t:c24_3_shroom_tree_cyan_9m,n:0x03300047]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.15671;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x11BDF80E;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.713251,0,0.700909;
+	  p position = -18.0462,12,-14.1169,0x509e76e1;
+	}
+}
+[t:c24_3_shroom_bush_01,n:0x033000f1]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.18375;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.453991,0,0.891007;
+	  p position = -18.0604,12,-13.9813,0x509e76e1;
+	}
+}
+[t:c24_3_shroom_tree_cyan_9m,n:0x03300066]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.936594;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x7356DC67;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.700909,0,0.71325;
+	  p position = 0.118214,12,1.22182,0x0040a6cb;
+	}
+}
+[t:c24_3_shroom_bush_01,n:0x03300102]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.961219;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.760406,0,-0.649448;
+	  p position = 0.0270147,12,1.36274,0x0040a6cb;
+	}
+}
+[t:c24_3_shroom_tree_cyan_9m,n:0x03300c9e]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.937451;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x1ED51ED2;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.979925,0,-0.199368;
+	  p position = -2.66625,-12,-5.16731,0x0040a6cb;
+	}
+}
+[t:c24_3_shroom_bush_01,n:0x03300fd6]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.03842;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.878817,0,0.477159;
+	  p position = -1.23413,-12,-5.16949,0x0040a6cb;
+	}
+}
+[t:shroom_cav_group_09,n:0x033008a7]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.832587;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.229222,0,0.973374;
+	  p position = 1.81253,-11.9817,-1.87224,0x2909d9ee;
+	}
+}
+[t:c24_3_shroom_tree_cyan_9m,n:0x03300068]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.0639;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xDBD26834;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.422618,0,0.906308;
+	  p position = 0.797115,11.9489,3.82118,0xbb88a706;
+	}
+}
+[t:c24_3_shroom_bush_01,n:0x03300100]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.18146;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.996195,0,-0.0871559;
+	  p position = 0.877556,11.9624,3.86836,0xbb88a706;
+	}
+}
+[t:c24_3_shroom_bush_01,n:0x033007d8]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.84937;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.677425,0,-0.735592;
+	  p position = 1.00148,11.8569,2.91865,0xbb88a706;
+	}
+}
+[t:shroom_cav_group_09,n:0x03300954]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.872554;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.416339,0,0.909209;
+	  p position = 0.400724,0,1.39944,0x501669eb;
+	}
+}
+[t:shroom_cav_group_09,n:0x03300165]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.01214;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.959666,0,0.281142;
+	  p position = 1.70171,0,-1.49737,0x92511903;
+	}
+}
+[t:shroom_cav_group_09,n:0x033003e0]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.21893;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.999396,0,-0.034737;
+	  p position = -0.222206,0,0.99566,0x92511903;
+	}
+}
+[t:shroom_cav_group_09,n:0x033009a8]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.08932;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.990886,0,0.134701;
+	  p position = -2.48006,0,-1.28045,0x92511903;
+	}
+}
+[t:c24_3_shroom_tree_cyan_9m,n:0x03300c9f]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.04256;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x8EB340A7;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.608761,0,-0.793353;
+	  p position = 1.13032,3.8147e-006,-0.627231,0x92511903;
+	}
+}
+[t:c24_3_shroom_bush_01,n:0x03300fdc]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.924296;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.956305,0,0.292372;
+	  p position = -1.17329,0,0.242039,0x92511903;
+	}
+}
+[t:c24_3_shroom_tree_cyan_9m,n:0x03300067]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.12907;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x04AA5080;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.927184,0,-0.374607;
+	  p position = 2.6083,-3.80024,-0.276358,0xd70319e7;
+	}
+}
+[t:c24_3_shroom_bush_01,n:0x03300101]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.04163;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.798635,0,-0.601815;
+	  p position = 2.70097,-3.76259,0.0265007,0xd70319e7;
+	}
+}
+[t:shroom_cav_group_09,n:0x03300490]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.871368;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.201821,0,0.979422;
+	  p position = 0.319101,0,-0.506398,0x660022fc;
+	}
+}
+[t:shroom_cav_group_09,n:0x03300827]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.29207;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.999236,0,0.039074;
+	  p position = 3.71699,-4,-1.73439,0xa8945711;
+	}
+}
+[t:shroom_cav_group_09,n:0x03300a2c]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.93472;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.981034,0,-0.193838;
+	  p position = -5.74907,-3.95,-1.78421,0xe3652e93;
+	}
+}
+[t:shroom_cav_group_09,n:0x03300647]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.04164;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.882464,0,-0.470379;
+	  p position = 0.910479,-6,-1.07103,0x817b7299;
+	}
+}
+[t:shroom_cav_group_09,n:0x0330083b]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.05999;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.697492,0,-0.716592;
+	  p position = -1.68146,0,-1.93067,0x5b2a04da;
+	}
+}
+[t:shroom_cav_group_09,n:0x0330090e]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.09101;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.403317,0,-0.91506;
+	  p position = 2.12104,0,3.4435,0x5b2a04da;
+	}
+}
+[t:shroom_cav_group_09,n:0x033009e0]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.998734;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.995806,0,0.091494;
+	  p position = -1.47872,0,-2.12942,0x5b2a04da;
+	}
+}
+[t:shroom_cav_group_09,n:0x033006f7]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.09928;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.91965,0,0.39274;
+	  p position = -3.72786,-4,-1.97213,0xbb6af033;
+	}
+}
+[t:shroom_cav_group_09,n:0x03300a07]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.17935;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.113654,0,0.99352;
+	  p position = -0.0436083,0,-0.862568,0x2753744a;
+	}
+}
+[t:shroom_cav_group_09,n:0x03300a3c]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.19877;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.990869,0,-0.134828;
+	  p position = 1.34432,0,-0.884086,0x2753744a;
+	}
+}
+[t:shroom_cav_group_09,n:0x03300a9d]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.922983;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.331795,0,0.943352;
+	  p position = -2.9162,0,-0.173774,0x2753744a;
+	}
+}
+[t:c24_3_shroom_tree_red_lg,n:0x0330145b]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.836388;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x06BE69F6;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.878817,0,-0.477159;
+	  p position = -1.91208,0,-0.386974,0x2753744a;
+	}
+}
+[t:c24_3_shroom_tree_red_lg,n:0x0330145c]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.97981;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x1507EF52;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.75471,0,0.656059;
+	  p position = 1.10124,0,0.89854,0x2753744a;
+	}
+}
+[t:shroom_cav_group_09,n:0x0330078a]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.911568;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.579426,0,-0.815025;
+	  p position = -3.70916,0,0.23582,0x15f5f577;
+	}
+}
+[t:c24_3_shroom_tree_red_lg,n:0x0330145d]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.16349;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x7851A459;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.642787,0,-0.766045;
+	  p position = -1.72051,-3.8147e-006,-1.06249,0x15f5f577;
+	}
+}
+[t:shroom_cav_group_09,n:0x03300a24]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.914824;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.983618,0,0.180267;
+	  p position = -0.748205,-12,-1.87068,0xcea54977;
+	}
+}
+[t:shroom_cav_group_09,n:0x033003a2]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.11274;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.823497,0,0.567321;
+	  p position = -0.954908,5.92642,1.62267,0x4bf27b50;
+	}
+}
+[t:shroom_cav_group_09,n:0x0330062b]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.94154;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.999038,0,0.043849;
+	  p position = -0.747342,0,-1.23149,0x0306c9ad;
+	}
+}
+[t:shroom_cav_group_09,n:0x033008cb]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.801168;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.808053,0,0.58911;
+	  p position = -1.05423,0,-0.159753,0x0306c9ad;
+	}
+}
 [t:shroom_cav_group_02,n:0x03300016]
 {
 	[aspect]
@@ -44931,235 +44751,103 @@
 	  p position = -3.99227,0,1.30335,0xeb49c4a1;
 	}
 }
-[t:shroom_cav_group_09,n:0x0330062b]
+[t:c24_3_shroom_tree_cyan_9m,n:0x0330004a]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 0.94154;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.999038,0,0.043849;
-	  p position = -0.747342,0,-1.23149,0x0306c9ad;
-	}
-}
-[t:shroom_cav_group_09,n:0x033008cb]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.801168;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.808053,0,0.58911;
-	  p position = -1.05423,0,-0.159753,0x0306c9ad;
-	}
-}
-[t:shroom_cav_group_09,n:0x033003a2]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.11274;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.823497,0,0.567321;
-	  p position = -0.954908,5.92642,1.62267,0x4bf27b50;
-	}
-}
-[t:shroom_cav_group_09,n:0x033004df]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.18301;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.672643,0,0.739967;
-	  p position = 2.11848,-11.9481,-1.63659,0x609844fe;
-	}
-}
-[t:shroom_cav_group_09,n:0x03300a1f]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.06082;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.714433,0,0.699703;
-	  p position = 2.81465,-11.9471,-1.62993,0x609844fe;
-	}
-}
-[t:shroom_cav_group_09,n:0x0330073c]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.17241;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.174792,0,0.984605;
-	  p position = -2.51818,0,-0.585542,0x9b2c7c5d;
-	}
-}
-[t:shroom_cav_group_09,n:0x03300853]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.14174;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.308666,0,-0.95117;
-	  p position = 2.82425,0,-3.73939,0x9b2c7c5d;
-	}
-}
-[t:shroom_cav_group_09,n:0x033008fb]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.23844;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.958341,0,-0.285626;
-	  p position = 0.408171,0,3.01541,0x9b2c7c5d;
-	}
-}
-[t:shroom_cav_group_09,n:0x03300915]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.846129;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.534227,0,-0.845341;
-	  p position = -0.0769068,0,0.542462,0x9b2c7c5d;
-	}
-}
-[t:shroom_cav_group_09,n:0x03300a07]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.17935;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.113654,0,0.99352;
-	  p position = -0.0436083,0,-0.862568,0x2753744a;
-	}
-}
-[t:shroom_cav_group_09,n:0x03300a3c]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.19877;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.990869,0,-0.134828;
-	  p position = 1.34432,0,-0.884086,0x2753744a;
-	}
-}
-[t:shroom_cav_group_09,n:0x03300a9d]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.922983;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.331795,0,0.943352;
-	  p position = -2.9162,0,-0.173774,0x2753744a;
-	}
-}
-[t:c24_3_shroom_tree_red_lg,n:0x0330145b]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.836388;
+	  f scale_multiplier = 0.927034;
 	}
 	[light_flicker_lightweight]
 	{
-	  x siege_light = 0x06BE69F6;
+	  x siege_light = 0xDB9F9AE6;
 	}
 	[placement]
 	{
-	  q orientation = 0,0.878817,0,-0.477159;
-	  p position = -1.91208,0,-0.386974,0x2753744a;
+	  q orientation = 0,0.292371,0,-0.956305;
+	  p position = 1.30864,0,-1.15118,0xcacb32d9;
 	}
 }
-[t:c24_3_shroom_tree_red_lg,n:0x0330145c]
+[t:c24_3_shroom_bush_01,n:0x0330009c]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 0.97981;
+	  f scale_multiplier = 1.10877;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.139173,0,0.990268;
+	  p position = 1.40674,0,-0.99716,0xcacb32d9;
+	}
+}
+[t:c24_3_shroom_bush_01,n:0x0330009d]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.956184;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.906308,0,-0.422619;
+	  p position = 3.28454,-9.53674e-007,-3.01634,0xcacb32d9;
+	}
+}
+[t:c24_3_shroom_bush_01,n:0x0330009e]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.920112;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.446198,0,0.894934;
+	  p position = 0.369893,0,-2.79268,0xcacb32d9;
+	}
+}
+[t:c24_3_shroom_bush_01,n:0x0330009f]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.15277;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.309017,0,0.951056;
+	  p position = -1.95089,0,-2.56068,0xcacb32d9;
+	}
+}
+[t:c24_3_shroom_bush_01,n:0x033000a0]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.0762;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.052336,0,0.99863;
+	  p position = 0.0662222,0,-0.182442,0xcacb32d9;
+	}
+}
+[t:c24_3_shroom_tree_cyan_6m,n:0x03300103]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.01303;
 	}
 	[light_flicker_lightweight]
 	{
-	  x siege_light = 0x1507EF52;
+	  x siege_light = 0x21CF553B;
 	}
 	[placement]
 	{
-	  q orientation = 0,0.75471,0,0.656059;
-	  p position = 1.10124,0,0.89854,0x2753744a;
+	  q orientation = 0,0.694658,0,0.71934;
+	  p position = 3.36388,0,0.973928,0xcacb32d9;
 	}
 }
-[t:shroom_cav_group_09,n:0x033006f7]
+[t:shroom_cav_group_09,n:0x03300779]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.09928;
+	  f scale_multiplier = 0.808115;
 	}
 	[common]
 	{
@@ -45167,15 +44855,15 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.91965,0,0.39274;
-	  p position = -3.72786,-4,-1.97213,0xbb6af033;
+	  q orientation = 0,0.99123,0,0.13215;
+	  p position = 2.00973,0,0.508431,0xcacb32d9;
 	}
 }
-[t:shroom_cav_group_09,n:0x0330083b]
+[t:shroom_cav_group_09,n:0x03300924]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.05999;
+	  f scale_multiplier = 1.24505;
 	}
 	[common]
 	{
@@ -45183,15 +44871,15 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.697492,0,-0.716592;
-	  p position = -1.68146,0,-1.93067,0x5b2a04da;
+	  q orientation = 0,0.452149,0,0.891943;
+	  p position = 0.122593,0,-0.441828,0xcacb32d9;
 	}
 }
-[t:shroom_cav_group_09,n:0x0330090e]
+[t:shroom_cav_group_09,n:0x03300958]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.09101;
+	  f scale_multiplier = 1.10877;
 	}
 	[common]
 	{
@@ -45199,15 +44887,15 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.403317,0,-0.91506;
-	  p position = 2.12104,0,3.4435,0x5b2a04da;
+	  q orientation = 0,0.628368,0,0.777916;
+	  p position = 0.411544,0,0.79058,0xcacb32d9;
 	}
 }
-[t:shroom_cav_group_09,n:0x033009e0]
+[t:shroom_cav_group_09,n:0x033009d4]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 0.998734;
+	  f scale_multiplier = 1.24277;
 	}
 	[common]
 	{
@@ -45215,184 +44903,8 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.995806,0,0.091494;
-	  p position = -1.47872,0,-2.12942,0x5b2a04da;
-	}
-}
-[t:shroom_cav_group_09,n:0x03300647]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.04164;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.882464,0,-0.470379;
-	  p position = 0.910479,-6,-1.07103,0x817b7299;
-	}
-}
-[t:shroom_cav_group_09,n:0x03300490]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.871368;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.201821,0,0.979422;
-	  p position = 0.319101,0,-0.506398,0x660022fc;
-	}
-}
-[t:shroom_cav_group_09,n:0x03300a2c]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.93472;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.981034,0,-0.193838;
-	  p position = -5.74907,-3.95,-1.78421,0xe3652e93;
-	}
-}
-[t:shroom_cav_group_09,n:0x03300827]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.29207;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.999236,0,0.039074;
-	  p position = 3.71699,-4,-1.73439,0xa8945711;
-	}
-}
-[t:shroom_cav_group_02,n:0x0330000e]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.11489;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.99863,0,0.0523359;
-	  p position = 2.42243,-12,-4.65,0x2436ad71;
-	}
-}
-[t:shroom_cav_group_02,n:0x0330001b]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.11469;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.0871552,0,0.996195;
-	  p position = -0.919165,0,1.16587,0xccaead84;
-	}
-}
-[t:shroom_cav_group_02,n:0x0330001c]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.964627;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.267239,0,0.96363;
-	  p position = 0.359934,0,0.513649,0xccaead84;
-	}
-}
-[t:shroom_cav_group_02,n:0x0330001d]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.11489;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.99863,0,0.0523359;
-	  p position = 0.0826149,0,-1.31361,0xccaead84;
-	}
-}
-[t:shroom_cav_group_02,n:0x0330001e]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.904546;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.894934,0,0.446198;
-	  p position = 1.93575,0,1.80424,0xccaead84;
-	}
-}
-[t:shroom_cav_group_02,n:0x0330001f]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.0726;
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.85264,0,0.522499;
-	  p position = 1.90026,0,-0.0397949,0xccaead84;
-	}
-}
-[t:shroom_cav_group_02,n:0x0330000c]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.11469;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.766044,0,0.642788;
-	  p position = 0.256642,0,-1.54538,0x23fc7884;
-	}
-}
-[t:shroom_cav_group_02,n:0x03300018]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.11489;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.99863,0,0.0523359;
-	  p position = 1.40928,0,0.537804,0x23fc7884;
-	}
-}
-[t:c24_3_shroom_tree_red_lg,n:0x0330143d]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.00362;
-	}
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0x05191B5C;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.906308,0,-0.422618;
-	  p position = -1.16162,0,-0.519257,0x23fc7884;
+	  q orientation = 0,0.027695,0,0.999616;
+	  p position = 2.42666,0,2.31308,0xcacb32d9;
 	}
 }
 [t:c24_3_shroom_bush_01,n:0x03300004]
@@ -45459,6 +44971,214 @@
 	  p position = -2.60273,0,0.870269,0xd3d0215b;
 	}
 }
+[t:shroom_cav_group_02,n:0x0330000c]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.11469;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.766044,0,0.642788;
+	  p position = 0.256642,0,-1.54538,0x23fc7884;
+	}
+}
+[t:shroom_cav_group_02,n:0x03300018]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.11489;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.99863,0,0.0523359;
+	  p position = 1.40928,0,0.537804,0x23fc7884;
+	}
+}
+[t:c24_3_shroom_tree_red_lg,n:0x0330143d]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.00362;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x05191B5C;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.906308,0,-0.422618;
+	  p position = -1.16162,0,-0.519257,0x23fc7884;
+	}
+}
+[t:shroom_cav_group_02,n:0x0330001b]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.11469;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.0871552,0,0.996195;
+	  p position = -0.919165,0,1.16587,0xccaead84;
+	}
+}
+[t:shroom_cav_group_02,n:0x0330001c]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.964627;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.267239,0,0.96363;
+	  p position = 0.359934,0,0.513649,0xccaead84;
+	}
+}
+[t:shroom_cav_group_02,n:0x0330001d]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.11489;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.99863,0,0.0523359;
+	  p position = 0.0826149,0,-1.31361,0xccaead84;
+	}
+}
+[t:shroom_cav_group_02,n:0x0330001e]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.904546;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.894934,0,0.446198;
+	  p position = 1.93575,0,1.80424,0xccaead84;
+	}
+}
+[t:shroom_cav_group_02,n:0x0330001f]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.0726;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.85264,0,0.522499;
+	  p position = 1.90026,0,-0.0397949,0xccaead84;
+	}
+}
+[t:shroom_cav_group_02,n:0x0330000e]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.11489;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.99863,0,0.0523359;
+	  p position = 2.42243,-12,-4.65,0x2436ad71;
+	}
+}
+[t:shroom_cav_group_09,n:0x0330073c]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.17241;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.174792,0,0.984605;
+	  p position = -2.51818,0,-0.585542,0x9b2c7c5d;
+	}
+}
+[t:shroom_cav_group_09,n:0x03300853]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.14174;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.308666,0,-0.95117;
+	  p position = 2.82425,0,-3.73939,0x9b2c7c5d;
+	}
+}
+[t:shroom_cav_group_09,n:0x033008fb]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.23844;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.958341,0,-0.285626;
+	  p position = 0.408171,0,3.01541,0x9b2c7c5d;
+	}
+}
+[t:shroom_cav_group_09,n:0x03300915]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.846129;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.534227,0,-0.845341;
+	  p position = -0.0769068,0,0.542462,0x9b2c7c5d;
+	}
+}
+[t:shroom_cav_group_09,n:0x033004df]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.18301;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.672643,0,0.739967;
+	  p position = 2.11848,-11.9481,-1.63659,0x609844fe;
+	}
+}
+[t:shroom_cav_group_09,n:0x03300a1f]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.06082;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.714433,0,0.699703;
+	  p position = 2.81465,-11.9471,-1.62993,0x609844fe;
+	}
+}
 [t:shroom_cav_group_09,n:0x0330081b]
 {
 	[aspect]
@@ -45473,6 +45193,286 @@
 	{
 	  q orientation = 0,0.993255,0,0.115951;
 	  p position = -16.8429,-12,-20.7841,0xb7b15f4a;
+	}
+}
+[t:shroom_cav_group_09,n:0x033008a5]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.918101;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.828288,0,-0.560302;
+	  p position = 1.48553,-12,-4.99058,0x27080197;
+	}
+}
+[t:c24_3_shroom_tree_cyan_9m,n:0x03300cb0]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.09212;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x59CF0796;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.798635,0,-0.601815;
+	  p position = -2.21695,-12,-5.20328,0x27080197;
+	}
+}
+[t:c24_3_shroom_tree_red_lg,n:0x03301440]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.13011;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xE66975EF;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.979925,0,0.199368;
+	  p position = 0.0956287,12,1.15188,0x27080197;
+	}
+}
+[t:c24_3_shroom_tree_cyan_9m,n:0x03300044]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.935647;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x1363DE90;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.996195,0,0.0871556;
+	  p position = -0.401964,0,-1.53257,0xdfac630c;
+	}
+}
+[t:c24_3_shroom_bush_01,n:0x0330009a]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.957373;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.45399,0,-0.891007;
+	  p position = 0.161034,0,0.566488,0xdfac630c;
+	}
+}
+[t:shroom_cav_group_09,n:0x033003ad]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.824953;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.411257,0,-0.911519;
+	  p position = 2.51008,0,0.773635,0xdfac630c;
+	}
+}
+[t:shroom_cav_group_09,n:0x03300749]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.964192;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.860962,0,-0.508669;
+	  p position = 2.50926,0,1.45041,0xdfac630c;
+	}
+}
+[t:shroom_cav_group_09,n:0x0330095d]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.990209;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.655892,0,-0.754854;
+	  p position = 3.14749,0,-0.246486,0xdfac630c;
+	}
+}
+[t:c24_3_shroom_bush_02,n:0x033015b3]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -0.190744,0,1.16762,0xdfac630c;
+	}
+}
+[t:c24_3_shroom_bush_02,n:0x033015b5]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -2.81874,0,0.00488853,0xdfac630c;
+	}
+}
+[t:shroom_cav_group_09,n:0x0330073b]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.27583;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.945413,0,-0.325876;
+	  p position = -2.92028,0,0.366581,0x3a9619b5;
+	}
+}
+[t:shroom_cav_group_09,n:0x033008b3]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.843278;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.985796,0,0.167948;
+	  p position = -1.06587,0,-1.94375,0x3a9619b5;
+	}
+}
+[t:shroom_cav_group_09,n:0x03300965]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.996305;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.999841,0,-0.017835;
+	  p position = -3.26473,0,-1.94066,0x3a9619b5;
+	}
+}
+[t:c24_3_shroom_bush_01,n:0x03300fdb]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.964637;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.898794,0,-0.438371;
+	  p position = -0.423506,0,1.59768,0x3a9619b5;
+	}
+}
+[t:c24_3_shroom_tree_red_lg,n:0x0330145f]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.968082;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x28D094BA;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.788011,0,-0.615662;
+	  p position = -1.80404,3.8147e-006,-0.786325,0x3a9619b5;
+	}
+}
+[t:c24_3_shroom_tree_red_lg,n:0x0330145e]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.10877;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x71B7F9EA;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.766044,0,0.642788;
+	  p position = -6.80596,2,-0.414143,0x44b6d5e9;
+	}
+}
+[t:shroom_cav_group_09,n:0x033003ed]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.24822;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.326111,0,-0.945331;
+	  p position = 0.016673,0,-1.77697,0x3afecab0;
+	}
+}
+[t:shroom_cav_group_09,n:0x033007b8]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.968434;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.312606,0,0.949883;
+	  p position = -2.66887,0,-1.00751,0x3afecab0;
+	}
+}
+[t:c24_3_shroom_tree_red_lg,n:0x0330145a]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.018;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x5CF52434;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.999657,0,-0.0261771;
+	  p position = 3.87667,0,0.575971,0x3afecab0;
 	}
 }
 [t:c24_3_shroom_tree_cyan_9m,n:0x03300dd4]

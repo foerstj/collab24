@@ -734,13 +734,6 @@
 	  p position = 0.981986,0,-3.47297,0x7fcc42a9;
 	}
 }
-[t:gremal,n:0x0330003a]
-{
-	[placement]
-	{
-	  p position = -2.07063,0,0.725026,0xdbba4746;
-	}
-}
 [t:phrak_piercer,n:0x03301130]
 {
 	[placement]
@@ -1040,6 +1033,13 @@
 	{
 	  q orientation = 0,0.559193,0,0.829038;
 	  p position = 1.2124,0,0.855621,0x49c10b69;
+	}
+}
+[t:gremal,n:0x0330003a]
+{
+	[placement]
+	{
+	  p position = -2.07063,0,0.725026,0xdbba4746;
 	}
 }
 [t:gremal,n:0x0330003c]

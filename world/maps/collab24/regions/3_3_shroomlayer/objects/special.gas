@@ -196,6 +196,13 @@
 	  p position = 0.0384026,-9.53674e-007,-0.285522,0x6ec9ecbd;
 	}
 }
+[t:use_point,n:0x03300abf]
+{
+	[placement]
+	{
+	  p position = 3.14418,-3,-3.06128,0x84d9e445;
+	}
+}
 [t:trigger_change_mood_box,n:0x03300002]
 {
 	[common]
@@ -224,13 +231,6 @@
 	[placement]
 	{
 	  p position = 2.34446,0,2.38578,0x5d7760d6;
-	}
-}
-[t:use_point,n:0x03300abf]
-{
-	[placement]
-	{
-	  p position = 3.14418,-3,-3.06128,0x84d9e445;
 	}
 }
 [t:trigger_change_mood_box,n:0x03300058]

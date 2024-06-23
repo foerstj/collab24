@@ -74,18 +74,6 @@
 		event_sound = "amb_wind_01";
 	}
 }
-[t:emt_sound,n:0x033000f3]
-{
-	[placement]
-	{
-	  p position = 1.00504,7.0751,-2.44398,0x13c52644;
-	}
-	[sound_emitter]
-	{
-	  b continual_loop = true;
-		event_sound = "env_brook";
-	}
-}
 [t:emt_sound,n:0x0330146e]
 {
 	[placement]
@@ -126,6 +114,18 @@
 	{
 	  b continual_loop = true;
 		event_sound = "amb_wind_01";
+	}
+}
+[t:emt_sound,n:0x033000f3]
+{
+	[placement]
+	{
+	  p position = 1.00504,7.0751,-2.44398,0x13c52644;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "env_brook";
 	}
 }
 [t:emt_sound,n:0x03301470]
