@@ -14,4 +14,12 @@
 			0x00003015 = 0x9C36022E,2;
 		}
 	}
+	[t:stitch_editor,n:3_2_crystlayer]
+	{
+		dest_region = 3_2_crystlayer;
+		[node_ids]
+		{
+			0x00003121 = 0xA5A96CA3,14;
+		}
+	}
 }

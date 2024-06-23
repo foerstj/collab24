@@ -1,3 +1,21 @@
+[t:lever_glb_05,n:0x03100012]
+{
+	[on_off_lever]
+	{
+		off_message = we_req_activate;
+	  f off_message_delay = 1;
+	  x off_scid = 0x03100013;
+	  f on_message_delay = 1;
+	  x on_scid = 0x03100013;
+	  f reset_time = 18;
+	  f reset_time_2 = 18;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.382683,0,0.92388;
+	  p position = -2.02204,-3,2.03062,0xa5a96ca3;
+	}
+}
 [t:sign_glb_01,n:0x031006a3]
 {
 	[common]
@@ -77,5 +95,23 @@
 	{
 	  q orientation = 0,0.19509,0,-0.980785;
 	  p position = 2.20365,0.187231,1.60361,0x6976f80f;
+	}
+}
+[t:lever_glb_05,n:0x03100011]
+{
+	[on_off_lever]
+	{
+		off_message = we_req_activate;
+	  f off_message_delay = 1;
+	  x off_scid = 0x03100013;
+	  f on_message_delay = 1;
+	  x on_scid = 0x03100013;
+	  f reset_time = 18;
+	  f reset_time_2 = 18;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -0.0143287,-1.5,1.19358,0x9c7ab717;
 	}
 }
