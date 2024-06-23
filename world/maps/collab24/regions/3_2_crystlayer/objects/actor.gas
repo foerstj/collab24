@@ -373,6 +373,25 @@
 	  p position = -0.422039,0,-0.445221,0x837e5276;
 	}
 }
+[t:mp_dwarf_legionnaire_archer,n:0x03200364]
+{
+	[conversation]
+	{
+		[conversations]
+		{
+			* = guard;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_npc.skrit?talk_anim=;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -1.99929,-1.90735e-006,0.286198,0x5a168ac5;
+	}
+}
 [t:c24_3_slarg,n:0x032005f2]
 {
 	[placement]
