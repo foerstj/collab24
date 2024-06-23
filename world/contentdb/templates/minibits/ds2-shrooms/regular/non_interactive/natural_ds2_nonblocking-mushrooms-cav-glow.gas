@@ -1,0 +1,80 @@
+[t:template,n:ds2_shroom_cav_glow_01]
+{
+	category_name = "misc";
+	doc = "shroom_cyan_glow";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.65;
+		lodfi_upper = 1.0;
+		model = m_i_cav_shroom-01;
+		scale_base = 0.33;
+	}
+	//[efct_emitter]
+	//{
+	//	activate_message	= "WE_ENTERED_WORLD";
+	//	deactivate_message	= "WE_LEFT_WORLD";
+	//	initially_active	= false;
+	//	effect				= "efct_shroom_glow_01";
+	//}
+}
+[t:template,n:ds2_shroom_cav_glow_02]
+{
+	category_name = "misc";
+	doc = "shroom_violet_glow";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.65;
+		lodfi_upper = 1.0;
+		model = m_i_cav_shroom-02;
+		scale_base = 0.66;
+	}
+	//[efct_emitter]
+	//{
+	//	activate_message	= "WE_ENTERED_WORLD";
+	//	deactivate_message	= "WE_LEFT_WORLD";
+	//	initially_active	= false;
+	//	effect				= "efct_shroom_glow_02";
+	//}
+}
+[t:template,n:ds2_shroom_cav_glow_03]
+{
+	category_name = "misc";
+	doc = "shroom_blue_glow";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.65;
+		lodfi_upper = 1.0;
+		model = m_i_cav_shroom-03;
+		scale_base = 0.33;
+	}
+	//[efct_emitter]
+	//{
+	//	activate_message	= "WE_ENTERED_WORLD";
+	//	deactivate_message	= "WE_LEFT_WORLD";
+	//	initially_active	= false;
+	//	effect				= "efct_shroom_glow_03";
+	//}
+}
+[t:template,n:ds2_shroom_cav_glow_05]
+{
+	category_name = "misc";
+	doc = "shroom_orange_glow";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.65;
+		lodfi_upper = 1.0;
+		model = m_i_cav_shroom-05;
+		scale_base = 0.45;
+	}
+	//[efct_emitter]
+	//{
+	//	activate_message	= "WE_ENTERED_WORLD";
+	//	deactivate_message	= "WE_LEFT_WORLD";
+	//	initially_active	= false;
+	//	effect				= "efct_shroom_glow_04";
+	//}
+}

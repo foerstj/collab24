@@ -1,0 +1,24 @@
+[t:template,n:shroom_cav_wall_05]
+{
+	category_name = "misc";
+	doc = "shroom_wall_orange_xlg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		model = m_i_cav_shroom-wall-05;
+	}
+}
+
+[t:template,n:ds2_shroom_cav_glow_04]
+{
+	category_name = "misc";
+	doc = "shroom_cream_glow";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.65;
+		lodfi_upper = 1.0;
+		model = m_i_cav_shroom-04;
+		scale_base = 0.5;
+	}
+}

@@ -1,0 +1,108 @@
+[t:template,n:shroom_cav_group_01]
+{
+	specializes = non_interactive_nonblocking;
+	category_name = "misc";
+	[aspect]
+	{
+		model = m_i_cav_shrooms-group-01;
+	}
+}
+[t:template,n:shroom_cav_group_02]
+{
+	specializes = non_interactive_nonblocking;
+	category_name = "misc";
+	[aspect]
+	{
+		model = m_i_cav_shrooms-group-02;
+	}
+}
+[t:template,n:shroom_cav_group_03]
+{
+	specializes = non_interactive_nonblocking;
+	category_name = "misc";
+	[aspect]
+	{
+		model = m_i_cav_shrooms-group-03;
+	}
+}
+[t:template,n:shroom_cav_group_04]
+{
+	specializes = non_interactive_nonblocking;
+	category_name = "misc";
+	[aspect]
+	{
+		model = m_i_cav_shrooms-group-04;
+	}
+}
+[t:template,n:shroom_cav_group_05]
+{
+	specializes = non_interactive_nonblocking;
+	category_name = "misc";
+	[aspect]
+	{
+		model = m_i_cav_shrooms-group-05;
+	}
+}
+[t:template,n:shroom_cav_group_06]
+{
+	specializes = non_interactive_nonblocking;
+	category_name = "misc";
+	[aspect]
+	{
+		model = m_i_cav_shrooms-group-06;
+	}
+}
+[t:template,n:shroom_cav_group_07]
+{
+	specializes = non_interactive_nonblocking;
+	category_name = "misc";
+	[aspect]
+	{
+		model = m_i_cav_shrooms-group-07;
+	}
+}
+[t:template,n:shroom_cav_group_08]
+{
+	specializes = non_interactive_nonblocking;
+	category_name = "misc";
+	[aspect]
+	{
+		model = m_i_cav_shrooms-group-08;
+	}
+}
+[t:template,n:shroom_cav_group_09]
+{
+	specializes = non_interactive_nonblocking;
+	category_name = "misc";
+	[aspect]
+	{
+		model = m_i_cav_shrooms-group-09;
+	}
+}
+[t:template,n:shroom_cav_group_10]
+{
+	specializes = non_interactive_nonblocking;
+	category_name = "misc";
+	[aspect]
+	{
+		model = m_i_cav_shrooms-group-10;
+	}
+}
+[t:template,n:shroom_cav_group_11]
+{
+	specializes = non_interactive_nonblocking;
+	category_name = "misc";
+	[aspect]
+	{
+		model = m_i_cav_shrooms-group-11;
+	}
+}
+[t:template,n:shroom_cav_group_12]
+{
+	specializes = non_interactive_nonblocking;
+	category_name = "misc";
+	[aspect]
+	{
+		model = m_i_cav_shrooms-group-12;
+	}
+}

@@ -1,0 +1,45 @@
+[t:template,n:lever_amren_mushroom]
+{
+	specializes 		= base_usable;
+	doc 				= "lever_amren_mushroom";
+	category_name       = "levers";
+
+	[aspect]
+	{
+		model 		= m_i_cav_magicshroom-01;
+		material    = button_stone;
+		is_collidable				= true;
+	}
+
+	[body]
+	{
+		[chore_dictionary]
+		{
+			chore_prefix = a_i_cav;
+
+			[chore_open]
+			{
+				skrit			= transition;
+				anim_files: 00	= magicshroom-01-tinkle;
+			}
+			[chore_close]
+			{
+				skrit			= transition;
+				anim_files: 00	= magicshroom-01-tinkle;
+			}
+		}
+	}
+	[common] { screen_name = "A Peculiar Mushroom"; }
+	[on_off_lever]
+	{
+		reset_time = 1.0000;
+		initially_Active = false;
+	}
+	//[efct_emitter]
+	//{
+	//	maintain_state = true;
+	//	activate_message = we_req_activate;
+	//	initially_active = false;
+	//	effect = efct_shroom_amren;
+	//}
+}

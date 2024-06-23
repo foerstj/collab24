@@ -1,0 +1,31 @@
+[t:template,n:amren_mushroom]
+{
+	specializes 		= non_interactive_nonblocking;
+	doc 				= "amren_mushroom";
+	category_name       = "misc";
+
+	[aspect]
+	{
+		lodfi_lower = 0.0;
+		lodfi_upper = 0.0;
+		model 		= m_i_cav_magicshroom-01;
+	}
+
+	[common] { screen_name = "Mushroom"; }
+}
+
+[t:template,n:mushroom_voldane]
+{
+	specializes 		= non_interactive_nonblocking;
+	doc 				= "voldane_mushroom";
+	category_name       = "misc";
+
+	[aspect]
+	{
+		model 		= m_i_glb_voldane-mushroom;
+		[textures]
+		{
+			0 = b_i_glb_voldane-mushroom;
+		}
+	}
+}

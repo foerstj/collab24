@@ -1,0 +1,10 @@
+[t:template,n:mushroom_glb_cluster_01]
+{
+	category_name = "misc";
+	doc = "mushroom_glb_cluster_01";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		model = m_i_glb_mushroom-cluster-01;
+	}
+}
