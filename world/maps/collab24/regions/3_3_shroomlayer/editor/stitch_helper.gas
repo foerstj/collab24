@@ -1,7 +1,7 @@
 [stitch_helper_data]
 {
 	source_region_guid = 0xBBF6FAFF;
-	source_region_name = river_forest;
+	source_region_name = 3_3_shroomlayer;
 	[t:stitch_editor,n:river_forest_r2]
 	{
 		dest_region = river_forest_r2;
