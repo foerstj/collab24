@@ -1,27 +1,3 @@
-[t:sign_glb_01,n:0x032003f9]
-{
-	[common]
-	{
-		screen_name = "Shroomington";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.707106,0,0.707106;
-	  p position = 1.17315,-8.58307e-006,0.545517,0x8d33fdc5;
-	}
-}
-[t:sign_glb_01,n:0x032003fc]
-{
-	[common]
-	{
-		screen_name = "Ghanawaland";
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.997859,0,-0.0654035;
-	  p position = 1.01037,-0.203893,0.266273,0x8d33fdc5;
-	}
-}
 [t:sign_glb_01,n:0x032003b9]
 {
 	[common]
@@ -44,54 +20,6 @@
 	{
 	  q orientation = 0,0.965926,0,0.258819;
 	  p position = -0.55659,-1.18872,-3.80592,0xd4372a08;
-	}
-}
-[t:lever_des_01,n:0x03200380]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = send_world_message("we_req_activate",0x03200047,0f,"default","",0);
-			  b can_self_destruct = true;
-				condition* = receive_world_message("we_req_use",0,"on_every_message");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  q orientation = 0,-2.95043e-006,0,1;
-	  p position = -2.04728,-0.240283,0.134155,0x2a647ca5;
-		use_point_scids = 0x032004d1,0x032004d2;
-	}
-}
-[t:lever_glb_04,n:0x03200042]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.03133;
-	}
-	[on_off_lever]
-	{
-		off_message = we_req_activate;
-	  x off_scid = 0x03200031;
-	  x on_scid = 0x03200031;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.999962,0,0.00872656;
-	  p position = 1.07861,-31.2068,1.79346,0xdbed544c;
 	}
 }
 [t:sign_glb_01,n:0x032003fe]
@@ -160,6 +88,42 @@
 	  p position = 1.92751,3.7974,1.75241,0x86e4691a;
 	}
 }
+[t:sign_glb_01,n:0x032003f9]
+{
+	[common]
+	{
+		screen_name = "Shroomington";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707106,0,0.707106;
+	  p position = 1.17315,-8.58307e-006,0.545517,0x8d33fdc5;
+	}
+}
+[t:sign_glb_01,n:0x032003fc]
+{
+	[common]
+	{
+		screen_name = "Ghanawaland";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.997859,0,-0.0654035;
+	  p position = 1.01037,-0.203893,0.266273,0x8d33fdc5;
+	}
+}
+[t:sign_glb_01,n:0x03200342]
+{
+	[common]
+	{
+		screen_name = "Shroomington";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 1.52034,-0.188934,0.614069,0x1e499a67;
+	}
+}
 [t:respawn_statue,n:0x032004d5]
 {
 	[placement]
@@ -193,7 +157,7 @@
 	  p position = -1.19203,-0.203884,1.84275,0x89f1b026;
 	}
 }
-[t:lever_des_01,n:0x0320037e]
+[t:lever_des_01,n:0x03200380]
 {
 	[common]
 	{
@@ -201,7 +165,7 @@
 		{
 			[*]
 			{
-				action* = send_world_message("we_req_activate",0x03200031,0f,"default","",0);
+				action* = send_world_message("we_req_activate",0x03200047,0f,"default","",0);
 			  b can_self_destruct = true;
 				condition* = receive_world_message("we_req_use",0,"on_every_message");
 			  f delay = 0.000000;
@@ -218,21 +182,27 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,-0.707107,0,0.707106;
-	  p position = 1.86095,0,-2.01946,0x3864f38e;
-		use_point_scids = 0x0320048e,0x03200499;
+	  q orientation = 0,-2.95043e-006,0,1;
+	  p position = -2.04728,-0.240283,0.134155,0x2a647ca5;
+		use_point_scids = 0x032004d1,0x032004d2;
 	}
 }
-[t:sign_glb_01,n:0x03200342]
+[t:lever_glb_04,n:0x03200042]
 {
-	[common]
+	[aspect]
 	{
-		screen_name = "Shroomington";
+	  f scale_multiplier = 1.03133;
+	}
+	[on_off_lever]
+	{
+		off_message = we_req_activate;
+	  x off_scid = 0x03200031;
+	  x on_scid = 0x03200031;
 	}
 	[placement]
 	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = 1.52034,-0.188934,0.614069,0x1e499a67;
+	  q orientation = 0,0.999962,0,0.00872656;
+	  p position = 1.07861,-31.2068,1.79346,0xdbed544c;
 	}
 }
 [t:lever_des_01,n:0x03200381]
@@ -263,5 +233,35 @@
 	  q orientation = 0,-0.707107,0,0.707106;
 	  p position = -1.96982,0,-1.66269,0x53f1ae19;
 		use_point_scids = 0x032004d1,0x032004d3;
+	}
+}
+[t:lever_des_01,n:0x0320037e]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x03200031,0f,"default","",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_use",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707106;
+	  p position = 1.86095,0,-2.01946,0x3864f38e;
+		use_point_scids = 0x0320048e,0x03200499;
 	}
 }
