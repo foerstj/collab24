@@ -10,4 +10,12 @@
 			0x00003121 = 0x9B01016F,1;
 		}
 	}
+	[t:stitch_editor,n:3_3_shroomlayer]
+	{
+		dest_region = 3_3_shroomlayer;
+		[node_ids]
+		{
+			0x00003231 = 0x4894D590,14;
+		}
+	}
 }

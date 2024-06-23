@@ -70,3 +70,16 @@
 	  p position = 0.00688171,1.26123,-0.308784,0x94180e88;
 	}
 }
+[t:elevator_2s_1c_2n,n:0x0320035e]
+{
+	[elevator_2s_1c_2n]
+	{
+	  x connect_node_level1 = 0x903618F6;
+	  x connect_node_level2 = 0x656F3843;
+	  x elevator_node = 0x895B3882;
+	}
+	[placement]
+	{
+	  p position = -0.106732,-1.5,-0.47239,0x895b3882;
+	}
+}
