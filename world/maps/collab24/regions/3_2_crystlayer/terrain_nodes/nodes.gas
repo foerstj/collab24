@@ -7,7 +7,7 @@
 	environment_map = b_em_sphere;
   x object_ambient_color = 0xFFFFFFFF;
   f object_ambient_intensity = 0.100000;
-  x targetnode = 0x9C9D84E7;
+  x targetnode = 0x5B3CB3E4;
 	[t:snode,n:0x0001d609]
 	{
 	  b bounds_camera = true;

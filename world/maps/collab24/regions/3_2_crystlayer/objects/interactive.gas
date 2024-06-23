@@ -160,18 +160,6 @@
 	  p position = 1.92751,3.7974,1.75241,0x86e4691a;
 	}
 }
-[t:sign_glb_01,n:0x03200342]
-{
-	[common]
-	{
-		screen_name = "Shroomington";
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = 1.52034,-0.188934,0.614069,0x1e499a67;
-	}
-}
 [t:respawn_statue,n:0x032004d5]
 {
 	[placement]
@@ -233,6 +221,18 @@
 	  q orientation = 0,-0.707107,0,0.707106;
 	  p position = 1.86095,0,-2.01946,0x3864f38e;
 		use_point_scids = 0x0320048e,0x03200499;
+	}
+}
+[t:sign_glb_01,n:0x03200342]
+{
+	[common]
+	{
+		screen_name = "Shroomington";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 1.52034,-0.188934,0.614069,0x1e499a67;
 	}
 }
 [t:lever_des_01,n:0x03200381]
