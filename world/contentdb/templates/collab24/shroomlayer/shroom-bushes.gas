@@ -1,0 +1,14 @@
+[t:template,n:c24_3_shroom_bush]
+{
+    specializes = shroom_cav_group_12_base;
+
+	category_name = "foliage";
+	doc = "shroom_bush_sm";
+	[aspect]
+	{
+        scale_base = 1.5;
+        // bush stuff
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.7;
+	}
+}
