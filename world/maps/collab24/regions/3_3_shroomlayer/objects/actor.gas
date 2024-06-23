@@ -1101,3 +1101,41 @@
 	  p position = 1.16538,0,0.43648,0xbcc43c70;
 	}
 }
+[t:mp_dwarf,n:0x03300ac8]
+{
+	[common]
+	{
+		screen_name = "Grindzold";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = underland;
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,0.923879,0,-0.382684;
+	  p position = 1.11397,-3.65,1.69688,0xaf2a83ca;
+	}
+}
+[t:mp_dwarf_worker,n:0x03300acb]
+{
+	[common]
+	{
+		screen_name = "Liontooth";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = shroomwood;
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -0.0450897,-3.65,1.03482,0xaf2a83ca;
+	}
+}
