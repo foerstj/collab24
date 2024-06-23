@@ -55066,3 +55066,15 @@
 	  p position = -0.993265,12,1.32503,0xc4df62d6;
 	}
 }
+[t:lamp_glb_oil_02,n:0x03200358]
+{
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x7E9251F4;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,-1.66939e-007;
+	  p position = -0.0405917,-0.0597782,1.30735,0x895b3882;
+	}
+}
