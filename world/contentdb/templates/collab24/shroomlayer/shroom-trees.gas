@@ -70,6 +70,8 @@
 	category_name = "trees";
 	[aspect]
 	{
+        // tree stuff
+		does_block_camera = true;
 		lodfi_lower = 0.2;
 		lodfi_upper = 0.6;
 	}
