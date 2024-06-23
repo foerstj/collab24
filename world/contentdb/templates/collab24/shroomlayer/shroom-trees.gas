@@ -14,3 +14,34 @@
 		lodfi_upper = 0.65;
 	}
 }
+
+[t:template,n:c24_3_shroom_tree_cyan_base]
+{
+    specializes = ds2_shroom_cav_glow_01_base;
+
+	category_name = "trees";
+	doc = "shroom_tree_cyan";
+	[aspect]
+	{
+		scale_base = 1;
+
+        // tree stuff
+		does_block_camera = true;
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.7;
+	}
+}
+
+[t:template,n:c24_3_shroom_tree_cyan_9m]
+{
+    specializes = c24_3_shroom_tree_cyan_base;
+
+    aspect:scale_base = 4;
+}
+
+[t:template,n:c24_3_shroom_tree_cyan_6m]
+{
+    specializes = c24_3_shroom_tree_cyan_base;
+
+    aspect:scale_base = 3;
+}
