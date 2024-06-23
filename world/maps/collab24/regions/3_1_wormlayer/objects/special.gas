@@ -1,3 +1,10 @@
+[t:use_point,n:0x03100015]
+{
+	[placement]
+	{
+	  p position = -2.87055,-3,2.67087,0xa5a96ca3;
+	}
+}
 [t:use_point,n:0x031008e3]
 {
 	[placement]
@@ -9,6 +16,7 @@
 {
 	[common]
 	{
+		dev_instance_text = "MOOD";
 		[instance_triggers]
 		{
 			[*]
@@ -31,6 +39,73 @@
 	[placement]
 	{
 	  q orientation = 0,0.707107,0,0.707107;
-	  p position = 2.05951,0,-0.141617,0x8b77733a;
+	  p position = 1.77446,0,-0.149384,0x8b77733a;
+	}
+}
+[t:trigger_generic,n:0x03100016]
+{
+	[common]
+	{
+		dev_instance_text = "FADE";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = fade_nodes(0x00000032,1,-1,-1,"in:instant"), doc("stop fading crystlayer on exit");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(10.000000,1.000000,1.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 2.89212,0,-0.164848,0x8b77733a;
+	}
+}
+[t:trigger_generic,n:0x03100017]
+{
+	[common]
+	{
+		dev_instance_text = "FADE";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = fade_nodes(0x00000032,1,-1,-1,"out:instant"), doc("fade out crystlayer");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(10.000000,1.000000,1.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 0.670944,0,-0.124611,0x8b77733a;
+	}
+}
+[t:use_point,n:0x03100014]
+{
+	[placement]
+	{
+	  p position = -0.0262062,-1.5,-0.11741,0x9c7ab717;
 	}
 }
