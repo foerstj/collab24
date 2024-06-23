@@ -1,4 +1,4 @@
-[t:emt_sound,n:0x08400a5f]
+[t:emt_sound,n:0x03300a5f]
 {
 	[placement]
 	{
@@ -13,7 +13,7 @@
 	  i stop_hour = 12;
 	}
 }
-[t:emt_sound,n:0x0840146f]
+[t:emt_sound,n:0x0330146f]
 {
 	[placement]
 	{
@@ -29,7 +29,7 @@
 	  i time_chunk = 3;
 	}
 }
-[t:emt_sound,n:0x08400eba]
+[t:emt_sound,n:0x03300eba]
 {
 	[placement]
 	{
@@ -45,7 +45,7 @@
 	  i time_chunk = 1;
 	}
 }
-[t:emt_sound,n:0x084004c6]
+[t:emt_sound,n:0x033004c6]
 {
 	[placement]
 	{
@@ -58,7 +58,7 @@
 		event_sound = "amb_wind_01";
 	}
 }
-[t:emt_sound,n:0x08400eb7]
+[t:emt_sound,n:0x03300eb7]
 {
 	[placement]
 	{
@@ -74,7 +74,7 @@
 	  i time_chunk = 1;
 	}
 }
-[t:emt_sound,n:0x084000f3]
+[t:emt_sound,n:0x033000f3]
 {
 	[placement]
 	{
@@ -86,7 +86,7 @@
 		event_sound = "env_brook";
 	}
 }
-[t:emt_sound,n:0x08400106]
+[t:emt_sound,n:0x03300106]
 {
 	[placement]
 	{
@@ -99,7 +99,7 @@
 		event_sound = "env_brook";
 	}
 }
-[t:emt_sound,n:0x084004c0]
+[t:emt_sound,n:0x033004c0]
 {
 	[placement]
 	{
@@ -112,7 +112,7 @@
 		event_sound = "amb_wind_01";
 	}
 }
-[t:emt_sound,n:0x0840146e]
+[t:emt_sound,n:0x0330146e]
 {
 	[placement]
 	{
@@ -128,7 +128,7 @@
 	  i time_chunk = 3;
 	}
 }
-[t:emt_sound,n:0x08401470]
+[t:emt_sound,n:0x03301470]
 {
 	[placement]
 	{

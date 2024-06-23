@@ -1,4 +1,4 @@
-[t:dev_path_point,n:0x0840120a]
+[t:dev_path_point,n:0x0330120a]
 {
 	[dev_path_point]
 	{
@@ -10,11 +10,11 @@
 	  p position = 3.01293,0,-3.28262,0xef850dbb;
 	}
 }
-[t:dev_path_point,n:0x08401207]
+[t:dev_path_point,n:0x03301207]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x08401208;
+	  x next_scid = 0x03301208;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -23,11 +23,11 @@
 	  p position = -0.208494,0,1.9568,0x04988aa3;
 	}
 }
-[t:dev_path_point,n:0x0840149f]
+[t:dev_path_point,n:0x0330149f]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084014A0;
+	  x next_scid = 0x033014A0;
 		path_name = "zdistance_town_center_sign_2";
 	  f radius = 15;
 	}
@@ -37,11 +37,11 @@
 	  p position = 0.157998,-1.90735e-006,0.70578,0x3a1a2eb8;
 	}
 }
-[t:dev_path_point,n:0x084011fc]
+[t:dev_path_point,n:0x033011fc]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011FD;
+	  x next_scid = 0x033011FD;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -50,11 +50,11 @@
 	  p position = -1.51401,0,0.54675,0x79be4d9d;
 	}
 }
-[t:dev_path_point,n:0x08401202]
+[t:dev_path_point,n:0x03301202]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x08401203;
+	  x next_scid = 0x03301203;
 		path_name = "river_forest_sweep_path";
 		point_name = "dup";
 	  f radius = 15;
@@ -68,11 +68,11 @@
 	  p position = -2.15628,7.62939e-006,0.563387,0x79be4d9d;
 	}
 }
-[t:dev_path_point,n:0x0840149d]
+[t:dev_path_point,n:0x0330149d]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x0840149F;
+	  x next_scid = 0x0330149F;
 		path_name = "zdistance_town_center_sign_2";
 	  f radius = 15;
 	}
@@ -81,11 +81,11 @@
 	  p position = -2.03644,0,-3.932,0xac21bf6a;
 	}
 }
-[t:dev_path_point,n:0x08401206]
+[t:dev_path_point,n:0x03301206]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x08401207;
+	  x next_scid = 0x03301207;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -94,11 +94,11 @@
 	  p position = -0.213263,0.332069,1.94704,0xa481fb01;
 	}
 }
-[t:dev_path_point,n:0x08401205]
+[t:dev_path_point,n:0x03301205]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x08401206;
+	  x next_scid = 0x03301206;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -107,11 +107,11 @@
 	  p position = -0.975615,-6,-1.96539,0xcf03bf9c;
 	}
 }
-[t:dev_path_point,n:0x08401204]
+[t:dev_path_point,n:0x03301204]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x08401205;
+	  x next_scid = 0x03301205;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -120,7 +120,7 @@
 	  p position = -0.518103,0.745926,2.95556,0xa25c7507;
 	}
 }
-[t:dev_path_point,n:0x084014a0]
+[t:dev_path_point,n:0x033014a0]
 {
 	[dev_path_point]
 	{
@@ -132,11 +132,11 @@
 	  p position = -1.06784,7.62939e-006,-1.65451,0xf6f32f92;
 	}
 }
-[t:dev_path_point,n:0x084011d9]
+[t:dev_path_point,n:0x033011d9]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011DA;
+	  x next_scid = 0x033011DA;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -145,11 +145,11 @@
 	  p position = 2.75177,-7.62939e-006,-0.993838,0xee5b8ace;
 	}
 }
-[t:dev_path_point,n:0x084011d8]
+[t:dev_path_point,n:0x033011d8]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011D9;
+	  x next_scid = 0x033011D9;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -158,11 +158,11 @@
 	  p position = -1.81438,0,-0.129005,0x2a9c11ec;
 	}
 }
-[t:dev_path_point,n:0x084011d7]
+[t:dev_path_point,n:0x033011d7]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011D8;
+	  x next_scid = 0x033011D8;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -171,11 +171,11 @@
 	  p position = -1.34395,7.62939e-006,1.51844,0x21233951;
 	}
 }
-[t:dev_path_point,n:0x084011eb]
+[t:dev_path_point,n:0x033011eb]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011EC;
+	  x next_scid = 0x033011EC;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -184,11 +184,11 @@
 	  p position = 1.85265,1,1.86931,0x98e63c27;
 	}
 }
-[t:dev_path_point,n:0x084011ef]
+[t:dev_path_point,n:0x033011ef]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011F0;
+	  x next_scid = 0x033011F0;
 		path_name = "river_forest_sweep_path";
 		point_name = "dup";
 	  f radius = 15;
@@ -202,11 +202,11 @@
 	  p position = 1.14993,1,1.73215,0x98e63c27;
 	}
 }
-[t:dev_path_point,n:0x084011ea]
+[t:dev_path_point,n:0x033011ea]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011EB;
+	  x next_scid = 0x033011EB;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -215,11 +215,11 @@
 	  p position = -0.0511577,0,-1.3337,0xbdd385a3;
 	}
 }
-[t:dev_path_point,n:0x084011f0]
+[t:dev_path_point,n:0x033011f0]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011F1;
+	  x next_scid = 0x033011F1;
 		path_name = "river_forest_sweep_path";
 		point_name = "dup";
 	  f radius = 15;
@@ -233,11 +233,11 @@
 	  p position = -0.727742,0,-1.25274,0xbdd385a3;
 	}
 }
-[t:dev_path_point,n:0x084011f1]
+[t:dev_path_point,n:0x033011f1]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011F2;
+	  x next_scid = 0x033011F2;
 		path_name = "river_forest_sweep_path";
 		point_name = "dup";
 	  f radius = 15;
@@ -251,11 +251,11 @@
 	  p position = -1.66609,0,0.830792,0x6df34106;
 	}
 }
-[t:dev_path_point,n:0x084011e9]
+[t:dev_path_point,n:0x033011e9]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011EA;
+	  x next_scid = 0x033011EA;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -264,11 +264,11 @@
 	  p position = 3.856,-1.00001,2.65931,0x9662a3bd;
 	}
 }
-[t:dev_path_point,n:0x084011bf]
+[t:dev_path_point,n:0x033011bf]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011C1;
+	  x next_scid = 0x033011C1;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -277,11 +277,11 @@
 	  p position = 1.20911,0,1.35988,0xe346ef48;
 	}
 }
-[t:dev_path_point,n:0x084011c2]
+[t:dev_path_point,n:0x033011c2]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011C3;
+	  x next_scid = 0x033011C3;
 		path_name = "river_forest_sweep_path";
 		point_name = "dup";
 	  f radius = 15;
@@ -295,11 +295,11 @@
 	  p position = 0.539203,0,1.79989,0xe346ef48;
 	}
 }
-[t:dev_path_point,n:0x084011be]
+[t:dev_path_point,n:0x033011be]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011BF;
+	  x next_scid = 0x033011BF;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -308,11 +308,11 @@
 	  p position = -1.09273,0,0.42579,0xb714e619;
 	}
 }
-[t:dev_path_point,n:0x084011c1]
+[t:dev_path_point,n:0x033011c1]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011C2;
+	  x next_scid = 0x033011C2;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -321,11 +321,11 @@
 	  p position = 0.234001,0,-0.293478,0x3923f5ec;
 	}
 }
-[t:dev_path_point,n:0x084011ed]
+[t:dev_path_point,n:0x033011ed]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011EE;
+	  x next_scid = 0x033011EE;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -334,11 +334,11 @@
 	  p position = -0.399048,-0.0595551,-0.366078,0xc29e7e49;
 	}
 }
-[t:dev_path_point,n:0x084011ca]
+[t:dev_path_point,n:0x033011ca]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011CB;
+	  x next_scid = 0x033011CB;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -347,11 +347,11 @@
 	  p position = 3.79761,0,1.97459,0x0d23586d;
 	}
 }
-[t:dev_path_point,n:0x084011d0]
+[t:dev_path_point,n:0x033011d0]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011D1;
+	  x next_scid = 0x033011D1;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -360,11 +360,11 @@
 	  p position = -4.62406,-0.0500107,1.74512,0x78fbb213;
 	}
 }
-[t:dev_path_point,n:0x084011cb]
+[t:dev_path_point,n:0x033011cb]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011CC;
+	  x next_scid = 0x033011CC;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -373,11 +373,11 @@
 	  p position = -0.44734,0,-3.39632,0x2c839876;
 	}
 }
-[t:dev_path_point,n:0x084011d1]
+[t:dev_path_point,n:0x033011d1]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011D2;
+	  x next_scid = 0x033011D2;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -386,11 +386,11 @@
 	  p position = 1.09201,-0.0500031,0.591651,0x95618922;
 	}
 }
-[t:dev_path_point,n:0x084011d2]
+[t:dev_path_point,n:0x033011d2]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011D3;
+	  x next_scid = 0x033011D3;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -399,11 +399,11 @@
 	  p position = 1.95723,-0.978607,-2.51399,0x477804b9;
 	}
 }
-[t:dev_path_point,n:0x084011d3]
+[t:dev_path_point,n:0x033011d3]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011D5;
+	  x next_scid = 0x033011D5;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -412,11 +412,11 @@
 	  p position = -2.129,0,-0.322016,0x08fe266d;
 	}
 }
-[t:dev_path_point,n:0x084011ec]
+[t:dev_path_point,n:0x033011ec]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011ED;
+	  x next_scid = 0x033011ED;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -425,11 +425,11 @@
 	  p position = -1.36883,0.850655,1.41576,0x541207b1;
 	}
 }
-[t:dev_path_point,n:0x084011ee]
+[t:dev_path_point,n:0x033011ee]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011EF;
+	  x next_scid = 0x033011EF;
 		path_name = "river_forest_sweep_path";
 		point_name = "dup";
 	  f radius = 15;
@@ -443,11 +443,11 @@
 	  p position = -0.887217,0.438126,1.25805,0x541207b1;
 	}
 }
-[t:dev_path_point,n:0x084011d5]
+[t:dev_path_point,n:0x033011d5]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011D6;
+	  x next_scid = 0x033011D6;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -456,11 +456,11 @@
 	  p position = 2.20229,-1,-3.70622,0x6ca7e996;
 	}
 }
-[t:dev_path_point,n:0x084011d6]
+[t:dev_path_point,n:0x033011d6]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011D7;
+	  x next_scid = 0x033011D7;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -469,11 +469,11 @@
 	  p position = 1.34432,-0.672165,2.34722,0x12dce0a3;
 	}
 }
-[t:dev_path_point,n:0x084011ce]
+[t:dev_path_point,n:0x033011ce]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011CF;
+	  x next_scid = 0x033011CF;
 		path_name = "river_forest_sweep_path";
 		point_name = "dup";
 	  f radius = 15;
@@ -487,11 +487,11 @@
 	  p position = 1.16419,0,1.75403,0x30eee158;
 	}
 }
-[t:dev_path_point,n:0x084011cc]
+[t:dev_path_point,n:0x033011cc]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011CD;
+	  x next_scid = 0x033011CD;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -500,11 +500,11 @@
 	  p position = 1.21611,7.62939e-006,1.11412,0xf060f6fd;
 	}
 }
-[t:dev_path_point,n:0x084011c4]
+[t:dev_path_point,n:0x033011c4]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011C5;
+	  x next_scid = 0x033011C5;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -513,11 +513,11 @@
 	  p position = -0.589671,0,-1.89322,0x9a7e386d;
 	}
 }
-[t:dev_path_point,n:0x084011c6]
+[t:dev_path_point,n:0x033011c6]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011C7;
+	  x next_scid = 0x033011C7;
 		path_name = "river_forest_sweep_path";
 		point_name = "dup";
 	  f radius = 15;
@@ -531,11 +531,11 @@
 	  p position = 0.145158,0,-1.94052,0x9a7e386d;
 	}
 }
-[t:dev_path_point,n:0x084011c5]
+[t:dev_path_point,n:0x033011c5]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011C6;
+	  x next_scid = 0x033011C6;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -544,11 +544,11 @@
 	  p position = 0.331113,0,-1.81373,0x805f0137;
 	}
 }
-[t:dev_path_point,n:0x084011c7]
+[t:dev_path_point,n:0x033011c7]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011C8;
+	  x next_scid = 0x033011C8;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -557,11 +557,11 @@
 	  p position = -0.532233,0,-1.39678,0x5ddd149b;
 	}
 }
-[t:dev_path_point,n:0x084011c8]
+[t:dev_path_point,n:0x033011c8]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011C9;
+	  x next_scid = 0x033011C9;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -570,11 +570,11 @@
 	  p position = 3.43776,0,-1.23992,0x6780524f;
 	}
 }
-[t:dev_path_point,n:0x084011c9]
+[t:dev_path_point,n:0x033011c9]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011CA;
+	  x next_scid = 0x033011CA;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -583,11 +583,11 @@
 	  p position = -3.02714,0,2.0592,0xcedf5baf;
 	}
 }
-[t:dev_path_point,n:0x084011cf]
+[t:dev_path_point,n:0x033011cf]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011D0;
+	  x next_scid = 0x033011D0;
 		path_name = "river_forest_sweep_path";
 		point_name = "dup";
 	  f radius = 15;
@@ -601,11 +601,11 @@
 	  p position = 1.40635,0,1.56837,0x779981b2;
 	}
 }
-[t:dev_path_point,n:0x084011cd]
+[t:dev_path_point,n:0x033011cd]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011CE;
+	  x next_scid = 0x033011CE;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -614,11 +614,11 @@
 	  p position = -3.11918,1,2.429,0x9849aa84;
 	}
 }
-[t:dev_path_point,n:0x084011c3]
+[t:dev_path_point,n:0x033011c3]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011C4;
+	  x next_scid = 0x033011C4;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -627,11 +627,11 @@
 	  p position = -1.33777,0,1.86668,0x9a0cb622;
 	}
 }
-[t:dev_path_point,n:0x084011b3]
+[t:dev_path_point,n:0x033011b3]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011B4;
+	  x next_scid = 0x033011B4;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -640,11 +640,11 @@
 	  p position = 0.793671,0,2.70108,0x03dfb214;
 	}
 }
-[t:dev_path_point,n:0x084011b6]
+[t:dev_path_point,n:0x033011b6]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011B7;
+	  x next_scid = 0x033011B7;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -653,11 +653,11 @@
 	  p position = -0.392187,0,1.66655,0x4818529d;
 	}
 }
-[t:dev_path_point,n:0x08401492]
+[t:dev_path_point,n:0x03301492]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x08401493;
+	  x next_scid = 0x03301493;
 		path_name = "zdistance_sign_3_sign_2";
 	  f radius = 15;
 	}
@@ -666,11 +666,11 @@
 	  p position = 0.0234413,7.62939e-006,0.96886,0xb2588d46;
 	}
 }
-[t:dev_path_point,n:0x084011b5]
+[t:dev_path_point,n:0x033011b5]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011B6;
+	  x next_scid = 0x033011B6;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -679,11 +679,11 @@
 	  p position = 1.65868,0,-1.23723,0x1ca84c43;
 	}
 }
-[t:dev_path_point,n:0x084011b2]
+[t:dev_path_point,n:0x033011b2]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011B3;
+	  x next_scid = 0x033011B3;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -692,11 +692,11 @@
 	  p position = 1.17659,0,0.0603218,0x94038e7f;
 	}
 }
-[t:dev_path_point,n:0x084011b4]
+[t:dev_path_point,n:0x033011b4]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011B5;
+	  x next_scid = 0x033011B5;
 		path_name = "river_forest_sweep_path";
 		point_name = "dup";
 	  f radius = 15;
@@ -710,11 +710,11 @@
 	  p position = 0.629658,7.62939e-006,0.261988,0x94038e7f;
 	}
 }
-[t:dev_path_point,n:0x084011b1]
+[t:dev_path_point,n:0x033011b1]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011B2;
+	  x next_scid = 0x033011B2;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -723,11 +723,11 @@
 	  p position = -1.97702,-1.50045,0.0613031,0x46debb5a;
 	}
 }
-[t:dev_path_point,n:0x084011b8]
+[t:dev_path_point,n:0x033011b8]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011B9;
+	  x next_scid = 0x033011B9;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -736,11 +736,11 @@
 	  p position = 1.95963,7.62939e-006,-3.52942,0xc1e2bc98;
 	}
 }
-[t:dev_path_point,n:0x08401495]
+[t:dev_path_point,n:0x03301495]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x08401496;
+	  x next_scid = 0x03301496;
 		path_name = "zdistance_sign_3_sign_2";
 	  f radius = 15;
 	}
@@ -749,11 +749,11 @@
 	  p position = 0.188202,0,1.67747,0xc336e574;
 	}
 }
-[t:dev_path_point,n:0x084011b9]
+[t:dev_path_point,n:0x033011b9]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011BA;
+	  x next_scid = 0x033011BA;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -763,11 +763,11 @@
 	  p position = -0.194778,-3.65,-3.1196,0xaf2a83ca;
 	}
 }
-[t:dev_path_point,n:0x08401497]
+[t:dev_path_point,n:0x03301497]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x08401498;
+	  x next_scid = 0x03301498;
 		path_name = "zdistance_sign_3_sign_2";
 	  f radius = 15;
 	}
@@ -776,11 +776,11 @@
 	  p position = 0.0567119,3.8147e-006,0.841202,0xe640601d;
 	}
 }
-[t:dev_path_point,n:0x084011e6]
+[t:dev_path_point,n:0x033011e6]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011E7;
+	  x next_scid = 0x033011E7;
 		path_name = "river_forest_sweep_path";
 		point_name = "dup";
 	  f radius = 15;
@@ -794,7 +794,7 @@
 	  p position = 0.079495,0,-1.77185,0xb26f08c1;
 	}
 }
-[t:dev_path_point,n:0x08401498]
+[t:dev_path_point,n:0x03301498]
 {
 	[dev_path_point]
 	{
@@ -806,11 +806,11 @@
 	  p position = -1.03236,-3.8147e-006,1.37978,0x720fe0a6;
 	}
 }
-[t:dev_path_point,n:0x0840149a]
+[t:dev_path_point,n:0x0330149a]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x0840149B;
+	  x next_scid = 0x0330149B;
 		path_name = "zdistance_town_center_sign_2";
 	  f radius = 15;
 	}
@@ -819,11 +819,11 @@
 	  p position = -1.14348,0,-0.090133,0x720fe0a6;
 	}
 }
-[t:dev_path_point,n:0x084011e2]
+[t:dev_path_point,n:0x033011e2]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011E4;
+	  x next_scid = 0x033011E4;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -832,11 +832,11 @@
 	  p position = 3.11252,0,-0.433553,0xd64ff251;
 	}
 }
-[t:dev_path_point,n:0x084011e5]
+[t:dev_path_point,n:0x033011e5]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011E6;
+	  x next_scid = 0x033011E6;
 		path_name = "river_forest_sweep_path";
 		point_name = "dup";
 	  f radius = 15;
@@ -850,11 +850,11 @@
 	  p position = 2.2951,0,-0.246248,0xd64ff251;
 	}
 }
-[t:dev_path_point,n:0x084011e4]
+[t:dev_path_point,n:0x033011e4]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011E5;
+	  x next_scid = 0x033011E5;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -864,11 +864,11 @@
 	  p position = 0.163952,0,-0.480614,0x900c9607;
 	}
 }
-[t:dev_path_point,n:0x08401209]
+[t:dev_path_point,n:0x03301209]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x0840120A;
+	  x next_scid = 0x0330120A;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -877,11 +877,11 @@
 	  p position = 2.89303,0,0.230603,0xdfac630c;
 	}
 }
-[t:dev_path_point,n:0x08401208]
+[t:dev_path_point,n:0x03301208]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x08401209;
+	  x next_scid = 0x03301209;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -890,11 +890,11 @@
 	  p position = -3.11385,0,-1.86082,0x7150fbb1;
 	}
 }
-[t:dev_path_point,n:0x084011fd]
+[t:dev_path_point,n:0x033011fd]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011FE;
+	  x next_scid = 0x033011FE;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -903,11 +903,11 @@
 	  p position = 0.497194,1.38541,1.18285,0x7755463f;
 	}
 }
-[t:dev_path_point,n:0x08401201]
+[t:dev_path_point,n:0x03301201]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x08401202;
+	  x next_scid = 0x03301202;
 		path_name = "river_forest_sweep_path";
 		point_name = "dup";
 	  f radius = 15;
@@ -921,11 +921,11 @@
 	  p position = -0.153959,0.940109,0.970055,0x7755463f;
 	}
 }
-[t:dev_path_point,n:0x084011fe]
+[t:dev_path_point,n:0x033011fe]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011FF;
+	  x next_scid = 0x033011FF;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -934,11 +934,11 @@
 	  p position = -3.2447,0,-2.86855,0x3a765425;
 	}
 }
-[t:dev_path_point,n:0x08401200]
+[t:dev_path_point,n:0x03301200]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x08401201;
+	  x next_scid = 0x03301201;
 		path_name = "river_forest_sweep_path";
 		point_name = "dup";
 	  f radius = 15;
@@ -952,11 +952,11 @@
 	  p position = -2.61434,0,-3.13046,0x3a765425;
 	}
 }
-[t:dev_path_point,n:0x084011ff]
+[t:dev_path_point,n:0x033011ff]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x08401200;
+	  x next_scid = 0x03301200;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -965,11 +965,11 @@
 	  p position = 2.55595,0,-1.84991,0x5d7760d6;
 	}
 }
-[t:dev_path_point,n:0x084011e0]
+[t:dev_path_point,n:0x033011e0]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011E1;
+	  x next_scid = 0x033011E1;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -978,11 +978,11 @@
 	  p position = 3.62297,-7.62939e-006,1.29029,0x49c10b69;
 	}
 }
-[t:dev_path_point,n:0x084011f5]
+[t:dev_path_point,n:0x033011f5]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011F6;
+	  x next_scid = 0x033011F6;
 		path_name = "river_forest_sweep_path";
 		point_name = "dup";
 	  f radius = 15;
@@ -996,11 +996,11 @@
 	  p position = 3.95214,-7.62939e-006,2.26163,0x49c10b69;
 	}
 }
-[t:dev_path_point,n:0x084011df]
+[t:dev_path_point,n:0x033011df]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011E0;
+	  x next_scid = 0x033011E0;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -1009,11 +1009,11 @@
 	  p position = 2.51879,0,1.52218,0x204b6f58;
 	}
 }
-[t:dev_path_point,n:0x084011f6]
+[t:dev_path_point,n:0x033011f6]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011F7;
+	  x next_scid = 0x033011F7;
 		path_name = "river_forest_sweep_path";
 		point_name = "dup";
 	  f radius = 15;
@@ -1027,11 +1027,11 @@
 	  p position = 3.29829,0,1.76091,0x204b6f58;
 	}
 }
-[t:dev_path_point,n:0x084011e1]
+[t:dev_path_point,n:0x033011e1]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011E2;
+	  x next_scid = 0x033011E2;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -1040,11 +1040,11 @@
 	  p position = -0.384172,7.62939e-006,-1.49813,0x712ee1cc;
 	}
 }
-[t:dev_path_point,n:0x084011f4]
+[t:dev_path_point,n:0x033011f4]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011F5;
+	  x next_scid = 0x033011F5;
 		path_name = "river_forest_sweep_path";
 		point_name = "dup";
 	  f radius = 15;
@@ -1058,11 +1058,11 @@
 	  p position = -0.637695,0,-1.95725,0x712ee1cc;
 	}
 }
-[t:dev_path_point,n:0x084011e7]
+[t:dev_path_point,n:0x033011e7]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011E8;
+	  x next_scid = 0x033011E8;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -1071,11 +1071,11 @@
 	  p position = -3.00123,0,1.20141,0x6119a1fc;
 	}
 }
-[t:dev_path_point,n:0x084011f3]
+[t:dev_path_point,n:0x033011f3]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011F4;
+	  x next_scid = 0x033011F4;
 		path_name = "river_forest_sweep_path";
 		point_name = "dup";
 	  f radius = 15;
@@ -1089,11 +1089,11 @@
 	  p position = -2.44464,0,1.10283,0x6119a1fc;
 	}
 }
-[t:dev_path_point,n:0x084011e8]
+[t:dev_path_point,n:0x033011e8]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011E9;
+	  x next_scid = 0x033011E9;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -1102,11 +1102,11 @@
 	  p position = 1.71181,-0.999992,-0.751051,0x19692b7c;
 	}
 }
-[t:dev_path_point,n:0x084011f2]
+[t:dev_path_point,n:0x033011f2]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011F3;
+	  x next_scid = 0x033011F3;
 		path_name = "river_forest_sweep_path";
 		point_name = "dup";
 	  f radius = 15;
@@ -1120,11 +1120,11 @@
 	  p position = 1.21633,-1,-1.07595,0x19692b7c;
 	}
 }
-[t:dev_path_point,n:0x08401496]
+[t:dev_path_point,n:0x03301496]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x08401497;
+	  x next_scid = 0x03301497;
 		path_name = "zdistance_sign_3_sign_2";
 	  f radius = 15;
 	}
@@ -1133,11 +1133,11 @@
 	  p position = -1.11249,0,-0.665879,0x74fd26b6;
 	}
 }
-[t:dev_path_point,n:0x084011bd]
+[t:dev_path_point,n:0x033011bd]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011BE;
+	  x next_scid = 0x033011BE;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -1146,11 +1146,11 @@
 	  p position = 1.67954,0,1.69184,0x117e6883;
 	}
 }
-[t:dev_path_point,n:0x084011bc]
+[t:dev_path_point,n:0x033011bc]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011BD;
+	  x next_scid = 0x033011BD;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -1159,11 +1159,11 @@
 	  p position = -2.88741,0,-1.92143,0x6ec9ecbd;
 	}
 }
-[t:dev_path_point,n:0x084011ba]
+[t:dev_path_point,n:0x033011ba]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011BC;
+	  x next_scid = 0x033011BC;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -1172,11 +1172,11 @@
 	  p position = 3.88453,-1,-0.281014,0x6b49ddc3;
 	}
 }
-[t:dev_path_point,n:0x084011b7]
+[t:dev_path_point,n:0x033011b7]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011B8;
+	  x next_scid = 0x033011B8;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -1185,11 +1185,11 @@
 	  p position = 0.891623,0,-1.14221,0xf8a5535c;
 	}
 }
-[t:dev_path_point,n:0x08401494]
+[t:dev_path_point,n:0x03301494]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x08401495;
+	  x next_scid = 0x03301495;
 		path_name = "zdistance_sign_3_sign_2";
 	  f radius = 15;
 	}
@@ -1198,11 +1198,11 @@
 	  p position = -1.66538,1.95644,3.2682,0xb506975c;
 	}
 }
-[t:dev_path_point,n:0x08401493]
+[t:dev_path_point,n:0x03301493]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x08401494;
+	  x next_scid = 0x03301494;
 		path_name = "zdistance_sign_3_sign_2";
 	  f radius = 15;
 	}
@@ -1211,11 +1211,11 @@
 	  p position = -1.61122,1.56415,2.99176,0xe8309e52;
 	}
 }
-[t:dev_path_point,n:0x084011de]
+[t:dev_path_point,n:0x033011de]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011DF;
+	  x next_scid = 0x033011DF;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -1224,11 +1224,11 @@
 	  p position = -1.50071,0,1.06465,0xb1d38af1;
 	}
 }
-[t:dev_path_point,n:0x084011f7]
+[t:dev_path_point,n:0x033011f7]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011F8;
+	  x next_scid = 0x033011F8;
 		path_name = "river_forest_sweep_path";
 		point_name = "dup";
 	  f radius = 15;
@@ -1242,11 +1242,11 @@
 	  p position = -0.60648,0,1.07209,0xb1d38af1;
 	}
 }
-[t:dev_path_point,n:0x084011dc]
+[t:dev_path_point,n:0x033011dc]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011DD;
+	  x next_scid = 0x033011DD;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -1255,11 +1255,11 @@
 	  p position = -3.20378,0,1.92045,0xd9a66f2e;
 	}
 }
-[t:dev_path_point,n:0x084011f9]
+[t:dev_path_point,n:0x033011f9]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011FA;
+	  x next_scid = 0x033011FA;
 		path_name = "river_forest_sweep_path";
 		point_name = "dup";
 	  f radius = 15;
@@ -1273,11 +1273,11 @@
 	  p position = -1.2351,-7.62939e-006,1.9729,0xbf61e743;
 	}
 }
-[t:dev_path_point,n:0x0840149c]
+[t:dev_path_point,n:0x0330149c]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x0840149D;
+	  x next_scid = 0x0330149D;
 		path_name = "zdistance_town_center_sign_2";
 	  f radius = 15;
 	}
@@ -1286,11 +1286,11 @@
 	  p position = -3.01478,0,1.29722,0xbf61e743;
 	}
 }
-[t:dev_path_point,n:0x084011dd]
+[t:dev_path_point,n:0x033011dd]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011DE;
+	  x next_scid = 0x033011DE;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -1299,11 +1299,11 @@
 	  p position = 0.525474,-1.03144,-3.68554,0xe86b5a65;
 	}
 }
-[t:dev_path_point,n:0x084011f8]
+[t:dev_path_point,n:0x033011f8]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011F9;
+	  x next_scid = 0x033011F9;
 		path_name = "river_forest_sweep_path";
 		point_name = "dup";
 	  f radius = 15;
@@ -1317,11 +1317,11 @@
 	  p position = 0.127997,-1.01644,-3.83556,0xe86b5a65;
 	}
 }
-[t:dev_path_point,n:0x084011db]
+[t:dev_path_point,n:0x033011db]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011DC;
+	  x next_scid = 0x033011DC;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -1330,11 +1330,11 @@
 	  p position = -0.130817,-0.259544,-0.0517902,0x2e6710e7;
 	}
 }
-[t:dev_path_point,n:0x084011fa]
+[t:dev_path_point,n:0x033011fa]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011FB;
+	  x next_scid = 0x033011FB;
 		path_name = "river_forest_sweep_path";
 		point_name = "dup";
 	  f radius = 15;
@@ -1348,11 +1348,11 @@
 	  p position = 0.587869,-0.233818,-0.114594,0x2e6710e7;
 	}
 }
-[t:dev_path_point,n:0x084011da]
+[t:dev_path_point,n:0x033011da]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011DB;
+	  x next_scid = 0x033011DB;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -1361,11 +1361,11 @@
 	  p position = 0.805457,0,0.0253763,0x65f9a639;
 	}
 }
-[t:dev_path_point,n:0x084011fb]
+[t:dev_path_point,n:0x033011fb]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011FC;
+	  x next_scid = 0x033011FC;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -1374,11 +1374,11 @@
 	  p position = 3.73508,0,-1.14698,0x807662ae;
 	}
 }
-[t:dev_path_point,n:0x08401203]
+[t:dev_path_point,n:0x03301203]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x08401204;
+	  x next_scid = 0x03301204;
 		path_name = "river_forest_sweep_path";
 		point_name = "dup";
 	  f radius = 15;
@@ -1392,11 +1392,11 @@
 	  p position = 3.33745,0,-1.38132,0x807662ae;
 	}
 }
-[t:dev_path_point,n:0x0840149b]
+[t:dev_path_point,n:0x0330149b]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x0840149C;
+	  x next_scid = 0x0330149C;
 		path_name = "zdistance_town_center_sign_2";
 	  f radius = 15;
 	}
@@ -1405,11 +1405,11 @@
 	  p position = 0.545006,0,0.2054,0x0a101336;
 	}
 }
-[t:dev_path_point,n:0x084011af]
+[t:dev_path_point,n:0x033011af]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011B0;
+	  x next_scid = 0x033011B0;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -1418,11 +1418,11 @@
 	  p position = 3.03208,0,0.932045,0x1f263125;
 	}
 }
-[t:dev_path_point,n:0x084011ae]
+[t:dev_path_point,n:0x033011ae]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011AF;
+	  x next_scid = 0x033011AF;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
@@ -1431,11 +1431,11 @@
 	  p position = 0.699602,0.70047,0.16158,0x2a07aa48;
 	}
 }
-[t:dev_path_point,n:0x084011b0]
+[t:dev_path_point,n:0x033011b0]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011B1;
+	  x next_scid = 0x033011B1;
 		path_name = "river_forest_sweep_path";
 		point_name = "dup";
 	  f radius = 15;
@@ -1449,11 +1449,11 @@
 	  p position = 0.310372,1.31661,1.28908,0x2a07aa48;
 	}
 }
-[t:dev_path_point,n:0x08401490]
+[t:dev_path_point,n:0x03301490]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x08401491;
+	  x next_scid = 0x03301491;
 		path_name = "zdistance_sign_3_sign_2";
 	  f radius = 15;
 	}
@@ -1462,11 +1462,11 @@
 	  p position = 0.833352,-1.40173,-3.42429,0x2a07aa48;
 	}
 }
-[t:dev_path_point,n:0x08401491]
+[t:dev_path_point,n:0x03301491]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x08401492;
+	  x next_scid = 0x03301492;
 		path_name = "zdistance_sign_3_sign_2";
 	  f radius = 15;
 	}
@@ -1475,11 +1475,11 @@
 	  p position = 0.0368235,0,0.190805,0x31d65c0e;
 	}
 }
-[t:dev_path_point,n:0x084011ad]
+[t:dev_path_point,n:0x033011ad]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x084011AE;
+	  x next_scid = 0x033011AE;
 		path_name = "river_forest_sweep_path";
 	  f radius = 15;
 	}
