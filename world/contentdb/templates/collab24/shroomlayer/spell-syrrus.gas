@@ -1,0 +1,41 @@
+[t:template,n:spell_syrrus_fire_base]  // = spell_syrrus_fire
+{
+	category_name = "magic";
+	doc = "Syrrus Fire";
+	specializes = base_spell_monster;
+	[attack]
+	{
+		damage_max = 85;
+		damage_min = 79;
+		area_damage_radius = 3;
+	}
+	[magic]
+	{
+		cast_range = 10;
+		cast_reload_delay = 1;
+		effect_duration = 3;
+		mana_cost = 0;
+		requires_line_of_sight = true;
+		speed_bias = 1;
+		target_type_flags = tt_conscious_enemy;
+		usage_context_flags = uc_offensive;
+	}
+	[spell_damage_volume]
+	{
+		effect_script = syrrus_fire;
+		start_radius = 1.5;
+		length = 10.0;
+	}
+}
+
+[t:template,n:c24_3_spell_syrrus_fire]
+{
+    specializes = spell_syrrus_fire_base;
+
+    // stats from spell_mine_worm_spikes
+    [attack]
+    {
+		damage_max = 24;
+		damage_min = 22;
+    }
+}
