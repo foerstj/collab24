@@ -1,0 +1,16 @@
+[t:template,n:c24_3_shroom_trunk]
+{
+    specializes = ds2_shroom_cav_glow_03_base;
+
+	category_name = "trees";
+	doc = "shroom_tree_trunk_lg";
+	[aspect]
+	{
+		scale_base = 4;
+
+        // tree stuff
+		does_block_camera = true;
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.65;
+	}
+}
