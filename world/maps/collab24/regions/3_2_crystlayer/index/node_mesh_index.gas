@@ -24,6 +24,9 @@
 	0x03200569 = t_xxx_cnr_tee-08-04-12-l;
 	0x0320056a = t_xxx_cnr_tee-08-04-12-r;
 	0x0320056e = t_xxx_cnr_tee-rmp-rmp-08-r;
+	0x032005bd = t_xxx_dgn_flr_ele-round-alpha-strip;
+	0x032005bf = t_xxx_dgn_flr_ele-round-groundplate-terrain;
+	0x032005c9 = t_xxx_dgn_flr_ele-round-tube-bottom;
 	0x032006b3 = t_xxx_flr_04x04-v0;
 	0x032006b4 = t_xxx_flr_04x04-v1;
 	0x032006b5 = t_xxx_flr_04x04-v2;
@@ -81,7 +84,6 @@
 	0x03200864 = t_xxx_pth_08x04-g;
 	0x03200865 = t_xxx_pth_08x04-h;
 	0x03200866 = t_xxx_pth_08x04-i;
-	0x03200868 = t_xxx_pth_08x08-a;
 	0x0320086a = t_xxx_pth_08x08-c;
 	0x0320086b = t_xxx_pth_08x08-d;
 	0x0320086e = t_xxx_pth_08x08-g;
