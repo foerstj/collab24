@@ -15,6 +15,7 @@
 	}
 }
 
+
 [t:template,n:c24_3_shroom_tree_cyan_base]
 {
     specializes = ds2_shroom_cav_glow_01_base;
@@ -31,17 +32,61 @@
 		lodfi_upper = 0.7;
 	}
 }
-
 [t:template,n:c24_3_shroom_tree_cyan_9m]
 {
     specializes = c24_3_shroom_tree_cyan_base;
 
     aspect:scale_base = 4;
 }
-
 [t:template,n:c24_3_shroom_tree_cyan_6m]
 {
     specializes = c24_3_shroom_tree_cyan_base;
 
     aspect:scale_base = 3;
+}
+
+[t:template,n:mushroom_glb_06_base]  // = mushroom_glb_06
+{
+	category_name = "foliage";
+	doc = "shroom_red_xlg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.8;
+		lodfi_upper = 1;
+		model = m_i_glb_mushrooms-06;
+		[textures]
+		{
+			0 = b_i_glb_mushrooms-02;
+		}
+	}
+}
+[t:template,n:c24_3_shroom_tree_red_base]
+{
+    specializes = mushroom_glb_06_base;
+
+	category_name = "trees";
+	[aspect]
+	{
+		lodfi_lower = 0.2;
+		lodfi_upper = 0.6;
+	}
+}
+[t:template,n:c24_3_shroom_tree_red_lg]
+{
+    specializes = c24_3_shroom_tree_red_base;
+
+    aspect:scale_base = 4;
+}
+[t:template,n:c24_3_shroom_tree_red_md]
+{
+    specializes = c24_3_shroom_tree_red_base;
+
+    aspect:scale_base = 3;
+}
+[t:template,n:c24_3_shroom_tree_red_sm]
+{
+    specializes = c24_3_shroom_tree_red_base;
+
+    aspect:scale_base = 2;
 }
