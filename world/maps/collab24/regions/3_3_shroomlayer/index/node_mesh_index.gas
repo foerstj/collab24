@@ -45,6 +45,7 @@
 	0x0330056a = t_xxx_cnr_tee-08-04-12-r;
 	0x0330056d = t_xxx_cnr_tee-rmp-rmp-08-l;
 	0x0330056e = t_xxx_cnr_tee-rmp-rmp-08-r;
+	0x033005bf = t_xxx_dgn_flr_ele-round-groundplate-terrain;
 	0x0330068c = t_xxx_flr_h2o_04x04-v0;
 	0x03300691 = t_xxx_flr_h2o_04x08-v0;
 	0x033006b3 = t_xxx_flr_04x04-v0;
@@ -179,13 +180,4 @@
 	0x03300c6d = t_grs01_houses_generic-b-roof-thatch;
 	0x03300c71 = t_grs01_houses_generic-b-stone-door-top;
 	0x03300c72 = t_grs01_houses_generic-b-stone;
-	0x03300cfd = t_grs01_cobblestone-tx-04x04-d;
-	0x03301014 = t_th01_teleport-tower-base-a;
-	0x03301017 = t_th01_teleport-tower-doorsides-a;
-	0x03301018 = t_th01_teleport-tower-doortop-a;
-	0x03301019 = t_th01_teleport-tower-ele-base-a;
-	0x0330101a = t_th01_teleport-tower-ele-cap-a;
-	0x0330101c = t_th01_teleport-tower-ele-top-a;
-	0x0330101e = t_th01_teleport-tower-ele-top-c;
-	0x0330101f = t_th01_teleport-tower-top-a;
 }
