@@ -1,0 +1,10 @@
+[t:template,n:c24_3_emt_shroom_sparkles]
+{
+	specializes		= emitter_lightweight;
+
+    category_name	= "emitter";
+	[generic_emitter]
+    {
+        other_effect = "shroom_sparkles";
+    }
+}

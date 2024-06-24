@@ -1,0 +1,17 @@
+[effect_script*]
+{
+    name = shroom_sparkles;
+
+    script =[[
+        set $count 4;
+        set $psize .25;
+        set $radius 8;
+        set $ts .05;
+        set $yvel 1;
+        set $color 1,1,1;
+
+        sfx create sparkles #TARGET
+            "color0($color)count($count)psize($psize)radius($radius)ts($ts)yvel($yvel)offset(0,6,0)";
+        sfx start #POP;
+    ]];
+}
