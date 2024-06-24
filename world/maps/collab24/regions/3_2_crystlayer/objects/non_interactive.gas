@@ -302,6 +302,42 @@
 	  p position = 1.68296,0.55,-0.470047,0xcddb79dd;
 	}
 }
+[t:shroom_cav_group_09,n:0x03200367]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.07581;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.322899,0,0.946433;
+	  p position = -1.59411,-3,-2.88023,0x4894d590;
+	}
+}
+[t:shroom_cav_group_09,n:0x03200368]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.98409;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.853917,0,0.520409;
+	  p position = -3.02202,-3,-1.55869,0x4894d590;
+	}
+}
+[t:shroom_cav_group_09,n:0x03200369]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.96138;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.994466,0,0.105057;
+	  p position = 2.3557,-3,2.32102,0x4894d590;
+	}
+}
 [t:crystals_cav_04,n:0x032006aa]
 {
 	[aspect]
@@ -22402,6 +22438,78 @@
 	{
 	  q orientation = 0,0.771624,0,-0.636078;
 	  p position = -1.16827,3.8147e-006,-1.13442,0x33386d07;
+	}
+}
+[t:debris_cav_02,n:0x0320036b]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.930519;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.828437,0,0.560082;
+	  p position = 2.74821,-3,2.68681,0x060af7c7;
+	}
+}
+[t:rock_grs_06,n:0x0320036c]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.05145;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.998344,0,0.057521;
+	  p position = -2.51411,-3,-1.6797,0x060af7c7;
+	}
+}
+[t:rock_grs_06,n:0x0320036d]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.07668;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.402196,0,0.915554;
+	  p position = -1.89844,-3,2.36865,0x060af7c7;
+	}
+}
+[t:rock_grs_05,n:0x0320036e]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.05299;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.988362,0,0.152123;
+	  p position = -1.18809,-3,2.8632,0x060af7c7;
+	}
+}
+[t:rock_grs_05,n:0x0320036f]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.917379;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.839749,0,0.542975;
+	  p position = 2.90141,-3,0.0547485,0x060af7c7;
+	}
+}
+[t:debris_cav_02,n:0x03200370]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.944699;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.397261,0,0.917706;
+	  p position = -3.55848,-3,1.20825,0x060af7c7;
 	}
 }
 [t:crystals_cav_03_x2,n:0x032002b2]
@@ -55076,113 +55184,5 @@
 	{
 	  q orientation = 0,1,0,-1.66939e-007;
 	  p position = -0.0405917,-0.0597782,1.30735,0x895b3882;
-	}
-}
-[t:shroom_cav_group_09,n:0x03200367]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.07581;
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.322899,0,0.946433;
-	  p position = -1.59411,-3,-2.88023,0x4894d590;
-	}
-}
-[t:shroom_cav_group_09,n:0x03200368]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.98409;
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.853917,0,0.520409;
-	  p position = -3.02202,-3,-1.55869,0x4894d590;
-	}
-}
-[t:shroom_cav_group_09,n:0x03200369]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.96138;
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.994466,0,0.105057;
-	  p position = 2.3557,-3,2.32102,0x4894d590;
-	}
-}
-[t:debris_cav_02,n:0x0320036b]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.930519;
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.828437,0,0.560082;
-	  p position = 2.74821,-3,2.68681,0x060af7c7;
-	}
-}
-[t:rock_grs_06,n:0x0320036c]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.05145;
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.998344,0,0.057521;
-	  p position = -2.51411,-3,-1.6797,0x060af7c7;
-	}
-}
-[t:rock_grs_06,n:0x0320036d]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.07668;
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.402196,0,0.915554;
-	  p position = -1.89844,-3,2.36865,0x060af7c7;
-	}
-}
-[t:rock_grs_05,n:0x0320036e]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.05299;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.988362,0,0.152123;
-	  p position = -1.18809,-3,2.8632,0x060af7c7;
-	}
-}
-[t:rock_grs_05,n:0x0320036f]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.917379;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.839749,0,0.542975;
-	  p position = 2.90141,-3,0.0547485,0x060af7c7;
-	}
-}
-[t:debris_cav_02,n:0x03200370]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.944699;
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.397261,0,0.917706;
-	  p position = -3.55848,-3,1.20825,0x060af7c7;
 	}
 }
