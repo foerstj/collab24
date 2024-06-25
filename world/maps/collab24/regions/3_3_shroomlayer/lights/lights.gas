@@ -1480,7 +1480,7 @@
 	  b draw_shadow = false;
 	  f inner_radius = 0.000000;
 	  f intensity = 0.585186;
-	  b occlude_geometry = false;
+	  b occlude_geometry = true;
 	  b on_timer = false;
 	  f outer_radius = 13.741527;
 		[position]
@@ -6121,7 +6121,7 @@
 	  b draw_shadow = false;
 	  f inner_radius = 0.000000;
 	  f intensity = 0.608524;
-	  b occlude_geometry = false;
+	  b occlude_geometry = true;
 	  b on_timer = false;
 	  f outer_radius = 16.092337;
 		[position]
@@ -16285,7 +16285,7 @@
 	  b draw_shadow = false;
 	  f inner_radius = 0.000000;
 	  f intensity = 0.440715;
-	  b occlude_geometry = false;
+	  b occlude_geometry = true;
 	  b on_timer = false;
 	  f outer_radius = 18.597330;
 		[position]
@@ -23614,7 +23614,7 @@
 	  b draw_shadow = false;
 	  f inner_radius = 0.000000;
 	  f intensity = 0.478067;
-	  b occlude_geometry = false;
+	  b occlude_geometry = true;
 	  b on_timer = false;
 	  f outer_radius = 13.525435;
 		[position]
