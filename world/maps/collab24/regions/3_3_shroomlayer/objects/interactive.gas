@@ -122,10 +122,35 @@
 		use_point_scids = 0x03300abf;
 	}
 }
-[t:door_glb_gendungeon_05,n:0x03300be0]
+[t:door_glb_keep_02,n:0x03300be2]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.9;
+	}
+	[door_basic]
+	{
+	  x second_door = 0x03300BE8;
+	}
 	[placement]
 	{
-	  p position = 0.0120392,-1.5,-0.0589075,0x1c2bb6b7;
+	  q orientation = 0,-3.27417e-007,0,-1;
+	  p position = 0.00550842,-1.5,-0.504782,0x1c2bb6b7;
+	}
+}
+[t:door_glb_keep_right_02,n:0x03300be8]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.9;
+	}
+	[door_basic]
+	{
+	  x second_door = 0x03300BE2;
+	}
+	[placement]
+	{
+	  q orientation = 0,3.27417e-007,0,1;
+	  p position = 0.00463867,-1.5,-0.504161,0x1c2bb6b7;
 	}
 }
