@@ -38,11 +38,17 @@
 	0x0330056a = t_xxx_cnr_tee-08-04-12-r;
 	0x0330056d = t_xxx_cnr_tee-rmp-rmp-08-l;
 	0x0330056e = t_xxx_cnr_tee-rmp-rmp-08-r;
+	0x0330057a = t_xxx_dgn_cnr_ex-ccav-b;
+	0x033005ac = t_xxx_dgn_flr_04x04-a;
+	0x033005ae = t_xxx_dgn_flr_08x04-a;
 	0x033005bd = t_xxx_dgn_flr_ele-round-alpha-strip;
 	0x033005bf = t_xxx_dgn_flr_ele-round-groundplate-terrain;
 	0x033005c8 = t_xxx_dgn_flr_ele-round-tube-62m;
 	0x033005c9 = t_xxx_dgn_flr_ele-round-tube-bottom;
 	0x0330061d = t_xxx_dgn_wal_archway-a;
+	0x03300623 = t_xxx_dgn_wal_ex-diag-l;
+	0x03300624 = t_xxx_dgn_wal_ex-diag-r;
+	0x0330062a = t_xxx_dgn_wal_ex-thin-a;
 	0x03300665 = t_xxx_dgn_zportal-base-a;
 	0x0330066b = t_xxx_dgn_zportal-top-a;
 	0x0330068c = t_xxx_flr_h2o_04x04-v0;
