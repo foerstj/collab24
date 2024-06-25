@@ -24,6 +24,31 @@
 }
 [mood_setting*]
 {
+	mood_name				= collab24_3_shroomlayer_1_house;
+	transition_time			= 1.0f;
+	interior				= false;
+
+	[fog]
+	{
+		fog_near_dist		= 30.0f;
+		fog_far_dist		= 60.0f;
+		fog_lowdetail_near_dist		= 30.0f;
+		fog_lowdetail_far_dist		= 45.0f;
+		fog_color			= 0xFF000000;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		//ambient_track		= "s_e_ambient_wind_01b";
+		standard_repeat_delay = 5.0f;
+		standard_track		= "s_m_Path2Stonebridge_01";
+		room_type			= rt_stoneroom;
+	}
+}
+
+[mood_setting*]
+{
 	// transition to 3, descent to valley
 	mood_name				= collab24_3_shroomlayer_2;
 	transition_time			= 5.0f;

@@ -272,3 +272,63 @@
 	  p position = -0.139725,1.96132,3.60094,0x2a07aa48;
 	}
 }
+[t:trigger_generic,n:0x03300bdb]
+{
+	[common]
+	{
+		dev_instance_text = "FADE & MOOD";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = fade_nodes(0x00000033,1,-1,-1,"in");
+				action* = mood_change("collab24_3_shroomlayer_1");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(4.000000,1.000000,1.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = 0.066803,-0.0999999,-3.79436,0xeb157d4e;
+	}
+}
+[t:trigger_generic,n:0x03300be1]
+{
+	[common]
+	{
+		dev_instance_text = "FADE & MOOD";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = fade_nodes(0x00000033,1,-1,-1,"out:black");
+				action* = mood_change("collab24_3_shroomlayer_1_house");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(4.000000,1.000000,1.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = 0.0354919,-1.5,0.710768,0x1c2bb6b7;
+	}
+}
