@@ -203,6 +203,35 @@
 	  p position = 3.14418,-3,-3.06128,0x84d9e445;
 	}
 }
+[t:trigger_generic,n:0x03300bd4]
+{
+	[common]
+	{
+		dev_instance_text = "PWL";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = set_player_world_location("shroomlayer");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(8.000000,2.000000,8.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = -0.178155,-3,-3.03044,0x84d9e445;
+	}
+}
 [t:trigger_change_mood_box,n:0x03300002]
 {
 	[common]
@@ -316,34 +345,5 @@
 	{
 	  q orientation = 0,1,0,2.98023e-008;
 	  p position = -0.139725,1.96132,3.60094,0x2a07aa48;
-	}
-}
-[t:trigger_generic,n:0x03300bd4]
-{
-	[common]
-	{
-		dev_instance_text = "PWL";
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = set_player_world_location("shroomlayer");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(8.000000,2.000000,8.000000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = false;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  p position = -0.178155,-3,-3.03044,0x84d9e445;
 	}
 }
