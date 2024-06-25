@@ -5,29 +5,3 @@
 	  p position = -0.390091,0,-2.40079,0x92bf84a5;
 	}
 }
-[t:cmd_animation_command,n:0x03300acc]
-{
-	[cmd_animation_command]
-	{
-	  i animation = 1952541803;
-	  x client_scid = 0x03300AC8;
-	  b initially_active = true;
-	}
-	[placement]
-	{
-	  p position = 0.502396,-3.65,2.53469,0xaf2a83ca;
-	}
-}
-[t:cmd_animation_command,n:0x03300acd]
-{
-	[cmd_animation_command]
-	{
-	  i animation = 1952541803;
-	  x client_scid = 0x03300ACB;
-	  b initially_active = true;
-	}
-	[placement]
-	{
-	  p position = -0.462086,-3.65,1.74538,0xaf2a83ca;
-	}
-}

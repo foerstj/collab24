@@ -1,16 +1,3 @@
-[t:door_grs_peasant_right,n:0x033015d7]
-{
-	[door_basic]
-	{
-	  x msg_scid_opening = 0x03301485;
-		msg_type_opening = we_trigger_activate;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.983255,0,-0.182235;
-	  p position = 0.0336456,-3.65,-2.89999,0xaf2a83ca;
-	}
-}
 [t:sign_glb_01,n:0x03301053]
 {
 	[common]
@@ -133,5 +120,12 @@
 	  q orientation = 0,0.382683,0,0.92388;
 	  p position = 2.33404,-3,-2.26489,0x84d9e445;
 		use_point_scids = 0x03300abf;
+	}
+}
+[t:door_glb_gendungeon_05,n:0x03300be0]
+{
+	[placement]
+	{
+	  p position = 0.0120392,-1.5,-0.0589075,0x1c2bb6b7;
 	}
 }

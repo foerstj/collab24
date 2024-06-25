@@ -42,6 +42,9 @@
 	0x033005bf = t_xxx_dgn_flr_ele-round-groundplate-terrain;
 	0x033005c8 = t_xxx_dgn_flr_ele-round-tube-62m;
 	0x033005c9 = t_xxx_dgn_flr_ele-round-tube-bottom;
+	0x0330061d = t_xxx_dgn_wal_archway-a;
+	0x03300665 = t_xxx_dgn_zportal-base-a;
+	0x0330066b = t_xxx_dgn_zportal-top-a;
 	0x0330068c = t_xxx_flr_h2o_04x04-v0;
 	0x03300691 = t_xxx_flr_h2o_04x08-v0;
 	0x033006b3 = t_xxx_flr_04x04-v0;
@@ -167,7 +170,4 @@
 	0x03300a4d = t_xxx_wal_32-diag-thick-r;
 	0x03300a50 = t_xxx_wal_32-thck;
 	0x03300a52 = t_xxx_wal_32-thin;
-	0x03300c6c = t_grs01_houses_generic-b-roof-shingle;
-	0x03300c71 = t_grs01_houses_generic-b-stone-door-top;
-	0x03300c72 = t_grs01_houses_generic-b-stone;
 }
