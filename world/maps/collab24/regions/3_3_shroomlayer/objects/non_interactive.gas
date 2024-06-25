@@ -45854,7 +45854,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.707107,0,0.707107;
-	  p position = -1.93051,0.0297823,0.0364075,0x6884aa4f;
+	  p position = -2,0.0297823,0,0x6884aa4f;
 	}
 }
 [t:table_grs_round,n:0x03300be5]
@@ -45862,7 +45862,7 @@
 	[placement]
 	{
 	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = -2.08158,0,-0.0948639,0x6884aa4f;
+	  p position = -2,0,0,0x6884aa4f;
 	}
 }
 [t:candle_glb_01,n:0x03300be6]
@@ -45874,7 +45874,7 @@
 	[placement]
 	{
 	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = -2.11081,0.835815,-0.172668,0x6884aa4f;
+	  p position = -2,0.835815,0,0x6884aa4f;
 	}
 }
 [t:chest_glb_of_drawers_01,n:0x03300acc]
@@ -45890,7 +45890,7 @@
 	[placement]
 	{
 	  q orientation = 0,5.96046e-008,0,1;
-	  p position = 1.77997,0,-0.963818,0xfb3caf0c;
+	  p position = 1.78157,0,-1.02024,0xfb3caf0c;
 	}
 }
 [t:bed_glb_01,n:0x03300ac5]
@@ -45921,7 +45921,7 @@
 {
 	[placement]
 	{
-	  p position = -1.12358,-1.5,-1.74095,0x780f7913;
+	  p position = -0.946012,-1.5,-1.27686,0x780f7913;
 	}
 }
 [t:cloth_glb_bolt_01,n:0x03300ace]
@@ -45929,7 +45929,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.382683,0,0.92388;
-	  p position = -1.58438,-1.5,-2.07356,0x780f7913;
+	  p position = -1.2625,-1.5,-1.73692,0x780f7913;
 	}
 }
 [t:lamp_glb_oil_01,n:0x03300ac3]
@@ -47388,5 +47388,37 @@
 	{
 	  q orientation = 0,0.573577,0,0.819152;
 	  p position = -1.77399,5.93947,-0.226603,0xe768c6fb;
+	}
+}
+[t:pot_grs_01,n:0x03300be9]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 0.175537,-0.511045,-0.763412,0x54313257;
+	}
+}
+[t:mushrooms_cav_06,n:0x03300beb]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = 0.172981,-0.511045,-0.751221,0x54313257;
+	}
+}
+[t:pot_grs_01,n:0x03300bec]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -0.243473,-0.495553,-0.752029,0x780f7913;
+	}
+}
+[t:mushrooms_cav_06,n:0x03300bed]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -0.248672,-0.495553,-0.726913,0x780f7913;
 	}
 }
