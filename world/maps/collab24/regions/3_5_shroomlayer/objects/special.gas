@@ -77,13 +77,11 @@
 {
 	[common]
 	{
-		dev_instance_text = "MOOD, PLAYER LOCATION";
 		[instance_triggers]
 		{
 			[*]
 			{
 				action* = mood_change("multiplayer_world_path2crypts_1");
-				action* = set_player_world_location("iliarth_divide");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(4.000000,1.000000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -107,13 +105,11 @@
 {
 	[common]
 	{
-		dev_instance_text = "MOOD, PLAYER LOCATION";
 		[instance_triggers]
 		{
 			[*]
 			{
 				action* = mood_change("multiplayer_world_river_forest_2");
-				action* = set_player_world_location("iliarth_valley");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(4.000000,1.000000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -199,7 +195,7 @@
 	  p position = -2.27956,0,-0.885742,0x6b5b7dbe;
 	}
 }
-[t:trigger_change_mood_box,n:0x0350156a]
+[t:trigger_change_mood_box,n:0x03500002]
 {
 	[common]
 	{
@@ -207,9 +203,9 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_river_forest_3");
+				action* = mood_change("multiplayer_world_river_forest_5");
 			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(2.000000,1.000000,1.000000,"on_every_enter");
+				condition* = party_member_within_bounding_box(4.000000,1.000000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
@@ -224,8 +220,37 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.636078,0,0.771624;
-	  p position = 0.965775,-2.05,-3.80362,0x10557978;
+	  q orientation = 0,-0.771624,0,0.636078;
+	  p position = -0.668373,-1.97629,-3.88145,0xe5913c63;
+	}
+}
+[t:trigger_change_mood_box,n:0x0350156a]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("multiplayer_world_river_forest_3");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(4.000000,1.000000,1.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.771624,0,0.636078;
+	  p position = -0.18641,-6,-1.83768,0x3749478c;
 	}
 }
 [t:trigger_change_mood_box,n:0x03501569]
@@ -348,13 +373,11 @@
 {
 	[common]
 	{
-		dev_instance_text = "MOOD, PLAYER LOCATION";
 		[instance_triggers]
 		{
 			[*]
 			{
 				action* = mood_change("multiplayer_world_river_forest_2");
-				action* = set_player_world_location("iliarth_valley");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(4.000000,1.000000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
