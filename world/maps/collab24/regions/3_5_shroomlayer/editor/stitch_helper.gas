@@ -2,37 +2,9 @@
 {
 	source_region_guid = 0x00000035;
 	source_region_name = 3_5_shroomlayer;
-	[t:stitch_editor,n:path2crypts]
+	[t:stitch_editor,n:3_3_shroomlayer]
 	{
-		dest_region = path2crypts;
-		[node_ids]
-		{
-			0x00000c23 = 0x63227E20,2;
-			0x00000c24 = 0x63227E20,1;
-			0x00000c25 = 0xE9DA71EE,4;
-			0x00000c26 = 0xFBA7FB65,1;
-			0x00000c27 = 0xAC0232C2,2;
-			0x00000c28 = 0xAC0232C2,1;
-			0x00000c29 = 0x5A85C77B,1;
-			0x00000c30 = 0x223F6CF2,5;
-			0x00000c31 = 0x223F6CF2,4;
-			0x00000c32 = 0x93E40737,2;
-			0x00000c33 = 0x93E40737,1;
-			0x00000c34 = 0xDC3732C1,5;
-			0x00000c35 = 0xDC3732C1,4;
-			0x00000c36 = 0x21DD7FEF,2;
-			0x00000c37 = 0x21DD7FEF,1;
-			0x00000c38 = 0xBE6A6EE9,2;
-			0x00000c39 = 0x814672D8,6;
-			0x00000c40 = 0x7CC37990,1;
-			0x00000c41 = 0xA3EA9DA7,3;
-			0x00000c42 = 0x7D8C51AF,6;
-			0x00000c43 = 0xBF5C1AB9,6;
-		}
-	}
-	[t:stitch_editor,n:river_forest]
-	{
-		dest_region = river_forest;
+		dest_region = 3_3_shroomlayer;
 		[node_ids]
 		{
 			0x00afffd1 = 0x3309647C,6;
