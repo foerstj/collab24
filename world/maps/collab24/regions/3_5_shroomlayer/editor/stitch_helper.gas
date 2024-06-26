@@ -1,7 +1,7 @@
 [stitch_helper_data]
 {
 	source_region_guid = 0x00000035;
-	source_region_name = river_forest_r2;
+	source_region_name = 3_5_shroomlayer;
 	[t:stitch_editor,n:path2crypts]
 	{
 		dest_region = path2crypts;
