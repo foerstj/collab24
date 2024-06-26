@@ -291,15 +291,16 @@
 {
 	[placement]
 	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = -2.60291,0,-1.59199,0xd1ffa8ed;
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 2.55962,0,-2.6311,0xc7aee069;
 	}
 }
 [t:skeleton,n:0x03501674]
 {
 	[placement]
 	{
-	  p position = 2.89172,0,3.12136,0xd1ffa8ed;
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 2.92638,0,-2.39044,0xc0fec50f;
 	}
 }
 [t:krug_shaman,n:0x03501613]
