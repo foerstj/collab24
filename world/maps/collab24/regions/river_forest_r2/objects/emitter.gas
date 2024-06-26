@@ -1,4 +1,4 @@
-[t:emt_sound,n:0x09500509]
+[t:emt_sound,n:0x03500509]
 {
 	[placement]
 	{
@@ -13,7 +13,7 @@
 	  i stop_hour = 12;
 	}
 }
-[t:emt_sound,n:0x0950146c]
+[t:emt_sound,n:0x0350146c]
 {
 	[placement]
 	{
@@ -29,7 +29,7 @@
 	  i time_chunk = 3;
 	}
 }
-[t:emt_sound,n:0x095004bd]
+[t:emt_sound,n:0x035004bd]
 {
 	[placement]
 	{
@@ -42,7 +42,7 @@
 		event_sound = "env_waterfall";
 	}
 }
-[t:emt_sound,n:0x09500051]
+[t:emt_sound,n:0x03500051]
 {
 	[placement]
 	{
@@ -54,7 +54,7 @@
 		event_sound = "env_brook";
 	}
 }
-[t:emt_sound,n:0x095004ec]
+[t:emt_sound,n:0x035004ec]
 {
 	[placement]
 	{
@@ -70,7 +70,7 @@
 	  i time_chunk = 1;
 	}
 }
-[t:emt_sound,n:0x09501469]
+[t:emt_sound,n:0x03501469]
 {
 	[placement]
 	{
@@ -86,7 +86,7 @@
 	  i time_chunk = 3;
 	}
 }
-[t:emt_sound,n:0x095004f3]
+[t:emt_sound,n:0x035004f3]
 {
 	[placement]
 	{
@@ -101,7 +101,7 @@
 	  i stop_hour = 12;
 	}
 }
-[t:emt_sound,n:0x09500046]
+[t:emt_sound,n:0x03500046]
 {
 	[placement]
 	{
@@ -113,7 +113,7 @@
 		event_sound = "env_brook";
 	}
 }
-[t:emt_sound,n:0x095004ee]
+[t:emt_sound,n:0x035004ee]
 {
 	[placement]
 	{
@@ -129,7 +129,7 @@
 	  i time_chunk = 1;
 	}
 }
-[t:emt_sound,n:0x09500422]
+[t:emt_sound,n:0x03500422]
 {
 	[placement]
 	{
@@ -142,7 +142,7 @@
 		event_sound = "env_brook";
 	}
 }
-[t:emt_sound,n:0x09500467]
+[t:emt_sound,n:0x03500467]
 {
 	[placement]
 	{
@@ -155,7 +155,7 @@
 		event_sound = "env_brook";
 	}
 }
-[t:emt_sound,n:0x09500479]
+[t:emt_sound,n:0x03500479]
 {
 	[placement]
 	{
@@ -168,7 +168,7 @@
 		event_sound = "env_brook";
 	}
 }
-[t:emt_sound,n:0x0950146a]
+[t:emt_sound,n:0x0350146a]
 {
 	[placement]
 	{
@@ -184,7 +184,7 @@
 	  i time_chunk = 3;
 	}
 }
-[t:emt_sound,n:0x095004ca]
+[t:emt_sound,n:0x035004ca]
 {
 	[placement]
 	{
@@ -200,7 +200,7 @@
 	  i time_chunk = 1;
 	}
 }
-[t:emt_sound,n:0x0950004e]
+[t:emt_sound,n:0x0350004e]
 {
 	[placement]
 	{
@@ -212,7 +212,7 @@
 		event_sound = "env_brook";
 	}
 }
-[t:emt_sound,n:0x095004ed]
+[t:emt_sound,n:0x035004ed]
 {
 	[placement]
 	{
@@ -228,7 +228,7 @@
 	  i time_chunk = 1;
 	}
 }
-[t:emt_sound,n:0x09500500]
+[t:emt_sound,n:0x03500500]
 {
 	[placement]
 	{
@@ -243,7 +243,7 @@
 	  i stop_hour = 12;
 	}
 }
-[t:emt_sound,n:0x0950004c]
+[t:emt_sound,n:0x0350004c]
 {
 	[placement]
 	{
@@ -256,7 +256,7 @@
 		event_sound = "env_brook";
 	}
 }
-[t:emt_sound,n:0x0950146b]
+[t:emt_sound,n:0x0350146b]
 {
 	[placement]
 	{
@@ -272,7 +272,7 @@
 	  i time_chunk = 3;
 	}
 }
-[t:emt_sound,n:0x095004c8]
+[t:emt_sound,n:0x035004c8]
 {
 	[placement]
 	{
@@ -288,7 +288,7 @@
 	  i time_chunk = 1;
 	}
 }
-[t:emt_sound,n:0x09500044]
+[t:emt_sound,n:0x03500044]
 {
 	[placement]
 	{
@@ -301,7 +301,7 @@
 		event_sound = "env_brook";
 	}
 }
-[t:emt_sound,n:0x0950041a]
+[t:emt_sound,n:0x0350041a]
 {
 	[placement]
 	{
@@ -314,7 +314,7 @@
 		event_sound = "env_waterfall";
 	}
 }
-[t:emt_sound,n:0x0950146d]
+[t:emt_sound,n:0x0350146d]
 {
 	[placement]
 	{
@@ -330,7 +330,7 @@
 	  i time_chunk = 3;
 	}
 }
-[t:emt_sound,n:0x09500040]
+[t:emt_sound,n:0x03500040]
 {
 	[placement]
 	{
@@ -342,7 +342,7 @@
 		event_sound = "env_brook";
 	}
 }
-[t:emt_sound,n:0x09500042]
+[t:emt_sound,n:0x03500042]
 {
 	[placement]
 	{
@@ -355,7 +355,7 @@
 		event_sound = "env_brook";
 	}
 }
-[t:emt_sound,n:0x095004f1]
+[t:emt_sound,n:0x035004f1]
 {
 	[placement]
 	{
@@ -370,7 +370,7 @@
 	  i stop_hour = 12;
 	}
 }
-[t:emt_sound,n:0x095004c7]
+[t:emt_sound,n:0x035004c7]
 {
 	[placement]
 	{
@@ -386,7 +386,7 @@
 	  i time_chunk = 1;
 	}
 }
-[t:emt_sound,n:0x09500053]
+[t:emt_sound,n:0x03500053]
 {
 	[placement]
 	{
