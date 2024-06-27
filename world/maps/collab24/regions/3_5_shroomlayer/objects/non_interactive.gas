@@ -104,6 +104,10 @@
 	{
 	  f scale_multiplier = 1.07948;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x029C7FD5;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.989016,0,0.147809;
@@ -127,6 +131,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.31658;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xC9D1D44E;
 	}
 	[placement]
 	{
@@ -295,6 +303,10 @@
 	{
 	  f scale_multiplier = 1.38963;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x649A1990;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.961262,0,-0.275637;
@@ -306,6 +318,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.13521;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xC228DE04;
 	}
 	[placement]
 	{
@@ -491,6 +507,10 @@
 	{
 	  f scale_multiplier = 1.01088;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x56878951;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.887011,0,-0.461749;
@@ -502,6 +522,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 0.993358;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x54BB492A;
 	}
 	[placement]
 	{
@@ -539,6 +563,10 @@
 	{
 	  f scale_multiplier = 1.0613;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xC9D1351E;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.559193,0,0.829038;
@@ -551,6 +579,10 @@
 	{
 	  f scale_multiplier = 1.30101;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xE84BAC73;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.615661,0,-0.788011;
@@ -562,6 +594,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.30461;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xFF71D44F;
 	}
 	[placement]
 	{
@@ -645,6 +681,10 @@
 	{
 	  f scale_multiplier = 1.05394;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xCFB559C2;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.182236,0,0.983255;
@@ -712,6 +752,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.13256;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xC0674A74;
 	}
 	[placement]
 	{
@@ -921,6 +965,10 @@
 	{
 	  f scale_multiplier = 1.09497;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x2AA368D1;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.0784588,0,-0.996917;
@@ -976,6 +1024,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.13984;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x919BEE6F;
 	}
 	[placement]
 	{
@@ -1565,6 +1617,10 @@
 	{
 	  f scale_multiplier = 1.50977;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x08D4582A;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.0697562,0,-0.997564;
@@ -1576,6 +1632,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.3298;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xD4AAACBD;
 	}
 	[placement]
 	{
@@ -1966,6 +2026,10 @@
 	{
 	  f scale_multiplier = 1.45636;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xBE33F559;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.976296,0,-0.21644;
@@ -2169,6 +2233,10 @@
 	{
 	  f scale_multiplier = 1.08814;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xCBFC995C;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.927184,0,-0.374607;
@@ -2234,6 +2302,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.08433;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x815F1241;
 	}
 	[placement]
 	{
@@ -2310,6 +2382,10 @@
 	{
 	  f scale_multiplier = 1.32537;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x3BC16083;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.190809,0,0.981627;
@@ -2321,6 +2397,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.4062;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x24392A70;
 	}
 	[placement]
 	{
@@ -2418,6 +2498,10 @@
 	{
 	  f scale_multiplier = 0.937462;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x2C173B02;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.771624,0,-0.636078;
@@ -2429,6 +2513,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 0.912858;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xCF6BFD66;
 	}
 	[placement]
 	{
@@ -2442,6 +2530,10 @@
 	{
 	  f scale_multiplier = 1.0743;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x327B81EF;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.422618,0,-0.906308;
@@ -2453,6 +2545,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.09149;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xBCAB56E1;
 	}
 	[placement]
 	{
@@ -3267,6 +3363,10 @@
 	{
 	  f scale_multiplier = 1.4765;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xC13956B9;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.173648,0,-0.984808;
@@ -3278,6 +3378,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.37292;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xD88FE1B7;
 	}
 	[placement]
 	{
@@ -3423,6 +3527,10 @@
 	{
 	  f scale_multiplier = 1.19606;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x56EB4A98;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.99863,0,-0.0523361;
@@ -3434,6 +3542,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.49057;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xC2099907;
 	}
 	[placement]
 	{
@@ -3459,6 +3571,10 @@
 	{
 	  f scale_multiplier = 1.18916;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xA5F9AF02;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.870356,0,0.492423;
@@ -3470,6 +3586,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.30164;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x0B82F9A0;
 	}
 	[placement]
 	{
@@ -3695,6 +3815,10 @@
 	{
 	  f scale_multiplier = 1.11446;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x9C7FB1C4;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.199368,0,0.979925;
@@ -3779,6 +3903,10 @@
 	{
 	  f scale_multiplier = 1.48974;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x5EE84871;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.725374,0,-0.688355;
@@ -3791,6 +3919,10 @@
 	{
 	  f scale_multiplier = 1.48856;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x6ED94EDE;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.760406,0,0.649448;
@@ -3802,6 +3934,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.03268;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x42CE03E6;
 	}
 	[placement]
 	{
@@ -3862,6 +3998,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.20096;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x74B50747;
 	}
 	[placement]
 	{
@@ -3926,6 +4066,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.18253;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x722BE96D;
 	}
 	[placement]
 	{
@@ -4026,6 +4170,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.04197;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xEA6BA209;
 	}
 	[placement]
 	{
@@ -4431,6 +4579,10 @@
 	{
 	  f scale_multiplier = 1.09915;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x1C1EE797;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.870356,0,-0.492424;
@@ -4523,6 +4675,10 @@
 	{
 	  f scale_multiplier = 1.45221;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xFE283066;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.909961,0,0.414694;
@@ -4534,6 +4690,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.23161;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xDE0274F7;
 	}
 	[placement]
 	{
@@ -4595,6 +4755,10 @@
 	{
 	  f scale_multiplier = 1.19119;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x58CE9FFF;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.731354,0,0.681998;
@@ -4619,6 +4783,10 @@
 	{
 	  f scale_multiplier = 1.38534;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xE9210C35;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.998135,0,0.0610484;
@@ -4630,6 +4798,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.42131;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x3E12EA18;
 	}
 	[placement]
 	{
@@ -4658,6 +4830,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.42812;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x36ADA58F;
 	}
 	[placement]
 	{
@@ -4706,6 +4882,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.06242;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x451389B2;
 	}
 	[placement]
 	{
@@ -4795,6 +4975,10 @@
 	{
 	  f scale_multiplier = 0.982189;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x1BD6A467;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.725374,0,-0.688355;
@@ -4863,6 +5047,10 @@
 	{
 	  f scale_multiplier = 1.32049;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xE82E6EF3;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.965926,0,0.258819;
@@ -4906,6 +5094,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.34353;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xD25CAF5C;
 	}
 	[placement]
 	{
@@ -5075,6 +5267,10 @@
 	{
 	  f scale_multiplier = 1.07254;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x299CCD5E;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.878817,0,-0.477159;
@@ -5147,6 +5343,10 @@
 	{
 	  f scale_multiplier = 1.01942;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xB5ADFF07;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.325568,0,-0.945519;
@@ -5158,6 +5358,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.09227;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x21528711;
 	}
 	[placement]
 	{
@@ -5194,6 +5398,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.33299;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xAB618E96;
 	}
 	[placement]
 	{
@@ -5242,6 +5450,10 @@
 	{
 	  f scale_multiplier = 1.24449;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x07244559;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.748956,0,-0.66262;
@@ -5265,6 +5477,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 0.917871;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x7F204208;
 	}
 	[placement]
 	{
@@ -5304,6 +5520,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.0919;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x9F97EF1E;
 	}
 	[placement]
 	{
@@ -5449,6 +5669,10 @@
 	{
 	  f scale_multiplier = 0.964309;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xFCE7FB49;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.997564,0,0.0697563;
@@ -5460,6 +5684,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 0.963375;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xD0C530C9;
 	}
 	[placement]
 	{
@@ -5484,6 +5712,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 0.936395;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xA1DFD5EA;
 	}
 	[placement]
 	{
@@ -5608,6 +5840,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.23222;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xCC2A7245;
 	}
 	[placement]
 	{
@@ -5773,6 +6009,10 @@
 	{
 	  f scale_multiplier = 0.943348;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xA8577314;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.615662,0,0.788011;
@@ -5796,6 +6036,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.2675;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xE8E41414;
 	}
 	[placement]
 	{
@@ -5904,6 +6148,10 @@
 	{
 	  f scale_multiplier = 1.05778;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xE797F942;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.731354,0,0.681998;
@@ -5940,6 +6188,10 @@
 	{
 	  f scale_multiplier = 1.30339;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x0FB5741A;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.713251,0,0.700909;
@@ -5970,6 +6222,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.18784;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x713F2158;
 	}
 	[placement]
 	{
@@ -6223,6 +6479,10 @@
 	{
 	  f scale_multiplier = 1.07599;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xF70DC210;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.953717,0,0.300706;
@@ -6247,6 +6507,10 @@
 	{
 	  f scale_multiplier = 1.20812;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xED237932;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.374607,0,0.927184;
@@ -6259,6 +6523,10 @@
 	{
 	  f scale_multiplier = 1.41012;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x195867B2;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.5,0,0.866025;
@@ -6270,6 +6538,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.42802;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xE94C4E88;
 	}
 	[placement]
 	{
@@ -6347,6 +6619,10 @@
 	{
 	  f scale_multiplier = 1.17893;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xDB46C25A;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.989016,0,0.147809;
@@ -6371,6 +6647,10 @@
 	{
 	  f scale_multiplier = 1.18241;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x70A21CD7;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.848048,0,-0.529919;
@@ -6382,6 +6662,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.12351;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x89789A39;
 	}
 	[placement]
 	{
@@ -6463,6 +6747,10 @@
 	{
 	  f scale_multiplier = 0.918039;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x04114A94;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.913546,0,0.406736;
@@ -6487,6 +6775,10 @@
 	{
 	  f scale_multiplier = 1.1;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x019FF81E;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.996917,0,0.078459;
@@ -6499,6 +6791,10 @@
 	{
 	  f scale_multiplier = 1.38671;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x8890267B;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.233445,0,-0.97237;
@@ -6510,6 +6806,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.4278;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x91AF9DFD;
 	}
 	[placement]
 	{
@@ -6558,6 +6858,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 0.994823;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x88AD31EF;
 	}
 	[placement]
 	{
@@ -6663,6 +6967,10 @@
 	{
 	  f scale_multiplier = 1.17226;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xC5C80610;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.34202,0,-0.939693;
@@ -6686,6 +6994,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.34595;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x34CCCC85;
 	}
 	[placement]
 	{
@@ -6831,6 +7143,10 @@
 	{
 	  f scale_multiplier = 1.16232;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xECD5DC17;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.788011,0,0.615661;
@@ -6963,6 +7279,10 @@
 	{
 	  f scale_multiplier = 1.29547;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x65E42296;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.5,0,-0.866026;
@@ -7019,6 +7339,10 @@
 	{
 	  f scale_multiplier = 1.21996;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x22E9FA45;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.843392,0,0.537299;
@@ -7030,6 +7354,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.31149;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x9C8FB456;
 	}
 	[placement]
 	{
@@ -7066,6 +7394,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.14541;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x71B7950A;
 	}
 	[placement]
 	{
@@ -7135,6 +7467,10 @@
 	{
 	  f scale_multiplier = 1.11554;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x7D71B44E;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.948324,0,-0.317305;
@@ -7183,6 +7519,10 @@
 	{
 	  f scale_multiplier = 0.999647;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x69A3F419;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.406737,0,0.913545;
@@ -7206,6 +7546,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 0.930335;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x5401C4B6;
 	}
 	[placement]
 	{
@@ -7235,6 +7579,10 @@
 	{
 	  f scale_multiplier = 0.902841;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xAB610D54;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.649448,0,-0.760406;
@@ -7258,6 +7606,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.0494;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x4F42BD71;
 	}
 	[placement]
 	{
@@ -7298,6 +7650,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.29742;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x2CE5868C;
 	}
 	[placement]
 	{
@@ -7351,6 +7707,10 @@
 	{
 	  f scale_multiplier = 1.16888;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x7C0BF06A;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.994522,0,-0.104529;
@@ -7363,6 +7723,10 @@
 	{
 	  f scale_multiplier = 1.33297;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x4E12E08F;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.920505,0,0.390731;
@@ -7374,6 +7738,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.2635;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xAB13F6D7;
 	}
 	[placement]
 	{
@@ -7466,6 +7834,10 @@
 	{
 	  f scale_multiplier = 1.00691;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x24A3B1DF;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.798636,0,0.601815;
@@ -7518,6 +7890,10 @@
 	{
 	  f scale_multiplier = 1.18099;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x7206F561;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.994522,0,-0.104529;
@@ -7542,6 +7918,10 @@
 	{
 	  f scale_multiplier = 1.10246;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xB301C622;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.333807,0,0.942641;
@@ -7565,6 +7945,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.34322;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x1531437F;
 	}
 	[placement]
 	{
@@ -7722,6 +8106,10 @@
 	{
 	  f scale_multiplier = 1.02374;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xE5868DBF;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.477159,0,0.878817;
@@ -7733,6 +8121,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 0.927774;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x35ECC5D0;
 	}
 	[placement]
 	{
@@ -7769,6 +8161,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 0.95639;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xAA1EE68C;
 	}
 	[placement]
 	{
@@ -7838,6 +8234,10 @@
 	{
 	  f scale_multiplier = 1.31432;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xAF19AE4F;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.453991,0,0.891007;
@@ -7861,6 +8261,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.45816;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x41C3A0AC;
 	}
 	[placement]
 	{
@@ -7918,6 +8322,10 @@
 	{
 	  f scale_multiplier = 1.03481;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x098CFA1E;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.97237,0,0.233445;
@@ -7929,6 +8337,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.48666;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x417E1303;
 	}
 	[placement]
 	{
@@ -7978,6 +8390,10 @@
 	{
 	  f scale_multiplier = 1.1854;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x1B8FEC2A;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.930417,0,-0.366501;
@@ -8001,6 +8417,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.40303;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x32C65FBE;
 	}
 	[placement]
 	{
@@ -8101,6 +8521,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.30101;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xB1ECC18F;
 	}
 	[placement]
 	{
@@ -8242,6 +8666,10 @@
 	{
 	  f scale_multiplier = 1.40794;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xD4CC2449;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.284015,0,-0.95882;
@@ -8254,6 +8682,10 @@
 	{
 	  f scale_multiplier = 1.29586;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x553EC424;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.300705,0,-0.953717;
@@ -8262,6 +8694,10 @@
 }
 [t:c24_3_shroom_tree_cyan_lg,n:0x0350090e]
 {
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x3CA1D720;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.130526,0,-0.991445;
@@ -8314,6 +8750,10 @@
 	{
 	  f scale_multiplier = 1.3548;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xA5885617;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.843391,0,-0.5373;
@@ -8338,6 +8778,10 @@
 	{
 	  f scale_multiplier = 0.959204;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xDF376F41;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.573576,0,-0.819152;
@@ -8350,6 +8794,10 @@
 	{
 	  f scale_multiplier = 0.934727;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xF9A956F0;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.551937,0,0.833886;
@@ -8361,6 +8809,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 0.980057;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x6DD80E25;
 	}
 	[placement]
 	{
@@ -8426,6 +8878,10 @@
 	{
 	  f scale_multiplier = 1.10334;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x5B8347AD;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.861629,0,0.507538;
@@ -8462,6 +8918,10 @@
 	{
 	  f scale_multiplier = 0.901009;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xC9FBC899;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.999657,0,-0.0261771;
@@ -8474,6 +8934,10 @@
 	{
 	  f scale_multiplier = 1.36326;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x9B1AF564;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.95882,0,-0.284016;
@@ -8485,6 +8949,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.03087;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xDE3F2BE7;
 	}
 	[placement]
 	{
@@ -8522,6 +8990,10 @@
 	{
 	  f scale_multiplier = 1.4641;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x5525C634;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.866026,0,0.5;
@@ -8545,6 +9017,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.20447;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x02126DC2;
 	}
 	[placement]
 	{
@@ -8590,6 +9066,10 @@
 	{
 	  f scale_multiplier = 1.10326;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xAEAC8D1A;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.782608,0,-0.622515;
@@ -8601,6 +9081,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.17298;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xFC988600;
 	}
 	[placement]
 	{
@@ -8753,6 +9237,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.25315;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xC5C12F09;
 	}
 	[placement]
 	{
@@ -9214,6 +9702,10 @@
 	{
 	  f scale_multiplier = 1.36792;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xF1D9D503;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.731354,0,0.681998;
@@ -9321,6 +9813,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.02922;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xCAEC13DF;
 	}
 	[placement]
 	{
@@ -9633,6 +10129,10 @@
 	{
 	  f scale_multiplier = 1.04045;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x5ADC102E;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.477159,0,-0.878817;
@@ -9645,6 +10145,10 @@
 	{
 	  f scale_multiplier = 1.0441;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xF4F656AA;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.0958458,0,0.995396;
@@ -9656,6 +10160,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.02566;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x0D275564;
 	}
 	[placement]
 	{
@@ -9756,6 +10264,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.5;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x25B6F57B;
 	}
 	[placement]
 	{
@@ -9909,6 +10421,10 @@
 	{
 	  f scale_multiplier = 1.16859;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xC8DBBAE9;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.0697565,0,0.997564;
@@ -9921,6 +10437,10 @@
 	{
 	  f scale_multiplier = 1.3;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x99D09412;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.461749,0,0.887011;
@@ -9932,6 +10452,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.04624;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xDF095AF8;
 	}
 	[placement]
 	{
@@ -9968,6 +10492,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.12372;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x812BB736;
 	}
 	[placement]
 	{
@@ -10533,6 +11061,10 @@
 	{
 	  f scale_multiplier = 1.11229;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x76B1E221;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.788011,0,-0.615662;
@@ -10544,6 +11076,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.43258;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xAFC56D40;
 	}
 	[placement]
 	{
@@ -10616,6 +11152,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.44333;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xA19A9E9B;
 	}
 	[placement]
 	{
@@ -10753,6 +11293,10 @@
 	{
 	  f scale_multiplier = 1.39742;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xE27DDDF0;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.636078,0,-0.771625;
@@ -10809,6 +11353,10 @@
 	{
 	  f scale_multiplier = 1.35507;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xAEADD381;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.199368,0,0.979925;
@@ -10820,6 +11368,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.41067;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xA87B1369;
 	}
 	[placement]
 	{
@@ -10844,6 +11396,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 0.92603;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x118402D1;
 	}
 	[placement]
 	{
@@ -10889,6 +11445,10 @@
 	{
 	  f scale_multiplier = 1.28685;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xB0E3194E;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.956305,0,0.292372;
@@ -10901,6 +11461,10 @@
 	{
 	  f scale_multiplier = 1.04906;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x5F5B37C3;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.909961,0,-0.414693;
@@ -10912,6 +11476,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.07411;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x3E157E39;
 	}
 	[placement]
 	{
@@ -10981,6 +11549,10 @@
 	{
 	  f scale_multiplier = 1.37062;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xD84CB85A;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.961262,0,0.275637;
@@ -11033,6 +11605,10 @@
 	{
 	  f scale_multiplier = 1.38334;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x097229FD;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.5,0,-0.866026;
@@ -11056,6 +11632,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.31936;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x1965374B;
 	}
 	[placement]
 	{
@@ -11105,6 +11685,10 @@
 	{
 	  f scale_multiplier = 1.13703;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x6A7B9E29;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.882947,0,-0.469472;
@@ -11116,6 +11700,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.43037;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x1C949705;
 	}
 	[placement]
 	{
@@ -11140,6 +11728,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.16833;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x15CA7A3B;
 	}
 	[placement]
 	{
@@ -11314,6 +11906,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.52039;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x6AF0F01F;
 	}
 	[placement]
 	{
@@ -11606,6 +12202,10 @@
 	{
 	  f scale_multiplier = 1.36412;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x92004436;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.515038,0,-0.857167;
@@ -11802,6 +12402,10 @@
 	{
 	  f scale_multiplier = 1.06222;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x24D26F01;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.833886,0,-0.551937;
@@ -11905,6 +12509,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.22022;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x319C12E8;
 	}
 	[placement]
 	{
@@ -12081,6 +12689,10 @@
 	{
 	  f scale_multiplier = 1.02432;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x1F21E926;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.026177,0,0.999657;
@@ -12092,6 +12704,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.19357;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xEFC8228B;
 	}
 	[placement]
 	{
@@ -12105,6 +12721,10 @@
 	{
 	  f scale_multiplier = 1.30268;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xA42E6261;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.983255,0,0.182235;
@@ -12117,6 +12737,10 @@
 	{
 	  f scale_multiplier = 1.19557;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x5C34B3A1;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.930417,0,-0.366501;
@@ -12128,6 +12752,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.28583;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x6ED64F66;
 	}
 	[placement]
 	{
@@ -12225,6 +12853,10 @@
 	{
 	  f scale_multiplier = 1.12903;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x27D287E5;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.559193,0,0.829038;
@@ -12236,6 +12868,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.0453;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x3188A98D;
 	}
 	[placement]
 	{
@@ -12880,6 +13516,10 @@
 	{
 	  f scale_multiplier = 1.49575;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x53BEAE69;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.544639,0,0.838671;
@@ -13303,6 +13943,10 @@
 	{
 	  f scale_multiplier = 1.11149;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x18350DE1;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.113203,0,-0.993572;
@@ -13315,6 +13959,10 @@
 	{
 	  f scale_multiplier = 1.42177;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xC2BC09B8;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.430511,0,-0.902585;
@@ -13326,6 +13974,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.33482;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x54DF8A41;
 	}
 	[placement]
 	{
@@ -13490,6 +14142,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.07801;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x23F0B0C9;
 	}
 	[placement]
 	{
@@ -14110,6 +14766,10 @@
 	{
 	  f scale_multiplier = 1.2439;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xA5DECB8E;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.725374,0,-0.688355;
@@ -14121,6 +14781,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.2;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x0995277E;
 	}
 	[placement]
 	{
@@ -14194,6 +14858,10 @@
 	{
 	  f scale_multiplier = 1.00534;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x89BFAC0F;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.90475,0,-0.425943;
@@ -14206,6 +14874,10 @@
 	{
 	  f scale_multiplier = 1.33055;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x3A0633DC;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.573577,0,0.819152;
@@ -14217,6 +14889,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.30656;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x2215DA1B;
 	}
 	[placement]
 	{
@@ -14297,6 +14973,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.2353;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xA2CEF5F0;
 	}
 	[placement]
 	{
@@ -14446,6 +15126,10 @@
 	{
 	  f scale_multiplier = 1.38114;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xA6DB9121;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.193903,0,-0.981021;
@@ -14554,6 +15238,10 @@
 	{
 	  f scale_multiplier = 1.15226;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x56EF6F1B;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.66913,0,-0.743145;
@@ -14589,6 +15277,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.10834;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x15D8B153;
 	}
 	[placement]
 	{
@@ -14650,6 +15342,10 @@
 	{
 	  f scale_multiplier = 1.43408;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xCE253DAC;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.999657,0,-0.0261771;
@@ -14674,6 +15370,10 @@
 	{
 	  f scale_multiplier = 1.49;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x6A7DDC3D;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.325568,0,-0.945519;
@@ -14685,6 +15385,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.32939;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x13B1362B;
 	}
 	[placement]
 	{
@@ -14722,6 +15426,10 @@
 	{
 	  f scale_multiplier = 1.35492;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xBC92C479;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.984808,0,-0.173648;
@@ -14758,6 +15466,10 @@
 	{
 	  f scale_multiplier = 1.22509;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x622EC4A8;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.594823,0,0.803857;
@@ -14769,6 +15481,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.49838;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xBF66A9CF;
 	}
 	[placement]
 	{
@@ -14782,6 +15498,10 @@
 	{
 	  f scale_multiplier = 1.22965;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x22E61FA3;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.936672,0,0.350207;
@@ -14793,6 +15513,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.19222;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x0803430A;
 	}
 	[placement]
 	{
@@ -14846,6 +15570,10 @@
 	{
 	  f scale_multiplier = 1.19639;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x3DAE778D;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.898794,0,-0.438371;
@@ -14857,6 +15585,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.17654;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xDBD9179B;
 	}
 	[placement]
 	{
@@ -14893,6 +15625,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.17935;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x3B9632B3;
 	}
 	[placement]
 	{
@@ -14981,6 +15717,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.04227;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xA3E484E6;
 	}
 	[placement]
 	{
@@ -15106,6 +15846,10 @@
 	{
 	  f scale_multiplier = 1.15549;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xAE7CE835;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.999848,0,-0.0174526;
@@ -15158,6 +15902,10 @@
 	{
 	  f scale_multiplier = 1.5;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xBE936BFA;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.857167,0,0.515038;
@@ -15169,6 +15917,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.1716;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x24972747;
 	}
 	[placement]
 	{
@@ -15302,6 +16054,10 @@
 	{
 	  f scale_multiplier = 1.00679;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x7B8ADF76;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.891007,0,0.45399;
@@ -15313,6 +16069,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.43199;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x97D9060D;
 	}
 	[placement]
 	{
@@ -15349,6 +16109,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.07321;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xC26446A0;
 	}
 	[placement]
 	{
@@ -15450,6 +16214,10 @@
 	{
 	  f scale_multiplier = 1.36217;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xD2DC043B;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.996195,0,0.0871556;
@@ -15461,6 +16229,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.34181;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x6DCC03D5;
 	}
 	[placement]
 	{
@@ -15562,6 +16334,10 @@
 	{
 	  f scale_multiplier = 1.09004;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xC312292A;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.453991,0,0.891007;
@@ -15574,6 +16350,10 @@
 	{
 	  f scale_multiplier = 1.3506;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xD63CB07C;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.469471,0,-0.882948;
@@ -15585,6 +16365,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.44758;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x94DEAABE;
 	}
 	[placement]
 	{
@@ -15642,6 +16426,10 @@
 	{
 	  f scale_multiplier = 1.41823;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x7DDB6926;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.507538,0,0.861629;
@@ -15677,6 +16465,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.36125;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x09B3AD58;
 	}
 	[placement]
 	{
@@ -15750,6 +16542,10 @@
 	{
 	  f scale_multiplier = 1.00125;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x4153B126;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.522499,0,0.85264;
@@ -15761,6 +16557,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.1656;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x4615E4E0;
 	}
 	[placement]
 	{
@@ -15774,6 +16574,10 @@
 	{
 	  f scale_multiplier = 1.00019;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xA396A44A;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.165047,0,-0.986286;
@@ -15786,6 +16590,10 @@
 	{
 	  f scale_multiplier = 1.10269;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x93BDD437;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.165048,0,0.986286;
@@ -15797,6 +16605,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.14031;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x2A6B6508;
 	}
 	[placement]
 	{
@@ -15869,6 +16681,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.4738;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xF2D98A21;
 	}
 	[placement]
 	{
@@ -16073,6 +16889,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.47626;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xB2CDE4A5;
 	}
 	[placement]
 	{
@@ -16534,6 +17354,10 @@
 	{
 	  f scale_multiplier = 1.11317;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x8663C730;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.182235,0,-0.983255;
@@ -16558,6 +17382,10 @@
 	{
 	  f scale_multiplier = 1.00578;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x24EF62AB;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.961262,0,-0.275637;
@@ -16569,6 +17397,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.49717;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xE4249707;
 	}
 	[placement]
 	{
@@ -17022,6 +17854,10 @@
 	{
 	  f scale_multiplier = 1.1108;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xAC194CF2;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.998135,0,0.0610484;
@@ -17049,6 +17885,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.00783;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x7C2EB362;
 	}
 	[placement]
 	{
@@ -17090,6 +17930,10 @@
 	{
 	  f scale_multiplier = 1.15159;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xBE34E80D;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.760406,0,0.649448;
@@ -17101,6 +17945,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.15793;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x78013AAC;
 	}
 	[placement]
 	{
@@ -17138,6 +17986,10 @@
 	{
 	  f scale_multiplier = 1.1537;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x6695E0F8;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.965926,0,0.258819;
@@ -17149,6 +18001,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.03784;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xFCC41603;
 	}
 	[placement]
 	{
@@ -17162,6 +18018,10 @@
 	{
 	  f scale_multiplier = 1.51353;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xF196123A;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.96363,0,-0.267239;
@@ -17174,6 +18034,10 @@
 	{
 	  f scale_multiplier = 1.42276;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x82022009;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.34202,0,-0.939693;
@@ -17185,6 +18049,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.0585;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xD5366B71;
 	}
 	[placement]
 	{
@@ -17278,6 +18146,10 @@
 	{
 	  f scale_multiplier = 1.15609;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x3EFA42A1;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.587785,0,0.809017;
@@ -17289,6 +18161,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.01082;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x78A46198;
 	}
 	[placement]
 	{
@@ -17350,6 +18226,10 @@
 	{
 	  f scale_multiplier = 0.877318;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x24D354D5;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.681998,0,-0.731354;
@@ -17398,6 +18278,10 @@
 	{
 	  f scale_multiplier = 0.983518;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xDB1C7FCE;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.887011,0,0.461748;
@@ -17409,6 +18293,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.08459;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xB34599EE;
 	}
 	[placement]
 	{
@@ -17470,6 +18358,10 @@
 	{
 	  f scale_multiplier = 1.46323;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xF9C9C377;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.374607,0,0.927184;
@@ -17481,6 +18373,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.09491;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x71E59112;
 	}
 	[placement]
 	{
@@ -17590,6 +18486,10 @@
 	{
 	  f scale_multiplier = 1.34322;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x21925E0B;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.87462,0,-0.48481;
@@ -17602,6 +18502,10 @@
 	{
 	  f scale_multiplier = 1.45661;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x620C9389;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.913545,0,-0.406737;
@@ -17613,6 +18517,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.07946;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x56B185CD;
 	}
 	[placement]
 	{
@@ -17726,6 +18634,10 @@
 	{
 	  f scale_multiplier = 1.33179;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x9492973C;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.953717,0,0.300706;
@@ -17762,6 +18674,10 @@
 	{
 	  f scale_multiplier = 1.03434;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x866E2116;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.615661,0,-0.788011;
@@ -17773,6 +18689,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.51069;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x1F7F7C31;
 	}
 	[placement]
 	{
@@ -17874,6 +18794,10 @@
 	{
 	  f scale_multiplier = 1.18448;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x430FBA90;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.951056,0,-0.309017;
@@ -17921,6 +18845,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.09149;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x747F5F2B;
 	}
 	[placement]
 	{
@@ -18030,6 +18958,10 @@
 	{
 	  f scale_multiplier = 1.09498;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x809A0AF6;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.970296,0,-0.241922;
@@ -18042,6 +18974,10 @@
 	{
 	  f scale_multiplier = 1.00008;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x89800C8E;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.052336,0,0.99863;
@@ -18053,6 +18989,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.36202;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x0E017F11;
 	}
 	[placement]
 	{
@@ -18186,6 +19126,10 @@
 	{
 	  f scale_multiplier = 1.04319;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x40482B6A;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.788011,0,0.615661;
@@ -18197,6 +19141,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.13984;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x0899A0CB;
 	}
 	[placement]
 	{
@@ -18257,6 +19205,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 0.935221;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xBF2C9482;
 	}
 	[placement]
 	{
@@ -18378,6 +19330,10 @@
 	{
 	  f scale_multiplier = 1.19278;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xF5E4CD55;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.284015,0,0.95882;
@@ -18450,6 +19406,10 @@
 	{
 	  f scale_multiplier = 1.19802;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xDB82BA86;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.366501,0,-0.930418;
@@ -18501,6 +19461,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.36379;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x4721E2B0;
 	}
 	[placement]
 	{
@@ -18758,6 +19722,10 @@
 	{
 	  f scale_multiplier = 0.85;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x6FE38D4F;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.636078,0,-0.771625;
@@ -18769,6 +19737,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.10251;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xFF80E7A9;
 	}
 	[placement]
 	{
@@ -19418,6 +20390,10 @@
 	{
 	  f scale_multiplier = 1.3838;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x63159568;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.996917,0,0.078459;
@@ -19509,6 +20485,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.1522;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x0FD5D8A4;
 	}
 	[placement]
 	{
@@ -19640,6 +20620,10 @@
 	{
 	  f scale_multiplier = 1.03625;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x51EF96E5;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.843391,0,-0.5373;
@@ -19651,6 +20635,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.15668;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xE89E7DB3;
 	}
 	[placement]
 	{
@@ -19868,6 +20856,10 @@
 	{
 	  f scale_multiplier = 1.08312;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xC70724B5;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.615661,0,-0.788011;
@@ -20016,6 +21008,10 @@
 	{
 	  f scale_multiplier = 1.38843;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x844743F6;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.920505,0,-0.390731;
@@ -20143,6 +21139,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.31081;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xAE978BBC;
 	}
 	[placement]
 	{
@@ -20364,6 +21364,10 @@
 	{
 	  f scale_multiplier = 1.42808;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xDD320A1D;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.358368,0,0.93358;
@@ -20540,6 +21544,10 @@
 	{
 	  f scale_multiplier = 1.0305;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x53E9EA3D;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.382683,0,-0.92388;
@@ -20551,6 +21559,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.09175;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x8DAD9D5F;
 	}
 	[placement]
 	{
@@ -20564,6 +21576,10 @@
 	{
 	  f scale_multiplier = 1.49929;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x7278E00C;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.953717,0,0.300706;
@@ -20576,6 +21592,10 @@
 	{
 	  f scale_multiplier = 1.13475;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x23AD632F;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.113203,0,-0.993572;
@@ -20587,6 +21607,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.01389;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xAD4E4D0F;
 	}
 	[placement]
 	{
@@ -20724,6 +21748,10 @@
 	{
 	  f scale_multiplier = 1.13975;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x0E50AF31;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.615661,0,-0.788011;
@@ -20735,6 +21763,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.03363;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xB684FCF9;
 	}
 	[placement]
 	{
@@ -20748,6 +21780,10 @@
 	{
 	  f scale_multiplier = 1.32884;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x0192F24A;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.477159,0,0.878817;
@@ -20759,6 +21795,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.12684;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xD20E1D50;
 	}
 	[placement]
 	{
@@ -20772,6 +21812,10 @@
 	{
 	  f scale_multiplier = 1.05159;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xFF29C477;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.766044,0,-0.642788;
@@ -20783,6 +21827,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.03223;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x825D6FC3;
 	}
 	[placement]
 	{
@@ -20976,6 +22024,10 @@
 	{
 	  f scale_multiplier = 1.53936;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xDF926E4C;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.978148,0,0.207912;
@@ -20987,6 +22039,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.14219;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xAEE53B20;
 	}
 	[placement]
 	{
@@ -21299,6 +22355,10 @@
 	{
 	  f scale_multiplier = 1.14661;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x20D02E39;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.760406,0,0.649448;
@@ -21311,6 +22371,10 @@
 	{
 	  f scale_multiplier = 1.5324;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x9545A6C1;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.688355,0,0.725374;
@@ -21322,6 +22386,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.0885;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x6A693CCD;
 	}
 	[placement]
 	{
@@ -21567,6 +22635,10 @@
 	{
 	  f scale_multiplier = 0.803129;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xF83D2217;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.992546,0,-0.12187;
@@ -21578,6 +22650,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 0.845611;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xF6F0AF98;
 	}
 	[placement]
 	{
@@ -21661,6 +22737,10 @@
 	{
 	  f scale_multiplier = 0.987097;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xB7B982C1;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.707107,0,0.707107;
@@ -21684,6 +22764,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.08001;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xF4CC4CA6;
 	}
 	[placement]
 	{
@@ -21863,6 +22947,10 @@
 	{
 	  f scale_multiplier = 1.3134;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x91E9F0E3;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.97237,0,-0.233445;
@@ -21875,6 +22963,10 @@
 	{
 	  f scale_multiplier = 1.53375;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x0F93394A;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.743145,0,0.669131;
@@ -21886,6 +22978,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.12201;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xB51D98FD;
 	}
 	[placement]
 	{
@@ -21990,6 +23086,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.32843;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xDDF20524;
 	}
 	[placement]
 	{
@@ -22115,6 +23215,10 @@
 	{
 	  f scale_multiplier = 1.16675;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x5964E92F;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.224951,0,-0.97437;
@@ -22126,6 +23230,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 0.876631;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xEAA4DC66;
 	}
 	[placement]
 	{
@@ -22235,6 +23343,10 @@
 	{
 	  f scale_multiplier = 1.13525;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x1A2D8E32;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.669131,0,0.743145;
@@ -22246,6 +23358,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.49072;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xED00FD5D;
 	}
 	[placement]
 	{
@@ -22259,6 +23375,10 @@
 	{
 	  f scale_multiplier = 1.49161;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xC0AA1F45;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.953717,0,-0.300706;
@@ -22270,6 +23390,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.01978;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x2E4CD5CF;
 	}
 	[placement]
 	{
@@ -22535,6 +23659,10 @@
 	{
 	  f scale_multiplier = 1.10135;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x367785D3;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.446198,0,0.894934;
@@ -22598,6 +23726,10 @@
 	{
 	  f scale_multiplier = 1.10684;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x286BA2E7;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.978148,0,-0.207912;
@@ -22609,6 +23741,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.13086;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x757E5EFC;
 	}
 	[placement]
 	{
@@ -22718,6 +23854,10 @@
 	{
 	  f scale_multiplier = 1.00696;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x4789A060;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.819152,0,-0.573577;
@@ -22814,6 +23954,10 @@
 	{
 	  f scale_multiplier = 1.13324;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x60091C98;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.147809,0,-0.989016;
@@ -22825,6 +23969,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 0.999479;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x926D2493;
 	}
 	[placement]
 	{
@@ -22898,6 +24046,10 @@
 	{
 	  f scale_multiplier = 1.17133;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xF02DB808;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.461748,0,-0.887011;
@@ -22910,6 +24062,10 @@
 	{
 	  f scale_multiplier = 0.977449;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x707C2568;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.292372,0,0.956305;
@@ -22921,6 +24077,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.15049;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x9A5C71A7;
 	}
 	[placement]
 	{
@@ -23006,6 +24166,10 @@
 	{
 	  f scale_multiplier = 1.08749;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x07183541;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.927184,0,-0.374607;
@@ -23065,6 +24229,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.5;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xD73DDE39;
 	}
 	[placement]
 	{
@@ -23250,6 +24418,10 @@
 	{
 	  f scale_multiplier = 0.9;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x6A29791C;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.529919,0,-0.848048;
@@ -23261,6 +24433,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.06672;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xC57181EC;
 	}
 	[placement]
 	{
@@ -23422,6 +24598,10 @@
 	{
 	  f scale_multiplier = 1.6;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x17E039E5;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.608761,0,-0.793353;
@@ -23433,6 +24613,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.01601;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x344A9281;
 	}
 	[placement]
 	{
@@ -23680,6 +24864,10 @@
 	{
 	  f scale_multiplier = 1.03217;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x7CA7116E;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.798636,0,0.601815;
@@ -23691,6 +24879,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.0962;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x04D494D2;
 	}
 	[placement]
 	{
@@ -23727,6 +24919,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.17455;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x5E038CF8;
 	}
 	[placement]
 	{
@@ -23783,6 +24979,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.09758;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xB7C891FB;
 	}
 	[placement]
 	{
@@ -23922,6 +25122,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.27165;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x9347337D;
 	}
 	[placement]
 	{
@@ -24379,6 +25583,10 @@
 	{
 	  f scale_multiplier = 0.970466;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x9269E859;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.777146,0,0.62932;
@@ -24390,6 +25598,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.36462;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x790D4D2D;
 	}
 	[placement]
 	{
@@ -24495,6 +25707,10 @@
 	{
 	  f scale_multiplier = 1.21996;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x4CD61300;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.788011,0,0.615661;
@@ -24507,6 +25723,10 @@
 	{
 	  f scale_multiplier = 1.2;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xD43FA1E2;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.760406,0,0.649448;
@@ -24518,6 +25738,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.51;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xC22D1EB0;
 	}
 	[placement]
 	{
@@ -24567,6 +25791,10 @@
 	{
 	  f scale_multiplier = 1.4;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x7C8312CD;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.241922,0,-0.970296;
@@ -24590,6 +25818,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.16459;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x92DCAB1A;
 	}
 	[placement]
 	{
@@ -24693,6 +25925,10 @@
 	{
 	  f scale_multiplier = 1.05588;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x62BF13A7;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.25038,0,-0.968148;
@@ -24704,6 +25940,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.14968;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x763A29CF;
 	}
 	[placement]
 	{
@@ -24817,6 +26057,10 @@
 	{
 	  f scale_multiplier = 1.10161;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x061F2C3A;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.284015,0,0.95882;
@@ -24828,6 +26072,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.25137;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x4D0007D7;
 	}
 	[placement]
 	{
@@ -24841,6 +26089,10 @@
 	{
 	  f scale_multiplier = 1.23036;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xA4370181;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.939693,0,-0.34202;
@@ -24852,6 +26104,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.32765;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xE3C11213;
 	}
 	[placement]
 	{
@@ -24953,6 +26209,10 @@
 	{
 	  f scale_multiplier = 1.42586;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x3EB13F71;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.999962,0,-0.00872665;
@@ -24964,6 +26224,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.37174;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x1874C425;
 	}
 	[placement]
 	{
@@ -25077,6 +26341,10 @@
 	{
 	  f scale_multiplier = 1.05861;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xFF55EF97;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.492423,0,-0.870356;
@@ -25088,6 +26356,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.04721;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x91235435;
 	}
 	[placement]
 	{
@@ -25101,6 +26373,10 @@
 	{
 	  f scale_multiplier = 1.24461;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x0652677B;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.544639,0,-0.838671;
@@ -25112,6 +26388,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.3014;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x920BA269;
 	}
 	[placement]
 	{
@@ -25197,6 +26477,10 @@
 	{
 	  f scale_multiplier = 1.46998;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x3BBB2B96;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.848048,0,-0.529919;
@@ -25220,6 +26504,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 0.975496;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x0C12DDBB;
 	}
 	[placement]
 	{
@@ -25261,6 +26549,10 @@
 	{
 	  f scale_multiplier = 1.17392;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x9CA2ABAF;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.258819,0,-0.965926;
@@ -25272,6 +26564,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.37024;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x5B17CE45;
 	}
 	[placement]
 	{
@@ -25285,6 +26581,10 @@
 	{
 	  f scale_multiplier = 1.45215;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xE2257D57;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.358368,0,-0.933581;
@@ -25293,6 +26593,10 @@
 }
 [t:c24_3_shroom_trunk,n:0x03500bd3]
 {
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xE36F9F88;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.976296,0,0.21644;
@@ -25301,6 +26605,10 @@
 }
 [t:c24_3_shroom_trunk,n:0x03500bd4]
 {
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x4DDCB6B6;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.374606,0,-0.927184;
@@ -25674,6 +26982,10 @@
 }
 [t:c24_3_shroom_tree_white_md,n:0x03500bc1]
 {
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x701DD845;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.97437,0,0.224951;
@@ -25765,6 +27077,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.03604;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x6BC8915C;
 	}
 	[placement]
 	{
@@ -25914,6 +27230,10 @@
 	{
 	  f scale_multiplier = 1.3;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xDDF40E95;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.390731,0,0.920505;
@@ -25925,6 +27245,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.16251;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xE33EF6A2;
 	}
 	[placement]
 	{
@@ -26153,6 +27477,10 @@
 	{
 	  f scale_multiplier = 1.10835;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x9964CAF3;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.760406,0,-0.649448;
@@ -26265,6 +27593,10 @@
 	{
 	  f scale_multiplier = 1.1235;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x76D26E7F;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.430511,0,-0.902585;
@@ -26276,6 +27608,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.35347;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x3C64338A;
 	}
 	[placement]
 	{
@@ -26289,6 +27625,10 @@
 	{
 	  f scale_multiplier = 1.30618;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x17375BA8;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.993572,0,0.113203;
@@ -26300,6 +27640,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.33648;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xEA499691;
 	}
 	[placement]
 	{
@@ -26372,6 +27716,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.17946;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xE13FE647;
 	}
 	[placement]
 	{
@@ -26746,6 +28094,10 @@
 	{
 	  f scale_multiplier = 1.38255;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x0D642000;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.414693,0,0.909961;
@@ -26814,6 +28166,10 @@
 	{
 	  f scale_multiplier = 1.12468;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x82482DF5;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.870356,0,0.492423;
@@ -26853,6 +28209,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.08326;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xE15404BC;
 	}
 	[placement]
 	{
@@ -26921,6 +28281,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.45815;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x408CA63F;
 	}
 	[placement]
 	{
@@ -27061,6 +28425,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.52604;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x5E94A661;
 	}
 	[placement]
 	{
@@ -27462,6 +28830,10 @@
 	{
 	  f scale_multiplier = 1.36252;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x1902D55F;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.382683,0,-0.92388;
@@ -27566,6 +28938,10 @@
 	{
 	  f scale_multiplier = 1.10305;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xA2345342;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.986286,0,0.165047;
@@ -27662,6 +29038,10 @@
 	{
 	  f scale_multiplier = 1.14659;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xAF880C02;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.994522,0,-0.104529;
@@ -27673,6 +29053,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.45792;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x97863313;
 	}
 	[placement]
 	{
@@ -27726,6 +29110,10 @@
 	{
 	  f scale_multiplier = 1.43558;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xC6064197;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.956305,0,-0.292372;
@@ -27750,6 +29138,10 @@
 	{
 	  f scale_multiplier = 1.19467;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x5BC570A7;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.515038,0,0.857167;
@@ -27762,6 +29154,10 @@
 	{
 	  f scale_multiplier = 1.38181;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x1984A797;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.95882,0,0.284015;
@@ -27773,6 +29169,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.46966;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x6DD6B457;
 	}
 	[placement]
 	{
@@ -27998,6 +29398,10 @@
 	{
 	  f scale_multiplier = 1.48963;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xE5530A65;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.300706,0,0.953717;
@@ -28182,6 +29586,10 @@
 	{
 	  f scale_multiplier = 1.11302;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x44C4B996;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.965926,0,-0.258819;
@@ -28193,6 +29601,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.0633;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xE290E871;
 	}
 	[placement]
 	{
@@ -28374,6 +29786,10 @@
 	{
 	  f scale_multiplier = 1.01188;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xA62CE818;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.788011,0,0.615661;
@@ -28433,6 +29849,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.06813;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x2A05577B;
 	}
 	[placement]
 	{
@@ -29190,6 +30610,10 @@
 	{
 	  f scale_multiplier = 1.16611;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xD8ED5A55;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.939693,0,0.34202;
@@ -29201,6 +30625,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.05046;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x8620DE82;
 	}
 	[placement]
 	{
@@ -29286,6 +30714,10 @@
 	{
 	  f scale_multiplier = 1.1308;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x96CFD97F;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.939693,0,-0.34202;
@@ -29333,6 +30765,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.10428;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xCDC4F4B6;
 	}
 	[placement]
 	{
@@ -29490,6 +30926,10 @@
 	{
 	  f scale_multiplier = 1.18096;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xEC5B9F42;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.97437,0,0.224951;
@@ -29618,6 +31058,10 @@
 	{
 	  f scale_multiplier = 1.11086;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xFEE12B5B;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.953717,0,-0.300706;
@@ -29726,6 +31170,10 @@
 	{
 	  f scale_multiplier = 1.58896;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x7391A013;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.469471,0,-0.882948;
@@ -29737,6 +31185,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.5327;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x181D092B;
 	}
 	[placement]
 	{
@@ -29906,6 +31358,10 @@
 	{
 	  f scale_multiplier = 1.43913;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xA8A21CFF;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.91706,0,0.398749;
@@ -29962,6 +31418,10 @@
 	{
 	  f scale_multiplier = 1.5205;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x495817B4;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.544639,0,-0.838671;
@@ -29973,6 +31433,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.55388;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x03A474A4;
 	}
 	[placement]
 	{
@@ -30009,6 +31473,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.02241;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x55025B07;
 	}
 	[placement]
 	{
@@ -30061,6 +31529,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.32789;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x13D13ECA;
 	}
 	[placement]
 	{
@@ -30209,6 +31681,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.15671;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x8CC9DABD;
 	}
 	[placement]
 	{
@@ -30616,6 +32092,10 @@
 	{
 	  f scale_multiplier = 1.13675;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x2DBCCF6F;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.930418,0,0.366501;
@@ -30627,6 +32107,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.32643;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x8971A269;
 	}
 	[placement]
 	{
@@ -30768,6 +32252,10 @@
 	{
 	  f scale_multiplier = 1.0591;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x6E4AE740;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.93358,0,0.358368;
@@ -30779,6 +32267,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.38603;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x3BC466FC;
 	}
 	[placement]
 	{
@@ -30792,6 +32284,10 @@
 	{
 	  f scale_multiplier = 1.419;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xA1A488BA;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.199368,0,0.979925;
@@ -30803,6 +32299,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.15425;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x5171C677;
 	}
 	[placement]
 	{
@@ -30962,6 +32462,10 @@
 	{
 	  f scale_multiplier = 1.50698;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xC90A4E89;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.438371,0,0.898794;
@@ -30973,6 +32477,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.15346;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x3704188A;
 	}
 	[placement]
 	{
@@ -31061,6 +32569,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.21923;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x78640B01;
 	}
 	[placement]
 	{
@@ -31842,6 +33354,10 @@
 	{
 	  f scale_multiplier = 1.29333;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x4F2352EB;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.446198,0,0.894934;
@@ -31854,6 +33370,10 @@
 	{
 	  f scale_multiplier = 1.30345;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xE4396E94;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.017452,0,-0.999848;
@@ -31865,6 +33385,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.3904;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x61EE1612;
 	}
 	[placement]
 	{
@@ -32057,6 +33581,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.47954;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x6D7BDF1F;
 	}
 	[placement]
 	{
@@ -32282,6 +33810,10 @@
 	{
 	  f scale_multiplier = 1.12953;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xF4A644BE;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.989016,0,-0.14781;
@@ -32293,6 +33825,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.0194;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x41A51653;
 	}
 	[placement]
 	{
@@ -32438,6 +33974,10 @@
 	{
 	  f scale_multiplier = 1.10709;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x102BC01D;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.537299,0,-0.843392;
@@ -32473,6 +34013,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.10663;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x780E399E;
 	}
 	[placement]
 	{
@@ -32565,6 +34109,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.04752;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x4B4D21B6;
 	}
 	[placement]
 	{
@@ -32722,6 +34270,10 @@
 	{
 	  f scale_multiplier = 1.12918;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x2DF15D1C;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.857167,0,0.515038;
@@ -32733,6 +34285,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.2334;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x9EAB6F78;
 	}
 	[placement]
 	{
@@ -32746,6 +34302,10 @@
 	{
 	  f scale_multiplier = 1.38449;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x115F31CA;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.566406,0,0.824126;
@@ -32758,6 +34318,10 @@
 	{
 	  f scale_multiplier = 1.32081;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x526DB013;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.882947,0,-0.469472;
@@ -32769,6 +34333,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.31566;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x68BBA4ED;
 	}
 	[placement]
 	{
@@ -33113,6 +34681,10 @@
 	{
 	  f scale_multiplier = 1.05612;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x8A546A39;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.983255,0,0.182235;
@@ -33125,6 +34697,10 @@
 	{
 	  f scale_multiplier = 1.3074;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x3F6FA90D;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.999391,0,0.0348994;
@@ -33136,6 +34712,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.0139;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x306A15D7;
 	}
 	[placement]
 	{
@@ -33160,6 +34740,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.193;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xCEC1B275;
 	}
 	[placement]
 	{
@@ -33409,6 +34993,10 @@
 	{
 	  f scale_multiplier = 1.49811;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x8A26B1F4;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.649448,0,0.760406;
@@ -33420,6 +35008,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.04639;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xF6BBA237;
 	}
 	[placement]
 	{
@@ -33444,6 +35036,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.09682;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x7347D1A6;
 	}
 	[placement]
 	{
@@ -33481,6 +35077,10 @@
 	{
 	  f scale_multiplier = 1.01516;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xE70A6648;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.743145,0,0.669131;
@@ -33509,6 +35109,10 @@
 	{
 	  f scale_multiplier = 1.31309;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xC73A7017;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.999962,0,-0.00872665;
@@ -33520,6 +35124,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.35079;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x810AA959;
 	}
 	[placement]
 	{
@@ -33649,6 +35257,10 @@
 	{
 	  f scale_multiplier = 1.0047;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x84CEA5CB;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.999657,0,-0.0261771;
@@ -33660,6 +35272,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.37946;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xBF1AEC23;
 	}
 	[placement]
 	{
@@ -33684,6 +35300,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.02019;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x75E5E747;
 	}
 	[placement]
 	{
@@ -33753,6 +35373,10 @@
 	{
 	  f scale_multiplier = 1.02102;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x8B6FE2E3;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.216439,0,-0.976296;
@@ -33805,6 +35429,10 @@
 }
 [t:c24_3_shroom_tree_white_md,n:0x03500c32]
 {
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x01DCA066;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.507538,0,-0.861629;
@@ -33816,6 +35444,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.34683;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xF573FF07;
 	}
 	[placement]
 	{
@@ -33829,6 +35461,10 @@
 	{
 	  f scale_multiplier = 1.1753;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x7085B94E;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.374606,0,-0.927184;
@@ -33840,6 +35476,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.07173;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xE5A574EB;
 	}
 	[placement]
 	{
@@ -34001,6 +35641,10 @@
 	{
 	  f scale_multiplier = 0.9;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x14DAAFC9;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.67559,0,-0.737278;
@@ -34012,6 +35656,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.08554;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x8EFD5532;
 	}
 	[placement]
 	{
@@ -34108,6 +35756,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.40822;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x57EFBA67;
 	}
 	[placement]
 	{
@@ -34389,6 +36041,10 @@
 	{
 	  f scale_multiplier = 1.02366;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xE0649D0E;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.66262,0,0.748956;
@@ -34520,6 +36176,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.054;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xB3BCE7DB;
 	}
 	[placement]
 	{
@@ -34665,6 +36325,10 @@
 	{
 	  f scale_multiplier = 1.19825;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x4AAF431C;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.996917,0,0.078459;
@@ -34677,6 +36341,10 @@
 	{
 	  f scale_multiplier = 1.4152;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x12A8A610;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.833886,0,-0.551937;
@@ -34688,6 +36356,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.1;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xDE7A684D;
 	}
 	[placement]
 	{
@@ -34888,6 +36560,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.18486;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x3439EC16;
 	}
 	[placement]
 	{
@@ -35412,6 +37088,10 @@
 	{
 	  f scale_multiplier = 1.15151;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xEE65E449;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.182235,0,-0.983255;
@@ -35460,6 +37140,10 @@
 	{
 	  f scale_multiplier = 0.987579;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x967392DD;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.906308,0,-0.422619;
@@ -35471,6 +37155,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.01151;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x3B62600F;
 	}
 	[placement]
 	{
@@ -35507,6 +37195,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.14918;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xD05D33C1;
 	}
 	[placement]
 	{
@@ -35643,6 +37335,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.03111;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x049AA36A;
 	}
 	[placement]
 	{
@@ -36088,6 +37784,10 @@
 	{
 	  f scale_multiplier = 1.06154;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x44DE8D95;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.809017,0,-0.587785;
@@ -36244,6 +37944,10 @@
 	{
 	  f scale_multiplier = 1.35065;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xDC1798E4;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.970296,0,0.241922;
@@ -36267,6 +37971,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.20559;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xB9463224;
 	}
 	[placement]
 	{
@@ -36292,6 +38000,10 @@
 	{
 	  f scale_multiplier = 1.0171;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xDAF0156E;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.848048,0,-0.529919;
@@ -36303,6 +38015,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.46497;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xE96072DE;
 	}
 	[placement]
 	{
@@ -36339,6 +38055,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.01497;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xF830011F;
 	}
 	[placement]
 	{
@@ -36408,6 +38128,10 @@
 	{
 	  f scale_multiplier = 1.0843;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xC679E33C;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.992546,0,0.121869;
@@ -36419,6 +38143,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.20225;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xFA4DF172;
 	}
 	[placement]
 	{
@@ -36504,6 +38232,10 @@
 	{
 	  f scale_multiplier = 1.06602;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x7F7317A5;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.0348995,0,0.999391;
@@ -36560,6 +38292,10 @@
 	{
 	  f scale_multiplier = 1.18698;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x4E7073FC;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.942641,0,-0.333807;
@@ -36572,6 +38308,10 @@
 	{
 	  f scale_multiplier = 1.15454;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x3B0DA687;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.430511,0,0.902585;
@@ -36583,6 +38323,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.17441;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xEAE99A18;
 	}
 	[placement]
 	{
@@ -36631,6 +38375,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.16974;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x2A2DFE83;
 	}
 	[placement]
 	{
@@ -36720,6 +38468,10 @@
 	{
 	  f scale_multiplier = 1.18279;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x8B43C613;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.894934,0,-0.446198;
@@ -36760,6 +38512,10 @@
 	{
 	  f scale_multiplier = 1.18215;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xCBE3A6F6;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.173648,0,-0.984808;
@@ -36772,6 +38528,10 @@
 	{
 	  f scale_multiplier = 1.16591;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x09CD635F;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.580703,0,-0.814116;
@@ -36783,6 +38543,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.35505;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x2E5006D5;
 	}
 	[placement]
 	{
@@ -36880,6 +38644,10 @@
 	{
 	  f scale_multiplier = 1.41057;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xAEA52E0A;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.771625,0,0.636078;
@@ -36891,6 +38659,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.42209;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x7D5A5144;
 	}
 	[placement]
 	{
@@ -36904,6 +38676,10 @@
 	{
 	  f scale_multiplier = 1.46489;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xC275008B;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.25038,0,0.968148;
@@ -36915,6 +38691,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.44475;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xE6505C6F;
 	}
 	[placement]
 	{
@@ -36964,6 +38744,10 @@
 	{
 	  f scale_multiplier = 1.12124;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x59E0C780;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.669131,0,0.743145;
@@ -36975,6 +38759,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.05243;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x821E9C85;
 	}
 	[placement]
 	{
@@ -37148,6 +38936,10 @@
 	{
 	  f scale_multiplier = 1.33581;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xE851AFA3;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.983255,0,-0.182236;
@@ -37248,6 +39040,10 @@
 	{
 	  f scale_multiplier = 1.01442;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xDE3CCE22;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.580703,0,-0.814116;
@@ -37275,6 +39071,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.46719;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x2177B98F;
 	}
 	[placement]
 	{
@@ -37328,6 +39128,10 @@
 	{
 	  f scale_multiplier = 1.53503;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x004E2F6D;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.983255,0,-0.182236;
@@ -37352,6 +39156,10 @@
 	{
 	  f scale_multiplier = 1.00477;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xB74D9838;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.97437,0,-0.224951;
@@ -37363,6 +39171,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.1555;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x34AC3F63;
 	}
 	[placement]
 	{
@@ -37376,6 +39188,10 @@
 	{
 	  f scale_multiplier = 1.15278;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x42E0BF13;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.725374,0,-0.688355;
@@ -37387,6 +39203,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.01855;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x4AD90F22;
 	}
 	[placement]
 	{
@@ -37476,6 +39296,10 @@
 	{
 	  f scale_multiplier = 1.31004;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x8FBC3712;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.824126,0,-0.566406;
@@ -37523,6 +39347,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.16563;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xF122063C;
 	}
 	[placement]
 	{
@@ -37615,6 +39443,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 0.899342;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xBE90B89E;
 	}
 	[placement]
 	{
@@ -37788,6 +39620,10 @@
 	{
 	  f scale_multiplier = 1.1438;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xD970DED4;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.258819,0,0.965926;
@@ -37847,6 +39683,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 0.968924;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x84B077A3;
 	}
 	[placement]
 	{
@@ -37940,6 +39780,10 @@
 	{
 	  f scale_multiplier = 0.95006;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xFCD71ECA;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.594823,0,-0.803857;
@@ -37964,6 +39808,10 @@
 	{
 	  f scale_multiplier = 1.03649;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xE1913300;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.233445,0,0.97237;
@@ -37975,6 +39823,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.32091;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xDFAC5ACA;
 	}
 	[placement]
 	{
@@ -38104,6 +39956,10 @@
 	{
 	  f scale_multiplier = 1.12223;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x35885262;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.461749,0,0.887011;
@@ -38143,6 +39999,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.12624;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x85928428;
 	}
 	[placement]
 	{
@@ -38224,6 +40084,10 @@
 	{
 	  f scale_multiplier = 1.19903;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x6175F9DD;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.833886,0,0.551937;
@@ -38235,6 +40099,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.29649;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x24AC018A;
 	}
 	[placement]
 	{
@@ -38328,6 +40196,10 @@
 	{
 	  f scale_multiplier = 1.16386;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x31E98DD7;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.951057,0,0.309017;
@@ -38339,6 +40211,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.12517;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x682A49D6;
 	}
 	[placement]
 	{
@@ -38404,6 +40280,10 @@
 	{
 	  f scale_multiplier = 0.960748;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xD205C255;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.71934,0,0.694658;
@@ -38415,6 +40295,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.22804;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xAA963E91;
 	}
 	[placement]
 	{
@@ -38536,6 +40420,10 @@
 	{
 	  f scale_multiplier = 0.905378;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x985B4D45;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.414693,0,-0.909961;
@@ -38548,6 +40436,10 @@
 	{
 	  f scale_multiplier = 1.07573;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x92D6785F;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.951057,0,0.309017;
@@ -38559,6 +40451,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.14344;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xBB91422C;
 	}
 	[placement]
 	{
@@ -38615,6 +40511,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.08912;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x006D080D;
 	}
 	[placement]
 	{
@@ -38712,6 +40612,10 @@
 	{
 	  f scale_multiplier = 0.939453;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xF4695195;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.731354,0,0.681998;
@@ -38736,6 +40640,10 @@
 	{
 	  f scale_multiplier = 0.910093;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xF6D3AA5E;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.325568,0,0.945519;
@@ -38747,6 +40655,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.16703;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xA77E9FDD;
 	}
 	[placement]
 	{
@@ -38800,6 +40712,10 @@
 	{
 	  f scale_multiplier = 1.00551;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x699C85B8;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.97437,0,-0.224951;
@@ -38811,6 +40727,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.12576;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xD068280F;
 	}
 	[placement]
 	{
@@ -38848,6 +40768,10 @@
 	{
 	  f scale_multiplier = 1.13888;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xAA15C549;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.461749,0,0.887011;
@@ -38871,6 +40795,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.03612;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xA5E20CC0;
 	}
 	[placement]
 	{
@@ -38911,6 +40839,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.12152;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xE3B7E798;
 	}
 	[placement]
 	{
@@ -39028,6 +40960,10 @@
 	{
 	  f scale_multiplier = 1.01715;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x48B65166;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.887011,0,0.461748;
@@ -39051,6 +40987,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.38333;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xF17C00FE;
 	}
 	[placement]
 	{
@@ -39528,6 +41468,10 @@
 	{
 	  f scale_multiplier = 1.09473;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x80965BC8;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.948324,0,-0.317305;
@@ -39539,6 +41483,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.07995;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x09836FF4;
 	}
 	[placement]
 	{
@@ -39575,6 +41523,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.18923;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x05F7883A;
 	}
 	[placement]
 	{
@@ -39840,6 +41792,10 @@
 	{
 	  f scale_multiplier = 1.0466;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xA9883510;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.927184,0,-0.374607;
@@ -39851,6 +41807,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 0.94951;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xC7E493EF;
 	}
 	[placement]
 	{
@@ -39887,6 +41847,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.10937;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x92158B59;
 	}
 	[placement]
 	{
@@ -40120,6 +42084,10 @@
 	{
 	  f scale_multiplier = 0.972242;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x8A286D5C;
+	}
 	[placement]
 	{
 	  q orientation = 0,1,0,-1.62921e-007;
@@ -40143,6 +42111,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.26614;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x292F496C;
 	}
 	[placement]
 	{
@@ -40240,6 +42212,10 @@
 	{
 	  f scale_multiplier = 1.37185;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xF4CC75F9;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.87462,0,-0.48481;
@@ -40251,6 +42227,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.42416;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xF6DA1BA5;
 	}
 	[placement]
 	{
@@ -40332,6 +42312,10 @@
 	{
 	  f scale_multiplier = 1.1536;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x2414DA91;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.986286,0,-0.165048;
@@ -40343,6 +42327,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.20103;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x1CBAA9B8;
 	}
 	[placement]
 	{
@@ -40486,6 +42474,10 @@
 	{
 	  f scale_multiplier = 1.11006;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x16DA7B7C;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.446198,0,0.894934;
@@ -40509,6 +42501,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.06892;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xE2A83B25;
 	}
 	[placement]
 	{
@@ -40534,6 +42530,10 @@
 	{
 	  f scale_multiplier = 1.1794;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xE39947D5;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.0871558,0,0.996195;
@@ -40558,6 +42558,10 @@
 	{
 	  f scale_multiplier = 1.02748;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xFC74127D;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.981627,0,-0.190809;
@@ -40569,6 +42573,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.11191;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x78346638;
 	}
 	[placement]
 	{
@@ -40646,6 +42654,10 @@
 	{
 	  f scale_multiplier = 1.2543;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x9B31CD0E;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.5,0,-0.866026;
@@ -40670,6 +42682,10 @@
 	{
 	  f scale_multiplier = 1.00815;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x34F79B7E;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.833886,0,-0.551937;
@@ -40681,6 +42697,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.34903;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x8258A0AA;
 	}
 	[placement]
 	{
@@ -40821,6 +42841,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.12702;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x305BF356;
 	}
 	[placement]
 	{
@@ -41118,6 +43142,10 @@
 	{
 	  f scale_multiplier = 1.14109;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x457F642D;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.62932,0,0.777146;
@@ -41149,6 +43177,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.12964;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x43A011B9;
 	}
 	[placement]
 	{
@@ -41189,6 +43221,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.21222;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xC8769CDC;
 	}
 	[placement]
 	{
@@ -41286,6 +43322,10 @@
 	{
 	  f scale_multiplier = 1.17944;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xA0E62190;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.551937,0,-0.833886;
@@ -41325,6 +43365,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.07402;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xC7A83DD5;
 	}
 	[placement]
 	{
@@ -41414,6 +43458,10 @@
 	{
 	  f scale_multiplier = 1.5;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x8828C22D;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.814115,0,-0.580703;
@@ -41493,6 +43541,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.54751;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xAA704D7B;
 	}
 	[placement]
 	{
@@ -41738,6 +43790,10 @@
 	{
 	  f scale_multiplier = 1.31697;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x95B5DE9D;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.267238,0,-0.96363;
@@ -41749,6 +43805,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.08826;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x784D831D;
 	}
 	[placement]
 	{
@@ -41793,6 +43853,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.02172;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x4C1F4A0C;
 	}
 	[placement]
 	{
@@ -41862,6 +43926,10 @@
 	{
 	  f scale_multiplier = 1.1813;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xE9A473FE;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.0958454,0,-0.995396;
@@ -41873,6 +43941,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.41386;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x72465EBF;
 	}
 	[placement]
 	{
@@ -41942,6 +44014,10 @@
 	{
 	  f scale_multiplier = 1.15503;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x3B9218C6;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.951057,0,0.309017;
@@ -41953,6 +44029,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.14127;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x6DD0FB48;
 	}
 	[placement]
 	{
@@ -42226,6 +44306,10 @@
 	{
 	  f scale_multiplier = 1.17885;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x670F6794;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.529919,0,-0.848048;
@@ -42237,6 +44321,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.1786;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x452BDC5D;
 	}
 	[placement]
 	{
@@ -42273,6 +44361,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.06206;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xF8AE8738;
 	}
 	[placement]
 	{
@@ -42906,6 +44998,10 @@
 	{
 	  f scale_multiplier = 1.08842;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x60BFFC1A;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.649448,0,-0.760406;
@@ -42917,6 +45013,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.12105;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x04EE2763;
 	}
 	[placement]
 	{
@@ -42930,6 +45030,10 @@
 	{
 	  f scale_multiplier = 1.39335;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x73640E05;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.866026,0,0.5;
@@ -42942,6 +45046,10 @@
 	{
 	  f scale_multiplier = 1.47301;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x83004ACA;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.649448,0,-0.760406;
@@ -42953,6 +45061,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.08384;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x99367910;
 	}
 	[placement]
 	{
@@ -43002,6 +45114,10 @@
 	{
 	  f scale_multiplier = 1.36993;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xD294353E;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.981627,0,0.190809;
@@ -43013,6 +45129,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.1033;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x45D13108;
 	}
 	[placement]
 	{
@@ -43082,6 +45202,10 @@
 	{
 	  f scale_multiplier = 1.18617;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x9F1484C7;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.861629,0,-0.507539;
@@ -43094,6 +45218,10 @@
 	{
 	  f scale_multiplier = 1.52171;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x0F24DF82;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.93358,0,-0.358368;
@@ -43105,6 +45233,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.06868;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x1DCC0D7C;
 	}
 	[placement]
 	{
@@ -43210,6 +45342,10 @@
 	{
 	  f scale_multiplier = 1.52468;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xD605B6E1;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.113203,0,-0.993572;
@@ -43221,6 +45357,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.43563;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x88A3EFA2;
 	}
 	[placement]
 	{
@@ -43358,6 +45498,10 @@
 	{
 	  f scale_multiplier = 0.838554;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xCBFDD7FB;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.948324,0,0.317305;
@@ -43370,6 +45514,10 @@
 	{
 	  f scale_multiplier = 0.979522;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x22B0D922;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.803857,0,0.594823;
@@ -43381,6 +45529,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.37714;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x135FDCC1;
 	}
 	[placement]
 	{
@@ -43482,6 +45634,10 @@
 	{
 	  f scale_multiplier = 0.801902;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xD8009249;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.998135,0,-0.0610487;
@@ -43522,6 +45678,10 @@
 	{
 	  f scale_multiplier = 1.06003;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xB8BEEA51;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.878817,0,0.477159;
@@ -43533,6 +45693,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.44962;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xDEB84DC9;
 	}
 	[placement]
 	{
@@ -43546,6 +45710,10 @@
 	{
 	  f scale_multiplier = 1.49239;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x6357ED69;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.34202,0,0.939693;
@@ -43557,6 +45725,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.49048;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x53B54841;
 	}
 	[placement]
 	{
@@ -43638,6 +45810,10 @@
 	{
 	  f scale_multiplier = 1.09577;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x1C7F2872;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.978148,0,-0.207912;
@@ -43697,6 +45873,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.41359;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xCA063301;
 	}
 	[placement]
 	{
@@ -43802,6 +45982,10 @@
 	{
 	  f scale_multiplier = 1.15303;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xE4136FA7;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.707107,0,0.707107;
@@ -43906,6 +46090,10 @@
 	{
 	  f scale_multiplier = 1.00347;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x7DB54747;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.156434,0,0.987688;
@@ -43930,6 +46118,10 @@
 	{
 	  f scale_multiplier = 1.14209;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x2A47C877;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.737277,0,-0.67559;
@@ -43953,6 +46145,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.34572;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x6B57F1DF;
 	}
 	[placement]
 	{
@@ -44032,6 +46228,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.4547;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xEB8CAAAB;
 	}
 	[placement]
 	{
@@ -44117,6 +46317,10 @@
 	{
 	  f scale_multiplier = 1.44495;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xE9E34F23;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.798636,0,0.601815;
@@ -44128,6 +46332,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.33522;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x91577354;
 	}
 	[placement]
 	{
@@ -44164,6 +46372,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.04958;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x63B4ADB7;
 	}
 	[placement]
 	{
@@ -44465,6 +46677,10 @@
 	{
 	  f scale_multiplier = 1.13287;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xA4498A24;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.374607,0,0.927184;
@@ -44524,6 +46740,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.4;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x7516ED69;
 	}
 	[placement]
 	{
@@ -44596,6 +46816,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.12223;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x1684A2D3;
 	}
 	[placement]
 	{
@@ -44704,6 +46928,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.5006;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x7FF8E759;
 	}
 	[placement]
 	{
@@ -44981,6 +47209,10 @@
 	{
 	  f scale_multiplier = 1.13435;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x09EF9A44;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.909961,0,-0.414693;
@@ -44993,6 +47225,10 @@
 	{
 	  f scale_multiplier = 1.08117;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xAF5CD17D;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.942641,0,-0.333807;
@@ -45004,6 +47240,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.16577;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x50119F58;
 	}
 	[placement]
 	{
@@ -45213,6 +47453,10 @@
 	{
 	  f scale_multiplier = 1.25962;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xAD8D16A1;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.803857,0,-0.594823;
@@ -45361,6 +47605,10 @@
 	{
 	  f scale_multiplier = 1.19503;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x93E92E5D;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.461748,0,-0.887011;
@@ -45477,6 +47725,10 @@
 	{
 	  f scale_multiplier = 1.0946;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x5D9BD65B;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.406737,0,0.913545;
@@ -45504,6 +47756,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.13906;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xC78B0558;
 	}
 	[placement]
 	{
@@ -45608,6 +47864,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.12297;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x39EA3CA2;
 	}
 	[placement]
 	{
@@ -45821,6 +48081,10 @@
 	{
 	  f scale_multiplier = 1.32319;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x1C52E3DD;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.981627,0,0.190809;
@@ -45937,6 +48201,10 @@
 	{
 	  f scale_multiplier = 1.19078;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xAFB06CA3;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.669131,0,0.743145;
@@ -45961,6 +48229,10 @@
 	{
 	  f scale_multiplier = 1.33269;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xE4BDC326;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.422618,0,-0.906308;
@@ -45973,6 +48245,10 @@
 	{
 	  f scale_multiplier = 1.40405;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x96D77BF1;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.861629,0,-0.507539;
@@ -45984,6 +48260,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.13987;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xB7BCB6EF;
 	}
 	[placement]
 	{
@@ -46045,6 +48325,10 @@
 	{
 	  f scale_multiplier = 1.01947;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x72F28316;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.833886,0,0.551937;
@@ -46101,6 +48385,10 @@
 	{
 	  f scale_multiplier = 1.15398;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x2A3DC49E;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.743145,0,0.669131;
@@ -46112,6 +48400,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.1312;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x3424B79D;
 	}
 	[placement]
 	{
@@ -46125,6 +48417,10 @@
 	{
 	  f scale_multiplier = 1.1813;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xD19996C8;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.544639,0,-0.838671;
@@ -46136,6 +48432,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.41082;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x0B6EBB33;
 	}
 	[placement]
 	{
@@ -46221,6 +48521,10 @@
 	{
 	  f scale_multiplier = 1.2807;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x859A4181;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.976296,0,-0.21644;
@@ -46232,6 +48536,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.20686;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xF721D08C;
 	}
 	[placement]
 	{
@@ -46289,6 +48597,10 @@
 	{
 	  f scale_multiplier = 0.968213;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x08B71108;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.317304,0,-0.948324;
@@ -46301,6 +48613,10 @@
 	{
 	  f scale_multiplier = 1.21461;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xE4D113C3;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.984808,0,-0.173648;
@@ -46312,6 +48628,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.14011;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xDC6B4B30;
 	}
 	[placement]
 	{
@@ -46381,6 +48701,10 @@
 	{
 	  f scale_multiplier = 1.42732;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x91271A33;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.350207,0,-0.936672;
@@ -46404,6 +48728,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.18957;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x5CD10F5C;
 	}
 	[placement]
 	{
@@ -46481,6 +48809,10 @@
 	{
 	  f scale_multiplier = 0.938507;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x3339F11E;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.798635,0,-0.601815;
@@ -46504,6 +48836,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.44228;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x58AE8AA2;
 	}
 	[placement]
 	{
@@ -46569,6 +48905,10 @@
 	{
 	  f scale_multiplier = 1.02021;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x88C7BFCC;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.983255,0,0.182235;
@@ -46617,6 +48957,10 @@
 	{
 	  f scale_multiplier = 1.03607;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x81AB628F;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.477159,0,-0.878817;
@@ -46652,6 +48996,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 0.781978;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x42CA7B67;
 	}
 	[placement]
 	{
@@ -46761,6 +49109,10 @@
 	{
 	  f scale_multiplier = 0.986457;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x5F7CE9FB;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.965926,0,-0.258819;
@@ -46785,6 +49137,10 @@
 	{
 	  f scale_multiplier = 1.30785;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xA69346C7;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.522498,0,-0.85264;
@@ -46808,6 +49164,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.01565;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xAAFA8B9F;
 	}
 	[placement]
 	{
@@ -46881,6 +49241,10 @@
 	{
 	  f scale_multiplier = 0.973552;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x936AF319;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.642788,0,0.766044;
@@ -46904,6 +49268,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.17518;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x20E653B8;
 	}
 	[placement]
 	{
@@ -46981,6 +49349,10 @@
 	{
 	  f scale_multiplier = 1.38788;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xCDB36F10;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.999391,0,0.0348994;
@@ -47008,6 +49380,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.21587;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xC7C14396;
 	}
 	[placement]
 	{
@@ -47052,6 +49428,10 @@
 	{
 	  f scale_multiplier = 0.872304;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x8169C9F4;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.999962,0,-0.00872665;
@@ -47064,6 +49444,10 @@
 	{
 	  f scale_multiplier = 0.942612;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xE0DFC6E0;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.798635,0,-0.601815;
@@ -47075,6 +49459,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.14762;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xDE45550B;
 	}
 	[placement]
 	{
@@ -47136,6 +49524,10 @@
 	{
 	  f scale_multiplier = 0.984128;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xE0C08ADA;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.803857,0,-0.594823;
@@ -47159,6 +49551,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.31258;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x33674E8D;
 	}
 	[placement]
 	{
@@ -47336,6 +49732,10 @@
 	{
 	  f scale_multiplier = 0.979542;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x6266C7E3;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.861629,0,-0.507539;
@@ -47359,6 +49759,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.15199;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x927DAE29;
 	}
 	[placement]
 	{
@@ -47432,6 +49836,10 @@
 	{
 	  f scale_multiplier = 1.03715;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xE64B671B;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.414693,0,0.909961;
@@ -47455,6 +49863,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.30727;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x83578A5C;
 	}
 	[placement]
 	{
@@ -47620,6 +50032,10 @@
 	{
 	  f scale_multiplier = 1.2483;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x0005EC2E;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.207911,0,-0.978148;
@@ -47696,6 +50112,10 @@
 	{
 	  f scale_multiplier = 1.36391;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x2FCE5DAD;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.522498,0,-0.85264;
@@ -47707,6 +50127,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.09389;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xB4BD1F1E;
 	}
 	[placement]
 	{
@@ -47796,6 +50220,10 @@
 	{
 	  f scale_multiplier = 1.02019;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x9F26B6FE;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.594823,0,-0.803857;
@@ -47807,6 +50235,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 0.972813;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x83B52D7F;
 	}
 	[placement]
 	{
@@ -47843,6 +50275,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.35978;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x30699734;
 	}
 	[placement]
 	{
@@ -47968,6 +50404,10 @@
 	{
 	  f scale_multiplier = 1.1912;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x559C0A4D;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.894934,0,-0.446198;
@@ -47992,6 +50432,10 @@
 	{
 	  f scale_multiplier = 1.42584;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x7B7096EB;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.317305,0,0.948324;
@@ -48003,6 +50447,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.38945;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x7A44ECF4;
 	}
 	[placement]
 	{
@@ -48288,6 +50736,10 @@
 	{
 	  f scale_multiplier = 1.16766;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x96AF7095;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.551937,0,-0.833886;
@@ -48311,6 +50763,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.12739;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xDDB9309E;
 	}
 	[placement]
 	{
@@ -48396,6 +50852,10 @@
 	{
 	  f scale_multiplier = 1.35541;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x8E24DA9C;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.891007,0,0.45399;
@@ -48443,6 +50903,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.11639;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xAF56C5D5;
 	}
 	[placement]
 	{
@@ -48564,6 +51028,10 @@
 	{
 	  f scale_multiplier = 1.16675;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x62F8FAC3;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.469471,0,-0.882948;
@@ -48575,6 +51043,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.15316;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xEA959AB4;
 	}
 	[placement]
 	{
@@ -48620,6 +51092,10 @@
 	{
 	  f scale_multiplier = 1.02177;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x0F8D66E5;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.994522,0,-0.104529;
@@ -48644,6 +51120,10 @@
 	{
 	  f scale_multiplier = 1.35067;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x16684C86;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.0958458,0,0.995396;
@@ -48656,6 +51136,10 @@
 	{
 	  f scale_multiplier = 1.33723;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x0429FFB6;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.608761,0,0.793353;
@@ -48667,6 +51151,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.25028;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xE389EE61;
 	}
 	[placement]
 	{
@@ -48800,6 +51288,10 @@
 	{
 	  f scale_multiplier = 0.946975;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x0FD71F37;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.258819,0,0.965926;
@@ -48844,6 +51336,10 @@
 	{
 	  f scale_multiplier = 1.15048;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xA68621EB;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.945518,0,-0.325568;
@@ -48867,6 +51363,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.33505;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x95954D6B;
 	}
 	[placement]
 	{
@@ -48908,6 +51408,10 @@
 	{
 	  f scale_multiplier = 1.08156;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x33133754;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.182236,0,0.983255;
@@ -48920,6 +51424,10 @@
 	{
 	  f scale_multiplier = 1.10758;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x9F91466B;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.866025,0,-0.5;
@@ -48931,6 +51439,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 0.958045;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xA59C794E;
 	}
 	[placement]
 	{
@@ -48955,6 +51467,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.38343;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x0A2E073B;
 	}
 	[placement]
 	{
@@ -49032,6 +51548,10 @@
 	{
 	  f scale_multiplier = 1.43111;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x344C6A5C;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.754709,0,-0.656059;
@@ -49108,6 +51628,10 @@
 	{
 	  f scale_multiplier = 0.992618;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x91FEDBB7;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.25038,0,-0.968148;
@@ -49119,6 +51643,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.23576;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x50D8C19B;
 	}
 	[placement]
 	{
@@ -49220,6 +51748,10 @@
 	{
 	  f scale_multiplier = 1.37664;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xFD12F297;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.953717,0,-0.300706;
@@ -49231,6 +51763,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.42904;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x0F128635;
 	}
 	[placement]
 	{
@@ -49412,6 +51948,10 @@
 	{
 	  f scale_multiplier = 1.20279;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x9A3C54EA;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.83867,0,-0.544639;
@@ -49423,6 +51963,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.12516;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x79EB0F4F;
 	}
 	[placement]
 	{
@@ -49575,6 +52119,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.18423;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xFED95586;
 	}
 	[placement]
 	{
@@ -49788,6 +52336,10 @@
 	{
 	  f scale_multiplier = 1.13512;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xD99F7CA3;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.0610483,0,-0.998135;
@@ -49799,6 +52351,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.14977;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x75745533;
 	}
 	[placement]
 	{
@@ -49828,6 +52384,10 @@
 	{
 	  f scale_multiplier = 1.33029;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x3116B97E;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.267238,0,0.96363;
@@ -49839,6 +52399,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.19989;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x15D86089;
 	}
 	[placement]
 	{
@@ -49968,6 +52532,10 @@
 	{
 	  f scale_multiplier = 1.19429;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x05034919;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.948324,0,-0.317305;
@@ -50020,6 +52588,10 @@
 	{
 	  f scale_multiplier = 1.17193;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x86404A71;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.979925,0,-0.199368;
@@ -50031,6 +52603,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.40751;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x155CEAAB;
 	}
 	[placement]
 	{
@@ -50155,6 +52731,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.14303;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x55ECE9CF;
 	}
 	[placement]
 	{
@@ -50288,6 +52868,10 @@
 	{
 	  f scale_multiplier = 0.944424;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x2E93A3E5;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.121869,0,-0.992546;
@@ -50299,6 +52883,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.17436;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xFA679F18;
 	}
 	[placement]
 	{
@@ -50384,6 +52972,10 @@
 	{
 	  f scale_multiplier = 1.03715;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x49CCCFD6;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.544639,0,-0.838671;
@@ -50452,6 +53044,10 @@
 	{
 	  f scale_multiplier = 0.975268;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xA616FCD2;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.656059,0,-0.75471;
@@ -50476,6 +53072,10 @@
 	{
 	  f scale_multiplier = 1.39728;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x1003F1E7;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.829037,0,-0.559193;
@@ -50487,6 +53087,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.00578;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xBDB51C2A;
 	}
 	[placement]
 	{
@@ -50688,6 +53292,10 @@
 	{
 	  f scale_multiplier = 0.840381;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xD950EF90;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.999657,0,0.0261768;
@@ -50862,6 +53470,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.3391;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xB46FC96C;
 	}
 	[placement]
 	{
@@ -51090,6 +53702,10 @@
 	{
 	  f scale_multiplier = 1.10965;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x78587A2C;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.866025,0,-0.5;
@@ -51134,6 +53750,10 @@
 	{
 	  f scale_multiplier = 1.18044;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x7A38EABA;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.996917,0,-0.0784593;
@@ -51145,6 +53765,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.36956;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x5C50AD4A;
 	}
 	[placement]
 	{
@@ -51258,6 +53882,10 @@
 	{
 	  f scale_multiplier = 1.38646;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x75EB50EC;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.843392,0,0.537299;
@@ -51309,6 +53937,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.11122;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x81D090F0;
 	}
 	[placement]
 	{
@@ -51426,6 +54058,10 @@
 	{
 	  f scale_multiplier = 1.02235;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xD2393786;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.930418,0,0.366501;
@@ -51486,6 +54122,10 @@
 	{
 	  f scale_multiplier = 1.19043;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x6B62797F;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.0348995,0,0.999391;
@@ -51522,6 +54162,10 @@
 	{
 	  f scale_multiplier = 1.01189;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xFF9E23BE;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.909961,0,-0.414693;
@@ -51545,6 +54189,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.44286;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xA24BBC8D;
 	}
 	[placement]
 	{
@@ -51610,6 +54258,10 @@
 	{
 	  f scale_multiplier = 1.08621;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xE22894D0;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.833886,0,0.551937;
@@ -51634,6 +54286,10 @@
 	{
 	  f scale_multiplier = 1.27264;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x3A5BE91B;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.477159,0,0.878817;
@@ -51645,6 +54301,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.37212;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xB8637992;
 	}
 	[placement]
 	{
@@ -51790,6 +54450,10 @@
 	{
 	  f scale_multiplier = 1.01057;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xA7D3087A;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.995396,0,-0.095846;
@@ -51858,6 +54522,10 @@
 	{
 	  f scale_multiplier = 1.18641;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xECF0BBC4;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.878817,0,-0.477159;
@@ -51881,6 +54549,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.40881;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xD3C8E419;
 	}
 	[placement]
 	{
@@ -52005,6 +54677,10 @@
 	{
 	  f scale_multiplier = 1.14897;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xD320FEFA;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.936672,0,-0.350208;
@@ -52029,6 +54705,10 @@
 	{
 	  f scale_multiplier = 1.22781;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x51266801;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.104528,0,-0.994522;
@@ -52040,6 +54720,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.43268;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xF97546A4;
 	}
 	[placement]
 	{
@@ -52181,6 +54865,10 @@
 	{
 	  f scale_multiplier = 1.13408;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x3CB85A20;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.66262,0,0.748956;
@@ -52193,6 +54881,10 @@
 	{
 	  f scale_multiplier = 0.819713;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x7B5F6AEB;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.894934,0,0.446198;
@@ -52204,6 +54896,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.03112;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xA412F264;
 	}
 	[placement]
 	{
@@ -52289,6 +54985,10 @@
 	{
 	  f scale_multiplier = 1.02216;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x77B4AEBC;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.981627,0,0.190809;
@@ -52301,6 +55001,10 @@
 	{
 	  f scale_multiplier = 0.830545;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xE43BCB53;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.207911,0,-0.978148;
@@ -52312,6 +55016,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 0.810528;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xC16A31FA;
 	}
 	[placement]
 	{
@@ -52613,6 +55321,10 @@
 	{
 	  f scale_multiplier = 1.00918;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x8D8BE780;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.694658,0,0.71934;
@@ -52624,6 +55336,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 0.912988;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xD823A959;
 	}
 	[placement]
 	{
@@ -52673,6 +55389,10 @@
 	{
 	  f scale_multiplier = 0.921142;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xFA84541B;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.113203,0,-0.993572;
@@ -52697,6 +55417,10 @@
 	{
 	  f scale_multiplier = 1.21214;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x9B0B428D;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.857167,0,0.515038;
@@ -52709,6 +55433,10 @@
 	{
 	  f scale_multiplier = 1.37114;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x1A753896;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.199368,0,-0.979925;
@@ -52720,6 +55448,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.36956;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x07289E93;
 	}
 	[placement]
 	{
@@ -53165,6 +55897,10 @@
 	{
 	  f scale_multiplier = 1.03489;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x7264357D;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.993572,0,0.113203;
@@ -53176,6 +55912,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.44069;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xF850294D;
 	}
 	[placement]
 	{
@@ -53269,6 +56009,10 @@
 	{
 	  f scale_multiplier = 1.21624;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xAB1F2AB6;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.961262,0,0.275637;
@@ -53281,6 +56025,10 @@
 	{
 	  f scale_multiplier = 1.26868;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x0C1D930C;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.92388,0,0.382683;
@@ -53292,6 +56040,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.3935;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x88B5AEF6;
 	}
 	[placement]
 	{
@@ -53349,6 +56101,10 @@
 	{
 	  f scale_multiplier = 1.07682;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x5713D143;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.882947,0,-0.469472;
@@ -53360,6 +56116,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.12107;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x087F4D7C;
 	}
 	[placement]
 	{
@@ -53373,6 +56133,10 @@
 	{
 	  f scale_multiplier = 1.38882;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x915F5701;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.999048,0,0.0436192;
@@ -53385,6 +56149,10 @@
 	{
 	  f scale_multiplier = 1.17116;
 	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x9AD5A258;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.34202,0,-0.939693;
@@ -53396,6 +56164,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.12502;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x3731FB25;
 	}
 	[placement]
 	{
@@ -53504,6 +56276,10 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.07945;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xAC779552;
 	}
 	[placement]
 	{
