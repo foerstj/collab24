@@ -46,6 +46,12 @@
 
     aspect:scale_base = 3;
 }
+[t:template,n:c24_3_shroom_tree_cyan_sm]
+{
+    specializes = c24_3_shroom_tree_cyan_base;
+
+    aspect:scale_base = 2;
+}
 
 [t:template,n:mushroom_glb_06_base]  // = mushroom_glb_06
 {
@@ -92,6 +98,78 @@
 [t:template,n:c24_3_shroom_tree_red_sm]
 {
     specializes = c24_3_shroom_tree_red_base;
+
+    aspect:scale_base = 2;
+}
+
+[t:template,n:c24_3_shroom_tree_white_base]
+{
+    specializes = ds2_shroom_cav_glow_04_base;
+
+	category_name = "trees";
+	doc = "shroom_tree_white";
+	[aspect]
+	{
+		scale_base = 1;
+
+        // tree stuff
+		does_block_camera = true;
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.7;
+	}
+    [light_flicker_lightweight] { magnitude = 0; }
+}
+[t:template,n:c24_3_shroom_tree_white_lg]
+{
+    specializes = c24_3_shroom_tree_white_base;
+
+    aspect:scale_base = 4;
+}
+[t:template,n:c24_3_shroom_tree_white_md]
+{
+    specializes = c24_3_shroom_tree_white_base;
+
+    aspect:scale_base = 3;
+}
+[t:template,n:c24_3_shroom_tree_white_sm]
+{
+    specializes = c24_3_shroom_tree_white_base;
+
+    aspect:scale_base = 2;
+}
+
+[t:template,n:c24_3_shroom_tree_orange_base]
+{
+    specializes = ds2_shroom_cav_glow_05_base;
+
+	category_name = "trees";
+	doc = "shroom_tree_orange";
+	[aspect]
+	{
+		scale_base = 1;
+
+        // tree stuff
+		does_block_camera = true;
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.7;
+	}
+    [light_flicker_lightweight] { magnitude = 0; }
+}
+[t:template,n:c24_3_shroom_tree_orange_lg]
+{
+    specializes = c24_3_shroom_tree_orange_base;
+
+    aspect:scale_base = 4;
+}
+[t:template,n:c24_3_shroom_tree_orange_md]
+{
+    specializes = c24_3_shroom_tree_orange_base;
+
+    aspect:scale_base = 3;
+}
+[t:template,n:c24_3_shroom_tree_orange_sm]
+{
+    specializes = c24_3_shroom_tree_orange_base;
 
     aspect:scale_base = 2;
 }
