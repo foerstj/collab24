@@ -1576,6 +1576,78 @@
 	  p position = -3.6561,0.210397,4.47861,0x8a0adf1d;
 	}
 }
+[t:shroom_cav_group_03,n:0x03501003]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.97703;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.668245,0,0.743941;
+	  p position = 4.2774,-0.294058,2.72443,0x8a0adf1d;
+	}
+}
+[t:shroom_cav_group_03,n:0x03501004]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.930579;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.500277,0,0.865865;
+	  p position = 4.3804,-0.44842,1.21394,0x8a0adf1d;
+	}
+}
+[t:shroom_cav_group_03,n:0x03501005]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.02347;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.448998,0,0.893533;
+	  p position = 3.69606,-0.413893,-0.35979,0x8a0adf1d;
+	}
+}
+[t:shroom_cav_group_03,n:0x03501006]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.962394;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.285897,0,0.95826;
+	  p position = -4.19787,-0.142189,2.57053,0x8a0adf1d;
+	}
+}
+[t:shroom_cav_group_03,n:0x03501007]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.02109;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.215805,0,0.976436;
+	  p position = -4.01585,-0.4,0.631314,0x8a0adf1d;
+	}
+}
+[t:shroom_cav_group_03,n:0x03501008]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.01037;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.956085,0,0.29309;
+	  p position = -3.94219,-0.0849934,-1.56005,0x8a0adf1d;
+	}
+}
 [t:c24_3_shroom_bush_01,n:0x03500e9f]
 {
 	[aspect]
@@ -14296,6 +14368,90 @@
 	  p position = -3.6632,0.0630732,4.45787,0x8ae826ca;
 	}
 }
+[t:shroom_cav_group_03,n:0x03500ffc]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.951861;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.325018,0,0.945708;
+	  p position = 3.66373,-0.260149,2.34677,0x8ae826ca;
+	}
+}
+[t:shroom_cav_group_03,n:0x03500ffd]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.911932;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.61909,0,0.78532;
+	  p position = 3.83883,-0.449999,1.09175,0x8ae826ca;
+	}
+}
+[t:shroom_cav_group_03,n:0x03500ffe]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.955752;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.936004,0,0.351989;
+	  p position = 3.55187,-0.394318,-1.00007,0x8ae826ca;
+	}
+}
+[t:shroom_cav_group_03,n:0x03500fff]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.959129;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.971809,0,0.235769;
+	  p position = -3.75917,-0.199997,2.36241,0x8ae826ca;
+	}
+}
+[t:shroom_cav_group_03,n:0x03501000]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.04151;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.721117,0,0.692814;
+	  p position = -4.09195,-0.4,0.343269,0x8ae826ca;
+	}
+}
+[t:shroom_cav_group_03,n:0x03501001]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.951337;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.924716,0,0.380658;
+	  p position = -3.62817,-0.110954,-1.34883,0x8ae826ca;
+	}
+}
+[t:shroom_cav_group_03,n:0x03501002]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.04837;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.0249245,0,0.999689;
+	  p position = -5.05192,-0.0077343,3.11644,0x8ae826ca;
+	}
+}
 [t:shroom_cav_group_06,n:0x035014e8]
 {
 	[placement]
@@ -15130,6 +15286,90 @@
 	[placement]
 	{
 	  p position = -3.72361,0.148146,4.44069,0x90b5a1f6;
+	}
+}
+[t:shroom_cav_group_03,n:0x03500fd9]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.916257;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.674608,0,0.738176;
+	  p position = 3.9494,-0.203272,2.73293,0x90b5a1f6;
+	}
+}
+[t:shroom_cav_group_03,n:0x03500fda]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.02735;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.42223,0,0.906489;
+	  p position = 3.86216,-0.450001,1.11225,0x90b5a1f6;
+	}
+}
+[t:shroom_cav_group_03,n:0x03500fdb]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.02724;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.618609,0,0.785699;
+	  p position = 3.80625,-0.449999,-0.405076,0x90b5a1f6;
+	}
+}
+[t:shroom_cav_group_03,n:0x03500fdc]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.916499;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.0575564,0,0.998342;
+	  p position = 4.01704,-0.358183,-1.99799,0x90b5a1f6;
+	}
+}
+[t:shroom_cav_group_03,n:0x03500ff1]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.971002;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.843308,0,0.53743;
+	  p position = -3.63864,-0.0696144,2.60074,0x90b5a1f6;
+	}
+}
+[t:shroom_cav_group_03,n:0x03500ff7]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.00148;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.307611,0,0.951512;
+	  p position = -4.00291,-0.397268,0.481649,0x90b5a1f6;
+	}
+}
+[t:shroom_cav_group_03,n:0x03500ffa]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.01621;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.866262,0,0.499589;
+	  p position = -3.90525,-0.16676,-1.14164,0x90b5a1f6;
 	}
 }
 [t:shroom_cav_group_09,n:0x035003cc]
@@ -17217,6 +17457,19 @@
 	{
 	  q orientation = 0,0.967599,0,-0.252491;
 	  p position = -3.48118,0,-2.22756,0xaf61c75e;
+	}
+}
+[t:lamp_glb_post_03,n:0x03500c77]
+{
+	[light_flicker_lightweight]
+	{
+	  f magnitude = 0;
+	  x siege_light = 0xECDA1EE9;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 3.29571,4.76837e-006,-0.244476,0xaf61c75e;
 	}
 }
 [t:c24_3_shroom_tree_white_sm,n:0x03500efd]
@@ -50930,6 +51183,78 @@
 	[placement]
 	{
 	  p position = -3.65495,-0.213228,4.44,0x2c4b4f7c;
+	}
+}
+[t:shroom_cav_group_03,n:0x03500fd2]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.03836;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.117198,0,0.993109;
+	  p position = 3.5823,-0.220783,2.36044,0x2c4b4f7c;
+	}
+}
+[t:shroom_cav_group_03,n:0x03500fd4]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.939574;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.538865,0,0.842392;
+	  p position = 3.8491,-0.449999,0.354979,0x2c4b4f7c;
+	}
+}
+[t:shroom_cav_group_03,n:0x03500fd5]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.01096;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.521754,0,0.853096;
+	  p position = 4.22445,-0.419299,-1.42883,0x2c4b4f7c;
+	}
+}
+[t:shroom_cav_group_03,n:0x03500fd6]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.0386;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.950357,0,0.311162;
+	  p position = -4.43263,-0.285706,2.3253,0x2c4b4f7c;
+	}
+}
+[t:shroom_cav_group_03,n:0x03500fd7]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.920571;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.745394,0,0.666624;
+	  p position = -4.30588,-0.4,0.532598,0x2c4b4f7c;
+	}
+}
+[t:shroom_cav_group_03,n:0x03500fd8]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.0017;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.0649965,0,0.997885;
+	  p position = -3.90379,-0.169781,-1.12615,0x2c4b4f7c;
 	}
 }
 [t:shroom_cav_group_09,n:0x03500293]
