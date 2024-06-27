@@ -41,8 +41,8 @@
 {
 	[placement]
 	{
-	  q orientation = 0,0.529919,0,-0.848048;
-	  p position = 7.03242,-4.65,-2.75198,0x530c6b8b;
+	  q orientation = 0,-0.529919,0,0.848048;
+	  p position = 5.47272,-0.4,-0.807106,0x8a0adf1d;
 	}
 }
 [t:barrel_glb_path2crypts,n:0x03501525]
@@ -50,15 +50,15 @@
 	[placement]
 	{
 	  q orientation = 0,0.878817,0,0.477159;
-	  p position = 6.25427,-4.65,-3.79215,0x530c6b8b;
+	  p position = 4.69457,-0.4,-1.84727,0x8a0adf1d;
 	}
 }
 [t:barrel_glb_path2crypts,n:0x03501526]
 {
 	[placement]
 	{
-	  q orientation = 0,0.284015,0,-0.95882;
-	  p position = 6.80212,-4.65,-3.37309,0x530c6b8b;
+	  q orientation = 0,-0.284015,0,0.95882;
+	  p position = 5.24242,-0.4,-1.42822,0x8a0adf1d;
 	}
 }
 [t:barrel_glb_path2crypts,n:0x03501528]
