@@ -46,15 +46,6 @@
 	  p position = 0.763336,0,-0.561356,0xdbeca403;
 	}
 }
-[t:respawn_statue,n:0x0350165f]
-{
-	[placement]
-	{
-	  q orientation = 0,1,0,0;
-	  p position = -1.47888,0,0.860718,0xca00b0c6;
-		use_point_scids = 0x03501678;
-	}
-}
 [t:sign_glb_01,n:0x0350120c]
 {
 	[common]
@@ -77,6 +68,15 @@
 	{
 	  q orientation = 0,0.608761,0,0.793353;
 	  p position = 0.338165,0,0.141693,0x274c8613;
+	}
+}
+[t:respawn_statue,n:0x0350165f]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -1.47888,0,0.860718,0xca00b0c6;
+		use_point_scids = 0x03501678;
 	}
 }
 [t:sign_glb_01,n:0x03501057]
