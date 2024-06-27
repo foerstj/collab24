@@ -46,7 +46,11 @@
 	0x03500569 = t_xxx_cnr_tee-08-04-12-l;
 	0x0350056a = t_xxx_cnr_tee-08-04-12-r;
 	0x0350056e = t_xxx_cnr_tee-rmp-rmp-08-r;
+	0x035005bd = t_xxx_dgn_flr_ele-round-alpha-strip;
 	0x035005bf = t_xxx_dgn_flr_ele-round-groundplate-terrain;
+	0x035005c6 = t_xxx_dgn_flr_ele-round-platform-nochain;
+	0x035005c8 = t_xxx_dgn_flr_ele-round-tube-62m;
+	0x035005c9 = t_xxx_dgn_flr_ele-round-tube-bottom;
 	0x0350061e = t_xxx_dgn_wal_archway-b;
 	0x03500665 = t_xxx_dgn_zportal-base-a;
 	0x0350066b = t_xxx_dgn_zportal-top-a;
