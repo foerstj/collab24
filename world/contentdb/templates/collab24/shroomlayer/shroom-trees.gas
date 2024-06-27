@@ -34,13 +34,13 @@
 	}
     [light_flicker_lightweight] { magnitude = 0; }
 }
-[t:template,n:c24_3_shroom_tree_cyan_9m]
+[t:template,n:c24_3_shroom_tree_cyan_lg]
 {
     specializes = c24_3_shroom_tree_cyan_base;
 
     aspect:scale_base = 4;
 }
-[t:template,n:c24_3_shroom_tree_cyan_6m]
+[t:template,n:c24_3_shroom_tree_cyan_md]
 {
     specializes = c24_3_shroom_tree_cyan_base;
 
