@@ -33,6 +33,18 @@
 		[start_position]
 		{
 		  i id = 1;
+			position = -3.751499,4.000000,1.799446,0x0D89EA2D;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 0.000000,0.000000,0.000000,0x22DCE326;
+			}
+		}
+		[start_position]
+		{
+		  i id = 2;
 			position = 3.131752,0.000000,3.880371,0x5D7760D6;
 			[camera]
 			{
