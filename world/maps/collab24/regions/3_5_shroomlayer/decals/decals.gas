@@ -3,73 +3,13 @@
 	[t:decal,n:*]
 	{
 		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
-		decal_origin = -3.887183,1.000002,3.954044,0xF43A7EF8;
-	  f far_plane = 1.100000;
-	  x guid = 0xACD2B844;
-	  f horizontal_meters = 4.000000;
-	  f lod = 1.000000;
-	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
-	  f vertical_meters = 4.000000;
-	}
-	[t:decal,n:*]
-	{
-		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
-		decal_origin = -3.789604,1.000000,2.100623,0xF43A7EF8;
-	  f far_plane = 1.100000;
-	  x guid = 0xD8895A17;
-	  f horizontal_meters = 4.000000;
-	  f lod = 1.000000;
-	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
-	  f vertical_meters = 4.000000;
-	}
-	[t:decal,n:*]
-	{
-		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
-		decal_origin = -3.833821,1.000000,0.250202,0xF43A7EF8;
-	  f far_plane = 1.100000;
-	  x guid = 0xB47E4CA9;
-	  f horizontal_meters = 4.000000;
-	  f lod = 1.000000;
-	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
-	  f vertical_meters = 4.000000;
-	}
-	[t:decal,n:*]
-	{
-		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
-		decal_origin = -3.717506,1.000002,-1.864088,0xF43A7EF8;
-	  f far_plane = 1.100000;
-	  x guid = 0xE57A8AAD;
-	  f horizontal_meters = 4.000000;
-	  f lod = 1.000000;
-	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
-	  f vertical_meters = 4.000000;
-	}
-	[t:decal,n:*]
-	{
-		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
-		decal_origin = -3.612270,1.000000,-3.914800,0xF43A7EF8;
-	  f far_plane = 1.100000;
-	  x guid = 0x84D1FD96;
-	  f horizontal_meters = 4.000000;
-	  f lod = 1.000000;
-	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
-	  f vertical_meters = 4.000000;
-	}
-	[t:decal,n:*]
-	{
-		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
 		decal_origin = 3.598792,1.000000,-2.156449,0x3E2FB7FD;
 	  f far_plane = 1.100000;
 	  x guid = 0x7DA45D3E;
 	  f horizontal_meters = 4.000000;
 	  f lod = 1.000000;
 	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
 	  f vertical_meters = 4.000000;
 	}
 	[t:decal,n:*]
@@ -81,7 +21,7 @@
 	  f horizontal_meters = 4.000000;
 	  f lod = 1.000000;
 	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
 	  f vertical_meters = 4.000000;
 	}
 	[t:decal,n:*]
@@ -93,7 +33,7 @@
 	  f horizontal_meters = 4.000000;
 	  f lod = 1.000000;
 	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
 	  f vertical_meters = 4.000000;
 	}
 	[t:decal,n:*]
@@ -105,7 +45,7 @@
 	  f horizontal_meters = 4.000000;
 	  f lod = 1.000000;
 	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
 	  f vertical_meters = 4.000000;
 	}
 	[t:decal,n:*]
@@ -117,7 +57,7 @@
 	  f horizontal_meters = 4.000000;
 	  f lod = 1.000000;
 	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
 	  f vertical_meters = 4.000000;
 	}
 	[t:decal,n:*]
@@ -129,7 +69,7 @@
 	  f horizontal_meters = 4.000000;
 	  f lod = 1.000000;
 	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
 	  f vertical_meters = 4.000000;
 	}
 	[t:decal,n:*]
@@ -141,19 +81,7 @@
 	  f horizontal_meters = 4.000000;
 	  f lod = 1.000000;
 	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
-	  f vertical_meters = 4.000000;
-	}
-	[t:decal,n:*]
-	{
-		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
-		decal_origin = -3.802001,1.000000,-1.923096,0xEE93395A;
-	  f far_plane = 1.100000;
-	  x guid = 0x69E0EE48;
-	  f horizontal_meters = 4.000000;
-	  f lod = 1.000000;
-	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
 	  f vertical_meters = 4.000000;
 	}
 	[t:decal,n:*]
@@ -165,7 +93,7 @@
 	  f horizontal_meters = 4.000000;
 	  f lod = 1.000000;
 	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
 	  f vertical_meters = 4.000000;
 	}
 	[t:decal,n:*]
@@ -177,7 +105,7 @@
 	  f horizontal_meters = 4.000000;
 	  f lod = 1.000000;
 	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
 	  f vertical_meters = 4.000000;
 	}
 	[t:decal,n:*]
@@ -189,7 +117,7 @@
 	  f horizontal_meters = 4.000000;
 	  f lod = 1.000000;
 	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
 	  f vertical_meters = 4.000000;
 	}
 	[t:decal,n:*]
@@ -201,7 +129,67 @@
 	  f horizontal_meters = 4.000000;
 	  f lod = 1.000000;
 	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
+	  f vertical_meters = 4.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
+		decal_origin = -3.887183,1.000002,3.954044,0xF43A7EF8;
+	  f far_plane = 1.100000;
+	  x guid = 0xACD2B844;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
+	  f vertical_meters = 4.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
+		decal_origin = -3.789604,1.000000,2.100623,0xF43A7EF8;
+	  f far_plane = 1.100000;
+	  x guid = 0xD8895A17;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
+	  f vertical_meters = 4.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
+		decal_origin = -3.833821,1.000000,0.250202,0xF43A7EF8;
+	  f far_plane = 1.100000;
+	  x guid = 0xB47E4CA9;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
+	  f vertical_meters = 4.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
+		decal_origin = -3.717506,1.000002,-1.864088,0xF43A7EF8;
+	  f far_plane = 1.100000;
+	  x guid = 0xE57A8AAD;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
+	  f vertical_meters = 4.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
+		decal_origin = -3.612270,1.000000,-3.914800,0xF43A7EF8;
+	  f far_plane = 1.100000;
+	  x guid = 0x84D1FD96;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
 	  f vertical_meters = 4.000000;
 	}
 	[t:decal,n:*]
@@ -213,7 +201,7 @@
 	  f horizontal_meters = 4.000000;
 	  f lod = 1.000000;
 	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
 	  f vertical_meters = 4.000000;
 	}
 	[t:decal,n:*]
@@ -225,7 +213,7 @@
 	  f horizontal_meters = 4.000000;
 	  f lod = 1.000000;
 	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
 	  f vertical_meters = 4.000000;
 	}
 	[t:decal,n:*]
@@ -237,7 +225,7 @@
 	  f horizontal_meters = 4.000000;
 	  f lod = 1.000000;
 	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
 	  f vertical_meters = 4.000000;
 	}
 	[t:decal,n:*]
@@ -249,31 +237,7 @@
 	  f horizontal_meters = 4.000000;
 	  f lod = 1.000000;
 	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
-	  f vertical_meters = 4.000000;
-	}
-	[t:decal,n:*]
-	{
-		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
-		decal_origin = 3.930489,0.999998,1.814933,0xF0A7F512;
-	  f far_plane = 1.100000;
-	  x guid = 0x6A669C8E;
-	  f horizontal_meters = 4.000000;
-	  f lod = 1.000000;
-	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
-	  f vertical_meters = 4.000000;
-	}
-	[t:decal,n:*]
-	{
-		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
-		decal_origin = 3.951127,1.000000,-0.071359,0xF0A7F512;
-	  f far_plane = 1.100000;
-	  x guid = 0x18404F95;
-	  f horizontal_meters = 4.000000;
-	  f lod = 1.000000;
-	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
 	  f vertical_meters = 4.000000;
 	}
 	[t:decal,n:*]
@@ -285,127 +249,19 @@
 	  f horizontal_meters = 4.000000;
 	  f lod = 1.000000;
 	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
 	  f vertical_meters = 4.000000;
 	}
 	[t:decal,n:*]
 	{
 		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
-		decal_origin = -3.923185,1.000000,1.839035,0x2456CB15;
+		decal_origin = -3.802001,1.000000,-1.923096,0xEE93395A;
 	  f far_plane = 1.100000;
-	  x guid = 0xF606BC89;
+	  x guid = 0x69E0EE48;
 	  f horizontal_meters = 4.000000;
 	  f lod = 1.000000;
 	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
-	  f vertical_meters = 4.000000;
-	}
-	[t:decal,n:*]
-	{
-		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
-		decal_origin = 0.059755,1.000000,3.993054,0xF0A7F512;
-	  f far_plane = 1.100000;
-	  x guid = 0x39C604C4;
-	  f horizontal_meters = 4.000000;
-	  f lod = 1.000000;
-	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
-	  f vertical_meters = 4.000000;
-	}
-	[t:decal,n:*]
-	{
-		decal_orientation = -1.000000,0.000000,0.000000,0.000000,0.124035,-0.992278,0.000000,-0.992278,-0.124035;
-		decal_origin = -1.792978,0.994708,4.104581,0x2456CB15;
-	  f far_plane = 1.100000;
-	  x guid = 0x0C9F5DB6;
-	  f horizontal_meters = 4.000000;
-	  f lod = 1.000000;
-	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
-	  f vertical_meters = 4.000000;
-	}
-	[t:decal,n:*]
-	{
-		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
-		decal_origin = -3.886194,0.999998,-0.012507,0x3CB778E9;
-	  f far_plane = 1.100000;
-	  x guid = 0x15529450;
-	  f horizontal_meters = 4.000000;
-	  f lod = 1.000000;
-	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
-	  f vertical_meters = 4.000000;
-	}
-	[t:decal,n:*]
-	{
-		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
-		decal_origin = -3.951327,1.000000,-1.866755,0x3CB778E9;
-	  f far_plane = 1.100000;
-	  x guid = 0xD451532C;
-	  f horizontal_meters = 4.000000;
-	  f lod = 1.000000;
-	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
-	  f vertical_meters = 4.000000;
-	}
-	[t:decal,n:*]
-	{
-		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
-		decal_origin = -3.957031,1.000002,-3.792294,0x3CB778E9;
-	  f far_plane = 1.100000;
-	  x guid = 0xFA012731;
-	  f horizontal_meters = 4.000000;
-	  f lod = 1.000000;
-	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
-	  f vertical_meters = 4.000000;
-	}
-	[t:decal,n:*]
-	{
-		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
-		decal_origin = 3.797578,1.000000,2.254281,0x2456CB15;
-	  f far_plane = 1.100000;
-	  x guid = 0x4009F204;
-	  f horizontal_meters = 4.000000;
-	  f lod = 1.000000;
-	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
-	  f vertical_meters = 4.000000;
-	}
-	[t:decal,n:*]
-	{
-		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
-		decal_origin = -0.259224,1.999998,3.987213,0x238CC2EF;
-	  f far_plane = 1.100000;
-	  x guid = 0xFCFEE0CE;
-	  f horizontal_meters = 4.000000;
-	  f lod = 1.000000;
-	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
-	  f vertical_meters = 4.000000;
-	}
-	[t:decal,n:*]
-	{
-		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
-		decal_origin = 3.907902,0.999998,-1.801489,0x2456CB15;
-	  f far_plane = 1.100000;
-	  x guid = 0xE8CA9AB9;
-	  f horizontal_meters = 4.000000;
-	  f lod = 1.000000;
-	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
-	  f vertical_meters = 4.000000;
-	}
-	[t:decal,n:*]
-	{
-		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
-		decal_origin = 3.795871,1.000000,-3.991062,0x2456CB15;
-	  f far_plane = 1.100000;
-	  x guid = 0x9EE402A0;
-	  f horizontal_meters = 4.000000;
-	  f lod = 1.000000;
-	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
 	  f vertical_meters = 4.000000;
 	}
 	[t:decal,n:*]
@@ -417,7 +273,7 @@
 	  f horizontal_meters = 4.000000;
 	  f lod = 1.000000;
 	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
 	  f vertical_meters = 4.000000;
 	}
 	[t:decal,n:*]
@@ -429,7 +285,7 @@
 	  f horizontal_meters = 4.000000;
 	  f lod = 1.000000;
 	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
 	  f vertical_meters = 4.000000;
 	}
 	[t:decal,n:*]
@@ -441,19 +297,7 @@
 	  f horizontal_meters = 4.000000;
 	  f lod = 1.000000;
 	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
-	  f vertical_meters = 4.000000;
-	}
-	[t:decal,n:*]
-	{
-		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
-		decal_origin = -3.619063,0.999998,3.986140,0xC8F9753C;
-	  f far_plane = 1.100000;
-	  x guid = 0xDDD994F8;
-	  f horizontal_meters = 4.000000;
-	  f lod = 1.000000;
-	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
 	  f vertical_meters = 4.000000;
 	}
 	[t:decal,n:*]
@@ -465,7 +309,7 @@
 	  f horizontal_meters = 4.000000;
 	  f lod = 1.000000;
 	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
 	  f vertical_meters = 4.000000;
 	}
 	[t:decal,n:*]
@@ -477,7 +321,7 @@
 	  f horizontal_meters = 4.000000;
 	  f lod = 1.000000;
 	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
 	  f vertical_meters = 4.000000;
 	}
 	[t:decal,n:*]
@@ -489,115 +333,91 @@
 	  f horizontal_meters = 4.000000;
 	  f lod = 1.000000;
 	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
 	  f vertical_meters = 4.000000;
 	}
 	[t:decal,n:*]
 	{
 		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
-		decal_origin = 3.864595,1.000000,3.792255,0xD45289A6;
+		decal_origin = -3.923185,1.000000,1.839035,0x2456CB15;
 	  f far_plane = 1.100000;
-	  x guid = 0x5C8A3327;
+	  x guid = 0xF606BC89;
 	  f horizontal_meters = 4.000000;
 	  f lod = 1.000000;
 	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
+	  f vertical_meters = 4.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = -1.000000,0.000000,0.000000,0.000000,0.124035,-0.992278,0.000000,-0.992278,-0.124035;
+		decal_origin = -1.792978,0.994708,4.104581,0x2456CB15;
+	  f far_plane = 1.100000;
+	  x guid = 0x0C9F5DB6;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
 	  f vertical_meters = 4.000000;
 	}
 	[t:decal,n:*]
 	{
 		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
-		decal_origin = 3.691795,1.000000,1.877437,0xD45289A6;
+		decal_origin = 3.797578,1.000000,2.254281,0x2456CB15;
 	  f far_plane = 1.100000;
-	  x guid = 0x2A616404;
+	  x guid = 0x4009F204;
 	  f horizontal_meters = 4.000000;
 	  f lod = 1.000000;
 	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
 	  f vertical_meters = 4.000000;
 	}
 	[t:decal,n:*]
 	{
 		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
-		decal_origin = 0.327387,1.000000,1.949440,0xACAC25DD;
+		decal_origin = 3.907902,0.999998,-1.801489,0x2456CB15;
 	  f far_plane = 1.100000;
-	  x guid = 0x1FFF79A7;
+	  x guid = 0xE8CA9AB9;
 	  f horizontal_meters = 4.000000;
 	  f lod = 1.000000;
 	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
 	  f vertical_meters = 4.000000;
 	}
 	[t:decal,n:*]
 	{
 		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
-		decal_origin = -2.015051,1.000000,1.942409,0xACAC25DD;
+		decal_origin = 3.795871,1.000000,-3.991062,0x2456CB15;
 	  f far_plane = 1.100000;
-	  x guid = 0x00E6BD6F;
+	  x guid = 0x9EE402A0;
 	  f horizontal_meters = 4.000000;
 	  f lod = 1.000000;
 	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
 	  f vertical_meters = 4.000000;
 	}
 	[t:decal,n:*]
 	{
 		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
-		decal_origin = 3.790668,1.000000,-3.992243,0xD45289A6;
+		decal_origin = -3.619063,0.999998,3.986140,0xC8F9753C;
 	  f far_plane = 1.100000;
-	  x guid = 0x2087629B;
+	  x guid = 0xDDD994F8;
 	  f horizontal_meters = 4.000000;
 	  f lod = 1.000000;
 	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
 	  f vertical_meters = 4.000000;
 	}
 	[t:decal,n:*]
 	{
 		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
-		decal_origin = -3.879586,1.000000,-1.849735,0x87B430CB;
+		decal_origin = -0.259224,1.999998,3.987213,0x238CC2EF;
 	  f far_plane = 1.100000;
-	  x guid = 0x7B595B5E;
+	  x guid = 0xFCFEE0CE;
 	  f horizontal_meters = 4.000000;
 	  f lod = 1.000000;
 	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
-	  f vertical_meters = 4.000000;
-	}
-	[t:decal,n:*]
-	{
-		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
-		decal_origin = -3.754372,1.000000,-0.221887,0x87B430CB;
-	  f far_plane = 1.100000;
-	  x guid = 0x192A4282;
-	  f horizontal_meters = 4.000000;
-	  f lod = 1.000000;
-	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
-	  f vertical_meters = 4.000000;
-	}
-	[t:decal,n:*]
-	{
-		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
-		decal_origin = -3.804758,1.000000,1.986255,0x87B430CB;
-	  f far_plane = 1.100000;
-	  x guid = 0x556FBDA7;
-	  f horizontal_meters = 4.000000;
-	  f lod = 1.000000;
-	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
-	  f vertical_meters = 4.000000;
-	}
-	[t:decal,n:*]
-	{
-		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
-		decal_origin = -3.863343,1.000004,3.775171,0x87B430CB;
-	  f far_plane = 1.100000;
-	  x guid = 0x2EEE1909;
-	  f horizontal_meters = 4.000000;
-	  f lod = 1.000000;
-	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
 	  f vertical_meters = 4.000000;
 	}
 	[t:decal,n:*]
@@ -609,7 +429,7 @@
 	  f horizontal_meters = 4.000000;
 	  f lod = 1.000000;
 	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
 	  f vertical_meters = 4.000000;
 	}
 	[t:decal,n:*]
@@ -621,19 +441,7 @@
 	  f horizontal_meters = 4.000000;
 	  f lod = 1.000000;
 	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
-	  f vertical_meters = 4.000000;
-	}
-	[t:decal,n:*]
-	{
-		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
-		decal_origin = 2.118979,1.000000,3.763234,0x87B430CB;
-	  f far_plane = 1.100000;
-	  x guid = 0x5E85A90B;
-	  f horizontal_meters = 4.000000;
-	  f lod = 1.000000;
-	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
 	  f vertical_meters = 4.000000;
 	}
 	[t:decal,n:*]
@@ -645,7 +453,67 @@
 	  f horizontal_meters = 4.000000;
 	  f lod = 1.000000;
 	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
+	  f vertical_meters = 4.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
+		decal_origin = -3.879586,1.000000,-1.849735,0x87B430CB;
+	  f far_plane = 1.100000;
+	  x guid = 0x7B595B5E;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
+	  f vertical_meters = 4.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
+		decal_origin = -3.754372,1.000000,-0.221887,0x87B430CB;
+	  f far_plane = 1.100000;
+	  x guid = 0x192A4282;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
+	  f vertical_meters = 4.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
+		decal_origin = -3.804758,1.000000,1.986255,0x87B430CB;
+	  f far_plane = 1.100000;
+	  x guid = 0x556FBDA7;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
+	  f vertical_meters = 4.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
+		decal_origin = -3.863343,1.000004,3.775171,0x87B430CB;
+	  f far_plane = 1.100000;
+	  x guid = 0x2EEE1909;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
+	  f vertical_meters = 4.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
+		decal_origin = 2.118979,1.000000,3.763234,0x87B430CB;
+	  f far_plane = 1.100000;
+	  x guid = 0x5E85A90B;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
 	  f vertical_meters = 4.000000;
 	}
 	[t:decal,n:*]
@@ -657,19 +525,7 @@
 	  f horizontal_meters = 4.000000;
 	  f lod = 1.000000;
 	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
-	  f vertical_meters = 4.000000;
-	}
-	[t:decal,n:*]
-	{
-		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
-		decal_origin = 0.267183,1.000000,-3.802803,0x7AF41403;
-	  f far_plane = 1.100000;
-	  x guid = 0x70977BD1;
-	  f horizontal_meters = 4.000000;
-	  f lod = 1.000000;
-	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
 	  f vertical_meters = 4.000000;
 	}
 	[t:decal,n:*]
@@ -681,7 +537,7 @@
 	  f horizontal_meters = 4.000000;
 	  f lod = 1.000000;
 	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
 	  f vertical_meters = 4.000000;
 	}
 	[t:decal,n:*]
@@ -693,7 +549,43 @@
 	  f horizontal_meters = 4.000000;
 	  f lod = 1.000000;
 	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
+	  f vertical_meters = 4.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
+		decal_origin = 3.864595,1.000000,3.792255,0xD45289A6;
+	  f far_plane = 1.100000;
+	  x guid = 0x5C8A3327;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
+	  f vertical_meters = 4.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
+		decal_origin = 3.691795,1.000000,1.877437,0xD45289A6;
+	  f far_plane = 1.100000;
+	  x guid = 0x2A616404;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
+	  f vertical_meters = 4.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
+		decal_origin = 3.790668,1.000000,-3.992243,0xD45289A6;
+	  f far_plane = 1.100000;
+	  x guid = 0x2087629B;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
 	  f vertical_meters = 4.000000;
 	}
 	[t:decal,n:*]
@@ -705,43 +597,7 @@
 	  f horizontal_meters = 4.000000;
 	  f lod = 1.000000;
 	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
-	  f vertical_meters = 4.000000;
-	}
-	[t:decal,n:*]
-	{
-		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
-		decal_origin = 3.966797,1.000000,0.097093,0x200DDC0F;
-	  f far_plane = 1.100000;
-	  x guid = 0x7FB6EDE7;
-	  f horizontal_meters = 4.000000;
-	  f lod = 1.000000;
-	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
-	  f vertical_meters = 4.000000;
-	}
-	[t:decal,n:*]
-	{
-		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
-		decal_origin = 3.989677,1.000000,2.136645,0x200DDC0F;
-	  f far_plane = 1.100000;
-	  x guid = 0x01214FF6;
-	  f horizontal_meters = 4.000000;
-	  f lod = 1.000000;
-	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
-	  f vertical_meters = 4.000000;
-	}
-	[t:decal,n:*]
-	{
-		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
-		decal_origin = 3.962711,1.000000,0.152340,0xD38123DB;
-	  f far_plane = 1.100000;
-	  x guid = 0x32B8310B;
-	  f horizontal_meters = 4.000000;
-	  f lod = 1.000000;
-	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
 	  f vertical_meters = 4.000000;
 	}
 	[t:decal,n:*]
@@ -753,7 +609,7 @@
 	  f horizontal_meters = 4.000000;
 	  f lod = 1.000000;
 	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
 	  f vertical_meters = 4.000000;
 	}
 	[t:decal,n:*]
@@ -765,7 +621,7 @@
 	  f horizontal_meters = 4.000000;
 	  f lod = 1.000000;
 	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
 	  f vertical_meters = 4.000000;
 	}
 	[t:decal,n:*]
@@ -777,7 +633,151 @@
 	  f horizontal_meters = 4.000000;
 	  f lod = 1.000000;
 	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_for01-a.raw;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
+	  f vertical_meters = 4.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
+		decal_origin = 0.267183,1.000000,-3.802803,0x7AF41403;
+	  f far_plane = 1.100000;
+	  x guid = 0x70977BD1;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
+	  f vertical_meters = 4.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
+		decal_origin = 3.966797,1.000000,0.097093,0x200DDC0F;
+	  f far_plane = 1.100000;
+	  x guid = 0x7FB6EDE7;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
+	  f vertical_meters = 4.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
+		decal_origin = 3.989677,1.000000,2.136645,0x200DDC0F;
+	  f far_plane = 1.100000;
+	  x guid = 0x01214FF6;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
+	  f vertical_meters = 4.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
+		decal_origin = -3.886194,0.999998,-0.012507,0x3CB778E9;
+	  f far_plane = 1.100000;
+	  x guid = 0x15529450;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
+	  f vertical_meters = 4.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
+		decal_origin = -3.951327,1.000000,-1.866755,0x3CB778E9;
+	  f far_plane = 1.100000;
+	  x guid = 0xD451532C;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
+	  f vertical_meters = 4.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
+		decal_origin = -3.957031,1.000002,-3.792294,0x3CB778E9;
+	  f far_plane = 1.100000;
+	  x guid = 0xFA012731;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
+	  f vertical_meters = 4.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
+		decal_origin = 3.930489,0.999998,1.814933,0xF0A7F512;
+	  f far_plane = 1.100000;
+	  x guid = 0x6A669C8E;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
+	  f vertical_meters = 4.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
+		decal_origin = 3.951127,1.000000,-0.071359,0xF0A7F512;
+	  f far_plane = 1.100000;
+	  x guid = 0x18404F95;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
+	  f vertical_meters = 4.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
+		decal_origin = 0.059755,1.000000,3.993054,0xF0A7F512;
+	  f far_plane = 1.100000;
+	  x guid = 0x39C604C4;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
+	  f vertical_meters = 4.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
+		decal_origin = 3.962711,1.000000,0.152340,0xD38123DB;
+	  f far_plane = 1.100000;
+	  x guid = 0x32B8310B;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
+	  f vertical_meters = 4.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
+		decal_origin = 0.327387,1.000000,1.949440,0xACAC25DD;
+	  f far_plane = 1.100000;
+	  x guid = 0x1FFF79A7;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
+	  f vertical_meters = 4.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
+		decal_origin = -2.015051,1.000000,1.942409,0xACAC25DD;
+	  f far_plane = 1.100000;
+	  x guid = 0x00E6BD6F;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_for01-a.%img%;
 	  f vertical_meters = 4.000000;
 	}
 }

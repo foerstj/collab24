@@ -1,0 +1,30 @@
+[t:template,n:mushrooms_cav_06_base]  // = mushrooms_cav_06
+{
+	category_name = "foliage";
+	doc = "shroom_red_med";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.25;
+		lodfi_upper = 0.6;
+		model = m_i_cav_mushrooms-06;
+		[textures]
+		{
+			0 = b_i_cav_mushrooms-01;
+		}
+	}
+}
+
+[t:template,n:c24_3_shroom_flower_tall]
+{
+    specializes = mushrooms_cav_06_base;
+
+    aspect:scale_base = 2;
+}
+
+[t:template,n:c24_3_shroom_flowers_lg]
+{
+    specializes = shroom_cav_group_03_base;
+
+    aspect:scale_base = 1.5;
+}
