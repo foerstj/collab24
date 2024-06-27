@@ -2760,7 +2760,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.902585,0,0.430511;
-	  p position = 0.662231,5.70868,2.61211,0x71d46fb1;
+	  p position = 1.96758,3.70868,-3.08053,0x374e0103;
 	}
 	[sound_emitter]
 	{
@@ -2783,8 +2783,8 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.071648,0,0.99743;
-	  p position = 0.774526,0,2.54423,0x71d46fb1;
+	  q orientation = 0,0.0716481,0,0.99743;
+	  p position = 3.1451,-1.90735e-006,0.0146389,0x460854fe;
 	}
 }
 [t:c24_3_emt_shroom_sparkles,n:0x03500605]
@@ -2799,8 +2799,8 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.601445,0,-0.798914;
-	  p position = 2.5276,0,-0.338648,0x71d46fb1;
+	  q orientation = 0,0.798914,0,0.601445;
+	  p position = -0.980034,0,1.93098,0x76b7e05d;
 	}
 }
 [t:c24_3_emt_shroom_sparkles,n:0x0350061b]
@@ -2815,8 +2815,8 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.600791,0,-0.799406;
-	  p position = 3.0483,0,-3.75642,0x71d46fb1;
+	  q orientation = 0,-0.600791,0,0.799406;
+	  p position = 2.48509,-4,-5.1222,0x4affee44;
 	}
 }
 [t:c24_3_emt_shroom_sparkles,n:0x03500656]
@@ -2831,8 +2831,8 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.576789,0,-0.816893;
-	  p position = 3.08221,0,-3.09164,0x71d46fb1;
+	  q orientation = 0,-0.576789,0,0.816893;
+	  p position = 1.53464,1,1.31603,0x8f111e8c;
 	}
 }
 [t:c24_3_emt_shroom_sparkles,n:0x035005cb]
