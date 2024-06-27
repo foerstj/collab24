@@ -7838,6 +7838,19 @@
 	  p position = 0.108917,0,1.61201,0xc7aee069;
 	}
 }
+[t:lamp_glb_oil_02,n:0x03500fd3]
+{
+	[light_flicker_lightweight]
+	{
+	  f magnitude = 0;
+	  x siege_light = 0x08502815;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,-1.49012e-007;
+	  p position = -0.0240822,0.0148506,1.29401,0x2625d180;
+	}
+}
 [t:c24_3_shroom_bush_01,n:0x035008c7]
 {
 	[aspect]
@@ -54569,6 +54582,30 @@
 	  p position = 0.385313,0,-3.93165,0x4f8c2da2;
 	}
 }
+[t:lamp_glb_oil_01,n:0x03500c9a]
+{
+	[light_flicker_lightweight]
+	{
+	  f magnitude = 0;
+	  x siege_light = 0x4F980870;
+	}
+	[placement]
+	{
+	  p position = -1.28129,0.685041,1.33776,0xc7d3bbff;
+	}
+}
+[t:lamp_glb_oil_01,n:0x03500c9c]
+{
+	[light_flicker_lightweight]
+	{
+	  f magnitude = 0;
+	  x siege_light = 0xB710F691;
+	}
+	[placement]
+	{
+	  p position = 1.22647,0.716918,1.33296,0xc7d3bbff;
+	}
+}
 [t:c24_3_shroom_bush_01,n:0x03500bf7]
 {
 	[aspect]
@@ -56604,6 +56641,54 @@
 	  p position = 3.93972,-20,-4.97564,0x17d114d9;
 	}
 }
+[t:lamp_glb_oil_01,n:0x03500e7d]
+{
+	[light_flicker_lightweight]
+	{
+	  f magnitude = 0;
+	  x siege_light = 0x1DED6D6E;
+	}
+	[placement]
+	{
+	  p position = -1.24972,0.752468,1.34764,0x70281ea2;
+	}
+}
+[t:lamp_glb_oil_01,n:0x03500fcd]
+{
+	[light_flicker_lightweight]
+	{
+	  f magnitude = 0;
+	  x siege_light = 0x915714C6;
+	}
+	[placement]
+	{
+	  p position = 1.19308,0.799231,1.35914,0x70281ea2;
+	}
+}
+[t:lamp_glb_oil_01,n:0x03500fce]
+{
+	[light_flicker_lightweight]
+	{
+	  f magnitude = 0;
+	  x siege_light = 0x87B7494A;
+	}
+	[placement]
+	{
+	  p position = -1.17063,0.728861,1.34249,0xc0c018ae;
+	}
+}
+[t:lamp_glb_oil_01,n:0x03500fcf]
+{
+	[light_flicker_lightweight]
+	{
+	  f magnitude = 0;
+	  x siege_light = 0x9BFCB9F8;
+	}
+	[placement]
+	{
+	  p position = 1.23034,0.690472,1.32369,0xc0c018ae;
+	}
+}
 [t:shroom_cav_group_09,n:0x03500197]
 {
 	[aspect]
@@ -57402,5 +57487,29 @@
 	{
 	  q orientation = 0,0.656059,0,0.754709;
 	  p position = -0.461197,-1.90735e-006,-0.110657,0x460f3558;
+	}
+}
+[t:lamp_glb_oil_01,n:0x03500fd0]
+{
+	[light_flicker_lightweight]
+	{
+	  f magnitude = 0;
+	  x siege_light = 0x3A6F81D8;
+	}
+	[placement]
+	{
+	  p position = -1.35811,0.710555,1.33655,0x0a075348;
+	}
+}
+[t:lamp_glb_oil_01,n:0x03500fd1]
+{
+	[light_flicker_lightweight]
+	{
+	  f magnitude = 0;
+	  x siege_light = 0xD8EA009D;
+	}
+	[placement]
+	{
+	  p position = 1.32575,0.719144,1.32007,0x0a075348;
 	}
 }
