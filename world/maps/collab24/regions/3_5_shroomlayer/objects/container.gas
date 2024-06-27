@@ -189,6 +189,22 @@
 	  p position = -2.16721,-3.8147e-006,2.0988,0xd7f09530;
 	}
 }
+[t:crate_glb_fh_r1,n:0x0350114a]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.66913,0,0.743145;
+	  p position = -3.23122,7.62939e-006,3.92553,0x8c6198dc;
+	}
+}
+[t:barrel_glb_fh_r1,n:0x03501146]
+{
+	[placement]
+	{
+	  q orientation = 0,0.743145,0,-0.669131;
+	  p position = -2.76822,0,-3.10882,0xdc3f4724;
+	}
+}
 [t:barrel_glb_path2crypts,n:0x03501555]
 {
 	[placement]
@@ -363,22 +379,6 @@
 	{
 	  q orientation = 0,0.882948,0,-0.469472;
 	  p position = 1.7133,-12,-5.66445,0x5d4695b4;
-	}
-}
-[t:barrel_glb_fh_r1,n:0x03501146]
-{
-	[placement]
-	{
-	  q orientation = 0,0.743145,0,-0.669131;
-	  p position = -2.76822,0,-3.10882,0xdc3f4724;
-	}
-}
-[t:crate_glb_fh_r1,n:0x0350114a]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.66913,0,0.743145;
-	  p position = -3.23122,7.62939e-006,3.92553,0x8c6198dc;
 	}
 }
 [t:crate_glb_path2crypts,n:0x0350120f]

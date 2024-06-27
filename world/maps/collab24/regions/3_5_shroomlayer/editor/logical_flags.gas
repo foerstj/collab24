@@ -1101,6 +1101,24 @@
 		{
 		}
 	}
+	[t:lf_snode,n:0x0d48291d]
+	{
+		[t:lf_lnode,n:0]
+		{
+			* = lf_human_player;
+			* = lf_computer_player;
+			* = lf_dirt;
+		}
+		[t:lf_lnode,n:1]
+		{
+			* = lf_human_player;
+			* = lf_computer_player;
+			* = lf_dirt;
+		}
+		[t:lf_lnode,n:2]
+		{
+		}
+	}
 	[t:lf_snode,n:0x0d6e391e]
 	{
 		[t:lf_lnode,n:0]
@@ -3426,6 +3444,15 @@
 		{
 		}
 	}
+	[t:lf_snode,n:0x2c4b4f7c]
+	{
+		[t:lf_lnode,n:0]
+		{
+			* = lf_human_player;
+			* = lf_computer_player;
+			* = lf_dirt;
+		}
+	}
 	[t:lf_snode,n:0x2c4c88d1]
 	{
 		[t:lf_lnode,n:0]
@@ -5421,24 +5448,6 @@
 		{
 		}
 	}
-	[t:lf_snode,n:0x44a89494]
-	{
-		[t:lf_lnode,n:0]
-		{
-			* = lf_human_player;
-			* = lf_computer_player;
-			* = lf_dirt;
-		}
-		[t:lf_lnode,n:1]
-		{
-			* = lf_human_player;
-			* = lf_computer_player;
-			* = lf_dirt;
-		}
-		[t:lf_lnode,n:2]
-		{
-		}
-	}
 	[t:lf_snode,n:0x44a9c375]
 	{
 		[t:lf_lnode,n:0]
@@ -6948,6 +6957,24 @@
 			* = lf_dirt;
 		}
 	}
+	[t:lf_snode,n:0x5768de9a]
+	{
+		[t:lf_lnode,n:0]
+		{
+			* = lf_human_player;
+			* = lf_computer_player;
+			* = lf_dirt;
+		}
+		[t:lf_lnode,n:1]
+		{
+			* = lf_human_player;
+			* = lf_computer_player;
+			* = lf_dirt;
+		}
+		[t:lf_lnode,n:2]
+		{
+		}
+	}
 	[t:lf_snode,n:0x57817e94]
 	{
 		[t:lf_lnode,n:0]
@@ -7768,15 +7795,6 @@
 		}
 	}
 	[t:lf_snode,n:0x61e16709]
-	{
-		[t:lf_lnode,n:0]
-		{
-			* = lf_human_player;
-			* = lf_computer_player;
-			* = lf_dirt;
-		}
-	}
-	[t:lf_snode,n:0x6216f259]
 	{
 		[t:lf_lnode,n:0]
 		{
@@ -8620,24 +8638,6 @@
 		}
 	}
 	[t:lf_snode,n:0x6cfc4ace]
-	{
-		[t:lf_lnode,n:0]
-		{
-			* = lf_human_player;
-			* = lf_computer_player;
-			* = lf_dirt;
-		}
-		[t:lf_lnode,n:1]
-		{
-			* = lf_human_player;
-			* = lf_computer_player;
-			* = lf_dirt;
-		}
-		[t:lf_lnode,n:2]
-		{
-		}
-	}
-	[t:lf_snode,n:0x6d157785]
 	{
 		[t:lf_lnode,n:0]
 		{
@@ -9969,24 +9969,6 @@
 		{
 		}
 	}
-	[t:lf_snode,n:0x7b2faec7]
-	{
-		[t:lf_lnode,n:0]
-		{
-			* = lf_human_player;
-			* = lf_computer_player;
-			* = lf_dirt;
-		}
-		[t:lf_lnode,n:1]
-		{
-			* = lf_human_player;
-			* = lf_computer_player;
-			* = lf_dirt;
-		}
-		[t:lf_lnode,n:2]
-		{
-		}
-	}
 	[t:lf_snode,n:0x7b3df61c]
 	{
 		[t:lf_lnode,n:0]
@@ -10606,6 +10588,15 @@
 		}
 		[t:lf_lnode,n:2]
 		{
+		}
+	}
+	[t:lf_snode,n:0x868575c8]
+	{
+		[t:lf_lnode,n:0]
+		{
+			* = lf_human_player;
+			* = lf_computer_player;
+			* = lf_dirt;
 		}
 	}
 	[t:lf_snode,n:0x86a03e7a]
@@ -11541,15 +11532,6 @@
 		{
 		}
 	}
-	[t:lf_snode,n:0x92470803]
-	{
-		[t:lf_lnode,n:0]
-		{
-			* = lf_human_player;
-			* = lf_computer_player;
-			* = lf_dirt;
-		}
-	}
 	[t:lf_snode,n:0x925e1aab]
 	{
 		[t:lf_lnode,n:0]
@@ -12396,6 +12378,15 @@
 		{
 		}
 	}
+	[t:lf_snode,n:0x9d99491b]
+	{
+		[t:lf_lnode,n:0]
+		{
+			* = lf_human_player;
+			* = lf_computer_player;
+			* = lf_dirt;
+		}
+	}
 	[t:lf_snode,n:0x9ddf5cf7]
 	{
 		[t:lf_lnode,n:0]
@@ -12706,6 +12697,24 @@
 			* = lf_human_player;
 			* = lf_computer_player;
 			* = lf_dirt;
+		}
+	}
+	[t:lf_snode,n:0xa1c3e1dd]
+	{
+		[t:lf_lnode,n:0]
+		{
+			* = lf_human_player;
+			* = lf_computer_player;
+			* = lf_dirt;
+		}
+		[t:lf_lnode,n:1]
+		{
+			* = lf_human_player;
+			* = lf_computer_player;
+			* = lf_dirt;
+		}
+		[t:lf_lnode,n:2]
+		{
 		}
 	}
 	[t:lf_snode,n:0xa1cd953c]
@@ -13369,6 +13378,15 @@
 		}
 	}
 	[t:lf_snode,n:0xa9e64ba1]
+	{
+		[t:lf_lnode,n:0]
+		{
+			* = lf_human_player;
+			* = lf_computer_player;
+			* = lf_dirt;
+		}
+	}
+	[t:lf_snode,n:0xaa1bb0ab]
 	{
 		[t:lf_lnode,n:0]
 		{
@@ -14191,6 +14209,24 @@
 		}
 	}
 	[t:lf_snode,n:0xb333ffbe]
+	{
+		[t:lf_lnode,n:0]
+		{
+			* = lf_human_player;
+			* = lf_computer_player;
+			* = lf_dirt;
+		}
+		[t:lf_lnode,n:1]
+		{
+			* = lf_human_player;
+			* = lf_computer_player;
+			* = lf_dirt;
+		}
+		[t:lf_lnode,n:2]
+		{
+		}
+	}
+	[t:lf_snode,n:0xb350ae15]
 	{
 		[t:lf_lnode,n:0]
 		{
@@ -16077,6 +16113,18 @@
 			* = lf_dirt;
 		}
 	}
+	[t:lf_snode,n:0xc7d3bbff]
+	{
+		[t:lf_lnode,n:0]
+		{
+			* = lf_human_player;
+			* = lf_computer_player;
+			* = lf_dirt;
+		}
+		[t:lf_lnode,n:1]
+		{
+		}
+	}
 	[t:lf_snode,n:0xc7ec3165]
 	{
 		[t:lf_lnode,n:0]
@@ -16207,15 +16255,6 @@
 		}
 		[t:lf_lnode,n:2]
 		{
-		}
-	}
-	[t:lf_snode,n:0xca336599]
-	{
-		[t:lf_lnode,n:0]
-		{
-			* = lf_human_player;
-			* = lf_computer_player;
-			* = lf_dirt;
 		}
 	}
 	[t:lf_snode,n:0xca3e5313]
@@ -17299,15 +17338,6 @@
 		}
 		[t:lf_lnode,n:2]
 		{
-		}
-	}
-	[t:lf_snode,n:0xd899f6ba]
-	{
-		[t:lf_lnode,n:0]
-		{
-			* = lf_human_player;
-			* = lf_computer_player;
-			* = lf_dirt;
 		}
 	}
 	[t:lf_snode,n:0xd89beb7f]
@@ -19747,6 +19777,15 @@
 		}
 		[t:lf_lnode,n:2]
 		{
+		}
+	}
+	[t:lf_snode,n:0xf8856075]
+	{
+		[t:lf_lnode,n:0]
+		{
+			* = lf_human_player;
+			* = lf_computer_player;
+			* = lf_dirt;
 		}
 	}
 	[t:lf_snode,n:0xf90b5071]
