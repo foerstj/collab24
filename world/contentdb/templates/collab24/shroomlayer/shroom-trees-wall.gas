@@ -2,7 +2,17 @@
 {
     specializes = shroom_cav_wall_01_base;
 
-    aspect:scale_base = 4;
+	category_name = "trees";
+	doc = "shroom_tree_cyan (wall)";
+	[aspect]
+	{
+		scale_base = 4;
+
+        // tree stuff
+		does_block_camera = true;
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.7;
+	}
     [light_flicker_lightweight] { magnitude = 0; }
 }
 
@@ -10,7 +20,17 @@
 {
     specializes = shroom_cav_wall_03_base;
 
-    aspect:scale_base = 6;
+	category_name = "trees";
+	doc = "shroom_tree_blue (wall)";
+	[aspect]
+	{
+		scale_base = 6;
+
+        // tree stuff
+		does_block_camera = true;
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.65;
+	}
     [light_flicker_lightweight] { magnitude = 0; }
 }
 
@@ -18,6 +38,16 @@
 {
     specializes = shroom_cav_wall_05_base;
 
-    aspect:scale_base = 4;
+	category_name = "trees";
+	doc = "shroom_tree_orange (wall)";
+	[aspect]
+	{
+		scale_base = 4;
+
+        // tree stuff
+		does_block_camera = true;
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.7;
+	}
     [light_flicker_lightweight] { magnitude = 0; }
 }

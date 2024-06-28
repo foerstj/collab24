@@ -28086,6 +28086,22 @@
 	  p position = -1.34188,0,-1.83215,0x6d4ed977;
 	}
 }
+[t:c24_3_shroom_tree_cyan_wall,n:0x03300bfc]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.0181;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x659CCD65;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.999348,0,0.0361006;
+	  p position = 10.708,-1.09066,-1.66374,0x46debb5a;
+	}
+}
 [t:shroom_cav_group_02,n:0x033012ea]
 {
 	[aspect]
@@ -28096,6 +28112,22 @@
 	{
 	  q orientation = 0,0.0958458,0,0.995396;
 	  p position = 3.98322,4,3.76982,0x46debb5a;
+	}
+}
+[t:c24_3_shroom_tree_cyan_wall,n:0x03300bfb]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.937932;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x7F3F06B9;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.954952,0,0.296759;
+	  p position = 2.59673,0.478441,0.828316,0xe838f160;
 	}
 }
 [t:c24_3_shroom_bush_01,n:0x03300683]
@@ -40429,6 +40461,22 @@
 	  p position = 2.65104,-1.90837,-3.60293,0x3e80bbf1;
 	}
 }
+[t:c24_3_shroom_tree_cyan_wall,n:0x03300bf8]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.955307;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x9DB0E9BF;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.92388,0,0.382683;
+	  p position = -5.74233,-0.216858,-1.22623,0x3e80bbf1;
+	}
+}
 [t:c24_3_shroom_bush_02,n:0x03301603]
 {
 	[placement]
@@ -46989,6 +47037,54 @@
 	{
 	  q orientation = 0,0.086613,0,0.996242;
 	  p position = -1.67647,0,-1.75833,0xeed6d35b;
+	}
+}
+[t:c24_3_shroom_tree_cyan_wall,n:0x03300bfa]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.999487;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x7E392670;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.139173,0,-0.990268;
+	  p position = 0.954254,1.46684,-3.65541,0x31d65c0e;
+	}
+}
+[t:c24_3_shroom_tree_cyan_wall,n:0x03300bf9]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.946122;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x4DD8E577;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -1.19456,0.667923,0.534349,0x2eb40949;
+	}
+}
+[t:c24_3_shroom_tree_cyan_wall,n:0x03300bfd]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.06912;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xFA71E0EB;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.801611,0,0.597846;
+	  p position = -5.396,-0.537963,-4.4881,0x9c36a5db;
 	}
 }
 [t:c24_3_shroom_tree_cyan_md,n:0x0330065c]
