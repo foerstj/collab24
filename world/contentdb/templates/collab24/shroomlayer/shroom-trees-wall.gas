@@ -1,0 +1,23 @@
+[t:template,n:c24_3_shroom_tree_cyan_wall]
+{
+    specializes = shroom_cav_wall_01_base;
+
+    aspect:scale_base = 4;
+    [light_flicker_lightweight] { magnitude = 0; }
+}
+
+[t:template,n:c24_3_shroom_tree_blue_wall]
+{
+    specializes = shroom_cav_wall_03_base;
+
+    aspect:scale_base = 6;
+    [light_flicker_lightweight] { magnitude = 0; }
+}
+
+[t:template,n:c24_3_shroom_tree_orange_wall]
+{
+    specializes = shroom_cav_wall_05_base;
+
+    aspect:scale_base = 4;
+    [light_flicker_lightweight] { magnitude = 0; }
+}
