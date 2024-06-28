@@ -147,3 +147,27 @@
 		room_type			= rt_generic;
 	}
 }
+
+[mood_setting*]
+{
+	mood_name				= collab24_3_shroomlayer_town;
+	transition_time			= 1.0f;
+	interior				= false;
+
+	[fog]
+	{
+		fog_near_dist		= 30.0f;
+		fog_far_dist		= 60.0f;
+		fog_lowdetail_near_dist		= 30.0f;
+		fog_lowdetail_far_dist		= 45.0f;
+		fog_color			= 0xFF000000;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		standard_repeat_delay = 16.0f;
+		standard_track		= "s_m_BesiegedTown_01";
+		room_type			= rt_stoneroom;
+	}
+}
