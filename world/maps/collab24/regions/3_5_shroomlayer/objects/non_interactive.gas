@@ -262,6 +262,22 @@
 	  p position = 0.00634706,0,-2.88757,0xb6ef7c5a;
 	}
 }
+[t:c24_3_shroom_tree_red_lg,n:0x03501422]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.830545;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xE43BCB53;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.54464,0,0.83867;
+	  p position = -3.9397,4.76837e-006,-0.708835,0xb6ef7c5a;
+	}
+}
 [t:shroom_cav_group_09,n:0x0350001b]
 {
 	[aspect]
@@ -54960,7 +54976,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.66262,0,0.748956;
-	  p position = 1.52185,3.8147e-006,-0.768924,0x45a7575b;
+	  p position = -0.0108891,3.8147e-006,1.1194,0x45a7575b;
 	}
 }
 [t:c24_3_shroom_tree_red_lg,n:0x0350141f]
@@ -55081,22 +55097,6 @@
 	{
 	  q orientation = 0,0.981627,0,0.190809;
 	  p position = -0.477956,0,-0.160084,0x59631520;
-	}
-}
-[t:c24_3_shroom_tree_red_lg,n:0x03501422]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.830545;
-	}
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0xE43BCB53;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.207911,0,-0.978148;
-	  p position = 1.9703,3.8147e-006,-2.67184,0x59631520;
 	}
 }
 [t:c24_3_shroom_tree_red_lg,n:0x03501423]
