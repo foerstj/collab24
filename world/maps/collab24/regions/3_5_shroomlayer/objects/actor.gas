@@ -439,18 +439,6 @@
 	  p position = -3.67888,0.5,1.60476,0x7848772b;
 	}
 }
-[t:darkling_reveal,n:0x03501033]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.05731;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.490032,0,0.871705;
-	  p position = 1.9755,-5.99999,-0.87605,0x012ca4f5;
-	}
-}
 [t:darkling_reveal,n:0x0350102f]
 {
 	[aspect]
@@ -477,6 +465,18 @@
 	{
 	  q orientation = 0,0.0261767,0,-0.999657;
 	  p position = 0.06217,-3.8147e-006,-0.107212,0x12a8d60d;
+	}
+}
+[t:darkling_reveal,n:0x03501033]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.05731;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.962893,0,0.269883;
+	  p position = -2.45074,1.04904e-005,0.729385,0x687e9799;
 	}
 }
 [t:c24_3_bubber,n:0x0350104b]

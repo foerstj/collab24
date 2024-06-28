@@ -42,7 +42,7 @@
 	doc = "shroom_tree_orange (wall)";
 	[aspect]
 	{
-		scale_base = 4;
+		scale_base = 5;
 
         // tree stuff
 		does_block_camera = true;

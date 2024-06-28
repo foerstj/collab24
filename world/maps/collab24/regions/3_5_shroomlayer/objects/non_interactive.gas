@@ -11686,6 +11686,54 @@
 	  p position = -1.10568,6,5.72836,0x2c6cdb27;
 	}
 }
+[t:c24_3_shroom_tree_orange_wall,n:0x035010c4]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.92117;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x4A6DF65C;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.987679,0,-0.156494;
+	  p position = -1.06085,0.576712,2.66099,0x2c6cdb27;
+	}
+}
+[t:c24_3_shroom_tree_orange_wall,n:0x035010c5]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.03145;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x056C00C6;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.957093,0,0.289781;
+	  p position = -2.8606,-1.11926,4.09795,0x2c6cdb27;
+	}
+}
+[t:c24_3_shroom_tree_orange_wall,n:0x035010c6]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.999965;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xC181440C;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.972197,0,-0.234163;
+	  p position = -1.72739,2.06708,3.80635,0x2c6cdb27;
+	}
+}
 [t:shroom_cav_group_09,n:0x035002ae]
 {
 	[aspect]
@@ -12460,6 +12508,22 @@
 	{
 	  q orientation = 0,0.909961,0,-0.414693;
 	  p position = 0.66017,0,2.01253,0x3bcf4876;
+	}
+}
+[t:c24_3_shroom_tree_orange_wall,n:0x035010be]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.962441;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x29AAFCCA;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.996886,0,-0.0788575;
+	  p position = -1.50667,2.75391,5.56693,0x3bcf4876;
 	}
 }
 [t:shroom_cav_group_09,n:0x03500097]
@@ -15320,6 +15384,22 @@
 	  p position = 1.70975,-4,-5.0092,0x4affee44;
 	}
 }
+[t:c24_3_shroom_tree_orange_wall,n:0x035010bf]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.07824;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x23E26BEF;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.968432,0,0.24928;
+	  p position = -1.26629,-2.5121,-2.98716,0x4affee44;
+	}
+}
 [t:shroom_cav_group_02,n:0x035006f1]
 {
 	[aspect]
@@ -15330,6 +15410,38 @@
 	{
 	  q orientation = 0,0.406737,0,0.913545;
 	  p position = 1.63591,-4,-1.55003,0x652887c1;
+	}
+}
+[t:c24_3_shroom_tree_orange_wall,n:0x035010c0]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.06564;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xCEE1D806;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.815841,0,0.578277;
+	  p position = -0.744892,-0.127144,1.90332,0x652887c1;
+	}
+}
+[t:c24_3_shroom_tree_orange_wall,n:0x035010c3]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.93894;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x770FF61D;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.969556,0,0.24487;
+	  p position = -0.118443,-2.40585,0.477234,0x652887c1;
 	}
 }
 [t:shroom_cav_group_09,n:0x0350048d]
@@ -50502,6 +50614,54 @@
 	  p position = 2.45413,-3.7619,-0.21649,0x865d44fc;
 	}
 }
+[t:c24_3_shroom_tree_orange_wall,n:0x035010b9]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.917111;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xF989C812;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.999894,0,-0.0145858;
+	  p position = 3.29163,2.7531,4.64072,0x865d44fc;
+	}
+}
+[t:c24_3_shroom_tree_orange_wall,n:0x035010ba]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.01264;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x5F53D2AE;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.948703,0,-0.316169;
+	  p position = 6.39847,3.23396,4.66025,0x865d44fc;
+	}
+}
+[t:c24_3_shroom_tree_orange_wall,n:0x035010b8]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.956507;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x8E24583C;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.991382,0,0.131002;
+	  p position = -8.21136,1.21461,0.478714,0xd706e4fa;
+	}
+}
 [t:shroom_cav_group_09,n:0x03500121]
 {
 	[aspect]
@@ -50564,6 +50724,54 @@
 	{
 	  q orientation = 0,0.00388,0,0.999992;
 	  p position = -0.75843,-5.2676,0.956416,0x9fa8dada;
+	}
+}
+[t:c24_3_shroom_tree_orange_wall,n:0x035010bb]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.96265;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x91436F5F;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.954721,0,-0.297503;
+	  p position = 3.21159,0.966221,0.876335,0x9fa8dada;
+	}
+}
+[t:c24_3_shroom_tree_orange_wall,n:0x035010bc]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.984963;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x6B5AAD3E;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.996613,0,-0.0822417;
+	  p position = 1.96237,-3.11614,0.988335,0x9fa8dada;
+	}
+}
+[t:c24_3_shroom_tree_orange_wall,n:0x035010bd]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.989235;
+	}
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x4057CC7D;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.968621,0,0.248544;
+	  p position = 0.906632,-1.07399,1.53297,0x9fa8dada;
 	}
 }
 [t:shroom_cav_group_09,n:0x03500295]
