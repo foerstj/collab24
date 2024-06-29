@@ -4,10 +4,17 @@
 	0x03400580 = t_xxx_dgn_cnr_ex-cnvx-d;
 	0x034005ab = t_xxx_dgn_flr_h2o_well-08x08-a;
 	0x034005ac = t_xxx_dgn_flr_04x04-a;
+	0x034005e9 = t_xxx_dgn_flr_pillar-c;
 	0x034005ff = t_xxx_dgn_stair_ex-a;
 	0x03400600 = t_xxx_dgn_stair_ex-b;
 	0x0340061e = t_xxx_dgn_wal_archway-b;
+	0x0340061f = t_xxx_dgn_wal_ex-alcove-a;
+	0x03400620 = t_xxx_dgn_wal_ex-alcove-b;
 	0x03400623 = t_xxx_dgn_wal_ex-diag-l;
 	0x03400624 = t_xxx_dgn_wal_ex-diag-r;
+	0x03400625 = t_xxx_dgn_wal_ex-pillar-a;
+	0x03400626 = t_xxx_dgn_wal_ex-pillar-b;
 	0x0340062a = t_xxx_dgn_wal_ex-thin-a;
+	0x0340062b = t_xxx_dgn_wal_ex-thin-pipe-a;
+	0x0340062c = t_xxx_dgn_wal_ex-thin-pipe-h2o-a;
 }
