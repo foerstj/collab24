@@ -22,6 +22,18 @@
 [t:template,n:c24_3_underling_npc]
 {
     specializes = c24_3_base_underling;
+
+	[inventory]
+	{
+		[equipment]
+		{
+			es_chest = bd_le_m_g_c_avg_beaded_dsx;
+			//es_chest = bd_ro_m_g_c_avg_elbead_dsx;
+			es_feet = bo_bo_sc_m_g_c_avg_beaded_dsx;
+            //es_head = he_vi_pl_m_beaded_headband_dsx;
+			//es_head = he_vi_pl_m_beaded_headdress_dsx;
+		}
+	}
 }
 
 [t:template,n:c24_3_underling_guard]
@@ -56,8 +68,10 @@
 		[equipment]
 		{
 			es_chest = bd_le_m_g_c_avg_ceramic_dsx;
+			//es_chest = bd_ro_m_g_c_avg_cebead_dsx;
 			es_feet = bo_bo_sc_m_g_c_avg_ceramic_dsx;
 			es_head = he_vi_pl_m_ceramic_headdress_dsx;
+            //es_head = he_vi_pl_m_ceramic_headband_dsx;
 			es_shield_hand = bw_g_c_dsx_nat_avg;
 		}
 	}
