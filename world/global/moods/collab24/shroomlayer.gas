@@ -1,4 +1,4 @@
-[mood_setting*]
+[mood_setting*]  // upper areas around elevators
 {
 	mood_name				= collab24_3_shroomlayer_1;
 	transition_time			= 8.0f;
@@ -18,11 +18,11 @@
 	{
 		ambient_track		= "s_e_ambient_wind_01b";
 		standard_repeat_delay = 5.0f;
-		standard_track		= "s_m_Path2Stonebridge_01";
+		standard_track		= "s_m_TempleRuins_02";
 		room_type			= rt_generic;
 	}
 }
-[mood_setting*]
+[mood_setting*]  // house
 {
 	mood_name				= collab24_3_shroomlayer_1_house;
 	transition_time			= 1.0f;
@@ -42,14 +42,13 @@
 	{
 		//ambient_track		= "s_e_ambient_wind_01b";
 		standard_repeat_delay = 5.0f;
-		standard_track		= "s_m_Path2Stonebridge_01";
+		standard_track		= "s_m_BesiegedTown_04";
 		room_type			= rt_stoneroom;
 	}
 }
 
-[mood_setting*]
+[mood_setting*]  // transition to 3, descent to valley
 {
-	// transition to 3, descent to valley
 	mood_name				= collab24_3_shroomlayer_2;
 	transition_time			= 5.0f;
 	interior				= false;
@@ -60,7 +59,7 @@
 		fog_far_dist		= 60.0f;
 		fog_lowdetail_near_dist		= 25.0f;
 		fog_lowdetail_far_dist		= 45.0f;
-		fog_color			= 0xFF402838;  // TBD
+		fog_color			= 0xFF402838;
 		fog_density			= 0.5f;
 	}
 
@@ -68,13 +67,12 @@
 	{
 		ambient_track		= "s_e_ambient_woods_01";
 		standard_repeat_delay = 10.0f;
-		standard_track		= "s_m_DarkForest_01";
+		standard_track		= "s_m_TempleRuins_01";
 		room_type			= rt_generic;
 	}
 }
-[mood_setting*]
+[mood_setting*]  // for valley
 {
-	// for valley
 	mood_name				= collab24_3_shroomlayer_3;
 	transition_time			= 5.0f;
 	interior				= false;
@@ -93,13 +91,12 @@
 	{
 		ambient_track		= "s_e_ambient_woods_01";
 		standard_repeat_delay = 10.0f;
-		standard_track		= "s_m_DarkForest_01";
+		standard_track		= "s_m_TempleRuins_03";
 		room_type			= rt_generic;
 	}
 }
-[mood_setting*]
+[mood_setting*]  // forest side area
 {
-	// forest side area
 	mood_name				= collab24_3_shroomlayer_4;
 	transition_time			= 9.0f;
 	interior				= false;
@@ -118,13 +115,12 @@
 	{
 		ambient_track		= "s_e_ambient_woods_01";
 		standard_repeat_delay = 10.0f;
-		standard_track		= "s_m_TempleRuins_01";
+		standard_track		= "s_m_TempleRuins_04";
 		room_type			= rt_generic;
 	}
 }
-[mood_setting*]
+[mood_setting*]  // Less of a close fog for valley.
 {
-	// Less of a close fog for valley.
 	mood_name				= collab24_3_shroomlayer_5;
 	transition_time			= 8.0f;
 	interior				= false;
@@ -143,7 +139,7 @@
 	{
 		ambient_track		= "s_e_ambient_woods_01";
 		standard_repeat_delay = 10.0f;
-		standard_track		= "s_m_TempleRuins_01";
+		standard_track		= "s_m_TempleRuins_05";
 		room_type			= rt_generic;
 	}
 }
@@ -167,7 +163,7 @@
 	[music]
 	{
 		standard_repeat_delay = 16.0f;
-		standard_track		= "s_m_BesiegedTown_01";
+		standard_track		= "s_m_BesiegedTown_04";
 		room_type			= rt_stoneroom;
 	}
 }
