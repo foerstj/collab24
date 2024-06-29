@@ -1,0 +1,33 @@
+[t:trigger_generic,n:0x03400004]
+{
+	[common]
+	{
+		dev_instance_text = "FADE & MOOD";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("collab24_3_shroomlayer_town");
+				action* = fade_nodes(0x00000035,1,-1,-1,"out:instant"), doc("ground above");
+				action* = fade_nodes(0x00000035,2,-1,-1,"out:instant"), doc("ele tube");
+				action* = fade_nodes(0x00000033,2,-1,-1,"out:instant"), doc("ele tube");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(16.000000,4.000000,16.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,-8.9407e-008,0,1;
+	  p position = 1.27872,-1.90735e-006,-0.126764,0x02ab4f69;
+	}
+}

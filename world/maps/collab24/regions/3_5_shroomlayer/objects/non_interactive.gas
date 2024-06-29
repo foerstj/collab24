@@ -58318,3 +58318,107 @@
 	  p position = 1.32575,0.719144,1.32007,0x0a075348;
 	}
 }
+[t:lamp_glb_oil_01,n:0x035010d7]
+{
+	[light_flicker_lightweight]
+	{
+	  f magnitude = 0;
+	  x siege_light = 0x2AB64445;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 2.6587,-1.62042,5.33297,0xb350ae15;
+	}
+}
+[t:lamp_glb_oil_01,n:0x035010da]
+{
+	[light_flicker_lightweight]
+	{
+	  f magnitude = 0;
+	  x siege_light = 0x6293C147;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -2.63765,-1.62042,5.23493,0xb350ae15;
+	}
+}
+[t:lamp_glb_oil_01,n:0x035010dc]
+{
+	[light_flicker_lightweight]
+	{
+	  f magnitude = 0;
+	  x siege_light = 0x56AB1608;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -2.66344,-1.62019,5.22389,0xc091c6d6;
+	}
+}
+[t:lamp_glb_oil_01,n:0x035010e1]
+{
+	[light_flicker_lightweight]
+	{
+	  f magnitude = 0;
+	  x siege_light = 0x974E43AF;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,-0.707107;
+	  p position = 2.66338,-1.62019,5.34017,0xc091c6d6;
+	}
+}
+[t:lamp_glb_oil_01,n:0x035010e3]
+{
+	[light_flicker_lightweight]
+	{
+	  f magnitude = 0;
+	  x siege_light = 0x273BCE2C;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -2.65731,-1.62019,5.34424,0xbb05aa9d;
+	}
+}
+[t:lamp_glb_oil_01,n:0x035010e5]
+{
+	[light_flicker_lightweight]
+	{
+	  f magnitude = 0;
+	  x siege_light = 0x382D8784;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,-0.707107;
+	  p position = 2.66743,-1.62019,5.29977,0xbb05aa9d;
+	}
+}
+[t:lamp_glb_oil_01,n:0x035010e6]
+{
+	[light_flicker_lightweight]
+	{
+	  f magnitude = 0;
+	  x siege_light = 0x614D18F4;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -2.6724,-1.62019,5.22155,0x3f1bf4ad;
+	}
+}
+[t:lamp_glb_oil_01,n:0x035010ea]
+{
+	[light_flicker_lightweight]
+	{
+	  f magnitude = 0;
+	  x siege_light = 0x0A25E086;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,-0.707107;
+	  p position = 2.67406,-1.62019,5.27636,0x3f1bf4ad;
+	}
+}
