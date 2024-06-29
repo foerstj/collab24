@@ -1,3 +1,35 @@
+[barkeep]
+{
+	[text*]
+	{
+		screen_text = "I'm the barkeep";
+	  f scroll_rate = 10.000000;
+	}
+}
+[farmer]
+{
+	[text*]
+	{
+		screen_text = "I'm a farmer";
+	  f scroll_rate = 10.000000;
+	}
+}
+[guard]
+{
+	[text*]
+	{
+		screen_text = "I'm a guard";
+	  f scroll_rate = 10.000000;
+	}
+}
+[innkeep]
+{
+	[text*]
+	{
+		screen_text = "I'm the innkeep";
+	  f scroll_rate = 10.000000;
+	}
+}
 [mage_shop]
 {
 	[text*]
@@ -7,12 +39,29 @@
 	  f scroll_rate = 10.000000;
 	}
 }
+[mayor]
+{
+	[text*]
+	{
+		screen_text = "I'm the mayor";
+	  f scroll_rate = 10.000000;
+	}
+}
 [smith_shop]
 {
 	[text*]
 	{
 		choice = shop;
 		screen_text = "Shop?";
+	  f scroll_rate = 10.000000;
+	}
+}
+[companion]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Companion?";
 	  f scroll_rate = 10.000000;
 	}
 }
