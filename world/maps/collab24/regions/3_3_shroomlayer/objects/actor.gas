@@ -1063,6 +1063,46 @@
 	  p position = 3.31418,0,-2.3259,0xeb49c4a1;
 	}
 }
+[t:mp_dwarf,n:0x03300c00]
+{
+	[conversation]
+	{
+		[conversations]
+		{
+			* = shroomwood;
+		}
+	}
+	[mind]
+	{
+	  b actor_auto_fidgets = false;
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_npc.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.139173,0,0.990268;
+	  p position = -3.51207,-9.53674e-007,-1.94844,0x6884aa4f;
+	}
+}
+[t:mp_dwarf,n:0x03300bff]
+{
+	[conversation]
+	{
+		[conversations]
+		{
+			* = underland;
+		}
+	}
+	[mind]
+	{
+	  b actor_auto_fidgets = false;
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_npc.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.292372,0,0.956305;
+	  p position = 0.757477,0,1.61923,0x9ba9f56c;
+	}
+}
 [t:phrak,n:0x033010fc]
 {
 	[placement]
