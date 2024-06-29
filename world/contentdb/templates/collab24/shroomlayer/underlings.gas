@@ -55,10 +55,10 @@
 		selected_active_location = il_active_ranged_weapon;
 		[equipment]
 		{
-			es_chest = bd_un_pl_f_g_c_avg;
-			es_feet = bo_bo_ch_f_g_c_avg;
-			es_head = he_op_pl_avg;
-			es_shield_hand = bw_g_c_s_m_c_avg;
+			es_chest = bd_le_m_g_c_avg_ceramic_dsx;
+			es_feet = bo_bo_sc_m_g_c_avg_ceramic_dsx;
+			es_head = he_vi_pl_m_ceramic_headdress_dsx;
+			es_shield_hand = bw_g_c_dsx_nat_avg;
 		}
 	}
 }
