@@ -1,0 +1,276 @@
+[t:door_glb_keep_02,n:0x03400041]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.9;
+	}
+	[door_basic]
+	{
+	  x second_door = 0x03400042;
+	}
+	[placement]
+	{
+	  p position = 0.0202668,-1.5,-0.543005,0xc87e0563;
+	}
+}
+[t:door_glb_keep_right_02,n:0x03400042]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.9;
+	}
+	[door_basic]
+	{
+	  x second_door = 0x03400041;
+	}
+	[placement]
+	{
+	  p position = 0.0198909,-1.5,-0.544184,0xc87e0563;
+	}
+}
+[t:door_glb_keep_02,n:0x03400043]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.9;
+	}
+	[door_basic]
+	{
+	  x second_door = 0x03400044;
+	}
+	[placement]
+	{
+	  p position = 0.0356331,-1.5,-0.491106,0xf8e45f61;
+	}
+}
+[t:door_glb_keep_right_02,n:0x03400044]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.9;
+	}
+	[door_basic]
+	{
+	  x second_door = 0x03400043;
+	}
+	[placement]
+	{
+	  p position = 0.0352573,-1.5,-0.492285,0xf8e45f61;
+	}
+}
+[t:door_glb_keep_02,n:0x03400045]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.9;
+	}
+	[door_basic]
+	{
+	  x second_door = 0x03400046;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,-1.66939e-007;
+	  p position = -0.00730705,-1.5,0.565632,0xeb1f0d3a;
+	}
+}
+[t:door_glb_keep_right_02,n:0x03400046]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.9;
+	}
+	[door_basic]
+	{
+	  x second_door = 0x03400045;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,-1.66939e-007;
+	  p position = -0.00613022,-1.5,0.565254,0xeb1f0d3a;
+	}
+}
+[t:door_glb_keep_02,n:0x03400047]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.9;
+	}
+	[door_basic]
+	{
+	  x second_door = 0x03400048;
+	}
+	[placement]
+	{
+	  p position = 0.0061512,-1.5,-0.549694,0x34fc869e;
+	}
+}
+[t:door_glb_keep_right_02,n:0x03400048]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.9;
+	}
+	[door_basic]
+	{
+	  x second_door = 0x03400047;
+	}
+	[placement]
+	{
+	  p position = 0.00732613,-1.5,-0.550072,0x34fc869e;
+	}
+}
+[t:door_glb_keep_02,n:0x0340004c]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.9;
+	}
+	[door_basic]
+	{
+	  x second_door = 0x0340004D;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,-1.66939e-007;
+	  p position = 0.00823212,-1.5,0.539349,0x516bfec8;
+	}
+}
+[t:door_glb_keep_right_02,n:0x0340004d]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.9;
+	}
+	[door_basic]
+	{
+	  x second_door = 0x0340004C;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,-1.66939e-007;
+	  p position = 0.00940704,-1.5,0.538973,0x516bfec8;
+	}
+}
+[t:door_glb_keep_02,n:0x0340004e]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.9;
+	}
+	[door_basic]
+	{
+	  x second_door = 0x0340004F;
+	}
+	[placement]
+	{
+	  p position = -0.00930023,-1.5,-0.521866,0x8b12c3bf;
+	}
+}
+[t:door_glb_keep_right_02,n:0x0340004f]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.9;
+	}
+	[door_basic]
+	{
+	  x second_door = 0x0340004E;
+	}
+	[placement]
+	{
+	  p position = -0.00812531,-1.5,-0.52224,0x8b12c3bf;
+	}
+}
+[t:door_glb_keep_02,n:0x03400051]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.9;
+	}
+	[door_basic]
+	{
+	  x second_door = 0x03400052;
+	}
+	[placement]
+	{
+	  p position = -0.000852585,-1.5,-0.540878,0x4f6ce0a8;
+	}
+}
+[t:door_glb_keep_right_02,n:0x03400052]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.9;
+	}
+	[door_basic]
+	{
+	  x second_door = 0x03400051;
+	}
+	[placement]
+	{
+	  p position = -0.00047493,-1.5,-0.539703,0x4f6ce0a8;
+	}
+}
+[t:door_glb_keep_02,n:0x03400053]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.9;
+	}
+	[door_basic]
+	{
+	  x second_door = 0x03400054;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,-1.66939e-007;
+	  p position = -0.0114393,-1.5,0.527687,0x4f6ce0a8;
+	}
+}
+[t:door_glb_keep_right_02,n:0x03400054]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.9;
+	}
+	[door_basic]
+	{
+	  x second_door = 0x03400053;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,-1.66939e-007;
+	  p position = -0.0110617,-1.5,0.528862,0x4f6ce0a8;
+	}
+}
+[t:door_glb_keep_02,n:0x03400055]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.9;
+	}
+	[door_basic]
+	{
+	  x second_door = 0x03400056;
+	}
+	[placement]
+	{
+	  p position = 0.00536346,-1.5,-0.518051,0x553c946c;
+	}
+}
+[t:door_glb_keep_right_02,n:0x03400056]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.9;
+	}
+	[door_basic]
+	{
+	  x second_door = 0x03400055;
+	}
+	[placement]
+	{
+	  p position = 0.00418472,-1.5,-0.517673,0x553c946c;
+	}
+}
