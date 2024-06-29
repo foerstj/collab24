@@ -17,7 +17,8 @@
 	[music]
 	{
 		ambient_track		= "s_e_ambient_wind_01b";
-		standard_repeat_delay = 5.0f;
+		standard_intro_delay = 5.0f;
+		standard_repeat_delay = 10.0f;
 		standard_track		= "s_m_TempleRuins_02";
 		room_type			= rt_generic;
 	}
@@ -41,7 +42,8 @@
 	[music]
 	{
 		//ambient_track		= "s_e_ambient_wind_01b";
-		standard_repeat_delay = 5.0f;
+		standard_intro_delay = 5.0f;
+		standard_repeat_delay = 10.0f;
 		standard_track		= "s_m_BesiegedTown_04";
 		room_type			= rt_stoneroom;
 	}
@@ -65,7 +67,8 @@
 
 	[music]
 	{
-		ambient_track		= "s_e_ambient_woods_01";
+		ambient_track		= "s_e_ambient_wind_02";
+		standard_intro_delay = 5.0f;
 		standard_repeat_delay = 10.0f;
 		standard_track		= "s_m_TempleRuins_01";
 		room_type			= rt_generic;
@@ -89,7 +92,8 @@
 
 	[music]
 	{
-		ambient_track		= "s_e_ambient_woods_01";
+		ambient_track		= "s_e_ambient_wind_02";
+		standard_intro_delay = 5.0f;
 		standard_repeat_delay = 10.0f;
 		standard_track		= "s_m_TempleRuins_03";
 		room_type			= rt_generic;
@@ -113,7 +117,8 @@
 
 	[music]
 	{
-		ambient_track		= "s_e_ambient_woods_01";
+		ambient_track		= "s_e_ambient_wind_02";
+		standard_intro_delay = 5.0f;
 		standard_repeat_delay = 10.0f;
 		standard_track		= "s_m_TempleRuins_04";
 		room_type			= rt_generic;
@@ -137,7 +142,8 @@
 
 	[music]
 	{
-		ambient_track		= "s_e_ambient_woods_01";
+		ambient_track		= "s_e_ambient_wind_02";
+		standard_intro_delay = 5.0f;
 		standard_repeat_delay = 10.0f;
 		standard_track		= "s_m_TempleRuins_05";
 		room_type			= rt_generic;
@@ -162,7 +168,8 @@
 
 	[music]
 	{
-		standard_repeat_delay = 16.0f;
+		standard_intro_delay = 5.0f;
+		standard_repeat_delay = 10.0f;
 		standard_track		= "s_m_BesiegedTown_04";
 		room_type			= rt_stoneroom;
 	}

@@ -600,7 +600,7 @@
 	[sound_emitter]
 	{
 	  b continual_loop = true;
-		event_sound = "amb_birds2";
+		event_sound = "amb_crickets";
 	  i start_hour = 6;
 	  i stop_hour = 12;
 	}
@@ -791,7 +791,7 @@
 	[sound_emitter]
 	{
 	  b continual_loop = true;
-		event_sound = "amb_birds1";
+		event_sound = "amb_crickets";
 	  i start_hour = 12;
 	  i stop_hour = 19;
 	  i time_chunk = 3;
@@ -3130,7 +3130,7 @@
 	[sound_emitter]
 	{
 	  b continual_loop = true;
-		event_sound = "amb_birds1";
+		event_sound = "amb_crickets";
 	  i start_hour = 12;
 	  i stop_hour = 19;
 	  i time_chunk = 3;
@@ -3898,7 +3898,7 @@
 	[sound_emitter]
 	{
 	  b continual_loop = true;
-		event_sound = "amb_birds1";
+		event_sound = "amb_crickets";
 	  i start_hour = 12;
 	  i stop_hour = 19;
 	  i time_chunk = 3;
