@@ -1,0 +1,12 @@
+[t:template,n:torch_glb_stick_unlit] { specializes = torch_glb_stick_unlit_base; }
+[t:template,n:torch_glb_stick_unlit_base]
+{
+	specializes = non_interactive;
+
+	category_name = "lighting";
+	doc = "torch_tiki unlit";
+	[aspect]
+	{
+		model = m_i_glb_torch-stick;
+	}
+}

@@ -1,0 +1,29 @@
+[t:template,n:firepit_glb_unlit] { specializes = firepit_glb_unlit_base; }
+[t:template,n:firepit_glb_unlit_base]
+{
+	specializes = non_interactive;
+
+	category_name = "lighting";
+	doc = "firepit_empty unlit";
+	[aspect]
+	{
+		model = m_i_glb_firepit02;
+	}
+}
+
+[t:template,n:firepit_glb_03_unlit] { specializes = firepit_glb_03_unlit_base; }
+[t:template,n:firepit_glb_03_unlit_base]
+{
+	specializes = non_interactive;
+
+	category_name = "lighting";
+	doc = "firepit with rocks unlit";
+	[aspect]
+	{
+		model = m_i_glb_firepit-03;
+		[textures]
+		{
+			0 = b_i_glb_firepit-02;
+		}
+	}
+}

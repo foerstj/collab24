@@ -1,0 +1,16 @@
+[t:template,n:wood_glb_pile_fireplace_burnt_unlit] { specializes = wood_glb_pile_fireplace_burnt_unlit_base; }
+[t:template,n:wood_glb_pile_fireplace_burnt_unlit_base]
+{
+	specializes = non_interactive_blocking;
+
+	category_name = "indoor";
+	doc = "fireplace_logs_stacked";
+	[aspect]
+	{
+		model = m_i_glb_woodpile-02;
+		[textures]
+		{
+			0 = b_i_glb_woodpile-burnt;
+		}
+	}
+}

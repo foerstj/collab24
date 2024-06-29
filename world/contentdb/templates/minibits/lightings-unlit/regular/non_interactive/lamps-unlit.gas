@@ -1,0 +1,82 @@
+[t:template,n:lamp_csl_01_unlit] { specializes = lamp_csl_01_unlit_base; }
+[t:template,n:lamp_csl_01_unlit_base]
+{
+	specializes = non_interactive;
+
+	category_name = "lighting";
+	doc = "lantern_hanging unlit";
+	[aspect]
+	{
+		model = m_i_csl_lantern-01;
+	}
+	[common]
+	{
+		screen_name = "Lantern";
+	}
+}
+
+[t:template,n:lamp_glb_wall_01_unlit] { specializes = lamp_glb_wall_01_unlit_base; }
+[t:template,n:lamp_glb_wall_01_unlit_base]
+{
+	specializes = non_interactive;
+
+	category_name = "lighting";
+	doc = "lamp_wall_mono unlit";
+	[aspect]
+	{
+		model = m_i_glb_wall-lamp-01;
+	}
+	[common]
+	{
+		screen_name = "Lamp";
+	}
+}
+
+[t:template,n:lamp_glb_oil_01_unlit] { specializes = lamp_glb_oil_01_unlit_base; }
+[t:template,n:lamp_glb_oil_01_unlit_base]
+{
+	specializes = non_interactive;
+
+	category_name = "lighting";
+	doc = "lamp_wall_oil unlit";
+	[aspect]
+	{
+		model = m_i_glb_lamp-oil-01;
+	}
+	[common]
+	{
+		screen_name = "Oil Lamp";
+	}
+}
+[t:template,n:lamp_glb_oil_02_unlit] { specializes = lamp_glb_oil_02_unlit_base; }
+[t:template,n:lamp_glb_oil_02_unlit_base]
+{
+	specializes = non_interactive;
+
+	category_name = "lighting";
+	doc = "lamp_wall_oil_ornate unlit";
+	[aspect]
+	{
+		model = m_i_glb_lamp-oil-02;
+	}
+	[common]
+	{
+		screen_name = "Oil Lamp";
+	}
+}
+[t:template,n:lamp_glb_oil_03_unlit] { specializes = lamp_glb_oil_03_unlit_base; }
+[t:template,n:lamp_glb_oil_03_unlit_base]
+{
+	specializes = non_interactive;
+
+	category_name = "lighting";
+	doc = "lamp_floor_oil unlit";
+	[aspect]
+	{
+		model = m_i_glb_lamp-oil-03;
+	}
+	[common]
+	{
+		screen_name = "Oil Lamp";
+	}
+}

@@ -1,0 +1,77 @@
+[t:template,n:lamp_glb_post_03_unlit] { specializes = lamp_glb_post_03_unlit_base; }
+[t:template,n:lamp_glb_post_03_unlit_base]
+{
+    specializes = non_interactive;
+
+	category_name = "lighting";
+	doc = "lamppost_ornate unlit";
+	[aspect]
+	{
+		model = m_i_glb_lamp-post-03;
+		scale_base = 2;
+		[textures]
+		{
+			0 = b_i_glb_lamp-posts;
+		}
+	}
+	[common]
+	{
+		screen_name = "Lamp Post";
+	}
+}
+
+[t:template,n:base_lamp_ice_unlit]
+{
+	specializes = non_interactive;
+
+	category_name = "lighting";
+	doc = "base_lamp_ice";
+	[aspect]
+	{
+		scale_base = 2;
+		[textures]
+		{
+			0 = b_i_ice_lamp-posts;
+		}
+	}
+	[common]
+	{
+		screen_name = "Lamp";
+	}
+}
+[t:template,n:lamp_ice_01_unlit] { specializes = lamp_ice_01_unlit_base; }
+[t:template,n:lamp_ice_01_unlit_base]
+{
+	specializes = base_lamp_ice_unlit;
+
+	category_name = "lighting";
+	doc = "lamppost_bracketed_wood_ice";
+	[aspect]
+	{
+		model = m_i_glb_lamp-post-01;
+	}
+}
+[t:template,n:lamp_ice_02_unlit] { specializes = lamp_ice_02_unlit_base; }
+[t:template,n:lamp_ice_02_unlit_base]
+{
+	specializes = base_lamp_ice_unlit;
+
+	category_name = "lighting";
+	doc = "lamppost_bracketed_metal_ice";
+	[aspect]
+	{
+		model = m_i_glb_lamp-post-02;
+	}
+}
+[t:template,n:lamp_ice_03_unlit] { specializes = lamp_ice_03_unlit_base; }
+[t:template,n:lamp_ice_03_unlit_base]
+{
+	specializes = base_lamp_ice_unlit;
+
+	category_name = "lighting";
+	doc = "lamppost_metal_ice";
+	[aspect]
+	{
+		model = m_i_glb_lamp-post-03;
+	}
+}
