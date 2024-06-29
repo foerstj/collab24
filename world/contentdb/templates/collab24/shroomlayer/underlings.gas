@@ -1,0 +1,64 @@
+[t:template,n:c24_3_base_underling]
+{
+	specializes = base_npc_fb_multiplayer;
+
+	category_name = "1W_townsperson";
+	doc = "underling";
+	[aspect]
+	{
+        // from village idiot
+		[textures]
+		{
+			0 = b_c_gah_fb_skin_21;
+			1 = b_c_pos_a1_055;
+		}
+	}
+	[common]
+	{
+		screen_name = "Underling";
+	}
+}
+
+[t:template,n:c24_3_underling_npc]
+{
+    specializes = c24_3_base_underling;
+}
+
+[t:template,n:c24_3_underling_guard]
+{
+    specializes = c24_3_base_underling;
+
+    common:screen_name = "Underling Guard";
+    aspect:is_collidable = true;
+	[actor]
+	{
+        // from mp_guard_ranged
+		[skills]
+		{
+			dexterity = 14,  0;
+			intelligence = 13,  0;
+			melee = 10,  0;
+			strength = 17, 0;
+		}
+	}
+	[guts_manager]
+	{
+		effect_name = melee_hit_2;
+	}
+	[mind]
+	{
+		actor_may_attack = true;
+        actor_may_be_attacked = true;
+	}
+	[inventory]
+	{
+		selected_active_location = il_active_ranged_weapon;
+		[equipment]
+		{
+			es_chest = bd_un_pl_f_g_c_avg;
+			es_feet = bo_bo_ch_f_g_c_avg;
+			es_head = he_op_pl_avg;
+			es_shield_hand = bw_g_c_s_m_c_avg;
+		}
+	}
+}
