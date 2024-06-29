@@ -613,3 +613,47 @@
 	  p position = -0.0519552,-1.5,-1.03581,0xeba16606;
 	}
 }
+[t:bed_glb_02,n:0x03400005]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,-1.78814e-007;
+	  p position = 1.66911,0,-0.972327,0x1772cec4;
+	}
+}
+[t:bed_glb_02,n:0x03400008]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,-1.49012e-007;
+	  p position = 1.67899,0,0.983299,0x1772cec4;
+	}
+}
+[t:lamp_glb_oil_01,n:0x0340000c]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,5.96046e-008;
+	  p position = -0.118181,-0.465973,-0.322258,0xab857f69;
+	}
+}
+[t:lamp_glb_oil_02,n:0x0340001a]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,-1.49012e-007;
+	  p position = -0.0256295,-0.525333,-0.315303,0x524e0aaf;
+	}
+}
+[t:candle_glb_02,n:0x03400020]
+{
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x30A26481;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = 0.0650826,0,-0.0544662,0x2d7da6e9;
+	}
+}
