@@ -714,10 +714,6 @@
 }
 [t:rug_csl_06,n:0x03400031]
 {
-	[aspect]
-	{
-	  f scale_multiplier = 1.25;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.382683,0,0.92388;
@@ -726,10 +722,6 @@
 }
 [t:rug_csl_06,n:0x03400038]
 {
-	[aspect]
-	{
-	  f scale_multiplier = 1.25;
-	}
 	[placement]
 	{
 	  q orientation = 0,-0.382683,0,0.92388;
@@ -738,10 +730,6 @@
 }
 [t:rug_csl_06,n:0x03400049]
 {
-	[aspect]
-	{
-	  f scale_multiplier = 1.25;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.382683,0,0.92388;
@@ -750,10 +738,6 @@
 }
 [t:rug_csl_06,n:0x0340004a]
 {
-	[aspect]
-	{
-	  f scale_multiplier = 1.25;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.382683,0,0.92388;
@@ -762,10 +746,6 @@
 }
 [t:rug_csl_06,n:0x0340004b]
 {
-	[aspect]
-	{
-	  f scale_multiplier = 1.25;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.92388,0,0.382683;
@@ -774,10 +754,6 @@
 }
 [t:rug_csl_06,n:0x03400050]
 {
-	[aspect]
-	{
-	  f scale_multiplier = 1.25;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.707107,0,0.707107;
@@ -788,7 +764,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.66;
+	  f scale_multiplier = 1.25;
 	}
 	[placement]
 	{
@@ -800,7 +776,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.66;
+	  f scale_multiplier = 1.25;
 	}
 	[placement]
 	{

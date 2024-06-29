@@ -31,10 +31,10 @@
 
 	[fog]
 	{
-		fog_near_dist		= 30.0f;
-		fog_far_dist		= 60.0f;
-		fog_lowdetail_near_dist		= 30.0f;
-		fog_lowdetail_far_dist		= 45.0f;
+		fog_near_dist		= 24.0f;
+		fog_far_dist		= 36.0f;
+		fog_lowdetail_near_dist		= 16.0f;
+		fog_lowdetail_far_dist		= 24.0f;
 		fog_color			= 0xFF000000;
 		fog_density			= 0.5f;
 	}
@@ -158,10 +158,10 @@
 
 	[fog]
 	{
-		fog_near_dist		= 30.0f;
-		fog_far_dist		= 60.0f;
-		fog_lowdetail_near_dist		= 30.0f;
-		fog_lowdetail_far_dist		= 45.0f;
+		fog_near_dist		= 24.0f;
+		fog_far_dist		= 36.0f;
+		fog_lowdetail_near_dist		= 16.0f;
+		fog_lowdetail_far_dist		= 24.0f;
 		fog_color			= 0xFF000000;
 		fog_density			= 0.5f;
 	}
