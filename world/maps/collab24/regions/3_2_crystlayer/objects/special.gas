@@ -5,6 +5,35 @@
 	  p position = -2.82783,-3,2.9016,0x4894d590;
 	}
 }
+[t:trigger_generic,n:0x03200365]
+{
+	[common]
+	{
+		dev_instance_text = "ELE DOWN - PWL";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = set_player_world_location("crystlayer");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(8.000000,2.000000,8.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = -0.122508,-3,3.08106,0x4894d590;
+	}
+}
 [t:use_point,n:0x032004a9]
 {
 	[placement]
@@ -57,17 +86,47 @@
 	  p position = 2.95237,-3,-2.9427,0x060af7c7;
 	}
 }
+[t:trigger_generic,n:0x03200366]
+{
+	[common]
+	{
+		dev_instance_text = "ELE UP - PWL";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = set_player_world_location("crystlayer");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(8.000000,2.000000,8.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = 0.258636,-3,-3.72028,0x060af7c7;
+	}
+}
 [t:trigger_change_mood_box,n:0x03200519]
 {
 	[common]
 	{
+		dev_instance_text = "DEV STARTPOS - MOOD & FADES";
 		[instance_triggers]
 		{
 			[*]
 			{
 				action* = mood_change("collab24_3_crystlayer_green");
-				action* = fade_nodes(0x00000032,2,-1,-1,"out:instant");
-				action* = fade_nodes(0x00000031,1,-1,-1,"out:instant");
+				action* = fade_nodes(0x00000032,2,-1,-1,"out:instant"), doc("ele tube");
+				action* = fade_nodes(0x00000031,1,-1,-1,"out:instant"), doc("wormlayer");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(4.000000,1.000000,4.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -220,63 +279,5 @@
 	[placement]
 	{
 	  p position = -0.116815,-1.5,0.0167332,0x895b3882;
-	}
-}
-[t:trigger_generic,n:0x03200365]
-{
-	[common]
-	{
-		dev_instance_text = "PWL";
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = set_player_world_location("crystlayer");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(8.000000,2.000000,8.000000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = false;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  p position = -0.122508,-3,3.08106,0x4894d590;
-	}
-}
-[t:trigger_generic,n:0x03200366]
-{
-	[common]
-	{
-		dev_instance_text = "PWL";
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = set_player_world_location("crystlayer");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(8.000000,2.000000,8.000000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = false;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  p position = 0.258636,-3,-3.72028,0x060af7c7;
 	}
 }
