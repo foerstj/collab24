@@ -1,0 +1,196 @@
+[t:template,n:c24_3_underling_shop_smith]
+{
+    specializes = c24_3_base_underling;
+
+    // general shop stuff
+	category_name = "1W_shopkeep";
+	[actor]
+	{
+		portrait_icon = b_gui_ig_i_ic_c_shopkeep;  // bodrus
+	}
+	[aspect]
+	{
+		draw_selection_indicator = TRUE;
+		use_range = 1.0;
+		is_ghost_usable = TRUE;
+	}
+	[conversation]
+	{
+	}
+	[respawn_shrine]
+	{
+	}
+	[store]
+	{
+		item_markup = 2;
+	}
+
+    // shop content from bodrus - smith only
+	[inventory]
+	{
+		[store_pcontent]
+		{
+			full_ratio = 0;
+			[armor]
+			{
+				[all*]
+				{
+					il_main = #body,ro/16-73;
+					max = 4;
+					min = 4;
+				}
+
+				[all*]
+				{
+					il_main = #body/16-22;
+					max = 7;
+					min = 7;
+				}
+				[all*]
+				{
+					il_main = #body/23-54;
+					max = 16;
+					min = 16;
+				}
+				[all*]
+				{
+					il_main = #body/55-73;
+					max = 3;
+					min = 3;
+				}
+
+
+				[all*]
+				{
+					il_main = #gloves/2-22;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #gloves/23-54;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #gloves/55-73;
+					max = 4;
+					min = 4;
+				}
+
+
+				[all*]
+				{
+					il_main = #helm/2-22;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #helm/23-54;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #helm/55-73;
+					max = 4;
+					min = 4;
+				}
+
+				[all*]
+				{
+					il_main = #boots/2-22;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #boots/23-54;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #boots/55-73;
+					max = 4;
+					min = 4;
+				}
+			}
+			[shields]
+			{
+				[all*]
+				{
+					il_main = #shield/2-22;
+					max = 5;
+					min = 5;
+				}
+				[all*]
+				{
+					il_main = #shield/23-54;
+					max = 6;
+					min = 6;
+				}
+				[all*]
+				{
+					il_main = #shield/55-73;
+					max = 4;
+					min = 4;
+				}
+			}
+			[weapons]
+			{
+				[all*]
+				{
+					il_main = #melee/10-11;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #melee/12-27;
+					max = 18;
+					min = 18;
+				}
+				[all*]
+				{
+					il_main = #melee/28-35;
+					max = 6;
+					min = 6;
+				}
+				[all*]
+				{
+					il_main = #ranged/10-11;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #ranged/12-27;
+					max = 18;
+					min = 18;
+				}
+				[all*]
+				{
+					il_main = #ranged/28-35;
+					max = 6;
+					min = 6;
+				}
+			}
+		}
+	}
+
+    // equipment
+	[inventory]
+	{
+		[equipment]
+		{
+			es_chest = bd_le_m_g_c_avg_beaded_dsx;
+			//es_chest = bd_ro_m_g_c_avg_elbead_dsx;
+			es_feet = bo_bo_sc_m_g_c_avg_beaded_dsx;
+            es_head = he_vi_pl_m_beaded_headband_dsx;
+			//es_head = he_vi_pl_m_beaded_headdress_dsx;
+		}
+	}
+}

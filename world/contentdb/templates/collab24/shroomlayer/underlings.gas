@@ -2,7 +2,6 @@
 {
 	specializes = base_npc_fb_multiplayer;
 
-	category_name = "1W_townsperson";
 	doc = "underling";
 	[aspect]
 	{
@@ -17,12 +16,17 @@
 	{
 		screen_name = "Underling";
 	}
+    [mind]
+    {
+        jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_npc.skrit;
+    }
 }
 
 [t:template,n:c24_3_underling_npc]
 {
     specializes = c24_3_base_underling;
 
+	category_name = "1W_townsperson";
 	[inventory]
 	{
 		[equipment]
@@ -40,6 +44,7 @@
 {
     specializes = c24_3_base_underling;
 
+	category_name = "1W_character";
     common:screen_name = "Underling Guard";
     aspect:is_collidable = true;
 	[actor]

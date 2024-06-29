@@ -1,0 +1,39 @@
+[t:c24_3_underling_shop_mage,n:0x03400019]
+{
+	[conversation]
+	{
+		[conversations]
+		{
+			* = mage_shop;
+		}
+	}
+	[placement]
+	{
+	  p position = -0.00710869,0,-0.151716,0xec4344ca;
+	}
+}
+[t:c24_3_underling_shop_smith,n:0x03400067]
+{
+	[conversation]
+	{
+		[conversations]
+		{
+			* = smith_shop;
+		}
+	}
+	[inventory]
+	{
+		[equipment]
+		{
+			es_chest = bd_le_m_g_c_avg_beaded_dsx;
+			es_feet = bo_bo_sc_m_g_c_avg_beaded_dsx;
+			es_head = he_vi_pl_m_beaded_headband_dsx;
+			es_shield_hand = tongs;
+			es_weapon_hand = blacksmith_hammer;
+		}
+	}
+	[placement]
+	{
+	  p position = -0.0570841,1.90735e-006,-1.93026,0x53148f5b;
+	}
+}
