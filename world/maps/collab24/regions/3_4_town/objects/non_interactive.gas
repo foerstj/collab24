@@ -9,6 +9,14 @@
 	  p position = 0.0269756,9.53674e-007,0.0141697,0x57622e81;
 	}
 }
+[t:lamp_glb_oil_01,n:0x03400067]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,-1.49012e-007;
+	  p position = 0.069417,-0.525333,-0.350059,0xa3f51f2e;
+	}
+}
 [t:lamp_glb_oil_02,n:0x0340005f]
 {
 	[light_flicker_lightweight]
@@ -782,14 +790,6 @@
 	{
 	  q orientation = 0,1,0,-1.49012e-007;
 	  p position = -0.0256295,-0.525333,-0.315303,0x524e0aaf;
-	}
-}
-[t:lamp_glb_oil_01,n:0x03400067]
-{
-	[placement]
-	{
-	  q orientation = 0,1,0,-1.49012e-007;
-	  p position = 0.069417,-0.525333,-0.350059,0xa3f51f2e;
 	}
 }
 [t:lamp_glb_oil_01,n:0x03400068]
