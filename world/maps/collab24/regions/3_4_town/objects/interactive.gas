@@ -306,3 +306,35 @@
 	  p position = 0.0352573,-1.5,-0.492285,0xf8e45f61;
 	}
 }
+[t:lever_glb_05,n:0x034000ee]
+{
+	[on_off_lever]
+	{
+		off_message = we_req_activate;
+	  x off_scid = 0x034000ED;
+	  x on_scid = 0x034000ED;
+	  f reset_time = 5;
+	  f reset_time_2 = 5;
+	}
+	[placement]
+	{
+	  p position = -0.681661,5.95,-0.0356352,0x8f981fba;
+		use_point_scids = 0x034000F0;
+	}
+}
+[t:lever_glb_05,n:0x034000ef]
+{
+	[on_off_lever]
+	{
+		off_message = we_req_activate;
+	  x off_scid = 0x034000ED;
+	  x on_scid = 0x034000ED;
+	  f reset_time = 5;
+	  f reset_time_2 = 5;
+	}
+	[placement]
+	{
+	  p position = -1.44121,-9.53674e-007,0.0404403,0x64cdbaa7;
+		use_point_scids = 0x034000F1;
+	}
+}
