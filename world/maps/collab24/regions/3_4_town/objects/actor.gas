@@ -99,7 +99,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.92388,0,0.382683;
-	  p position = -1.88383,0,-1.7611,0xada05cb4;
+	  p position = -0.87682,0,-1.10448,0xada05cb4;
 	}
 }
 [t:c24_3_underling_npc,n:0x03400071]
@@ -114,8 +114,8 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.92388,0,-0.382684;
-	  p position = -1.72575,9.53674e-007,-0.340252,0x657ab36e;
+	  q orientation = 0,0.382684,0,0.923879;
+	  p position = -0.504951,9.53674e-007,-0.594635,0xb19fd6b6;
 	}
 }
 [t:mp_gypsy_female_01,n:0x03400072]
@@ -123,15 +123,15 @@
 	[placement]
 	{
 	  q orientation = 0,0.382683,0,-0.92388;
-	  p position = -0.319607,-9.53674e-007,0.428009,0xb19fd6b6;
+	  p position = 0.76569,-9.53674e-007,-0.587265,0xb19fd6b6;
 	}
 }
 [t:mp_gypsy_male_01,n:0x03400074]
 {
 	[placement]
 	{
-	  q orientation = 0,-0.92388,0,0.382683;
-	  p position = -0.744635,0,-1.06982,0x7e4fb36b;
+	  q orientation = 0,0.92388,0,-0.382683;
+	  p position = -1.84936,0,0.333641,0x7e4fb36b;
 	}
 }
 [t:c24_3_underling_shop_smith,n:0x03400067]
