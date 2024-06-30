@@ -190,12 +190,12 @@
 	  p position = 1.27053,9.53674e-007,0.192219,0xe6b6afb4;
 	}
 }
-[t:rusk,n:0x0340006c]
+[t:c24_3_underling_companion,n:0x0340006c]
 {
 	[aspect]
 	{
-	  f max_life = 78.4;
-	  f max_mana = 31;
+	  f max_life = 58.8;
+	  f max_mana = 34;
 	}
 	[common]
 	{
@@ -207,18 +207,6 @@
 		[conversations]
 		{
 			* = companion_mp;
-		}
-	}
-	[inventory]
-	{
-		[equipment]
-		{
-			es_chest = bd_le_m_g_c_avg_beaded_dsx;
-		}
-		[other]
-		{
-			il_main = ss_un_gl_rusk;
-			il_main = he_ca_le_avg;
 		}
 	}
 	[mind]
@@ -254,12 +242,12 @@
 	  p position = -0.501148,0,-1.30669,0xfda76600;
 	}
 }
-[t:rusk,n:0x03400076]
+[t:c24_3_underling_companion,n:0x03400076]
 {
 	[aspect]
 	{
-	  f max_life = 78.4;
-	  f max_mana = 31;
+	  f max_life = 58.8;
+	  f max_mana = 34;
 	}
 	[common]
 	{
@@ -277,18 +265,6 @@
 			* = companion_join;
 			* = companion_reject;
 			* = companion_rejoin;
-		}
-	}
-	[inventory]
-	{
-		[equipment]
-		{
-			es_chest = bd_le_m_g_c_avg_beaded_dsx;
-		}
-		[other]
-		{
-			il_main = ss_un_gl_rusk;
-			il_main = he_ca_le_avg;
 		}
 	}
 	[mind]

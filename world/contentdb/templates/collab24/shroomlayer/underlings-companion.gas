@@ -1,0 +1,68 @@
+[t:template,n:c24_3_base_underling_companion]
+{
+	specializes = base_pm_fb;
+
+	doc = "underling companion";
+	[aspect]
+	{
+        // from village idiot
+		[textures]
+		{
+			0 = b_c_gah_fb_skin_21;
+			1 = b_c_pos_a1_055;
+		}
+	}
+	[common]
+	{
+		screen_name = "Underling Companion";
+	}
+    [mind]
+    {
+        jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_companion.skrit;
+    }
+}
+
+[t:template,n:c24_3_underling_companion]
+{
+    specializes = c24_3_base_underling_companion;
+
+    // looks from rusk
+	[actor]
+	{
+		portrait_icon = b_gui_ig_i_ic_c_ru;
+    }
+
+    // stats from naidi
+	[actor]
+	{
+		[skills]
+		{
+			strength 		=   0.75, 0, 10;
+			intelligence 	=  	0.39, 0, 10;
+			dexterity 		=   1.86, 0, 10;
+            Ranged 			= 	3, 0, 0;
+            uber 			= 	3, 0, 0;
+		}
+	}
+
+    // underling equipment
+	[inventory]
+	{
+		[equipment]
+		{
+            // slept in civil clothes, no shoes
+			es_chest = bd_le_m_g_c_avg_beaded_dsx;
+		}
+		[other]
+		{
+            // rest of civil clothes
+			il_main = bo_bo_sc_m_g_c_avg_beaded_dsx;
+			il_main = he_vi_pl_m_beaded_headband_dsx;
+            // guard equipment
+			il_main = bd_le_m_g_c_avg_ceramic_dsx;
+			il_main = bo_bo_sc_m_g_c_avg_ceramic_dsx;
+			il_main = he_vi_pl_m_ceramic_headdress_dsx;
+			il_main = bw_g_c_dsx_nat_avg;
+		}
+	}
+}
