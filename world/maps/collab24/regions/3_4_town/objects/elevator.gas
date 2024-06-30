@@ -10,11 +10,31 @@
 	  i elevator_door_level1 = 4;
 	  i elevator_door_level2 = 4;
 	  x elevator_node = 0x0A1673C6;
-		moving1_actioninfo = "collab24_3_shroomlayer_1,0;0x00000034,1,-1,-1,out:black,2;0x00000035,1,-1,-1,in,4";
+		moving1_actioninfo = "collab24_3_shroomlayer_3,0;0x00000034,1,-1,-1,out:black,2;0x00000035,1,-1,-1,in,4";
 		moving2_actioninfo = "collab24_3_shroomlayer_town,0;0x00000035,1,-1,-1,out:black,0;0x00000034,1,-1,-1,in,2";
 	}
 	[placement]
 	{
 	  p position = 0.259906,5.95,0.266911,0x0a1673c6;
+	}
+}
+[t:elevator_2s_1c_2n,n:0x0340006d]
+{
+	[elevator_2s_1c_2n]
+	{
+	  i connect_door_level1 = 5;
+	  i connect_door_level2 = 5;
+	  x connect_node_level1 = 0xD9306811;
+	  x connect_node_level2 = 0xD4DD08A9;
+	  f duration = 5;
+	  i elevator_door_level1 = 4;
+	  i elevator_door_level2 = 4;
+	  x elevator_node = 0x7B299E7F;
+		moving1_actioninfo = "collab24_3_shroomlayer_5,0;0x00000034,1,-1,-1,out:black,2;0x00000035,1,-1,-1,in,5";
+		moving2_actioninfo = "collab24_3_shroomlayer_town,0;0x00000035,1,-1,-1,out:black,0;0x00000034,1,-1,-1,in,3";
+	}
+	[placement]
+	{
+	  p position = 0.502439,5.95,-0.536016,0x7b299e7f;
 	}
 }

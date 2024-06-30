@@ -290,3 +290,19 @@
 	  p position = 0.0352573,-1.5,-0.492285,0xf8e45f61;
 	}
 }
+[t:lever_glb_05,n:0x03400069]
+{
+	[on_off_lever]
+	{
+		off_message = we_req_activate;
+	  x off_scid = 0x0340006D;
+	  x on_scid = 0x0340006D;
+	  f reset_time = 6;
+	  f reset_time_2 = 6;
+	}
+	[placement]
+	{
+	  p position = -0.696552,5.95,0.011447,0x7b299e7f;
+		use_point_scids = 0x0340006C;
+	}
+}
