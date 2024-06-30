@@ -284,6 +284,95 @@
 	  p position = -1.26871,1,-5.12151,0x6e9833da;
 	}
 }
+[t:trigger_change_mood_box,n:0x0350081c]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("collab24_3_shroomlayer_2");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(25.000000,3.000000,1.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.771624,0,0.636078;
+	  p position = -0.266693,3.8147e-006,1.24133,0x06995706;
+	}
+}
+[t:trigger_change_mood_box,n:0x03500826]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("collab24_3_shroomlayer_3");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(25.000000,3.000000,1.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.771624,0,0.636078;
+	  p position = 2.39639,0,1.7597,0x06995706;
+	}
+}
+[t:trigger_generic,n:0x035010d3]
+{
+	[common]
+	{
+		dev_instance_text = "TOWN1 OUT - FADE & MOOD";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("collab24_3_shroomlayer_3");
+				action* = fade_nodes(0x00000035,1,-1,-1,"in"), doc("ground");
+				action* = fade_nodes(0x00000034,2,-1,-1,"in"), doc("town ele tubes");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(4.000000,1.000000,1.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = -0.022377,-0.1,-3.70725,0xb350ae15;
+	}
+}
 [t:use_point,n:0x035010f5]
 {
 	[placement]
@@ -354,95 +443,6 @@
 	{
 	  q orientation = 0,-0.771624,0,0.636078;
 	  p position = -0.18641,-6,-1.83768,0x3749478c;
-	}
-}
-[t:trigger_generic,n:0x035010d3]
-{
-	[common]
-	{
-		dev_instance_text = "TOWN1 OUT - FADE & MOOD";
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = mood_change("collab24_3_shroomlayer_3");
-				action* = fade_nodes(0x00000035,1,-1,-1,"in"), doc("ground");
-				action* = fade_nodes(0x00000034,2,-1,-1,"in"), doc("town ele tubes");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(4.000000,1.000000,1.000000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  p position = -0.022377,-0.1,-3.70725,0xb350ae15;
-	}
-}
-[t:trigger_change_mood_box,n:0x0350081c]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = mood_change("collab24_3_shroomlayer_2");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(25.000000,3.000000,1.000000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.771624,0,0.636078;
-	  p position = -0.266693,3.8147e-006,1.24133,0x06995706;
-	}
-}
-[t:trigger_change_mood_box,n:0x03500826]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = mood_change("collab24_3_shroomlayer_3");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(25.000000,3.000000,1.000000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.771624,0,0.636078;
-	  p position = 2.39639,0,1.7597,0x06995706;
 	}
 }
 [t:trigger_generic,n:0x035010d6]

@@ -12,6 +12,20 @@
 	  p position = 0.0261292,-1.5,-2.48712,0xca0033e5;
 	}
 }
+[t:use_point,n:0x034000f5]
+{
+	[placement]
+	{
+	  p position = 0.0190315,5.95,0.0262575,0xf56c4d6f;
+	}
+}
+[t:use_point,n:0x034000f4]
+{
+	[placement]
+	{
+	  p position = -0.0212517,-1.5,-0.69174,0xb2bbd2e7;
+	}
+}
 [t:trigger_generic,n:0x03400004]
 {
 	[common]
@@ -44,19 +58,5 @@
 	{
 	  q orientation = 0,-8.9407e-008,0,1;
 	  p position = 1.27872,-1.90735e-006,-0.126764,0x02ab4f69;
-	}
-}
-[t:use_point,n:0x034000f4]
-{
-	[placement]
-	{
-	  p position = -0.0212517,-1.5,-0.69174,0xb2bbd2e7;
-	}
-}
-[t:use_point,n:0x034000f5]
-{
-	[placement]
-	{
-	  p position = 0.0190315,5.95,0.0262575,0xf56c4d6f;
 	}
 }

@@ -333,6 +333,22 @@
 	  p position = 1.7133,-12,-5.66445,0x5d4695b4;
 	}
 }
+[t:barrel_cav_02_path2dm,n:0x03501146]
+{
+	[placement]
+	{
+	  q orientation = 0,0.743145,0,-0.669131;
+	  p position = -2.76822,0,-3.10882,0xdc3f4724;
+	}
+}
+[t:crate_grs_03_path2dm,n:0x0350114a]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.66913,0,0.743145;
+	  p position = -3.23122,7.62939e-006,3.92553,0x8c6198dc;
+	}
+}
 [t:barrel_cav_02_path2dm,n:0x03501566]
 {
 	[placement]
@@ -363,22 +379,6 @@
 	{
 	  q orientation = 0,0.987688,0,0.156434;
 	  p position = 0.970189,0,0.27421,0xb0325f08;
-	}
-}
-[t:barrel_cav_02_path2dm,n:0x03501146]
-{
-	[placement]
-	{
-	  q orientation = 0,0.743145,0,-0.669131;
-	  p position = -2.76822,0,-3.10882,0xdc3f4724;
-	}
-}
-[t:crate_grs_03_path2dm,n:0x0350114a]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.66913,0,0.743145;
-	  p position = -3.23122,7.62939e-006,3.92553,0x8c6198dc;
 	}
 }
 [t:crate_grs_03_path2dm,n:0x0350120f]
