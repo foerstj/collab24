@@ -32,16 +32,16 @@
 		portrait_icon = b_gui_ig_i_ic_c_ru;
     }
 
-    // stats from naidi
+    // level 5 (like gloern), but ranged
 	[actor]
 	{
 		[skills]
 		{
-			strength 		=   0.75, 0, 10;
-			intelligence 	=  	0.39, 0, 10;
-			dexterity 		=   1.86, 0, 10;
-            Ranged 			= 	3, 0, 0;
-            uber 			= 	3, 0, 0;
+			strength 		=   1.25, 0, 10;
+			dexterity 		=   3.10, 0, 10;
+			intelligence 	=  	0.65, 0, 10;
+            ranged 			= 	5, 0, 0;
+            uber 			= 	5, 0, 0;
 		}
 	}
 
