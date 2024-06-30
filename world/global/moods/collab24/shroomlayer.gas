@@ -156,6 +156,12 @@
 	transition_time			= 1.0f;
 	interior				= false;
 
+	[frustum]
+	{
+		frustum_width		= 45.0f;  // back to default frustum after viewpoint
+		frustum_height		= 100.0f;
+	}
+
 	[fog]
 	{
 		fog_near_dist		= 24.0f;
@@ -172,5 +178,36 @@
 		standard_repeat_delay = 10.0f;
 		standard_track		= "s_m_BesiegedTown_04";
 		room_type			= rt_stoneroom;
+	}
+}
+[mood_setting*]  // viewpoints above town
+{
+	mood_name				= collab24_3_shroomlayer_town_viewpoint;
+	transition_time			= 1.0f;
+	interior				= false;
+
+    [frustum]
+    {
+		frustum_width		= 80.0f;  // broaden for view
+		frustum_height		= 100.0f;
+    }
+
+	[fog]
+	{
+		fog_near_dist		= 40.0f;
+		fog_far_dist		= 80.0f;
+		fog_lowdetail_near_dist		= 30.0f;
+		fog_lowdetail_far_dist		= 60.0f;
+		fog_color			= 0xFF403030;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_wind_02";
+		standard_intro_delay = 5.0f;
+		standard_repeat_delay = 10.0f;
+		standard_track		= "s_m_TempleRuins_01";
+		room_type			= rt_generic;
 	}
 }
