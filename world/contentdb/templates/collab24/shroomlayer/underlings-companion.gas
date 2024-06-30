@@ -20,6 +20,17 @@
     {
         jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_companion.skrit;
     }
+
+    // use HG model with FB anims!
+	[aspect]
+	{
+		model = m_c_gan_hg_pos_a1;
+        scale_base = 0.9;
+	}
+	[body]
+	{
+		armor_version = gan_hg;
+    }
 }
 
 [t:template,n:c24_3_underling_companion]
