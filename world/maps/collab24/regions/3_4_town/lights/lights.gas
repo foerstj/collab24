@@ -111,7 +111,7 @@
 	  b affects_actors = true;
 	  b affects_items = true;
 	  b affects_terrain = true;
-	  x color = 0xFFBFFFFF;
+	  x color = 0xFFBFECFF;
 	  b draw_shadow = false;
 	  f inner_radius = 4.000000;
 	  f intensity = 0.500000;
@@ -153,7 +153,7 @@
 	  b affects_actors = true;
 	  b affects_items = true;
 	  b affects_terrain = true;
-	  x color = 0xFFBFFFFF;
+	  x color = 0xFFBFE7FF;
 	  b draw_shadow = false;
 	  f inner_radius = 4.000000;
 	  f intensity = 0.500000;
@@ -279,7 +279,7 @@
 	  b affects_actors = true;
 	  b affects_items = true;
 	  b affects_terrain = true;
-	  x color = 0xFFBFFFFF;
+	  x color = 0xFFBFD5FF;
 	  b draw_shadow = false;
 	  f inner_radius = 4.000000;
 	  f intensity = 1.000000;
@@ -300,7 +300,7 @@
 	  b affects_actors = true;
 	  b affects_items = true;
 	  b affects_terrain = true;
-	  x color = 0xFFBFFFFF;
+	  x color = 0xFFBFF8FF;
 	  b draw_shadow = false;
 	  f inner_radius = 4.000000;
 	  f intensity = 0.750000;
@@ -321,7 +321,7 @@
 	  b affects_actors = true;
 	  b affects_items = true;
 	  b affects_terrain = true;
-	  x color = 0xFFBFFFFF;
+	  x color = 0xFFBFD7FF;
 	  b draw_shadow = false;
 	  f inner_radius = 4.000000;
 	  f intensity = 0.500000;
@@ -363,7 +363,7 @@
 	  b affects_actors = true;
 	  b affects_items = true;
 	  b affects_terrain = true;
-	  x color = 0xFFBFFFFF;
+	  x color = 0xFFBFC8FF;
 	  b draw_shadow = false;
 	  f inner_radius = 4.000000;
 	  f intensity = 1.000000;
@@ -489,7 +489,7 @@
 	  b affects_actors = true;
 	  b affects_items = true;
 	  b affects_terrain = true;
-	  x color = 0xFFBFFFFF;
+	  x color = 0xFFBFF3FF;
 	  b draw_shadow = false;
 	  f inner_radius = 4.000000;
 	  f intensity = 1.000000;
@@ -678,7 +678,7 @@
 	  b affects_actors = true;
 	  b affects_items = true;
 	  b affects_terrain = true;
-	  x color = 0xFFBFFFFF;
+	  x color = 0xFFBFFCFF;
 	  b draw_shadow = false;
 	  f inner_radius = 4.000000;
 	  f intensity = 1.000000;
@@ -720,7 +720,7 @@
 	  b affects_actors = true;
 	  b affects_items = true;
 	  b affects_terrain = true;
-	  x color = 0xFFBFFFFF;
+	  x color = 0xFFBFE2FF;
 	  b draw_shadow = false;
 	  f inner_radius = 4.000000;
 	  f intensity = 0.500000;
@@ -888,7 +888,7 @@
 	  b affects_actors = true;
 	  b affects_items = true;
 	  b affects_terrain = true;
-	  x color = 0xFFBFFFFF;
+	  x color = 0xFFBFEDFF;
 	  b draw_shadow = false;
 	  f inner_radius = 4.000000;
 	  f intensity = 0.750000;
@@ -951,7 +951,7 @@
 	  b affects_actors = true;
 	  b affects_items = true;
 	  b affects_terrain = true;
-	  x color = 0xFFBFFFFF;
+	  x color = 0xFFBFDDFF;
 	  b draw_shadow = false;
 	  f inner_radius = 4.000000;
 	  f intensity = 0.500000;
@@ -1098,7 +1098,7 @@
 	  b affects_actors = true;
 	  b affects_items = true;
 	  b affects_terrain = true;
-	  x color = 0xFFBFFFFF;
+	  x color = 0xFFBFDBFF;
 	  b draw_shadow = false;
 	  f inner_radius = 4.000000;
 	  f intensity = 1.000000;
@@ -1119,7 +1119,7 @@
 	  b affects_actors = true;
 	  b affects_items = true;
 	  b affects_terrain = true;
-	  x color = 0xFFBFFFFF;
+	  x color = 0xFFBFD6FF;
 	  b draw_shadow = false;
 	  f inner_radius = 4.000000;
 	  f intensity = 1.000000;
@@ -1224,7 +1224,7 @@
 	  b affects_actors = true;
 	  b affects_items = true;
 	  b affects_terrain = true;
-	  x color = 0xFFBFFFFF;
+	  x color = 0xFFBFD4FF;
 	  b draw_shadow = false;
 	  f inner_radius = 4.000000;
 	  f intensity = 0.750000;
@@ -1266,7 +1266,7 @@
 	  b affects_actors = true;
 	  b affects_items = true;
 	  b affects_terrain = true;
-	  x color = 0xFFBFFFFF;
+	  x color = 0xFFBFF2FF;
 	  b draw_shadow = false;
 	  f inner_radius = 4.000000;
 	  f intensity = 1.000000;
@@ -1287,7 +1287,7 @@
 	  b affects_actors = true;
 	  b affects_items = true;
 	  b affects_terrain = true;
-	  x color = 0xFFBFFFFF;
+	  x color = 0xFFBFD9FF;
 	  b draw_shadow = false;
 	  f inner_radius = 4.000000;
 	  f intensity = 1.000000;
@@ -1371,7 +1371,7 @@
 	  b affects_actors = true;
 	  b affects_items = true;
 	  b affects_terrain = true;
-	  x color = 0xFFBFFFFF;
+	  x color = 0xFFBFF8FF;
 	  b draw_shadow = false;
 	  f inner_radius = 4.000000;
 	  f intensity = 0.500000;
@@ -1560,7 +1560,7 @@
 	  b affects_actors = true;
 	  b affects_items = true;
 	  b affects_terrain = true;
-	  x color = 0xFFBFFFFF;
+	  x color = 0xFFBFECFF;
 	  b draw_shadow = false;
 	  f inner_radius = 4.000000;
 	  f intensity = 1.000000;
@@ -1707,7 +1707,7 @@
 	  b affects_actors = true;
 	  b affects_items = true;
 	  b affects_terrain = true;
-	  x color = 0xFFBFFFFF;
+	  x color = 0xFFBFEEFF;
 	  b draw_shadow = false;
 	  f inner_radius = 4.000000;
 	  f intensity = 1.000000;
@@ -1770,7 +1770,7 @@
 	  b affects_actors = true;
 	  b affects_items = true;
 	  b affects_terrain = true;
-	  x color = 0xFFBFFFFF;
+	  x color = 0xFFBFEFFF;
 	  b draw_shadow = false;
 	  f inner_radius = 4.000000;
 	  f intensity = 0.500000;
@@ -2022,7 +2022,7 @@
 	  b affects_actors = true;
 	  b affects_items = true;
 	  b affects_terrain = true;
-	  x color = 0xFFBFFFFF;
+	  x color = 0xFFBFCEFF;
 	  b draw_shadow = false;
 	  f inner_radius = 4.000000;
 	  f intensity = 1.000000;
@@ -2064,7 +2064,7 @@
 	  b affects_actors = true;
 	  b affects_items = true;
 	  b affects_terrain = true;
-	  x color = 0xFFBFFFFF;
+	  x color = 0xFFBFFEFF;
 	  b draw_shadow = false;
 	  f inner_radius = 4.000000;
 	  f intensity = 1.000000;
@@ -2148,7 +2148,7 @@
 	  b affects_actors = true;
 	  b affects_items = true;
 	  b affects_terrain = true;
-	  x color = 0xFFBFFFFF;
+	  x color = 0xFFBFE5FF;
 	  b draw_shadow = false;
 	  f inner_radius = 4.000000;
 	  f intensity = 1.000000;
@@ -2337,7 +2337,7 @@
 	  b affects_actors = true;
 	  b affects_items = true;
 	  b affects_terrain = true;
-	  x color = 0xFFBFFFFF;
+	  x color = 0xFFBFCEFF;
 	  b draw_shadow = false;
 	  f inner_radius = 4.000000;
 	  f intensity = 0.750000;
@@ -2421,7 +2421,7 @@
 	  b affects_actors = true;
 	  b affects_items = true;
 	  b affects_terrain = true;
-	  x color = 0xFFBFFFFF;
+	  x color = 0xFFBFDFFF;
 	  b draw_shadow = false;
 	  f inner_radius = 4.000000;
 	  f intensity = 1.000000;
