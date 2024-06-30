@@ -125,6 +125,20 @@
 	  p position = -0.0899582,1.75,-0.0505905,0x7714dfbe;
 	}
 }
+[t:emt_sound,n:0x03400011]
+{
+	[placement]
+	{
+	  p position = -0.662453,0,1.13199,0xa6912b74;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "env_blast_furnace";
+	  f max_dist = 16;
+	  f min_dist = 2;
+	}
+}
 [t:emt_sound,n:0x03400066]
 {
 	[placement]
