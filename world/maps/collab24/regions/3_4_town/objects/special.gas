@@ -69,6 +69,7 @@
 			[*]
 			{
 				action* = send_world_message("we_req_deactivate",0x0340012E,0f,"default","every",0);
+				action* = send_world_message("we_req_activate",0x03400100,0f,"default","every",0), delay(6);
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(2.000000,1.000000,2.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -85,8 +86,8 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = -1.58675,0,0.219828,0xfda76600;
+	  q orientation = 0,1,0,2.98023e-008;
+	  p position = 0.133429,-1.5,-1.84224,0xeb1f0d3a;
 	}
 }
 [t:trigger_generic,n:0x034000f7]

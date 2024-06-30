@@ -1767,6 +1767,10 @@
 }
 [t:bed_glb_fort_01,n:0x03400119]
 {
+	[aspect]
+	{
+	  b does_block_path = false;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.92388,0,0.382683;
@@ -1775,6 +1779,10 @@
 }
 [t:bed_glb_fort_01,n:0x0340011a]
 {
+	[aspect]
+	{
+	  b does_block_path = false;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.382684,0,0.923879;

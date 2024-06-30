@@ -178,6 +178,18 @@
 	  p position = -0.545857,0,-0.875344,0xdd083b93;
 	}
 }
+[t:cmd_alignment_changer,n:0x03400100]
+{
+	[cmd_dumb_guy]
+	{
+		alignment_activated = aa_good;
+	  x target_actor = 0x03400076;
+	}
+	[placement]
+	{
+	  p position = 0.155552,-9.53674e-007,-0.204662,0xdd083b93;
+	}
+}
 [t:cmd_animation_command,n:0x0340012e]
 {
 	[cmd_animation_command]
