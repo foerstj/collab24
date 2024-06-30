@@ -1,3 +1,19 @@
+[t:lever_glb_05,n:0x03400019]
+{
+	[on_off_lever]
+	{
+		off_message = we_req_activate;
+	  x off_scid = 0x0340006A;
+	  x on_scid = 0x0340006A;
+	  f reset_time = 5;
+	  f reset_time_2 = 5;
+	}
+	[placement]
+	{
+	  p position = -0.692845,5.95,-0.0471323,0x0a1673c6;
+		use_point_scids = 0x0340006b;
+	}
+}
 [t:door_glb_keep_02,n:0x03400041]
 {
 	[aspect]

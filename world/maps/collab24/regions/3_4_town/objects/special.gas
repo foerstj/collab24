@@ -28,7 +28,15 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,-8.9407e-008,0,1;
-	  p position = 1.27872,-1.90735e-006,-0.126764,0x02ab4f69;
+	  q orientation = 0,1,0,5.96046e-008;
+	  p position = -0.742079,0,0.764416,0x57622e81;
+	}
+}
+[t:use_point,n:0x0340006b]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 0.018765,5.95,-0.0303252,0x0a1673c6;
 	}
 }
