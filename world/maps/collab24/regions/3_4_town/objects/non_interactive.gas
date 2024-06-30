@@ -6,22 +6,15 @@
 	}
 	[placement]
 	{
-	  p position = 0.0269756,9.53674e-007,0.0141697,0x57622e81;
+	  q orientation = 0,-2.98023e-008,0,1;
+	  p position = 0.111191,9.53674e-007,1.02535,0x57622e81;
 	}
 }
 [t:chair_grs_01,n:0x034000d7]
 {
 	[placement]
 	{
-	  p position = -0.0653238,0,-1.24482,0x57622e81;
-	}
-}
-[t:chair_grs_02,n:0x034000d8]
-{
-	[placement]
-	{
-	  q orientation = 0,0.92388,0,-0.382683;
-	  p position = 0.501136,0,1.01408,0x57622e81;
+	  p position = -0.035563,0,-0.168625,0x57622e81;
 	}
 }
 [t:table_glb_01,n:0x034000dc]
@@ -29,7 +22,7 @@
 	[placement]
 	{
 	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = -0.107257,0,-0.0883627,0x57622e81;
+	  p position = -0.0774962,0,0.987833,0x57622e81;
 	}
 }
 [t:chair_grs_02,n:0x034000e2]
@@ -37,7 +30,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.92388,0,0.382684;
-	  p position = -0.768736,0,0.906183,0x57622e81;
+	  p position = -0.738975,0,1.98238,0x57622e81;
 	}
 }
 [t:candle_glb_01,n:0x034000e3]
@@ -49,7 +42,15 @@
 	[placement]
 	{
 	  q orientation = 0,1,0,0;
-	  p position = -0.206624,0.902205,-0.0531425,0x57622e81;
+	  p position = -0.173831,0.902205,1.00109,0x57622e81;
+	}
+}
+[t:chair_grs_02,n:0x034000d8]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.382684,0,0.923879;
+	  p position = -1.90972,0,-0.530897,0xe0fd967c;
 	}
 }
 [t:lamp_glb_oil_01,n:0x03400073]

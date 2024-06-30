@@ -11,6 +11,7 @@
 				action* = fade_nodes(0x00000035,1,-1,-1,"out:instant"), doc("ground above");
 				action* = fade_nodes(0x00000035,2,-1,-1,"out:instant"), doc("ele tube");
 				action* = fade_nodes(0x00000033,2,-1,-1,"out:instant"), doc("ele tube");
+				action* = fade_nodes(0x00000034,2,-1,-1,"out:instant"), doc("own ele tubes");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(16.000000,4.000000,16.000000,"on_every_enter");
 			  f delay = 0.000000;
