@@ -601,8 +601,6 @@
 	{
 	  b continual_loop = true;
 		event_sound = "amb_crickets";
-	  i start_hour = 6;
-	  i stop_hour = 12;
 	}
 }
 [t:c24_3_emt_shroom_sparkles,n:0x03300b91]
@@ -792,9 +790,6 @@
 	{
 	  b continual_loop = true;
 		event_sound = "amb_crickets";
-	  i start_hour = 12;
-	  i stop_hour = 19;
-	  i time_chunk = 3;
 	}
 }
 [t:c24_3_emt_shroom_sparkles,n:0x03300bc4]
@@ -1608,9 +1603,6 @@
 	{
 	  b continual_loop = true;
 		event_sound = "amb_crickets";
-	  i start_hour = 1;
-	  i stop_hour = 4;
-	  i time_chunk = 1;
 	}
 }
 [t:c24_3_emt_shroom_sparkles,n:0x03300b8a]
@@ -1800,9 +1792,6 @@
 	{
 	  b continual_loop = true;
 		event_sound = "amb_crickets";
-	  i start_hour = 1;
-	  i stop_hour = 4;
-	  i time_chunk = 1;
 	}
 }
 [t:c24_3_emt_shroom_sparkles,n:0x03300b3b]
@@ -3131,9 +3120,6 @@
 	{
 	  b continual_loop = true;
 		event_sound = "amb_crickets";
-	  i start_hour = 12;
-	  i stop_hour = 19;
-	  i time_chunk = 3;
 	}
 }
 [t:c24_3_emt_shroom_sparkles,n:0x03300b08]
@@ -3899,9 +3885,6 @@
 	{
 	  b continual_loop = true;
 		event_sound = "amb_crickets";
-	  i start_hour = 12;
-	  i stop_hour = 19;
-	  i time_chunk = 3;
 	}
 }
 [t:c24_3_emt_shroom_sparkles,n:0x03300b5d]
