@@ -1,13 +1,9 @@
 [t:template,n:c24_3_underling_shop_smith]
 {
-    specializes = c24_3_base_underling;
+    specializes = npc_shortling_d04_base;
 
     // general shop stuff
 	category_name = "1W_shopkeep";
-	[actor]
-	{
-		portrait_icon = b_gui_ig_i_ic_c_shopkeep;  // bodrus
-	}
 	[aspect]
 	{
 		draw_selection_indicator = TRUE;
@@ -16,6 +12,10 @@
 	}
 	[conversation]
 	{
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_npc.skrit;
 	}
 	[respawn_shrine]
 	{

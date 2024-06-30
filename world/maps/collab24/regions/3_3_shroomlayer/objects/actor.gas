@@ -1063,7 +1063,7 @@
 	  p position = 3.31418,0,-2.3259,0xeb49c4a1;
 	}
 }
-[t:c24_3_underling_npc,n:0x03300c00]
+[t:c24_3_underling_npc_01,n:0x03300c00]
 {
 	[conversation]
 	{
@@ -1072,9 +1072,18 @@
 			* = shroomwood;
 		}
 	}
+	[inventory]
+	{
+		[equipment]
+		{
+			es_chest = bd_le_m_g_c_avg_beaded_dsx;
+			es_feet = bo_bo_sc_m_g_c_avg_beaded_dsx;
+		}
+	}
 	[mind]
 	{
 	  b actor_auto_fidgets = false;
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_npc.skrit?face_back=true;
 	}
 	[placement]
 	{
@@ -1082,7 +1091,7 @@
 	  p position = -3.51207,-9.53674e-007,-1.94844,0x6884aa4f;
 	}
 }
-[t:c24_3_underling_npc,n:0x03300bff]
+[t:c24_3_underling_npc_01,n:0x03300bff]
 {
 	[conversation]
 	{
@@ -1091,9 +1100,18 @@
 			* = underland;
 		}
 	}
+	[inventory]
+	{
+		[equipment]
+		{
+			es_chest = bd_le_m_g_c_avg_beaded_dsx;
+			es_feet = bo_bo_sc_m_g_c_avg_beaded_dsx;
+		}
+	}
 	[mind]
 	{
 	  b actor_auto_fidgets = false;
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_npc.skrit?face_back=true;
 	}
 	[placement]
 	{
