@@ -515,6 +515,35 @@
 	  p position = -1.20853,1,3.27328,0x52625709;
 	}
 }
+[t:c24_3_underling_guard,n:0x035010f0]
+{
+	[common]
+	{
+		screen_name = "Guard Captain of Shroomington";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = guard_captain;
+		}
+	}
+	[inventory]
+	{
+		[equipment]
+		{
+			es_chest = bd_ro_m_g_c_avg_cebead_dsx;
+			es_feet = bo_bo_sc_m_g_c_avg_ceramic_dsx;
+			es_head = he_vi_pl_m_ceramic_headdress_dsx;
+			es_shield_hand = bw_g_c_dsx_nat_avg;
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -1.04711,0,1.98573,0x0853f02b;
+	}
+}
 [t:phrak_piercer,n:0x03501126]
 {
 	[placement]
