@@ -113,8 +113,8 @@
 {
     specializes = he_vi_pl_m_ceramic_headdress_dsx_base;
 
-    defend:defense = 5;
-    gui:equip_requirements = dexterity:12;
+    defend:defense = 10;
+    gui:equip_requirements = dexterity:14;
 }
 
 
@@ -193,6 +193,6 @@
 {
     specializes = he_vi_pl_m_ceramic_headband_dsx_base;
 
-    defend:defense = 10;
-    gui:equip_requirements = dexterity:14;
+    defend:defense = 5;
+    gui:equip_requirements = dexterity:12;
 }
