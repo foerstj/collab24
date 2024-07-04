@@ -1,0 +1,50 @@
+[t:template,n:bw_g_c_dsx_nat_avg_base]  // = bw_g_c_dsx_nat_avg
+{
+	doc = "DSX Beaded Bow";
+	specializes = dsx_base_bow;
+	[aspect]
+		{
+			model = m_w_bow_304;
+		}
+	[attack]
+		{
+			attack_range = 12;
+			f damage_max = 45;
+			f damage_min = 40.0;
+			reload_delay = 0.0;
+		}
+	[common]
+		{
+			screen_name = "Beaded Bow";
+			pcontent_special_type = rare, unique;
+		}
+	[gui]
+		{
+			active_icon = b_gui_ig_i_ic_bow_004;
+			inventory_icon = b_gui_ig_i_w_bow_304;
+			equip_requirements = strength:12,dexterity:16;
+			inventory_height = 4;
+			inventory_width = 1;
+		}
+	[pcontent]
+		{		
+			[base]	
+				{	
+					f modifier_max = 12;
+					f modifier_min = 0;
+				}
+		}
+}
+[t:template,n:bw_g_c_c24_nat_avg]
+{
+    specializes = bw_g_c_dsx_nat_avg_base;
+
+    // stats from bw_g_c_dsx_spd_avg (Spidersilk Bow)
+    [attack]
+    {
+        attack_range = 12;
+        f damage_max = 25;
+        f damage_min = 20.0;
+    }
+    gui:equip_requirements = strength:11,dexterity:13;
+}
