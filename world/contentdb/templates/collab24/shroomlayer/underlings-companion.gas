@@ -50,13 +50,13 @@
 		[equipment]
 		{
             // slept in civil clothes, no shoes
-			es_chest = bd_le_m_g_c_avg_beaded_dsx;
+			es_chest = bd_le_m_g_c_avg_beaded_c24;
 		}
 		[other]
 		{
             // rest of civil clothes
-			il_main = bo_bo_sc_m_g_c_avg_beaded_dsx;
-			il_main = he_vi_pl_m_beaded_headband_dsx;
+			il_main = bo_bo_sc_m_g_c_avg_beaded_c24;
+			il_main = he_vi_pl_m_beaded_headband_c24;
             // guard equipment
 			il_main = bd_le_m_g_c_avg_ceramic_dsx;
 			il_main = bo_bo_sc_m_g_c_avg_ceramic_dsx;
