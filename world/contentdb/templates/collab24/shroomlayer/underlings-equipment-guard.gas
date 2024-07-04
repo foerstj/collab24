@@ -1,0 +1,198 @@
+[t:template,n:bd_le_m_g_c_avg_ceramic_dsx_base]  // = bd_le_m_g_c_avg_ceramic_dsx
+{
+	doc = "DSX Ceramic Suit";
+	specializes = dsx_base_body_armor_plate;
+	[common]
+		{
+			screen_name = "Ceramic Suit";
+			pcontent_special_type = normal;
+		}
+	[defend]
+		{
+			armor_style = 224;
+			armor_type = a4;
+			f defense = 99;
+		}
+	[gui]
+		{
+			equip_requirements = intelligence:27;
+			inventory_icon = b_gui_ig_i_a_pos_a4_224;
+			inventory_height = 3;
+			inventory_width = 2;
+		}
+	[pcontent]
+		{
+			[base]
+				{
+					f modifier_max = 17;
+					f modifier_min = 0;
+				}
+		}
+}
+[t:template,n:bd_le_m_g_c_avg_ceramic_c24]
+{
+    specializes = bd_le_m_g_c_avg_ceramic_dsx_base;
+
+    defend:defense = 30;
+    gui:equip_requirements = dexterity:13;
+}
+
+
+[t:template,n:bo_bo_sc_m_g_c_avg_ceramic_dsx_base]  // = bo_bo_sc_m_g_c_avg_ceramic_dsx
+{
+	doc = "DSX Ceramic Boots";
+	specializes = dsx_base_boot;
+	[common]
+		{
+			screen_name = "Ceramic Boots";
+			pcontent_special_type = normal;
+		}
+	[defend]
+		{
+			armor_style = 507;
+			armor_type = type1;
+			f defense = 12;
+		}
+	[gui]
+		{
+			equip_requirements = intelligence:39;
+			inventory_icon = b_gui_ig_i_a_boot_507;
+			inventory_height = 2;
+			inventory_width = 1;
+		}
+	[pcontent]
+		{
+			[base]
+				{
+					f modifier_max = 28;
+					f modifier_min = 0;
+				}
+		}
+}
+[t:template,n:bo_bo_sc_m_g_c_avg_ceramic_c24]
+{
+    specializes = bo_bo_sc_m_g_c_avg_ceramic_dsx_base;
+
+    defend:defense = 5;
+    gui:equip_requirements = dexterity:12;
+}
+
+
+[t:template,n:he_vi_pl_m_ceramic_headdress_dsx_base]  // = he_vi_pl_m_ceramic_headdress_dsx
+{
+	doc = "DSX Ceramic Headdress";
+	specializes = dsx_base_helm;
+	[common]
+		{
+			screen_name = "Ceramic Headdress";
+			pcontent_special_type = normal;
+		}
+	[defend]
+		{
+			armor_style = 426;
+			armor_type = type90;
+			f defense = 17;
+		}
+	[gui]
+		{
+			equip_requirements = intelligence:46;
+			inventory_icon = b_gui_ig_i_a_hlmt_426;
+			inventory_height = 2;
+			inventory_width = 2;
+		}
+	[pcontent]
+		{
+			[base]
+				{
+					f modifier_max = 36;
+					f modifier_min = 0;
+				}
+		}
+}
+[t:template,n:he_vi_pl_m_ceramic_headdress_c24]
+{
+    specializes = he_vi_pl_m_ceramic_headdress_dsx_base;
+
+    defend:defense = 5;
+    gui:equip_requirements = dexterity:12;
+}
+
+
+[t:template,n:bd_ro_m_g_c_avg_cebead_dsx_base]  // = bd_ro_m_g_c_avg_cebead_dsx
+{
+	doc = "DSX Ceramic Beaded Robe";
+	specializes = dsx_base_robe;
+	[common]
+		{
+			screen_name = "Ceramic Beaded Robe";
+			pcontent_special_type = normal;
+		}
+	[defend]
+		{
+			armor_style = 225;
+			armor_type = a7;
+			f defense = 95;
+		}
+	[gui]
+		{
+			equip_requirements = intelligence:26;
+			inventory_icon = b_gui_ig_i_a_pos_a7_225;
+			inventory_height = 2;
+			inventory_width = 2;
+		}
+	[pcontent]
+		{
+			[base]
+				{
+					f modifier_max = 16;
+					f modifier_min = 0;
+				}
+		}
+}
+[t:template,n:bd_ro_m_g_c_avg_cebead_c24]
+{
+    specializes = bd_ro_m_g_c_avg_cebead_dsx_base;
+
+    defend:defense = 50;
+    gui:equip_requirements = dexterity:15;
+}
+
+
+[t:template,n:he_vi_pl_m_ceramic_headband_dsx_base]  // = he_vi_pl_m_ceramic_headband_dsx
+{
+	doc = "DSX Ceramic Headband";
+	specializes = dsx_base_helm;
+	[common]
+		{
+			screen_name = "Ceramic Headband";
+			pcontent_special_type = normal;
+		}
+	[defend]
+		{
+			armor_style = 422;
+			armor_type = type90;
+			f defense = 10;
+		}
+	[gui]
+		{
+			equip_requirements = intelligence:27;
+			inventory_icon = b_gui_ig_i_a_hlmt_422;
+			inventory_height = 2;
+			inventory_width = 2;
+		}
+	[pcontent]
+		{
+			[base]
+				{
+					f modifier_max = 17;
+					f modifier_min = 0;
+				}
+		}
+}
+[t:template,n:he_vi_pl_m_ceramic_headband_c24]
+{
+    specializes = he_vi_pl_m_ceramic_headband_dsx_base;
+
+    defend:defense = 10;
+    gui:equip_requirements = dexterity:14;
+}
