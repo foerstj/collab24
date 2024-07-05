@@ -1,134 +1,8 @@
-[back1]
-{
-	[text*]
-	{
-		screen_text = "Bla Bla Bla";
-	  f scroll_rate = 10.000000;
-	}
-}
-[back2]
-{
-	[text*]
-	{
-		screen_text = "Laber Rhababer";
-	  f scroll_rate = 10.000000;
-	}
-}
-[barkeep]
-{
-	[text*]
-	{
-		screen_text = "I'm the barkeep";
-	  f scroll_rate = 10.000000;
-	}
-}
-[companion_accept_have_money]
-{
-	[text*]
-	{
-		screen_text = "Yay, let's go!";
-	}
-}
-[companion_accept_no_money]
-{
-	[text*]
-	{
-		screen_text = "More money please!";
-	}
-}
-[companion_disband]
-{
-	[text*]
-	{
-		screen_text = "Wait, what?";
-	}
-}
-[companion_disband_rejoin]
-{
-	[text*]
-	{
-		choice = potential_member;
-		screen_text = "Companion again?";
-	}
-}
-[companion_join]
-{
-	[text*]
-	{
-		choice = potential_member;
-		screen_text = "Companion?";
-	}
-}
-[companion_reject]
-{
-	[text*]
-	{
-		screen_text = "Pff then not!";
-	}
-}
-[companion_rejoin]
-{
-	[text*]
-	{
-		choice = potential_member;
-		screen_text = "Companion after all?";
-	}
-}
-[farmer]
-{
-	[text*]
-	{
-		screen_text = "I'm a farmer";
-	  f scroll_rate = 10.000000;
-	}
-}
 [guard]
 {
 	[text*]
 	{
 		screen_text = "I'm a guard";
-	  f scroll_rate = 10.000000;
-	}
-}
-[inn_u_stand]
-{
-	[text*]
-	{
-		screen_text = "Dingdong";
-	  f scroll_rate = 10.000000;
-	}
-}
-[inn_v_sit]
-{
-	[text*]
-	{
-		screen_text = "From far, far away...";
-	  f scroll_rate = 10.000000;
-	}
-}
-[inn_v_stand]
-{
-	[text*]
-	{
-		screen_text = "Dingaling";
-	  f scroll_rate = 10.000000;
-	}
-}
-[innkeep]
-{
-	[text*]
-	{
-		screen_text = "I'm the innkeep";
-	  f scroll_rate = 10.000000;
-	}
-}
-[mage_shop]
-{
-	[text*]
-	{
-		choice = shop;
-		screen_text = "Shop?";
-	  f scroll_rate = 10.000000;
 	}
 }
 [mayor]
@@ -136,16 +10,151 @@
 	[text*]
 	{
 		screen_text = "I'm the mayor";
-	  f scroll_rate = 10.000000;
+	}
+}
+[farmer]
+{
+	[text*]
+	{
+		screen_text = "I'm a farmer";
+	}
+}
+
+[innkeep]
+{
+	[text*]
+	{
+		screen_text = "I'm the innkeep";
+	}
+}
+[companion_multiplayer]
+{
+	[text*]
+	{
+		screen_text = "Hey! Watch who you're kickin'! I've got a bow and a mind to use it--and I would, too, if I didn't have this bloody hangover. Ach. People keep waking me up with some damn nonsense about saving the town.";
+	}
+}
+[companion_join]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Hey! Watch who you're kickin'! I've got a bow and a mind to use it--and I would, too, if I didn't have this bloody hangover. Ach. People keep waking me up with some damn nonsense about saving the town. But you look the sort that'll pay for my services. For a clink of gold you'll have the best bowman around. Deal?";
+	}
+}
+[companion_reject]
+{
+	[text*]
+	{
+		screen_text = "Errrr...bothersome, stinking, plow-pushing, dirt-eating farm rat...";
+	}
+}
+[companion_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "So, the farm rat is back. I've still got a bow and the skill to use it. Same price and I'm yours.";
+	}
+}
+[companion_accept_no_money]
+{
+	[text*]
+	{
+		screen_text = "Well, your head was in the right place, but it doesn't appear you've got enough gold on you. You just come find old Dingaling when you need the best bowman in Underland.";
+	}
+}
+[companion_accept_have_money]
+{
+	[text*]
+	{
+		screen_text = "You'll not regret it. I'm the best there is. And now that I'm working for you, I just want you to know that my drinking won't be a problem. You pay, I drink, and we'll have no troubles a'tall.";
+	}
+}
+[companion_disband]
+{
+	[text*]
+	{
+		screen_text = "You wanna cut me loose, fine by me. That just leaves me free to find somebody who'll pay me what I'm worth.";
+	}
+}
+[companion_disband_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "You're just the luckiest sod on earth that someone hasn't come along and hired me. You want me back, I'll come along. But you'd best learn to show more appreciation to ole Dingaling this time around!";
+	}
+}
+
+[mage_shop]
+{
+	[text*]
+	{
+        order = 0;
+		screen_text = "Step in, Overling, welcome to the Shrine of Passion. The blessings of Azunai the Defender are with you, above as below.
+
+Are you looking for potions? We brew them with water from our sacred wells, have a look.";
+		choice = shop;
+	}
+	[text*]
+	{
+		screen_text = "How may this servant of Azunai assist you?";
+		choice = shop;
 	}
 }
 [smith_shop]
 {
 	[text*]
 	{
+        order = 0;
+		screen_text = "Welcome to the Shroomington Forge. The Guard's been buying up a lot of my stock, but you won't get a better deal on what I've got left. What can I show you?";
 		choice = shop;
-		screen_text = "Shop?";
-	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		screen_text = "What can I show you?";
+		choice = shop;
+	}
+}
+
+[barkeep]
+{
+	[text*]
+	{
+		order = 0;
+		screen_text = "Welcome to Shroomington Inn, Overlings, pleased to have you here! Make yourselves comfortable and enjoy some of our local food and drinks. We've got Mhulliq'n'Shrooms from the oven today!";
+        choice = more;
+	}
+	[text*]
+	{
+		order = 1;
+		screen_text = "Something to drink with that? Fly Agaric lemonade? Champignon beer? Some psychedelic liquors perhaps?";
+	}
+	[text*]
+	{
+		screen_text = "Welcome to Shroomington Inn, Overlings, make yourselves comfortable!";
+	}
+}
+[inn_u_stand]
+{
+	[text*]
+	{
+		screen_text = "Dingdong";
+	}
+}
+[inn_v_sit]
+{
+	[text*]
+	{
+		screen_text = "From far, far away...";
+	}
+}
+[inn_v_stand]
+{
+	[text*]
+	{
+		screen_text = "Dingaling";
 	}
 }
 [inn_u_sit]
@@ -153,6 +162,20 @@
 	[text*]
 	{
 		screen_text = "Yo.";
-	  f scroll_rate = 10.000000;
+	}
+}
+
+[back1]
+{
+	[text*]
+	{
+		screen_text = "Bla Bla Bla";
+	}
+}
+[back2]
+{
+	[text*]
+	{
+		screen_text = "Laber Rhababer";
 	}
 }

@@ -338,10 +338,19 @@
 	{
 		dev_instance_text = "MP";
 	  b is_single_player = false;
+        screen_name = "Dingaling";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = companion_multiplayer;
+		}
 	}
 	[mind]
 	{
 	  b actor_auto_fidgets = false;
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_npc.skrit;
 	}
 	[placement]
 	{
@@ -360,6 +369,7 @@
 	{
 		dev_instance_text = "SP";
 	  b is_multi_player = false;
+        screen_name = "Dingaling";
 	}
 	[conversation]
 	{
