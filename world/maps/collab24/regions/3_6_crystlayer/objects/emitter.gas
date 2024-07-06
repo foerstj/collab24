@@ -53,6 +53,19 @@
 	  i stop_hour = 4;
 	}
 }
+[t:emt_sound,n:0x0360049b]
+{
+	[placement]
+	{
+	  q orientation = 0,0.382683,0,0.92388;
+	  p position = -1.35223,0.550003,1.88478,0xc23c4934;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "env_brook";
+	}
+}
 [t:emt_sound,n:0x036004be]
 {
 	[placement]
@@ -621,19 +634,6 @@
 	{
 	  q orientation = 0,0.92388,0,0.382683;
 	  p position = 29.8601,0.56649,-8.94341,0x2c166721;
-	}
-	[sound_emitter]
-	{
-	  b continual_loop = true;
-		event_sound = "env_brook";
-	}
-}
-[t:emt_sound,n:0x0360049b]
-{
-	[placement]
-	{
-	  q orientation = 0,0.382683,0,0.92388;
-	  p position = -1.35223,0.550003,1.88478,0xc23c4934;
 	}
 	[sound_emitter]
 	{

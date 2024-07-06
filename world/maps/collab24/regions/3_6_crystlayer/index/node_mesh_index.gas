@@ -136,6 +136,7 @@
 	0x03600a3f = t_xxx_wal_12-tx-24-r;
 	0x03600a40 = t_xxx_wal_12-tx-rmp-l;
 	0x03600a41 = t_xxx_wal_12-tx-rmp-r;
+	0x03600a43 = t_xxx_wal_12-tx-rvr-out;
 	0x03600a44 = t_xxx_wal_24-diag-thick-l;
 	0x03600a45 = t_xxx_wal_24-diag-thick-r;
 	0x03600a46 = t_xxx_wal_24-diag-thin-l;
