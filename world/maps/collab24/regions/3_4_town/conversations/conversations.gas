@@ -2,21 +2,48 @@
 {
 	[text*]
 	{
-		screen_text = "I'm a guard";
+        order = 0;
+		screen_text = "Greetings, Overling, welcome to Shroomington. This is the mayor's house. If you just came through the Crystlayer, I'm sure he'd like to hear news.";
+        choice = more;
 	}
+    [text*]
+    {
+        screen_text = "We're all doing double shifts right now, because the crystals are just going crazy...";
+    }
 }
 [mayor]
 {
 	[text*]
 	{
-		screen_text = "I'm the mayor";
+        order = 0;
+		screen_text = "Welcome in, Overling. I am the mayor of Shroomington. The office does come with its perks, for sure, for example this elevator to a private viewpoint. Try it out if you want!";
+        choice = more;
 	}
+    [text*]
+    {
+        order = 1;
+        screen_text = "On a more serious note - I'm glad to see you made it through the Crystlayer, but the way has become really dangerous, as I'm sure you've noticed. The crystals up there have always grown like crazy and sometimes walk around as Shards, that's normal - but now these mages have appeared and are making them aggressive. The Shards are walking on two feet now and attack passers-by with bows and swords!";
+        choice = more;
+    }
+    [text*]
+    {
+        order = 2;
+        screen_text = "These mages are led by the Crystal Master. The guards have spotted him occasionally, but as of now we weren't able to chase him away. We need all manpower to guard the town and the elevators.
+You look like capable fighters though. If you can chase him off, the town would be deeply obliged to you.";
+        activate_quest* = quest_crystal_master;
+    }
+    [text*]
+    {
+        screen_text = "These mages are led by the Crystal Master. If you can chase him off, the town would be deeply obliged to you.";
+        activate_quest* = quest_crystal_master;
+    }
 }
 [farmer]
 {
 	[text*]
 	{
-		screen_text = "I'm a farmer";
+		screen_text = "What's up, Overling? Welcome to the farmhouse. We are farmers.
+What we farm? Why, Shrooms of course!";
 	}
 }
 
@@ -24,7 +51,8 @@
 {
 	[text*]
 	{
-		screen_text = "I'm the innkeep";
+		screen_text = "Welcome, Overlings. Please be quiet, people are sleeping.
+This is our dormitory for guests, it belongs to the Inn upstairs. Would you like a bed?";
 	}
 }
 [companion_multiplayer]
@@ -97,6 +125,21 @@
 Are you looking for potions? We brew them with water from our sacred wells, have a look.";
 		choice = shop;
 	}
+    [text*]
+    {
+        order = 1;
+        screen_text = "We Underlings believe that our souls return to the warm and loving heart of the world when we die, but if you've done bad in life, you will be exiled from the world for a while and dwell in the outer void you people call the Sky, before you are allowed back.
+In the meantime, how may this servant of Azunai assist you?";
+        choice = shop;
+    }
+    [text*]
+    {
+        order = 2;
+        screen_text = "Our potions are made with water from our sacred wells. You may think you've come really deep down here, but the water of these wells comes from places way deeper.
+
+How may this servant of Azunai assist you?";
+        choice = shop;
+    }
 	[text*]
 	{
 		screen_text = "How may this servant of Azunai assist you?";
@@ -108,7 +151,15 @@ Are you looking for potions? We brew them with water from our sacred wells, have
 	[text*]
 	{
         order = 0;
-		screen_text = "Welcome to the Shroomington Forge. The Guard's been buying up a lot of my stock, but you won't get a better deal on what I've got left. What can I show you?";
+		screen_text = "Welcome to the Shroomington Forge. The Guard's been buying up a lot of my stock, but you won't get a better deal on what I've got left.
+What can I show you?";
+		choice = shop;
+	}
+	[text*]
+	{
+        order = 1;
+		screen_text = "I hope we can deal with them Crystal Mages soon, my supplies of wood are getting short. It doesn't grow down here, you see. And then, what am I supposed to burn? My tables?
+What can I show you?";
 		choice = shop;
 	}
 	[text*]
@@ -140,28 +191,28 @@ Are you looking for potions? We brew them with water from our sacred wells, have
 {
 	[text*]
 	{
-		screen_text = "Dingdong";
-	}
-}
-[inn_v_sit]
-{
-	[text*]
-	{
-		screen_text = "From far, far away...";
+		screen_text = "Could of picked a better time to visit Shroomington, eh? Someone's gotta drive these Crystal Mages out to wherever they came from! The guards got all hands busy, and the Slingers out there are walking about in broad Shroomlight!";
 	}
 }
 [inn_v_stand]
 {
 	[text*]
 	{
-		screen_text = "Dingaling";
+		screen_text = "I've been to Shroomington before, but never that long. We're essentially stuck here. By now I've lost all sense of day and night. It feels weird, but to these people it's normal, I guess...";
 	}
 }
 [inn_u_sit]
 {
 	[text*]
 	{
-		screen_text = "Yo.";
+		screen_text = "Come, sit down, Overling, and have some Mhulliq'n'Shrooms with us. The cantina here serves the best of traditional Underling cuisine. There's always some kind of meat - be it Mhulliq, Skrubb, or Angler - and two or three side dishes made from various Shrooms.";
+	}
+}
+[inn_v_sit]
+{
+	[text*]
+	{
+		screen_text = "We've come from far, far away, to do trade in Sadowland. We took the route through Underland as we knew the Underlings are nice people and make good Champignon beer. But on the way down we were attacked by these crazy Crystal Warriors - I could have never imagined such a thing! Now we've lost our wares and have been stuck down here for a week.";
 	}
 }
 
@@ -169,13 +220,15 @@ Are you looking for potions? We brew them with water from our sacred wells, have
 {
 	[text*]
 	{
-		screen_text = "Bla Bla Bla";
+		screen_text = "How's the situation in the Overlands, all good up there? Also not? Well, well.
+I've visited the surface once. Frankly I can't understand how you people can live up there. Nothing above your head, just this endless void, with this weird fireball a'burning in it? And so much weather! I liked the clouds, though. They're kinda funny.";
 	}
 }
 [back2]
 {
 	[text*]
 	{
-		screen_text = "Laber Rhababer";
+		screen_text = "Greetings, Overling, pleased to meet ya. How's it going up there?
+I've been to the Overlands a few times, yes. Everyone should go and see the Sky at least once. To us Underlings, it is an abominable thing, but I guess you people are used to it. Same goes for the color of your plants - the forests, the meadows, it's all this hideous green! But kinda fascinating, I mean.";
 	}
 }

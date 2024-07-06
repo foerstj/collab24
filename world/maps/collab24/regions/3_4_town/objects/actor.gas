@@ -53,6 +53,10 @@
 }
 [t:c24_3_underling_shop_mage,n:0x03400019]
 {
+    [common]
+    {
+        screen_name = "Lama Dingdong";
+    }
 	[conversation]
 	{
 		[conversations]
