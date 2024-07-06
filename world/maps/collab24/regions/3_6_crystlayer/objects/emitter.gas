@@ -1,4 +1,4 @@
-[t:emt_sound,n:0x0730042f]
+[t:emt_sound,n:0x0360042f]
 {
 	[placement]
 	{
@@ -11,7 +11,7 @@
 		event_sound = "env_brook";
 	}
 }
-[t:emt_sound,n:0x0730049c]
+[t:emt_sound,n:0x0360049c]
 {
 	[placement]
 	{
@@ -24,7 +24,7 @@
 		event_sound = "env_brook";
 	}
 }
-[t:emt_sound,n:0x0730049e]
+[t:emt_sound,n:0x0360049e]
 {
 	[placement]
 	{
@@ -37,7 +37,7 @@
 		event_sound = "env_brook";
 	}
 }
-[t:emt_sound,n:0x073004a0]
+[t:emt_sound,n:0x036004a0]
 {
 	[placement]
 	{
@@ -53,7 +53,7 @@
 	  i stop_hour = 4;
 	}
 }
-[t:emt_sound,n:0x073004be]
+[t:emt_sound,n:0x036004be]
 {
 	[placement]
 	{
@@ -66,7 +66,7 @@
 		event_sound = "env_brook";
 	}
 }
-[t:emt_sound,n:0x0730049f]
+[t:emt_sound,n:0x0360049f]
 {
 	[placement]
 	{
@@ -79,7 +79,7 @@
 		event_sound = "env_brook";
 	}
 }
-[t:emt_sound,n:0x073004a1]
+[t:emt_sound,n:0x036004a1]
 {
 	[placement]
 	{
@@ -92,7 +92,7 @@
 		event_sound = "env_brook";
 	}
 }
-[t:emt_sound,n:0x073004a2]
+[t:emt_sound,n:0x036004a2]
 {
 	[placement]
 	{
@@ -105,7 +105,7 @@
 		event_sound = "env_brook";
 	}
 }
-[t:emt_sound,n:0x073004a5]
+[t:emt_sound,n:0x036004a5]
 {
 	[placement]
 	{
@@ -118,7 +118,7 @@
 		event_sound = "env_brook";
 	}
 }
-[t:emt_sound,n:0x073004b9]
+[t:emt_sound,n:0x036004b9]
 {
 	[placement]
 	{
@@ -131,7 +131,7 @@
 		event_sound = "env_brook";
 	}
 }
-[t:emt_sound,n:0x073004a3]
+[t:emt_sound,n:0x036004a3]
 {
 	[placement]
 	{
@@ -144,7 +144,7 @@
 		event_sound = "env_brook";
 	}
 }
-[t:emt_sound,n:0x073004c1]
+[t:emt_sound,n:0x036004c1]
 {
 	[placement]
 	{
@@ -160,7 +160,7 @@
 	  i stop_hour = 4;
 	}
 }
-[t:emt_sound,n:0x073004bf]
+[t:emt_sound,n:0x036004bf]
 {
 	[placement]
 	{
@@ -176,7 +176,7 @@
 	  i stop_hour = 4;
 	}
 }
-[t:emt_sound,n:0x073004c3]
+[t:emt_sound,n:0x036004c3]
 {
 	[placement]
 	{
@@ -192,7 +192,7 @@
 	  i stop_hour = 4;
 	}
 }
-[t:emt_sound,n:0x073004bd]
+[t:emt_sound,n:0x036004bd]
 {
 	[placement]
 	{
@@ -205,7 +205,7 @@
 		event_sound = "env_waterfall";
 	}
 }
-[t:emt_sound,n:0x073004c0]
+[t:emt_sound,n:0x036004c0]
 {
 	[placement]
 	{
@@ -221,7 +221,7 @@
 	  i stop_hour = 4;
 	}
 }
-[t:emt_sound,n:0x073004ba]
+[t:emt_sound,n:0x036004ba]
 {
 	[placement]
 	{
@@ -234,7 +234,7 @@
 		event_sound = "env_waterfall";
 	}
 }
-[t:emt_sound,n:0x073004a7]
+[t:emt_sound,n:0x036004a7]
 {
 	[placement]
 	{
@@ -247,7 +247,7 @@
 		event_sound = "env_brook";
 	}
 }
-[t:emt_sound,n:0x073004a4]
+[t:emt_sound,n:0x036004a4]
 {
 	[placement]
 	{
@@ -260,7 +260,7 @@
 		event_sound = "env_brook";
 	}
 }
-[t:emt_sound,n:0x073005a5]
+[t:emt_sound,n:0x036005a5]
 {
 	[placement]
 	{
@@ -273,7 +273,7 @@
 		event_sound = "env_waterfall";
 	}
 }
-[t:emt_sound,n:0x073004a8]
+[t:emt_sound,n:0x036004a8]
 {
 	[placement]
 	{
@@ -286,7 +286,7 @@
 		event_sound = "env_brook";
 	}
 }
-[t:emt_sound,n:0x073004a9]
+[t:emt_sound,n:0x036004a9]
 {
 	[placement]
 	{
@@ -299,7 +299,7 @@
 		event_sound = "env_brook";
 	}
 }
-[t:emt_sound,n:0x073004ab]
+[t:emt_sound,n:0x036004ab]
 {
 	[placement]
 	{
@@ -312,7 +312,7 @@
 		event_sound = "env_brook";
 	}
 }
-[t:emt_sound,n:0x073004c2]
+[t:emt_sound,n:0x036004c2]
 {
 	[placement]
 	{
@@ -328,7 +328,7 @@
 	  i stop_hour = 4;
 	}
 }
-[t:emt_sound,n:0x073004c6]
+[t:emt_sound,n:0x036004c6]
 {
 	[placement]
 	{
@@ -344,7 +344,7 @@
 	  i stop_hour = 4;
 	}
 }
-[t:emt_sound,n:0x073004c8]
+[t:emt_sound,n:0x036004c8]
 {
 	[placement]
 	{
@@ -360,7 +360,7 @@
 	  i stop_hour = 4;
 	}
 }
-[t:emt_sound,n:0x073004b4]
+[t:emt_sound,n:0x036004b4]
 {
 	[placement]
 	{
@@ -373,7 +373,7 @@
 		event_sound = "env_brook";
 	}
 }
-[t:emt_sound,n:0x073004b5]
+[t:emt_sound,n:0x036004b5]
 {
 	[placement]
 	{
@@ -386,7 +386,7 @@
 		event_sound = "env_brook";
 	}
 }
-[t:emt_sound,n:0x073004b6]
+[t:emt_sound,n:0x036004b6]
 {
 	[placement]
 	{
@@ -399,7 +399,7 @@
 		event_sound = "env_brook";
 	}
 }
-[t:emt_sound,n:0x073004b7]
+[t:emt_sound,n:0x036004b7]
 {
 	[placement]
 	{
@@ -412,7 +412,7 @@
 		event_sound = "env_brook";
 	}
 }
-[t:emt_sound,n:0x073004b8]
+[t:emt_sound,n:0x036004b8]
 {
 	[placement]
 	{
@@ -425,7 +425,7 @@
 		event_sound = "env_brook";
 	}
 }
-[t:emt_sound,n:0x073004c7]
+[t:emt_sound,n:0x036004c7]
 {
 	[placement]
 	{
@@ -441,7 +441,7 @@
 	  i stop_hour = 4;
 	}
 }
-[t:emt_sound,n:0x073004b2]
+[t:emt_sound,n:0x036004b2]
 {
 	[placement]
 	{
@@ -454,7 +454,7 @@
 		event_sound = "env_brook";
 	}
 }
-[t:emt_sound,n:0x073004b3]
+[t:emt_sound,n:0x036004b3]
 {
 	[placement]
 	{
@@ -467,7 +467,7 @@
 		event_sound = "env_brook";
 	}
 }
-[t:emt_sound,n:0x073004c5]
+[t:emt_sound,n:0x036004c5]
 {
 	[placement]
 	{
@@ -483,7 +483,7 @@
 	  i stop_hour = 4;
 	}
 }
-[t:emt_sound_act,n:0x07300495]
+[t:emt_sound_act,n:0x03600495]
 {
 	[placement]
 	{
@@ -495,7 +495,7 @@
 	  b start_on_creation = false;
 	}
 }
-[t:emt_sound,n:0x073004b0]
+[t:emt_sound,n:0x036004b0]
 {
 	[placement]
 	{
@@ -508,7 +508,7 @@
 		event_sound = "env_brook";
 	}
 }
-[t:emt_sound,n:0x073004b1]
+[t:emt_sound,n:0x036004b1]
 {
 	[placement]
 	{
@@ -521,7 +521,7 @@
 		event_sound = "env_brook";
 	}
 }
-[t:emt_sound,n:0x073004c4]
+[t:emt_sound,n:0x036004c4]
 {
 	[placement]
 	{
@@ -537,7 +537,7 @@
 	  i stop_hour = 4;
 	}
 }
-[t:emt_sound,n:0x073004aa]
+[t:emt_sound,n:0x036004aa]
 {
 	[placement]
 	{
@@ -550,7 +550,7 @@
 		event_sound = "env_waterfall";
 	}
 }
-[t:emt_sound,n:0x073004bb]
+[t:emt_sound,n:0x036004bb]
 {
 	[placement]
 	{
@@ -563,7 +563,7 @@
 		event_sound = "env_brook";
 	}
 }
-[t:emt_sound,n:0x073004bc]
+[t:emt_sound,n:0x036004bc]
 {
 	[placement]
 	{
@@ -576,7 +576,7 @@
 		event_sound = "env_waterfall";
 	}
 }
-[t:emt_sound,n:0x073004ac]
+[t:emt_sound,n:0x036004ac]
 {
 	[placement]
 	{
@@ -589,7 +589,7 @@
 		event_sound = "env_brook";
 	}
 }
-[t:emt_sound,n:0x073004ad]
+[t:emt_sound,n:0x036004ad]
 {
 	[placement]
 	{
@@ -602,7 +602,7 @@
 		event_sound = "env_brook";
 	}
 }
-[t:emt_sound,n:0x073004ae]
+[t:emt_sound,n:0x036004ae]
 {
 	[placement]
 	{
@@ -615,7 +615,7 @@
 		event_sound = "env_brook";
 	}
 }
-[t:emt_sound,n:0x073004af]
+[t:emt_sound,n:0x036004af]
 {
 	[placement]
 	{
@@ -628,7 +628,7 @@
 		event_sound = "env_brook";
 	}
 }
-[t:emt_sound,n:0x0730049b]
+[t:emt_sound,n:0x0360049b]
 {
 	[placement]
 	{
