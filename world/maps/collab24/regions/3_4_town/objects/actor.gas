@@ -53,10 +53,10 @@
 }
 [t:c24_3_underling_shop_mage,n:0x03400019]
 {
-    [common]
-    {
-        screen_name = "Lama Dingdong";
-    }
+	[common]
+	{
+		screen_name = "Lama Dingdong";
+	}
 	[conversation]
 	{
 		[conversations]
@@ -342,7 +342,7 @@
 	{
 		dev_instance_text = "MP";
 	  b is_single_player = false;
-        screen_name = "Dingaling";
+		screen_name = "Dingaling";
 	}
 	[conversation]
 	{
@@ -366,6 +366,7 @@
 {
 	[aspect]
 	{
+	  i gold_value = 3000;
 	  f max_life = 58.8;
 	  f max_mana = 34;
 	}
@@ -373,7 +374,7 @@
 	{
 		dev_instance_text = "SP";
 	  b is_multi_player = false;
-        screen_name = "Dingaling";
+		screen_name = "Dingaling";
 	}
 	[conversation]
 	{
