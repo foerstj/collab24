@@ -143,6 +143,35 @@
 	  p position = -2.38112,0,-1.73012,0xefd9931b;
 	}
 }
+[t:trigger_change_mood_box,n:0x03700007]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("multiplayer_world_quarry_4");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(2.000000,1.000000,2.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,-1.49012e-007;
+	  p position = -0.0704041,0,0.813911,0xe21f6afe;
+	}
+}
 [t:trigger_fade_nodes_box,n:0x03700003]
 {
 	[common]
@@ -203,13 +232,11 @@
 {
 	[common]
 	{
-		dev_instance_text = "MOOD, PLAYER LOCATION";
 		[instance_triggers]
 		{
 			[*]
 			{
 				action* = mood_change("multiplayer_world_quarry_4");
-				action* = set_player_world_location("dorneks_stone_quarry");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(5.000000,2.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -271,13 +298,11 @@
 {
 	[common]
 	{
-		dev_instance_text = "MOOD, PLAYER LOCATION";
 		[instance_triggers]
 		{
 			[*]
 			{
 				action* = mood_change("multiplayer_world_quarry_4");
-				action* = set_player_world_location("dorneks_stone_quarry");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(5.000000,2.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -388,24 +413,9 @@
 {
 	[common]
 	{
-		dev_instance_text = "FADE, PLAYER LOCATION";
+		dev_instance_text = "FADE";
 		[instance_triggers]
 		{
-			[*]
-			{
-				action* = set_player_world_location("sulfur_tunnels");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(3.000000,1.000000,6.000000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = quarry_fade_2;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
 			[*]
 			{
 				action* = fade_nodes(0x00000037,2,1,-1,"out:black"), group(1);
@@ -553,13 +563,11 @@
 {
 	[common]
 	{
-		dev_instance_text = "MOOD, PLAYER LOCATION";
 		[instance_triggers]
 		{
 			[*]
 			{
 				action* = mood_change("multiplayer_world_quarry_1");
-				action* = set_player_world_location("dorneks_stone_quarry");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(8.000000,2.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -584,13 +592,11 @@
 {
 	[common]
 	{
-		dev_instance_text = "MOOD, PLAYER LOCATION";
 		[instance_triggers]
 		{
 			[*]
 			{
 				action* = mood_change("multiplayer_world_quarry_1");
-				action* = set_player_world_location("dorneks_stone_quarry");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(10.000000,2.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;

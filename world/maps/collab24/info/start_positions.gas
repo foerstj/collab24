@@ -32,7 +32,7 @@
 		screen_name = "";
 		[start_position]
 		{
-		  i id = 1;
+		  i id = 5;
 			position = -0.103268,-3.000000,-3.978378,0xD54DA38F;
 			[camera]
 			{
@@ -76,6 +76,18 @@
 			  f distance = 20.000000;
 			  f orbit = 0.000000;
 				position = 3.131752,0.000000,3.880371,0x5D7760D6;
+			}
+		}
+		[start_position]
+		{
+		  i id = 1;
+			position = 0.000877,0.000000,0.055840,0xE21F6AFE;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 0.000877,0.000000,0.055840,0xE21F6AFE;
 			}
 		}
 		[world_levels]
