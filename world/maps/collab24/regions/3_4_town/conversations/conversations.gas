@@ -30,12 +30,12 @@
         order = 2;
         screen_text = "These mages are led by the Crystal Master. The guards have spotted him occasionally, but as of now we weren't able to chase him away. We need all manpower to guard the town and the elevators.
 You look like capable fighters though. If you can chase him off, the town would be deeply obliged to you.";
-        activate_quest* = quest_crystal_master;
+        //activate_quest* = quest_crystal_master;
     }
     [text*]
     {
         screen_text = "These mages are led by the Crystal Master. If you can chase him off, the town would be deeply obliged to you.";
-        activate_quest* = quest_crystal_master;
+        //activate_quest* = quest_crystal_master;
     }
 }
 [farmer]
