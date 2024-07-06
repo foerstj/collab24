@@ -1,5 +1,9 @@
 [t:c24_3_underling_npc_01,n:0x03400068]
 {
+	[common]
+	{
+		screen_name = "Mayor Dinghis";
+	}
 	[conversation]
 	{
 		[conversations]
@@ -72,6 +76,10 @@
 }
 [t:c24_3_underling_npc_01,n:0x0340006e]
 {
+	[common]
+	{
+		screen_name = "Barkeeper";
+	}
 	[conversation]
 	{
 		[conversations]
@@ -192,6 +200,10 @@
 }
 [t:c24_3_underling_shop_smith,n:0x03400067]
 {
+	[common]
+	{
+		screen_name = "Ramalam the Smith";
+	}
 	[conversation]
 	{
 		[conversations]
@@ -310,6 +322,10 @@
 }
 [t:c24_3_underling_npc_01,n:0x03400075]
 {
+	[common]
+	{
+		screen_name = "Innkeeper";
+	}
 	[conversation]
 	{
 		[conversations]
@@ -426,6 +442,10 @@
 }
 [t:c24_3_underling_npc_01,n:0x0340006a]
 {
+	[common]
+	{
+		screen_name = "Farmer";
+	}
 	[mind]
 	{
 	  b actor_auto_fidgets = false;
@@ -438,6 +458,10 @@
 }
 [t:c24_3_underling_npc_01,n:0x03400069]
 {
+	[common]
+	{
+		screen_name = "Farmer";
+	}
 	[conversation]
 	{
 		[conversations]

@@ -10,6 +10,10 @@
 		use_range = 1.0;
 		is_ghost_usable = TRUE;
 	}
+	[common]
+	{
+		screen_name = "Underling Smith Shop";
+	}
 	[conversation]
 	{
 	}
