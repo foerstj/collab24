@@ -11,8 +11,8 @@
 	  i elevator_door_level2 = 1;
 	  x elevator_node = 0x2625D180;
 		material = "dm_small";
-		moving1_actioninfo = "collab24_3_crystlayer_blue,4;0x00000035,1,-1,-1,out:black,12;0x00000035,2,-1,-1,in,16;0x00000033,2,-1,-1,in,16;0x00000036,1,-1,-1,in,16;0x00000037,1,-1,-1,out:instant,16";
-		moving2_actioninfo = "0x00000037,1,-1,-1,in:instant,0;0x00000036,1,-1,-1,out:black,0;0x00000035,2,-1,-1,out:black,0;0x00000033,2,-1,-1,out:black,0;0x00000035,1,-1,-1,in,4;collab24_3_shroomlayer_1,4";
+		moving1_actioninfo = "0x00000037,1,-1,-1,out:instant,0;0x00000036,2,-1,-1,out:instant,0;collab24_3_crystlayer_blue,4;0x00000035,1,-1,-1,out:black,12;0x00000035,2,-1,-1,in,16;0x00000036,1,-1,-1,in,16";
+		moving2_actioninfo = "0x00000036,1,-1,-1,out:black,0;0x00000035,2,-1,-1,out:black,0;0x00000035,1,-1,-1,in,4;collab24_3_shroomlayer_1,4;0x00000037,1,-1,-1,in:instant,16;0x00000036,2,-1,-1,in:instant,16";
 	}
 	[placement]
 	{
