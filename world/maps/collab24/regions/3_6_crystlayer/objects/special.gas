@@ -43,7 +43,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_river_canyon_2");
+				action* = mood_change("collab24_3_crystlayer_blue");
 				action* = fade_nodes(0x00000037,1,-1,-1,"out:instant"), doc("wormlayer");
 				action* = fade_nodes(0x00000036,2,-1,-1,"out:instant"), doc("ele tube");
 				action* = fade_nodes(0x00000035,1,-1,-1,"out:instant"), doc("shroomlayer");
@@ -133,7 +133,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_river_canyon_2");
+				action* = mood_change("collab24_3_crystlayer_blue");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(2.000000,1.000000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -161,35 +161,6 @@
 	  p position = -0.225891,0,0.986279,0x4780ec05;
 	}
 }
-[t:trigger_change_mood_box,n:0x03600498]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = mood_change("multiplayer_world_path2crypts_1");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(19.000000,2.000000,1.500000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  q orientation = 0,1,0,0;
-	  p position = 1.93306,1.72147,-0.180872,0xbe78445c;
-	}
-}
 [t:trigger_change_mood_box,n:0x03600008]
 {
 	[common]
@@ -199,7 +170,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_path2crypts_1");
+				action* = mood_change("collab24_3_crystlayer_green");
 				action* = fade_nodes(0x00000037,1,-1,-1,"out:instant"), doc("wormlayer");
 				action* = fade_nodes(0x00000036,2,-1,-1,"out:instant"), doc("ele tube");
 				action* = fade_nodes(0x00000035,1,-1,-1,"out:instant"), doc("shroomlayer");
@@ -266,35 +237,6 @@
 	  p position = -0.0196152,-1.5,-0.0332947,0x26aba53f;
 	}
 }
-[t:trigger_change_mood_box,n:0x03600497]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = mood_change("multiplayer_world_river_canyon_1");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(30.000000,2.000000,2.000000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.19509,0,0.980785;
-	  p position = 0.661181,0,-2.80055,0x8b6c7a3c;
-	}
-}
 [t:trigger_change_mood_box,n:0x0360049a]
 {
 	[common]
@@ -303,7 +245,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_river_canyon_1");
+				action* = mood_change("collab24_3_crystlayer_green");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(2.000000,1.000000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
