@@ -106,6 +106,18 @@
 		}
 	}
 }
+[t:template,n:c24_3_crystal_mage_ar]
+{
+    specializes = c24_3_crystal_mage_base;
+
+    // auto-reveal
+	[mind]
+	{
+		jat_startup = world\ai\jobs\common\job_startup_reveal.skrit
+			?invisible = true
+            &auto_reveal = true;
+	}
+}
 
 [t:template,n:c24_3_crystal_mage_boss]
 {
@@ -125,6 +137,22 @@
 				action* = call_sfx_script("unique_ray_purple(sgx)");
 			}
 		}
+    }
+	[inventory]
+	{
+		selected_active_location = il_active_primary_spell;
+		[other]
+		{
+			il_active_primary_spell = c24_3_spell_crystal_mage_iceblast;
+			il_spell_1 = c24_3_spell_summon_crystal_mage_monster;
+		}
+	}
+    [mind]
+    {
+		jat_cast 						= world\ai\jobs\common\job_cast.skrit
+			?rand_spell					= true
+			&spell_chances				= "0.5,                     0.5"
+			&spells						= "c24_3_spell_crystal_mage_iceblast, c24_3_spell_summon_crystal_mage_monster";
     }
     // auto-reveal
 	[mind]
