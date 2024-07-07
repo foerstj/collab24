@@ -71,7 +71,7 @@
 	}
 	[t:start_group,n:test_slu_eleu]
 	{
-	  b default = false;
+	  b default = true;
 		description = "";
 	  b dev_only = false;
 	  i id = 350;
@@ -117,7 +117,7 @@
 	}
 	[t:start_group,n:test_wlu_eled]
 	{
-	  b default = true;
+	  b default = false;
 		description = "";
 	  b dev_only = false;
 	  i id = 370;
