@@ -31,4 +31,12 @@
 			0x0000345b = 0x527CE2B0,9;
 		}
 	}
+	[t:stitch_editor,n:3_6_crystlayer]
+	{
+		dest_region = 3_6_crystlayer;
+		[node_ids]
+		{
+			0x00003561 = 0x87C74BF8,1;
+		}
+	}
 }
