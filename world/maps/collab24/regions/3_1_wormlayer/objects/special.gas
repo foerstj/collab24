@@ -9,7 +9,7 @@
 {
 	[common]
 	{
-		dev_instance_text = "PWL";
+		dev_instance_text = "ELE - PWL";
 		[instance_triggers]
 		{
 			[*]
@@ -90,7 +90,7 @@
 {
 	[common]
 	{
-		dev_instance_text = "FADE";
+		dev_instance_text = "EXIT - FADE";
 		[instance_triggers]
 		{
 			[*]
@@ -120,7 +120,7 @@
 {
 	[common]
 	{
-		dev_instance_text = "FADE";
+		dev_instance_text = "ENTRY - FADE";
 		[instance_triggers]
 		{
 			[*]
