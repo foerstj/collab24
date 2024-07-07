@@ -10057,13 +10057,13 @@
 		{
 		  i fardoor = 4;
 		  x farguid = 0xAFF35D3A;
-		  i id = 2;
+		  i id = 1;
 		}
 		[door*]
 		{
 		  i fardoor = 3;
 		  x farguid = 0xAFF35D3A;
-		  i id = 1;
+		  i id = 2;
 		}
 	}
 	[t:snode,n:0x264df0f7]
@@ -13317,7 +13317,7 @@
 		}
 		[door*]
 		{
-		  i fardoor = 2;
+		  i fardoor = 1;
 		  x farguid = 0xAFF35D3A;
 		  i id = 11;
 		}
@@ -13335,7 +13335,7 @@
 		}
 		[door*]
 		{
-		  i fardoor = 1;
+		  i fardoor = 2;
 		  x farguid = 0xAFF35D3A;
 		  i id = 12;
 		}
@@ -46206,23 +46206,23 @@
 		{
 		  i fardoor = 11;
 		  x farguid = 0x32B66D16;
-		  i id = 2;
+		  i id = 1;
 		}
 		[door*]
 		{
 		  i fardoor = 12;
 		  x farguid = 0x32B66D16;
-		  i id = 1;
+		  i id = 2;
 		}
 		[door*]
 		{
-		  i fardoor = 2;
+		  i fardoor = 1;
 		  x farguid = 0x2625D180;
 		  i id = 4;
 		}
 		[door*]
 		{
-		  i fardoor = 1;
+		  i fardoor = 2;
 		  x farguid = 0x2625D180;
 		  i id = 3;
 		}
