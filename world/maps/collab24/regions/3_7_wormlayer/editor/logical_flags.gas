@@ -561,12 +561,6 @@
 		{
 		}
 	}
-	[t:lf_snode,n:0x0ead167d]
-	{
-		[t:lf_lnode,n:0]
-		{
-		}
-	}
 	[t:lf_snode,n:0x100a5c81]
 	{
 		[t:lf_lnode,n:0]
@@ -3496,6 +3490,18 @@
 			* = lf_human_player;
 			* = lf_computer_player;
 			* = lf_dirt;
+		}
+	}
+	[t:lf_snode,n:0x459f4646]
+	{
+		[t:lf_lnode,n:0]
+		{
+			* = lf_human_player;
+			* = lf_computer_player;
+			* = lf_dirt;
+		}
+		[t:lf_lnode,n:1]
+		{
 		}
 	}
 	[t:lf_snode,n:0x45dbc60b]
@@ -6484,12 +6490,6 @@
 			* = lf_human_player;
 			* = lf_computer_player;
 			* = lf_dirt;
-		}
-	}
-	[t:lf_snode,n:0x87b37773]
-	{
-		[t:lf_lnode,n:0]
-		{
 		}
 	}
 	[t:lf_snode,n:0x87d60372]
@@ -10668,6 +10668,15 @@
 		{
 		}
 	}
+	[t:lf_snode,n:0xe1c0322d]
+	{
+		[t:lf_lnode,n:0]
+		{
+			* = lf_human_player;
+			* = lf_computer_player;
+			* = lf_dirt;
+		}
+	}
 	[t:lf_snode,n:0xe1c7a3a6]
 	{
 		[t:lf_lnode,n:0]
@@ -10702,15 +10711,6 @@
 		}
 	}
 	[t:lf_snode,n:0xe1eb18fe]
-	{
-		[t:lf_lnode,n:0]
-		{
-			* = lf_human_player;
-			* = lf_computer_player;
-			* = lf_dirt;
-		}
-	}
-	[t:lf_snode,n:0xe21f6afe]
 	{
 		[t:lf_lnode,n:0]
 		{
@@ -10914,6 +10914,24 @@
 		{
 		}
 	}
+	[t:lf_snode,n:0xe59c234c]
+	{
+		[t:lf_lnode,n:0]
+		{
+			* = lf_human_player;
+			* = lf_computer_player;
+			* = lf_dirt;
+		}
+		[t:lf_lnode,n:1]
+		{
+			* = lf_human_player;
+			* = lf_computer_player;
+			* = lf_dirt;
+		}
+		[t:lf_lnode,n:2]
+		{
+		}
+	}
 	[t:lf_snode,n:0xe5db234a]
 	{
 		[t:lf_lnode,n:0]
@@ -11028,18 +11046,6 @@
 			* = lf_dirt;
 		}
 		[t:lf_lnode,n:2]
-		{
-		}
-	}
-	[t:lf_snode,n:0xe979ade5]
-	{
-		[t:lf_lnode,n:0]
-		{
-			* = lf_human_player;
-			* = lf_computer_player;
-			* = lf_dirt;
-		}
-		[t:lf_lnode,n:1]
 		{
 		}
 	}
@@ -11392,6 +11398,24 @@
 		}
 	}
 	[t:lf_snode,n:0xf15be534]
+	{
+		[t:lf_lnode,n:0]
+		{
+			* = lf_human_player;
+			* = lf_computer_player;
+			* = lf_dirt;
+		}
+		[t:lf_lnode,n:1]
+		{
+			* = lf_human_player;
+			* = lf_computer_player;
+			* = lf_dirt;
+		}
+		[t:lf_lnode,n:2]
+		{
+		}
+	}
+	[t:lf_snode,n:0xf1a6b9d0]
 	{
 		[t:lf_lnode,n:0]
 		{
