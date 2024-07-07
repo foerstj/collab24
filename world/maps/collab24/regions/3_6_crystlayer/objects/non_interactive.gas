@@ -7110,18 +7110,6 @@
 	  p position = 0.868183,0,-1.47212,0xd8c0798e;
 	}
 }
-[t:tree_grs_pine_01,n:0x03600325]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.06268;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.694659,0,0.71934;
-	  p position = -3.68442,0,-1.729,0xd8c0798e;
-	}
-}
 [t:bush_des_04,n:0x0360034e]
 {
 	[aspect]
@@ -7252,6 +7240,18 @@
 	{
 	  q orientation = 0,-0.350207,0,0.936672;
 	  p position = 0.682282,0,-1.48344,0x0c2ed572;
+	}
+}
+[t:tree_grs_pine_01,n:0x03600325]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.06268;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.999848,0,0.0174521;
+	  p position = -0.6819,0,1.91285,0xf00b3e5d;
 	}
 }
 [t:bush_grs_rhod_01,n:0x03600050]
