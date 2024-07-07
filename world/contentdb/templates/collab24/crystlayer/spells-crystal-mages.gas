@@ -188,13 +188,13 @@
 		state_name = "Controlling Monster";
 		require_state_check = true;
 	}
-	[spell_summon_random]
+	[spell_summon_multiple]
 	{
-		monster_summon = true;
-		spawn_radius	= 3.0;
-		effect_script = "summon";
-		end_script = "un_summon";
-		script_params = "[scale(1.75)]";
+		flee = true;
+		spawn_num		= 1;  // one at a time
+		effect_script = "fire_summon";  // no white cylinder
+		spawn_radius	= 10.0;
+		spawn_rate		= .75;
 		description = "Summoned Creature";
 		caster_description = "Controlling Summoned";
 	}
