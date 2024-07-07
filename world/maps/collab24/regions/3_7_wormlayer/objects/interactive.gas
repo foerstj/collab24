@@ -57,3 +57,22 @@
 	  p position = 2.39112,-0.228797,-3.27756,0xbb7b9c29;
 	}
 }
+[t:lever_glb_05,n:0x03700006]
+{
+	[on_off_lever]
+	{
+		off_message = we_req_activate;
+	  f off_message_delay = 1;
+	  x off_scid = 0x0360001A;
+	  f on_message_delay = 1;
+	  x on_scid = 0x0360001A;
+	  f reset_time = 18;
+	  f reset_time_2 = 18;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.382683,0,0.92388;
+	  p position = -2.24818,-3,2.2749,0x459f4646;
+		use_point_scids = 0x03700008;
+	}
+}
