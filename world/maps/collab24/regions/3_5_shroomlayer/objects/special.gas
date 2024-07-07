@@ -1,3 +1,10 @@
+[t:use_point,n:0x0350102e]
+{
+	[placement]
+	{
+	  p position = 2.72472,-3,-2.71801,0x32b66d16;
+	}
+}
 [t:trigger_generic,n:0x035010ee]
 {
 	[common]
@@ -25,6 +32,13 @@
 	[placement]
 	{
 	  p position = -0.0692518,-3,-3.31829,0x32b66d16;
+	}
+}
+[t:use_point,n:0x0350102f]
+{
+	[placement]
+	{
+	  p position = 0.0112839,-1.5,0.0284576,0x2625d180;
 	}
 }
 [t:trigger_change_mood_box,n:0x03500841]
