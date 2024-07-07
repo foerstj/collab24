@@ -22,14 +22,6 @@
 	  p position = -2.36854,0.484019,-3.66439,0xbe78445c;
 	}
 }
-[t:c24_3_crystal_mage,n:0x0360016f]
-{
-	[placement]
-	{
-	  q orientation = 0,0.992005,0,-0.126199;
-	  p position = 0.315246,1.03478,0.744303,0xbe78445c;
-	}
-}
 [t:c24_3_crystal_warrior,n:0x03600577]
 {
 	[placement]
@@ -44,14 +36,6 @@
 	{
 	  q orientation = 0,0.965926,0,-0.258819;
 	  p position = 1.60658,1.90735e-006,0.0267143,0x0b26ed71;
-	}
-}
-[t:c24_3_crystal_mage,n:0x03600082]
-{
-	[placement]
-	{
-	  q orientation = 0,0.382683,0,0.92388;
-	  p position = 1.36429,0,-1.02078,0xa449d3a8;
 	}
 }
 [t:c24_3_shard_green,n:0x036003d4]
@@ -204,14 +188,6 @@
 	{
 	  q orientation = 0,0.748956,0,0.66262;
 	  p position = 0.974277,-0.487137,-3.6349,0x8d2e8a36;
-	}
-}
-[t:c24_3_crystal_warrior,n:0x03600533]
-{
-	[placement]
-	{
-	  q orientation = 0,0.83867,0,-0.544639;
-	  p position = 2.30265,0,-3.88861,0xd9d2b85f;
 	}
 }
 [t:c24_3_crystal_warrior,n:0x03600534]
@@ -398,14 +374,6 @@
 	  p position = 0.672756,-1.05489,-1.83613,0x19cc3edc;
 	}
 }
-[t:dsx_golem_frost_ranged,n:0x03600417]
-{
-	[placement]
-	{
-	  q orientation = 0,0.0871554,0,-0.996195;
-	  p position = -1.39381,-0.323198,-0.49485,0x19cc3edc;
-	}
-}
 [t:dsx_golem_frost_ranged,n:0x0360042c]
 {
 	[placement]
@@ -478,6 +446,22 @@
 	  p position = 0.56094,0,1.56634,0x8e3a35c6;
 	}
 }
+[t:c24_3_crystal_mage,n:0x03600082]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.382684,0,0.923879;
+	  p position = 2.19927,-0.430898,-0.861795,0x5c2e4489;
+	}
+}
+[t:c24_3_crystal_mage,n:0x0360016f]
+{
+	[placement]
+	{
+	  q orientation = 0,0.79069,0,0.612217;
+	  p position = 1.45573,-1.2,3.66635,0x2920f894;
+	}
+}
 [t:c24_3_crystal_mage,n:0x036002ea]
 {
 	[placement]
@@ -492,14 +476,6 @@
 	{
 	  q orientation = 0,0.980785,0,0.19509;
 	  p position = -0.991615,0,-0.622738,0x0fdd5087;
-	}
-}
-[t:dsx_golem_frost_ranged,n:0x0360042d]
-{
-	[placement]
-	{
-	  q orientation = 0,0.333807,0,-0.942642;
-	  p position = -1.09164,0,1.06397,0x0fdd5087;
 	}
 }
 [t:c24_3_slarg,n:0x03600159]
@@ -1432,14 +1408,6 @@
 	  p position = 3.30265,-0.722256,-1.44451,0xb4ff1abc;
 	}
 }
-[t:dsx_golem_frost_ranged,n:0x036004e5]
-{
-	[placement]
-	{
-	  q orientation = 0,0.923879,0,0.382683;
-	  p position = 2.3184,-0.497757,-0.995514,0xb4ff1abc;
-	}
-}
 [t:dsx_golem_frost_ranged,n:0x036004e6]
 {
 	[placement]
@@ -1454,14 +1422,6 @@
 	{
 	  q orientation = 0,-0.980785,0,-0.19509;
 	  p position = 1.24067,-0.220535,-0.251236,0xb4ff1abc;
-	}
-}
-[t:dsx_golem_frost_ranged,n:0x036004e8]
-{
-	[placement]
-	{
-	  q orientation = 0,-1,0,-1.93715e-007;
-	  p position = 3.60883,0.804478,2.52239,0xb4ff1abc;
 	}
 }
 [t:dsx_golem_frost_ranged,n:0x036004e9]
@@ -1593,14 +1553,6 @@
 	{
 	  q orientation = 0,0.923879,0,0.382683;
 	  p position = 3.07919,0,-1.17481,0x61b07c40;
-	}
-}
-[t:rock_beast,n:0x036004ea]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.55557,0,0.831469;
-	  p position = -0.949028,0,1.2463,0x61b07c40;
 	}
 }
 [t:c24_3_crystal_fly,n:0x036004f6]
