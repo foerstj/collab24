@@ -1,3 +1,34 @@
+[t:trigger_fade_nodes_box,n:0x0350103a]
+{
+	[common]
+	{
+		dev_instance_text = "EXIT - FADE";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = fade_nodes(0x00000035,2,-1,-1,"in:instant"), doc("ele tube");
+				action* = when_false fade_nodes(0x00000036,1,-1,-1,"in:instant"), doc("crystlayer");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(16.000000,2.000000,1.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = true;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 2.05037,0,-3.95906,0x4533dcd1;
+	}
+}
 [t:use_point,n:0x0350102e]
 {
 	[placement]
@@ -488,6 +519,37 @@
 	[placement]
 	{
 	  p position = -0.0702667,-1.5,-0.513531,0xc7d3bbff;
+	}
+}
+[t:trigger_fade_nodes_box,n:0x0350103b]
+{
+	[common]
+	{
+		dev_instance_text = "ENTRY - FADE";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = fade_nodes(0x00000035,2,-1,-1,"out:instant"), doc("ele tube");
+				action* = when_false fade_nodes(0x00000036,1,-1,-1,"out:instant"), doc("crystlayer");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(16.000000,2.000000,1.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = true;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,5.96046e-008,0,1;
+	  p position = 2.93169,0,0.725105,0x59631520;
 	}
 }
 [t:trigger_generic,n:0x035010d5]
