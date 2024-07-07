@@ -1,4 +1,5 @@
-[t:template,n:c24_3_crystal_mage]
+[t:template,n:c24_3_crystal_mage] { specializes = c24_3_crystal_mage_base; }
+[t:template,n:c24_3_crystal_mage_base]
 {
     specializes = ice_mage_base;
 
@@ -46,29 +47,29 @@
 	{
 		[skills]
 		{
-			  combat_magic = 3, 0;
-			  dexterity = 4, 0;
-			  intelligence = 8, 0;
-			  melee = 1, 0;
-			  strength = 8, 0;
+			strength = 8, 0;
+			dexterity = 4, 0;
+			intelligence = 8, 0;
+			melee = 1, 0;
+			combat_magic = 3, 0;
 		}
 	}
 	[aspect]
 	{
-		  experience_value = 16;
-		  life = 19;
-		  mana = 81;
-		  max_life = 19;
-		  max_mana = 81;
+		experience_value = 16;
+		life = 19;
+		mana = 81;
+		max_life = 19;
+		max_mana = 81;
 	}
 	[attack]
 	{
-		  damage_max = 12;
-		  damage_min = 8;
+		damage_max = 12;
+		damage_min = 8;
 	}
 	[defend]
 	{
-		  defense = 22;
+		defense = 22;
 	}
 	[inventory]
 	{
@@ -100,6 +101,89 @@
 					  chance = 0.1;
 					  il_main = book_glb_magic_01;
 					  il_main = #body,ro/12-17;
+				}
+             }
+		}
+	}
+}
+
+[t:template,n:c24_3_crystal_mage_boss]
+{
+    specializes = c24_3_crystal_mage_base;
+
+    [common]
+    {
+        screen_name = "Crystal Master";
+		membership=monster,immune_charm,immune_control,immune_freeze,immune_polymorph,immune_align_change,immune_explode;
+		[template_triggers]
+		{
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				no_trig_bits = true;
+				action* = call_sfx_script("unique_ray_purple(sgx)");
+			}
+		}
+    }
+    // auto-reveal
+	[mind]
+	{
+		jat_startup = world\ai\jobs\common\job_startup_reveal.skrit
+			?invisible = true
+            &auto_reveal = true;
+	}
+    aspect:textures:0 = b_c_edm_sw-03;  // Lost Witch
+
+    // stats & loot from krug_shaman_boss_01 "Huskar the Shaman"
+	[actor]
+	{
+		[skills]
+		{
+			strength = 10, 0;
+			dexterity = 6, 0;
+			intelligence = 10, 0;
+			melee = 2, 0;
+			combat_magic = 4, 0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 85;
+		life = 44;
+		mana = 500;
+		max_life = 44;
+		max_mana = 500;
+	}
+	[attack]
+	{
+		damage_max = 12;
+		damage_min = 8;
+	}
+	[defend]
+	{
+		defense = 70;
+	}
+	[inventory]
+	{
+		[pcontent]
+		{
+			[all*]
+			{
+				[gold*]
+				{
+					max = 121;
+					min = 84;
+					min_pile = 10;
+					piles = 4 - 6;
+				}
+				[all*]
+				{
+					il_main = #weapon/14-16;
+					il_main = #body/29-35;
+				    il_main = #body,ro/29-35;
+					  max = 2;
+					  min = 1;
 				}
              }
 		}
