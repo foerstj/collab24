@@ -7,6 +7,10 @@
 			* = guard;
 		}
 	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_npc.skrit?talk_anim=;
+	}
 	[placement]
 	{
 	  q orientation = 0,-0.913545,0,-0.406736;
