@@ -1,28 +1,3 @@
-[t:sign_ice_01,n:0x03700205]
-{
-	[common]
-	{
-		dev_instance_text = "sign_1";
-		screen_name = "Town of Meren, 187";
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.207911,0,0.978148;
-	  p position = 1.79757,1.90735e-006,-2.59663,0xbb7b9c29;
-	}
-}
-[t:sign_ice_01,n:0x03700206]
-{
-	[common]
-	{
-		screen_name = "Town of Lang, 96";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.956305,0,0.292371;
-	  p position = 2.39112,-0.228797,-3.27756,0xbb7b9c29;
-	}
-}
 [t:sign_ice_01,n:0x0370024c]
 {
 	[common]
@@ -55,5 +30,30 @@
 	  q orientation = 0,0.707107,0,0.707107;
 	  p position = 0.490263,4.76837e-006,1.82681,0x1279861d;
 		use_point_scids = 0x03700311;
+	}
+}
+[t:sign_ice_01,n:0x03700205]
+{
+	[common]
+	{
+		dev_instance_text = "sign_1";
+		screen_name = "Town of Meren, 187";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.207911,0,0.978148;
+	  p position = 1.79757,1.90735e-006,-2.59663,0xbb7b9c29;
+	}
+}
+[t:sign_ice_01,n:0x03700206]
+{
+	[common]
+	{
+		screen_name = "Town of Lang, 96";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.956305,0,0.292371;
+	  p position = 2.39112,-0.228797,-3.27756,0xbb7b9c29;
 	}
 }
