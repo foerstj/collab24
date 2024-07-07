@@ -2,13 +2,14 @@
 {
 	[common]
 	{
+		dev_instance_text = "MOOD & PWL";
 		[instance_triggers]
 		{
 			[*]
 			{
 				action* = mood_change("multiplayer_world_quarry_1");
 			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(9.000000,2.000000,0.500000,"on_every_enter");
+				condition* = party_member_within_bounding_box(9.000000,2.000000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
@@ -16,6 +17,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("wormlayer");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(9.000000,2.000000,1.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -31,12 +47,12 @@
 {
 	[common]
 	{
-		dev_instance_text = "FADE SR_R2 OVERLAPS";
+		dev_instance_text = "FADE";
 		[instance_triggers]
 		{
 			[*]
 			{
-				action* = fade_nodes(0xAAB10100,1,-1,-1,"in");
+				action* = fade_nodes(0x00000036,1,-1,-1,"in:instant"), doc("stop fading crystlayer on exit");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(8.500000,0.500000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -60,12 +76,12 @@
 {
 	[common]
 	{
-		dev_instance_text = "FADE SR_R2 OVERLAPS";
+		dev_instance_text = "FADE";
 		[instance_triggers]
 		{
 			[*]
 			{
-				action* = fade_nodes(0xAAB10100,1,-1,-1,"out:black");
+				action* = fade_nodes(0x00000036,1,-1,-1,"out:instant"), doc("fade out crystlayer");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(8.500000,0.500000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -96,7 +112,7 @@
 			{
 				action* = mood_change("multiplayer_world_quarry_2");
 			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(6.000000,2.000000,0.500000,"on_every_enter");
+				condition* = party_member_within_bounding_box(6.000000,2.000000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
@@ -124,7 +140,7 @@
 			{
 				action* = mood_change("multiplayer_world_quarry_3");
 			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(8.000000,2.000000,0.500000,"on_every_enter");
+				condition* = party_member_within_bounding_box(8.000000,2.000000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
@@ -147,6 +163,7 @@
 {
 	[common]
 	{
+		dev_instance_text = "DEV STARTPOS - MOOD";
 		[instance_triggers]
 		{
 			[*]
@@ -172,24 +189,25 @@
 	  p position = -0.0704041,0,0.813911,0xe21f6afe;
 	}
 }
-[t:trigger_fade_nodes_box,n:0x03700003]
+[t:trigger_generic,n:0x03700009]
 {
 	[common]
 	{
+		dev_instance_text = "PWL";
 		[instance_triggers]
 		{
 			[*]
 			{
-				action* = fade_nodes(0xAAB10100,1,-1,-1,"in");
+				action* = set_player_world_location("wormlayer");
 			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(4.500000,2.000000,1.000000,"on_every_enter");
+				condition* = party_member_within_bounding_box(8.000000,2.000000,8.000000,"on_every_enter");
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
 			  b no_trig_bits = false;
 				occupants_group = ;
 			  f reset_duration = 0.000000;
-			  b single_player = true;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -197,35 +215,7 @@
 	}
 	[placement]
 	{
-	  p position = -0.127411,-2.05,-2.57714,0x949d55b0;
-	}
-}
-[t:trigger_fade_nodes_box,n:0x03700004]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = fade_nodes(0xAAB10100,1,-1,-1,"out:black");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(4.500000,2.000000,1.000000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  p position = -0.360592,-0.65,-0.317543,0x949d55b0;
+	  p position = -1.63308,-3.8147e-006,0.0278969,0xe21f6afe;
 	}
 }
 [t:trigger_change_mood_box,n:0x0370008d]
@@ -238,7 +228,7 @@
 			{
 				action* = mood_change("multiplayer_world_quarry_4");
 			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(5.000000,2.000000,0.500000,"on_every_enter");
+				condition* = party_member_within_bounding_box(5.000000,2.000000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
@@ -275,7 +265,7 @@
 			{
 				action* = mood_change("multiplayer_world_quarry_3");
 			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(4.000000,2.000000,0.500000,"on_every_enter");
+				condition* = party_member_within_bounding_box(4.000000,2.000000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
@@ -304,7 +294,7 @@
 			{
 				action* = mood_change("multiplayer_world_quarry_4");
 			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(5.000000,2.000000,0.500000,"on_every_enter");
+				condition* = party_member_within_bounding_box(5.000000,2.000000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
@@ -333,7 +323,7 @@
 			{
 				action* = mood_change("multiplayer_world_quarry_3");
 			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(4.000000,2.000000,0.500000,"on_every_enter");
+				condition* = party_member_within_bounding_box(4.000000,2.000000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
@@ -362,7 +352,7 @@
 			{
 				action* = mood_change("multiplayer_world_quarry_2");
 			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(4.000000,2.000000,0.500000,"on_every_enter");
+				condition* = party_member_within_bounding_box(4.000000,2.000000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
@@ -390,7 +380,7 @@
 			{
 				action* = mood_change("multiplayer_world_quarry_2");
 			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(6.000000,2.000000,0.500000,"on_every_enter");
+				condition* = party_member_within_bounding_box(6.000000,2.000000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
@@ -409,156 +399,6 @@
 	  p position = 1.49498,0,-1.54344,0x9339c5fa;
 	}
 }
-[t:trigger_generic,n:0x03700083]
-{
-	[common]
-	{
-		dev_instance_text = "FADE";
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = fade_nodes(0x00000037,2,1,-1,"out:black"), group(1);
-				action* = fade_nodes(0xAAB10100,1,4,-1,"out:black"), group(1);
-				action* = fade_nodes(0x00000037,2,1,-1,"in"), group(2);
-				action* = fade_nodes(0xAAB10100,1,4,-1,"in"), group(2);
-			  b can_self_destruct = true;
-				condition* = party_member_left_trigger_group("quarry_fade_2","on_every_leave"), group(2);
-				condition* = party_member_entered_trigger_group("quarry_fade_2","on_every_enter"), group(1);
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  p position = -0.376518,-11.8549,0.0976219,0xe979ade5;
-	}
-}
-[t:trigger_change_mood_box,n:0x037000b5]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = mood_change("multiplayer_world_quarry_4");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(2.000000,2.000000,0.500000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = -5.8327,-11.8447,7.46873,0xe979ade5;
-	}
-}
-[t:trigger_change_mood_box,n:0x037001d8]
-{
-	[common]
-	{
-		dev_instance_text = "fade";
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = fade_nodes(0x00000037,1,-1,-1,"in"), doc("quarry megamap overlap in");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(3.000000,2.000000,0.500000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  q orientation = 0,1,0,0;
-	  p position = 0.0267639,-11.5922,1.15692,0xe979ade5;
-	}
-}
-[t:trigger_change_mood_box,n:0x037001db]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = mood_change("multiplayer_world_sr2_4");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(4.000000,2.000000,2.000000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  q orientation = 0,1,0,0;
-	  p position = -0.287361,-11.13,5.96563,0xe979ade5;
-	}
-}
-[t:trigger_change_mood_box,n:0x037001da]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = mood_change("multiplayer_world_quarry_4");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(7.000000,2.000000,0.500000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  q orientation = 0,1,0,0;
-	  p position = 3.13496,-5.72205e-006,-1.17432,0x53484a7f;
-	}
-}
 [t:trigger_change_mood_box,n:0x037001df]
 {
 	[common]
@@ -569,7 +409,7 @@
 			{
 				action* = mood_change("multiplayer_world_quarry_1");
 			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(8.000000,2.000000,0.500000,"on_every_enter");
+				condition* = party_member_within_bounding_box(8.000000,2.000000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
@@ -598,7 +438,7 @@
 			{
 				action* = mood_change("multiplayer_world_quarry_1");
 			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(10.000000,2.000000,0.500000,"on_every_enter");
+				condition* = party_member_within_bounding_box(10.000000,2.000000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
@@ -626,7 +466,7 @@
 			{
 				action* = mood_change("multiplayer_world_quarry_2");
 			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(7.000000,2.000000,0.500000,"on_every_enter");
+				condition* = party_member_within_bounding_box(7.000000,2.000000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
@@ -655,7 +495,7 @@
 			{
 				action* = mood_change("multiplayer_world_quarry_3");
 			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(5.000000,2.000000,0.500000,"on_every_enter");
+				condition* = party_member_within_bounding_box(5.000000,2.000000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
