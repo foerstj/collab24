@@ -17,6 +17,7 @@
 	[music]
 	{
 		ambient_track		= "";
+		standard_intro_delay = 4.0f;
 		standard_repeat_delay = 16.0f;
 		standard_track		= s_m_SubRiver_01;
 		room_type			= rt_arena;
@@ -42,6 +43,7 @@
 	[music]
 	{
 		ambient_track		= "";
+		standard_intro_delay = 4.0f;
 		standard_repeat_delay = 16.0f;
 		standard_track		= s_m_SubRiver_02;
 		room_type			= rt_arena;
@@ -67,6 +69,7 @@
 	[music]
 	{
 		ambient_track		= "";
+		standard_intro_delay = 4.0f;
 		standard_repeat_delay = 16.0f;
 		standard_track		= s_m_SubRiver_05;
 		room_type			= rt_arena;
