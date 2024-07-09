@@ -1,0 +1,28 @@
+[chapters]
+{
+	[c24_chapter_3]
+	{
+		screen_name = "Underland";
+		[*]
+		{
+			description = "Deep below the surface of the world, there lie wondrous lands where crystals and mushrooms grow...";
+		  i order = 0;
+		}
+	}
+}
+
+[quests]
+{
+	[c24_3_crystal_master]
+	{
+		chapter = c24_chapter_3;
+		screen_name = "The Crystal Master";
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			description = "Find and slay the Crystal Master who threatens the town of Shroomington";
+		  	i order = 0;
+		  	b required = false;
+		}
+	}
+}
