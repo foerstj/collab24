@@ -4608,7 +4608,7 @@
 		}
 		[door*]
 		{
-		  i fardoor = 5;
+		  i fardoor = 1;
 		  x farguid = 0x459F4646;
 		  i id = 1;
 		}
@@ -5247,13 +5247,13 @@
 		}
 		[door*]
 		{
-		  i fardoor = 4;
+		  i fardoor = 8;
 		  x farguid = 0x459F4646;
 		  i id = 4;
 		}
 		[door*]
 		{
-		  i fardoor = 3;
+		  i fardoor = 7;
 		  x farguid = 0x459F4646;
 		  i id = 5;
 		}
@@ -6941,7 +6941,7 @@
 		}
 		[door*]
 		{
-		  i fardoor = 1;
+		  i fardoor = 5;
 		  x farguid = 0x459F4646;
 		  i id = 1;
 		}
@@ -11039,7 +11039,7 @@
 		}
 		[door*]
 		{
-		  i fardoor = 6;
+		  i fardoor = 2;
 		  x farguid = 0x459F4646;
 		  i id = 3;
 		}
@@ -11955,7 +11955,7 @@
 		{
 		  i fardoor = 1;
 		  x farguid = 0x1E543B9C;
-		  i id = 5;
+		  i id = 1;
 		}
 		[door*]
 		{
@@ -11967,43 +11967,43 @@
 		{
 		  i fardoor = 4;
 		  x farguid = 0x2285F4C1;
-		  i id = 4;
+		  i id = 8;
 		}
 		[door*]
 		{
 		  i fardoor = 5;
 		  x farguid = 0x2285F4C1;
-		  i id = 3;
+		  i id = 7;
 		}
 		[door*]
 		{
 		  i fardoor = 3;
 		  x farguid = 0x40803AAC;
-		  i id = 6;
+		  i id = 2;
 		}
 		[door*]
 		{
 		  i fardoor = 6;
 		  x farguid = 0x86CFE92B;
-		  i id = 7;
+		  i id = 3;
 		}
 		[door*]
 		{
 		  i fardoor = 5;
 		  x farguid = 0x8F74C321;
-		  i id = 8;
+		  i id = 4;
 		}
 		[door*]
 		{
 		  i fardoor = 1;
 		  x farguid = 0x2B3F66B7;
-		  i id = 1;
+		  i id = 5;
 		}
 		[door*]
 		{
 		  i fardoor = 3;
 		  x farguid = 0x86AAC010;
-		  i id = 2;
+		  i id = 6;
 		}
 		[door*]
 		{
@@ -21962,7 +21962,7 @@
 		}
 		[door*]
 		{
-		  i fardoor = 2;
+		  i fardoor = 6;
 		  x farguid = 0x459F4646;
 		  i id = 3;
 		}
@@ -22011,7 +22011,7 @@
 		}
 		[door*]
 		{
-		  i fardoor = 7;
+		  i fardoor = 3;
 		  x farguid = 0x459F4646;
 		  i id = 6;
 		}
@@ -23270,7 +23270,7 @@
 		}
 		[door*]
 		{
-		  i fardoor = 8;
+		  i fardoor = 4;
 		  x farguid = 0x459F4646;
 		  i id = 5;
 		}
