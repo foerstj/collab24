@@ -17,7 +17,7 @@
 		use_point_scids = 0x03700008;
 	}
 }
-[t:sign_ice_01,n:0x03700205]
+[t:sign_glb_01,n:0x03700205]
 {
 	[common]
 	{
@@ -29,7 +29,7 @@
 	  p position = 1.79757,1.90735e-006,-2.59663,0xbb7b9c29;
 	}
 }
-[t:sign_ice_01,n:0x03700206]
+[t:sign_glb_01,n:0x03700206]
 {
 	[common]
 	{
@@ -41,7 +41,7 @@
 	  p position = 2.39112,-0.228797,-3.27756,0xbb7b9c29;
 	}
 }
-[t:sign_ice_01,n:0x0370024c]
+[t:sign_glb_01,n:0x0370024c]
 {
 	[common]
 	{
@@ -53,7 +53,7 @@
 	  p position = 2.55862,1.67692,2.98893,0x949d55b0;
 	}
 }
-[t:sign_ice_01,n:0x0370024d]
+[t:sign_glb_01,n:0x0370024d]
 {
 	[common]
 	{
