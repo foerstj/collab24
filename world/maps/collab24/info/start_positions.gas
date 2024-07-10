@@ -25,7 +25,7 @@
 	}
 	[t:start_group,n:test_clu_eleu]
 	{
-	  b default = false;
+	  b default = true;
 		description = "";
 	  b dev_only = false;
 	  i id = 361;
@@ -94,7 +94,7 @@
 	}
 	[t:start_group,n:test_town]
 	{
-	  b default = true;
+	  b default = false;
 		description = "";
 	  b dev_only = false;
 	  i id = 340;
@@ -125,13 +125,13 @@
 		[start_position]
 		{
 		  i id = 1;
-			position = 1.934055,0.000000,-1.549179,0x1E543B9C;
+			position = 2.784489,-3.000000,-3.253298,0x459F4646;
 			[camera]
 			{
 			  f azimuth = 0.500000;
 			  f distance = 20.000000;
 			  f orbit = 0.000000;
-				position = 1.934055,0.000000,-1.549179,0x1E543B9C;
+				position = 2.784489,-3.000000,-3.253298,0x459F4646;
 			}
 		}
 		[world_levels]
