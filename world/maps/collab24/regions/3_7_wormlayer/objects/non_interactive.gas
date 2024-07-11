@@ -5539,18 +5539,6 @@
 	  p position = -3.46092,0,-0.389227,0xbfc668b3;
 	}
 }
-[t:wood_grs_piece,n:0x0370014e]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.5025;
-	}
-	[placement]
-	{
-	  q orientation = 0.383102,-0.547226,0.638012,0.383037;
-	  p position = -3.51249,0.34487,0.265022,0x2de23d99;
-	}
-}
 [t:rocks_cav_03,n:0x037002a1]
 {
 	[aspect]
