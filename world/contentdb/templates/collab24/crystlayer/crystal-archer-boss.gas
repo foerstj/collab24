@@ -1,0 +1,265 @@
+[t:template,n:ice_archer_boss_01_base]  // = ice_archer_boss_01
+{
+	category_name = "1W_evil_d";
+	doc = "ice_archer boss";
+	specializes = actor_evil;
+	[actor]
+	{
+		[skills]
+		{
+			strength 	=  13, 0;
+			intelligence =  5, 0;
+			dexterity 	=  17, 0;
+            ranged 		=  11,  0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 500;
+		life = 285;
+        max_life = 285;
+        mana = 10;
+		max_mana = 10;
+		model = m_c_edm_ia_pos_1;
+		textures:0 = b_c_edm_iw-03;
+		material = ice;
+		[voice]
+		{
+			[die]			{ priority = high; * = s_e_die_ice_archer; }
+		}
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 51;
+		damage_min = 48;
+	}
+	[body]
+	{
+		avg_move_velocity = 3.3;
+		[bone_translator]
+		{
+			body_anterior = bip01_head;
+			body_mid = bip01_spine2;
+			body_posterior = bip01_pelvis;
+			kill_bone = bip01_spine2;
+			shield_bone = shield_grip;
+			weapon_bone = weapon_grip;
+		}
+		[weapon_scales]
+		{
+			as_bow_and_arrow = 1.3, 1.3, 1.3;
+		}
+		[chore_dictionary]
+		{
+			chore_prefix = a_c_edm_ia_fs;
+			[chore_attack]
+			{
+				chore_stances = 1,6;
+				skrit = select_attack;
+				[anim_files] { 00=at; }
+			}
+			[chore_default]
+			{
+				chore_stances = 1,6;
+				skrit = infinite_loop;
+				[anim_files] { 00=ds; }
+			}
+			[chore_die]
+			{
+				chore_stances = 1,6;
+				skrit = select_transition;
+				[anim_files] { 00=di; }
+			}
+			[chore_fidget]
+			{
+				chore_stances = 1,6;
+				skrit = select_fidget;
+				[anim_files] { 00=dff; }
+			}
+			[chore_walk]
+			{
+				chore_stances = 1,6;
+				skrit = select_walk;
+				[anim_files] { 00=rl; }
+			}
+		}
+	}
+	[common]
+	{
+		screen_name="Frost Archer";
+		membership = monster,immune_charm,immune_control,immune_freeze,immune_polymorph,immune_align_change,immune_explode;
+		[template_triggers]
+		{
+			[*]
+			{
+				action* = call_sfx_script("ice_warrior");
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+			}
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				no_trig_bits = true;
+				action* = call_sfx_script("unique_ray_blue(sgx)");
+			}
+		}
+	}
+    [defend] { defense=174; }
+	[inventory]
+	{
+		selected_active_location = IL_ACTIVE_RANGED_WEAPON;
+    	[pcontent]
+		{
+			[all*]
+			{
+                  es_shield_hand = bw_un_ice_c_m_s_r_avg;
+			}
+
+			[all*]
+			{
+				[oneof*]
+				{
+					il_main = #armor,f/130-145;
+	                il_main = #weapon/44-48;
+				}
+				[gold*]
+				{
+					max = 484;
+					min = 241;
+					min_pile = 35;
+					piles = 3 - 5;
+				}
+			}
+		}
+	}
+
+	[mind]
+	{
+		jat_brain							= world\ai\jobs\common\brain_hero.skrit
+			?actor_creates_own_party			= true
+			&actor_joins_existing_party			= true
+			&stop_flee_alive_party_size			= 1
+			&party_template						= "party_ice_archer";
+
+		jat_fidget 		= world\ai\jobs\common\job_fidget.skrit
+			?still			= false;
+
+		melee_engage_range = 14;
+		personal_space_range = 0.7;
+		ranged_engage_range = 14.0;
+		sight_range = 14.0;
+
+		on_enemy_entered_ocz_flee 	= true;
+		on_enemy_entered_ocz_attack = false;
+		on_enemy_entered_icz_flee 	= true;
+		on_enemy_entered_icz_attack = false;
+		flee_count 					= 1;
+	}
+	[physics]
+	{
+		explode_when_killed = true;
+		explosion_magnitude = 1.25;
+		gib_gore_good = true;
+		[break_particulate]
+		{
+			frag_glb_ice_01 = 2;
+			frag_glb_ice_02 = 2;
+			frag_glb_ice_03 = 3;
+			frag_glb_ice_04 = 2;
+			frag_glb_ice_05 = 1;
+			frag_glb_ice_06 = 2;
+			frag_glb_ice_07 = 2;
+			frag_glb_ice_08 = 2;
+		}
+	}
+}
+
+[t:template,n:c24_3_crystal_archer_boss]
+{
+    specializes = ice_archer_boss_01_base;
+
+    aspect:textures:0 = b_i_cav_gems-02-static;  // purple
+  	[common]
+    {
+        screen_name = "Crystal Archer Boss";
+		[template_triggers]
+		{
+			[*]
+			{
+				action* = call_sfx_script("ice_warrior");
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+			}
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				no_trig_bits = true;
+				action* = call_sfx_script("unique_light_purple(sgx)");
+			}
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				no_trig_bits = true;
+				action* = call_sfx_script("unique_ray_purple(sgx)");
+			}
+		}
+    }
+    [inventory]
+    {
+		spew_equipped_kill_count = ;
+    	[pcontent]
+		{
+			[all*]
+			{
+                es_shield_hand = c24_3_crystal_bow;
+			}
+        }
+    }
+	[physics]
+	{
+		[break_particulate]
+		{
+			frag_glb_crystal_purple_01 = 2;
+			frag_glb_crystal_purple_02 = 2;
+			frag_glb_crystal_purple_03 = 3;
+			frag_glb_crystal_purple_04 = 2;
+			frag_glb_crystal_purple_05 = 1;
+			frag_glb_crystal_purple_06 = 2;
+			frag_glb_crystal_purple_07 = 2;
+			frag_glb_crystal_purple_08 = 2;
+		}
+	}
+
+    // stats from krug_guard, switched to ranged
+	[actor]
+	{
+		[skills]
+		{
+			strength = 11, 0;
+			dexterity = 13,  0;
+			intelligence = 7,  0;
+			ranged = 4,  0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 61;
+		life = 55;
+		mana = 14;
+		max_life = 55;
+		max_mana = 14;
+	}
+	[attack]
+	{
+		damage_max = 26;
+		damage_min = 22;
+	}
+	[defend]
+	{
+		defense = 57;
+	}
+}
