@@ -17,3 +17,13 @@
 [t:template,n:frag_glb_crystal_purple_06] { specializes = fragment; [aspect] { model = m_i_glb_frag-ice-06; textures:0 = b_i_cav_gems-02-static; } }
 [t:template,n:frag_glb_crystal_purple_07] { specializes = fragment; [aspect] { model = m_i_glb_frag-ice-07; textures:0 = b_i_cav_gems-02-static; } }
 [t:template,n:frag_glb_crystal_purple_08] { specializes = fragment; [aspect] { model = m_i_glb_frag-ice-08; textures:0 = b_i_cav_gems-02-static; } }
+
+// red
+[t:template,n:frag_glb_crystal_red_01] { specializes = fragment; [aspect] { model = m_i_glb_frag-ice-01; textures:0 = b_i_cav_gems-05-static; } }
+[t:template,n:frag_glb_crystal_red_02] { specializes = fragment; [aspect] { model = m_i_glb_frag-ice-02; textures:0 = b_i_cav_gems-05-static; } }
+[t:template,n:frag_glb_crystal_red_03] { specializes = fragment; [aspect] { model = m_i_glb_frag-ice-03; textures:0 = b_i_cav_gems-05-static; } }
+[t:template,n:frag_glb_crystal_red_04] { specializes = fragment; [aspect] { model = m_i_glb_frag-ice-04; textures:0 = b_i_cav_gems-05-static; } }
+[t:template,n:frag_glb_crystal_red_05] { specializes = fragment; [aspect] { model = m_i_glb_frag-ice-05; textures:0 = b_i_cav_gems-05-static; } }
+[t:template,n:frag_glb_crystal_red_06] { specializes = fragment; [aspect] { model = m_i_glb_frag-ice-06; textures:0 = b_i_cav_gems-05-static; } }
+[t:template,n:frag_glb_crystal_red_07] { specializes = fragment; [aspect] { model = m_i_glb_frag-ice-07; textures:0 = b_i_cav_gems-05-static; } }
+[t:template,n:frag_glb_crystal_red_08] { specializes = fragment; [aspect] { model = m_i_glb_frag-ice-08; textures:0 = b_i_cav_gems-05-static; } }

@@ -23,9 +23,32 @@
 		{
 		}
 	}
-	[t:start_group,n:test_clu_eleu]
+	[t:start_group,n:test_clu_eled]
 	{
 	  b default = true;
+		description = "";
+	  b dev_only = false;
+	  i id = 1698412;
+		screen_name = "";
+		[start_position]
+		{
+		  i id = 1;
+			position = 3.229518,0.000000,1.304366,0xF375A863;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 0.000000,0.000000,0.000000,0xF375A863;
+			}
+		}
+		[world_levels]
+		{
+		}
+	}
+	[t:start_group,n:test_clu_eleu]
+	{
+	  b default = false;
 		description = "";
 	  b dev_only = false;
 	  i id = 361;
