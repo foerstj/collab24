@@ -151,12 +151,4 @@
 	0x03600a55 = t_xxx_wal_32-thck;
 	0x03600a57 = t_xxx_wal_32-thin;
 	0x03600d1b = t_grs01_heal-area-8x8;
-	0x03600d3b = t_grs02_grs01-08x04-a;
-	0x03600d3c = t_grs02_grs01-tx-grs02-04x04-b;
-	0x03600d3d = t_grs02_grs01-tx-grs02-04x04-c;
-	0x03600d40 = t_grs02_grs01-tx-grs02-08x04-d;
-	0x03600d41 = t_grs02_grs01-tx-grs02-08x04-e;
-	0x03600d43 = t_grs02_rvr-left-a-tx-grs01-a;
-	0x03600d45 = t_grs02_wal-12-tx-grs01-l;
-	0x03600d46 = t_grs02_wal-12-tx-grs01-r;
 }
