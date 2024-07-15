@@ -53,11 +53,11 @@
 	{
 		[break_particulate]
 		{
-			frag_glb_shard_green_01 = 1;
-			frag_glb_shard_green_02 = 1;
-			frag_glb_shard_green_03 = 2;
-			frag_glb_shard_green_04 = 3;
-			frag_glb_shard_green_05 = 3;
+			frag_c24_3_crystal_shard_01_green = 1;
+			frag_c24_3_crystal_shard_02_green = 1;
+			frag_c24_3_crystal_shard_03_green = 2;
+			frag_c24_3_crystal_shard_04_green = 3;
+			frag_c24_3_crystal_shard_05_green = 3;
 		}
 	}
   	[common]
@@ -91,11 +91,11 @@
 	{
 		[break_particulate]
 		{
-			frag_glb_shard_teal_01 = 1;
-			frag_glb_shard_teal_02 = 1;
-			frag_glb_shard_teal_03 = 2;
-			frag_glb_shard_teal_04 = 3;
-			frag_glb_shard_teal_05 = 3;
+			frag_c24_3_crystal_shard_01_teal = 1;
+			frag_c24_3_crystal_shard_02_teal = 1;
+			frag_c24_3_crystal_shard_03_teal = 2;
+			frag_c24_3_crystal_shard_04_teal = 3;
+			frag_c24_3_crystal_shard_05_teal = 3;
 		}
 	}
   	[common]
@@ -129,11 +129,11 @@
 	{
 		[break_particulate]
 		{
-			frag_glb_shard_blue_01 = 1;
-			frag_glb_shard_blue_02 = 1;
-			frag_glb_shard_blue_03 = 2;
-			frag_glb_shard_blue_04 = 3;
-			frag_glb_shard_blue_05 = 3;
+			frag_c24_3_crystal_shard_01_blue = 1;
+			frag_c24_3_crystal_shard_02_blue = 1;
+			frag_c24_3_crystal_shard_03_blue = 2;
+			frag_c24_3_crystal_shard_04_blue = 3;
+			frag_c24_3_crystal_shard_05_blue = 3;
 		}
 	}
   	[common]

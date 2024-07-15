@@ -1,0 +1,51 @@
+// Crystal frags based on the shard models
+
+// base
+[t:template,n:base_frag_c24_3_crystal_shard] { specializes = fragment; aspect:scale_base = 0.2; }
+[t:template,n:base_frag_c24_3_crystal_shard_01] { specializes = base_frag_c24_3_crystal_shard; aspect:model = m_i_glb_frag-shard-01; }
+[t:template,n:base_frag_c24_3_crystal_shard_02] { specializes = base_frag_c24_3_crystal_shard; aspect:model = m_i_glb_frag-shard-02; }
+[t:template,n:base_frag_c24_3_crystal_shard_03] { specializes = base_frag_c24_3_crystal_shard; aspect:model = m_i_glb_frag-shard-03; }
+[t:template,n:base_frag_c24_3_crystal_shard_04] { specializes = base_frag_c24_3_crystal_shard; aspect:model = m_i_glb_frag-shard-04; }
+[t:template,n:base_frag_c24_3_crystal_shard_05] { specializes = base_frag_c24_3_crystal_shard; aspect:model = m_i_glb_frag-shard-05; }
+
+// teal
+[t:template,n:frag_c24_3_crystal_shard_01_teal] { specializes = base_frag_c24_3_crystal_shard_01; aspect:textures:0 = b_i_cav_gems-01-static; }
+[t:template,n:frag_c24_3_crystal_shard_02_teal] { specializes = base_frag_c24_3_crystal_shard_02; aspect:textures:0 = b_i_cav_gems-01-static; }
+[t:template,n:frag_c24_3_crystal_shard_03_teal] { specializes = base_frag_c24_3_crystal_shard_03; aspect:textures:0 = b_i_cav_gems-01-static; }
+[t:template,n:frag_c24_3_crystal_shard_04_teal] { specializes = base_frag_c24_3_crystal_shard_04; aspect:textures:0 = b_i_cav_gems-01-static; }
+[t:template,n:frag_c24_3_crystal_shard_05_teal] { specializes = base_frag_c24_3_crystal_shard_05; aspect:textures:0 = b_i_cav_gems-01-static; }
+
+// purple
+[t:template,n:frag_c24_3_crystal_shard_01_purple] { specializes = base_frag_c24_3_crystal_shard_01; aspect:textures:0 = b_i_cav_gems-02-static; }
+[t:template,n:frag_c24_3_crystal_shard_02_purple] { specializes = base_frag_c24_3_crystal_shard_02; aspect:textures:0 = b_i_cav_gems-02-static; }
+[t:template,n:frag_c24_3_crystal_shard_03_purple] { specializes = base_frag_c24_3_crystal_shard_03; aspect:textures:0 = b_i_cav_gems-02-static; }
+[t:template,n:frag_c24_3_crystal_shard_04_purple] { specializes = base_frag_c24_3_crystal_shard_04; aspect:textures:0 = b_i_cav_gems-02-static; }
+[t:template,n:frag_c24_3_crystal_shard_05_purple] { specializes = base_frag_c24_3_crystal_shard_05; aspect:textures:0 = b_i_cav_gems-02-static; }
+
+// green
+[t:template,n:frag_c24_3_crystal_shard_01_green] { specializes = base_frag_c24_3_crystal_shard_01; aspect:textures:0 = b_i_cav_gems-03-static; }
+[t:template,n:frag_c24_3_crystal_shard_02_green] { specializes = base_frag_c24_3_crystal_shard_02; aspect:textures:0 = b_i_cav_gems-03-static; }
+[t:template,n:frag_c24_3_crystal_shard_03_green] { specializes = base_frag_c24_3_crystal_shard_03; aspect:textures:0 = b_i_cav_gems-03-static; }
+[t:template,n:frag_c24_3_crystal_shard_04_green] { specializes = base_frag_c24_3_crystal_shard_04; aspect:textures:0 = b_i_cav_gems-03-static; }
+[t:template,n:frag_c24_3_crystal_shard_05_green] { specializes = base_frag_c24_3_crystal_shard_05; aspect:textures:0 = b_i_cav_gems-03-static; }
+
+// blue
+[t:template,n:frag_c24_3_crystal_shard_01_blue] { specializes = base_frag_c24_3_crystal_shard_01; aspect:textures:0 = b_i_cav_gems-04-static; }
+[t:template,n:frag_c24_3_crystal_shard_02_blue] { specializes = base_frag_c24_3_crystal_shard_02; aspect:textures:0 = b_i_cav_gems-04-static; }
+[t:template,n:frag_c24_3_crystal_shard_03_blue] { specializes = base_frag_c24_3_crystal_shard_03; aspect:textures:0 = b_i_cav_gems-04-static; }
+[t:template,n:frag_c24_3_crystal_shard_04_blue] { specializes = base_frag_c24_3_crystal_shard_04; aspect:textures:0 = b_i_cav_gems-04-static; }
+[t:template,n:frag_c24_3_crystal_shard_05_blue] { specializes = base_frag_c24_3_crystal_shard_05; aspect:textures:0 = b_i_cav_gems-04-static; }
+
+// red
+[t:template,n:frag_c24_3_crystal_shard_01_red] { specializes = base_frag_c24_3_crystal_shard_01; aspect:textures:0 = b_i_cav_gems-05-static; }
+[t:template,n:frag_c24_3_crystal_shard_02_red] { specializes = base_frag_c24_3_crystal_shard_02; aspect:textures:0 = b_i_cav_gems-05-static; }
+[t:template,n:frag_c24_3_crystal_shard_03_red] { specializes = base_frag_c24_3_crystal_shard_03; aspect:textures:0 = b_i_cav_gems-05-static; }
+[t:template,n:frag_c24_3_crystal_shard_04_red] { specializes = base_frag_c24_3_crystal_shard_04; aspect:textures:0 = b_i_cav_gems-05-static; }
+[t:template,n:frag_c24_3_crystal_shard_05_red] { specializes = base_frag_c24_3_crystal_shard_05; aspect:textures:0 = b_i_cav_gems-05-static; }
+
+// gold
+[t:template,n:frag_c24_3_crystal_shard_01_gold] { specializes = base_frag_c24_3_crystal_shard_01; aspect:textures:0 = b_i_cav_gems-06-static; }
+[t:template,n:frag_c24_3_crystal_shard_02_gold] { specializes = base_frag_c24_3_crystal_shard_02; aspect:textures:0 = b_i_cav_gems-06-static; }
+[t:template,n:frag_c24_3_crystal_shard_03_gold] { specializes = base_frag_c24_3_crystal_shard_03; aspect:textures:0 = b_i_cav_gems-06-static; }
+[t:template,n:frag_c24_3_crystal_shard_04_gold] { specializes = base_frag_c24_3_crystal_shard_04; aspect:textures:0 = b_i_cav_gems-06-static; }
+[t:template,n:frag_c24_3_crystal_shard_05_gold] { specializes = base_frag_c24_3_crystal_shard_05; aspect:textures:0 = b_i_cav_gems-06-static; }
