@@ -1,3 +1,5 @@
+// Crystal frags based on the ice models
+
 // teal
 [t:template,n:frag_glb_crystal_teal_01] { specializes = fragment; [aspect] { model = m_i_glb_frag-ice-01; textures:0 = b_i_cav_gems-01-static; } }
 [t:template,n:frag_glb_crystal_teal_02] { specializes = fragment; [aspect] { model = m_i_glb_frag-ice-02; textures:0 = b_i_cav_gems-01-static; } }
