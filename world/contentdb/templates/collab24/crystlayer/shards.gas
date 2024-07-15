@@ -6,6 +6,10 @@
     {
         scale_base = 0.2;
     }
+    [common]
+    {
+        screen_name = "Crystal Shard";
+    }
 	[inventory]
 	{
 		selected_active_location = il_active_primary_spell;
@@ -58,7 +62,6 @@
 	}
   	[common]
     {
-        screen_name = "Green Shard";
 		[template_triggers]
 		{
 			[*]
@@ -97,7 +100,6 @@
 	}
   	[common]
     {
-        screen_name = "Teal Shard";
 		[template_triggers]
 		{
 			[*]
@@ -136,7 +138,6 @@
 	}
   	[common]
     {
-        screen_name = "Blue Shard";
 		[template_triggers]
 		{
 			[*]
