@@ -75,7 +75,7 @@
     }
 	[inventory]
 	{
-		[other] { il_active_primary_spell=c24_3_spell_shard_zap_green; }
+		[other] { il_active_primary_spell = c24_3_spell_shard_zap_green; }
 	}
 }
 
@@ -113,7 +113,7 @@
     }
 	[inventory]
 	{
-		[other] { il_active_primary_spell=c24_3_spell_shard_zap_teal; }
+		[other] { il_active_primary_spell = c24_3_spell_shard_zap_teal; }
 	}
 }
 
@@ -151,6 +151,120 @@
     }
 	[inventory]
 	{
-		[other] { il_active_primary_spell=c24_3_spell_shard_zap_blue; }
+		[other] { il_active_primary_spell = c24_3_spell_shard_zap_blue; }
+	}
+}
+
+[t:template,n:c24_3_shard_purple]
+{
+    specializes = c24_3_base_shard;
+
+    [aspect]
+    {
+		[textures] { 0 = b_i_cav_gems-02-static; }  // purple
+    }
+	[physics]
+	{
+		[break_particulate]
+		{
+			frag_c24_3_crystal_shard_01_purple = 1;
+			frag_c24_3_crystal_shard_02_purple = 1;
+			frag_c24_3_crystal_shard_03_purple = 2;
+			frag_c24_3_crystal_shard_04_purple = 3;
+			frag_c24_3_crystal_shard_05_purple = 3;
+		}
+	}
+  	[common]
+    {
+		[template_triggers]
+		{
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				no_trig_bits = true;
+				action* = call_sfx_script("unique_light_purple(sgx)");
+			}
+		}
+    }
+	[inventory]
+	{
+		[other] { il_active_primary_spell = c24_3_spell_shard_zap_purple; }
+	}
+}
+
+[t:template,n:c24_3_shard_red]
+{
+    specializes = c24_3_base_shard;
+
+    [aspect]
+    {
+		[textures] { 0 = b_i_cav_gems-05-static; }  // red
+    }
+	[physics]
+	{
+		[break_particulate]
+		{
+			frag_c24_3_crystal_shard_01_red = 1;
+			frag_c24_3_crystal_shard_02_red = 1;
+			frag_c24_3_crystal_shard_03_red = 2;
+			frag_c24_3_crystal_shard_04_red = 3;
+			frag_c24_3_crystal_shard_05_red = 3;
+		}
+	}
+  	[common]
+    {
+		[template_triggers]
+		{
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				no_trig_bits = true;
+				action* = call_sfx_script("unique_light_red(sgx)");
+			}
+		}
+    }
+	[inventory]
+	{
+		[other] { il_active_primary_spell = c24_3_spell_shard_zap_red; }
+	}
+}
+
+[t:template,n:c24_3_shard_gold]
+{
+    specializes = c24_3_base_shard;
+
+    [aspect]
+    {
+		[textures] { 0 = b_i_cav_gems-06-static; }  // gold
+    }
+	[physics]
+	{
+		[break_particulate]
+		{
+			frag_c24_3_crystal_shard_01_gold = 1;
+			frag_c24_3_crystal_shard_02_gold = 1;
+			frag_c24_3_crystal_shard_03_gold = 2;
+			frag_c24_3_crystal_shard_04_gold = 3;
+			frag_c24_3_crystal_shard_05_gold = 3;
+		}
+	}
+  	[common]
+    {
+		[template_triggers]
+		{
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				no_trig_bits = true;
+				action* = call_sfx_script("unique_light_yellow(sgx)");
+			}
+		}
+    }
+	[inventory]
+	{
+		[other] { il_active_primary_spell = c24_3_spell_shard_zap_gold; }
 	}
 }

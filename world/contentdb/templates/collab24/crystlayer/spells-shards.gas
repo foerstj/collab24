@@ -33,7 +33,7 @@
 		{
 			[*]
 			{
-				action* = call_sfx_script("shard_zap_green");
+				action* = call_sfx_script("shard_zap_c24_3_green");
 				condition* = receive_world_message("we_req_cast");
 			}
 		}
@@ -50,7 +50,7 @@
 		{
 			[*]
 			{
-				action* = call_sfx_script("shard_zap_teal");
+				action* = call_sfx_script("shard_zap_c24_3_teal");
 				condition* = receive_world_message("we_req_cast");
 			}
 		}
@@ -67,7 +67,58 @@
 		{
 			[*]
 			{
-				action* = call_sfx_script("shard_zap_blue");
+				action* = call_sfx_script("shard_zap_c24_3_blue");
+				condition* = receive_world_message("we_req_cast");
+			}
+		}
+	}
+}
+
+[t:template,n:c24_3_spell_shard_zap_purple]
+{
+    specializes = c24_3_base_spell_shard_zap;
+
+	[common]
+	{
+		[template_triggers]
+		{
+			[*]
+			{
+				action* = call_sfx_script("shard_zap_c24_3_purple");
+				condition* = receive_world_message("we_req_cast");
+			}
+		}
+	}
+}
+
+[t:template,n:c24_3_spell_shard_zap_red]
+{
+    specializes = c24_3_base_spell_shard_zap;
+
+	[common]
+	{
+		[template_triggers]
+		{
+			[*]
+			{
+				action* = call_sfx_script("shard_zap_c24_3_red");
+				condition* = receive_world_message("we_req_cast");
+			}
+		}
+	}
+}
+
+[t:template,n:c24_3_spell_shard_zap_gold]
+{
+    specializes = c24_3_base_spell_shard_zap;
+
+	[common]
+	{
+		[template_triggers]
+		{
+			[*]
+			{
+				action* = call_sfx_script("shard_zap_c24_3_gold");
 				condition* = receive_world_message("we_req_cast");
 			}
 		}
