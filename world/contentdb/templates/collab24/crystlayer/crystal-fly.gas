@@ -181,14 +181,14 @@
 	{
 		[break_particulate]
 		{
-			frag_glb_crystal_teal_01 = 1;
-			frag_glb_crystal_teal_02 = 2;
-			frag_glb_crystal_teal_03 = 1;
-			frag_glb_crystal_teal_04 = 2;
-			frag_glb_crystal_teal_05 = 1;
-			frag_glb_crystal_teal_06 = 2;
-			frag_glb_crystal_teal_07 = 1;
-			frag_glb_crystal_teal_08 = 2;
+			frag_c24_3_crystal_ice_01_teal = 1;
+			frag_c24_3_crystal_ice_02_teal = 2;
+			frag_c24_3_crystal_ice_03_teal = 1;
+			frag_c24_3_crystal_ice_04_teal = 2;
+			frag_c24_3_crystal_ice_05_teal = 1;
+			frag_c24_3_crystal_ice_06_teal = 2;
+			frag_c24_3_crystal_ice_07_teal = 1;
+			frag_c24_3_crystal_ice_08_teal = 2;
 		}
 	}
 }
@@ -220,14 +220,14 @@
 	{
 		[break_particulate]
 		{
-			frag_glb_crystal_red_01 = 1;
-			frag_glb_crystal_red_02 = 2;
-			frag_glb_crystal_red_03 = 1;
-			frag_glb_crystal_red_04 = 2;
-			frag_glb_crystal_red_05 = 1;
-			frag_glb_crystal_red_06 = 2;
-			frag_glb_crystal_red_07 = 1;
-			frag_glb_crystal_red_08 = 2;
+			frag_c24_3_crystal_ice_01_red = 1;
+			frag_c24_3_crystal_ice_02_red = 2;
+			frag_c24_3_crystal_ice_03_red = 1;
+			frag_c24_3_crystal_ice_04_red = 2;
+			frag_c24_3_crystal_ice_05_red = 1;
+			frag_c24_3_crystal_ice_06_red = 2;
+			frag_c24_3_crystal_ice_07_red = 1;
+			frag_c24_3_crystal_ice_08_red = 2;
 		}
 	}
 }
