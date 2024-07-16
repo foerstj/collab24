@@ -43,7 +43,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("collab24_3_crystlayer_blue");
+				action* = mood_change("collab24_3_crystlayer_red");
 				action* = fade_nodes(0x00000037,1,-1,-1,"out:instant"), doc("wormlayer");
 				action* = fade_nodes(0x00000036,2,-1,-1,"out:instant"), doc("ele tube");
 				action* = fade_nodes(0x00000035,1,-1,-1,"out:instant"), doc("shroomlayer");
@@ -133,7 +133,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("collab24_3_crystlayer_blue");
+				action* = mood_change("collab24_3_crystlayer_red");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(2.000000,1.000000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -170,7 +170,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("collab24_3_crystlayer_green");
+				action* = mood_change("collab24_3_crystlayer_gold");
 				action* = fade_nodes(0x00000037,1,-1,-1,"out:instant"), doc("wormlayer");
 				action* = fade_nodes(0x00000036,2,-1,-1,"out:instant"), doc("ele tube");
 				action* = fade_nodes(0x00000035,1,-1,-1,"out:instant"), doc("shroomlayer");
@@ -245,7 +245,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("collab24_3_crystlayer_green");
+				action* = mood_change("collab24_3_crystlayer_gold");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(2.000000,1.000000,1.000000,"on_every_enter");
 			  f delay = 0.000000;

@@ -75,3 +75,55 @@
 		room_type			= rt_arena;
 	}
 }
+
+[mood_setting*]
+{
+	mood_name				= collab24_3_crystlayer_red;
+	transition_time			= 8.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 10.0f;
+		fog_far_dist		= 50.0f;
+		fog_lowdetail_near_dist		= 10.0f;
+		fog_lowdetail_far_dist		= 45.0f;
+		fog_color			= 0xFF200010;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_intro_delay = 4.0f;
+		standard_repeat_delay = 16.0f;
+		standard_track		= s_m_SubRiver_03;  // calm
+		room_type			= rt_arena;
+	}
+}
+
+[mood_setting*]
+{
+	mood_name				= collab24_3_crystlayer_gold;
+	transition_time			= 8.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 10.0f;
+		fog_far_dist		= 50.0f;
+		fog_lowdetail_near_dist		= 10.0f;
+		fog_lowdetail_far_dist		= 45.0f;
+		fog_color			= 0xFF201000;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_intro_delay = 4.0f;
+		standard_repeat_delay = 16.0f;
+		standard_track		= s_m_SubRiver_04;  // psycho
+		room_type			= rt_arena;
+	}
+}

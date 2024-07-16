@@ -12,7 +12,7 @@
 	  x elevator_node = 0x26ABA53F;
 		material = "dm_small";
 		moving1_actioninfo = "0x00000035,1,-1,-1,in:instant,0;collab24_3_wormlayer_2,4;0x00000036,1,-1,-1,out:black,12;0x00000036,2,-1,-1,in,16;0x00000037,1,-1,-1,in,16";
-		moving2_actioninfo = "0x00000037,1,-1,-1,out:black,0;0x00000036,2,-1,-1,out:black,0;0x00000036,1,-1,-1,in,4;collab24_3_crystlayer_green,4;0x00000035,1,-1,-1,out:instant,16";
+		moving2_actioninfo = "0x00000037,1,-1,-1,out:black,0;0x00000036,2,-1,-1,out:black,0;0x00000036,1,-1,-1,in,4;collab24_3_crystlayer_gold,4;0x00000035,1,-1,-1,out:instant,16";
 	}
 	[placement]
 	{
