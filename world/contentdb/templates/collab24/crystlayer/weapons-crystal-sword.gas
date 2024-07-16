@@ -30,13 +30,10 @@
 	}
 }
 
-[t:template,n:c24_3_crystal_sword]
+[t:template,n:c24_3_base_crystal_sword]
 {
     specializes = sd_un_ice_avg_base;
-	[aspect]
-	{
-		textures:0 = b_i_cav_gems-03-static;  // green
-	}
+
     common:screen_name = "Crystal Sword";
 
     // stats from ax_d_c_1h1b_avg (krug_raider)
@@ -46,3 +43,10 @@
 	  f damage_min = 14.000000;
 	}
 }
+
+[t:template,n:c24_3_crystal_sword_teal]   { specializes = c24_3_base_crystal_sword; aspect:textures:0 = b_i_cav_gems-01-static; }
+[t:template,n:c24_3_crystal_sword_purple] { specializes = c24_3_base_crystal_sword; aspect:textures:0 = b_i_cav_gems-02-static; }
+[t:template,n:c24_3_crystal_sword_green]  { specializes = c24_3_base_crystal_sword; aspect:textures:0 = b_i_cav_gems-03-static; }
+[t:template,n:c24_3_crystal_sword_blue]   { specializes = c24_3_base_crystal_sword; aspect:textures:0 = b_i_cav_gems-04-static; }
+[t:template,n:c24_3_crystal_sword_red]    { specializes = c24_3_base_crystal_sword; aspect:textures:0 = b_i_cav_gems-05-static; }
+[t:template,n:c24_3_crystal_sword_gold]   { specializes = c24_3_base_crystal_sword; aspect:textures:0 = b_i_cav_gems-06-static; }

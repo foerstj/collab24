@@ -6,11 +6,14 @@
 	[common] { screen_name="Ice Arrow"; }
 }
 
-[t:template,n:arrow_crystal]
+[t:template,n:base_arrow_crystal]
 {
     specializes = arrow_ice_base;
-	[aspect]
-	{
-		textures:0 = b_i_cav_gems-02-static;  // purple
-	}
 }
+
+[t:template,n:arrow_crystal_teal]   { specializes = base_arrow_crystal; aspect:textures:0 = b_i_cav_gems-01-static; }
+[t:template,n:arrow_crystal_purple] { specializes = base_arrow_crystal; aspect:textures:0 = b_i_cav_gems-02-static; }
+[t:template,n:arrow_crystal_green]  { specializes = base_arrow_crystal; aspect:textures:0 = b_i_cav_gems-03-static; }
+[t:template,n:arrow_crystal_blue]   { specializes = base_arrow_crystal; aspect:textures:0 = b_i_cav_gems-04-static; }
+[t:template,n:arrow_crystal_red]    { specializes = base_arrow_crystal; aspect:textures:0 = b_i_cav_gems-05-static; }
+[t:template,n:arrow_crystal_gold]   { specializes = base_arrow_crystal; aspect:textures:0 = b_i_cav_gems-06-static; }

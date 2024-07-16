@@ -6,13 +6,6 @@
     [inventory]
     {
 		spew_equipped_kill_count = ;
-    	[pcontent]
-		{
-			[all*]
-			{
-                es_weapon_hand = c24_3_crystal_sword;
-			}
-        }
     }
 
     // stats from krug_raider
@@ -70,6 +63,16 @@
 			}
 		}
     }
+    [inventory]
+    {
+    	[pcontent]
+		{
+			[all*]
+			{
+                es_weapon_hand = c24_3_crystal_sword_teal;
+			}
+        }
+    }
 	[physics]
 	{
 		[break_particulate]
@@ -110,6 +113,16 @@
 				action* = call_sfx_script("crystal_light_purple(sgx)");
 			}
 		}
+    }
+    [inventory]
+    {
+    	[pcontent]
+		{
+			[all*]
+			{
+                es_weapon_hand = c24_3_crystal_sword_purple;
+			}
+        }
     }
 	[physics]
 	{
@@ -152,6 +165,16 @@
 			}
 		}
     }
+    [inventory]
+    {
+    	[pcontent]
+		{
+			[all*]
+			{
+                es_weapon_hand = c24_3_crystal_sword_green;
+			}
+        }
+    }
 	[physics]
 	{
 		[break_particulate]
@@ -192,6 +215,16 @@
 				action* = call_sfx_script("crystal_light_blue(sgx)");
 			}
 		}
+    }
+    [inventory]
+    {
+    	[pcontent]
+		{
+			[all*]
+			{
+                es_weapon_hand = c24_3_crystal_sword_blue;
+			}
+        }
     }
 	[physics]
 	{
@@ -234,6 +267,16 @@
 			}
 		}
     }
+    [inventory]
+    {
+    	[pcontent]
+		{
+			[all*]
+			{
+                es_weapon_hand = c24_3_crystal_sword_red;
+			}
+        }
+    }
 	[physics]
 	{
 		[break_particulate]
@@ -274,6 +317,16 @@
 				action* = call_sfx_script("crystal_light_yellow(sgx)");
 			}
 		}
+    }
+    [inventory]
+    {
+    	[pcontent]
+		{
+			[all*]
+			{
+                es_weapon_hand = c24_3_crystal_sword_gold;
+			}
+        }
     }
 	[physics]
 	{
