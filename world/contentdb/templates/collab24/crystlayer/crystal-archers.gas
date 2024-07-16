@@ -85,3 +85,85 @@
 		}
 	}
 }
+
+[t:template,n:c24_3_crystal_archer_green]
+{
+    specializes = c24_3_base_crystal_archer;
+
+    aspect:textures:0 = b_i_cav_gems-03-static;  // green
+  	[common]
+    {
+		[template_triggers]
+		{
+			[*]
+			{
+				action* = call_sfx_script("ice_warrior");
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+			}
+            // ADDED:
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				no_trig_bits = true;
+				action* = call_sfx_script("unique_light_green(sgx)");
+			}
+		}
+    }
+	[physics]
+	{
+		[break_particulate]
+		{
+			frag_c24_3_crystal_ice_01_green = 2;
+			frag_c24_3_crystal_ice_02_green = 2;
+			frag_c24_3_crystal_ice_03_green = 3;
+			frag_c24_3_crystal_ice_04_green = 2;
+			frag_c24_3_crystal_ice_05_green = 1;
+			frag_c24_3_crystal_ice_06_green = 2;
+			frag_c24_3_crystal_ice_07_green = 2;
+			frag_c24_3_crystal_ice_08_green = 2;
+		}
+	}
+}
+
+[t:template,n:c24_3_crystal_archer_blue]
+{
+    specializes = c24_3_base_crystal_archer;
+
+    aspect:textures:0 = b_i_cav_gems-04-static;  // blue
+  	[common]
+    {
+		[template_triggers]
+		{
+			[*]
+			{
+				action* = call_sfx_script("ice_warrior");
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+			}
+            // ADDED:
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				no_trig_bits = true;
+				action* = call_sfx_script("unique_light_blue(sgx)");
+			}
+		}
+    }
+	[physics]
+	{
+		[break_particulate]
+		{
+			frag_c24_3_crystal_ice_01_blue = 2;
+			frag_c24_3_crystal_ice_02_blue = 2;
+			frag_c24_3_crystal_ice_03_blue = 3;
+			frag_c24_3_crystal_ice_04_blue = 2;
+			frag_c24_3_crystal_ice_05_blue = 1;
+			frag_c24_3_crystal_ice_06_blue = 2;
+			frag_c24_3_crystal_ice_07_blue = 2;
+			frag_c24_3_crystal_ice_08_blue = 2;
+		}
+	}
+}
