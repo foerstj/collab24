@@ -1,0 +1,16 @@
+[t:template,n:arrow_ice_base]  // = arrow_ice
+{
+	doc = "Ice arrow";
+	specializes = base_arrow;
+	[aspect] { model=m_w_arw_003; }
+	[common] { screen_name="Ice Arrow"; }
+}
+
+[t:template,n:arrow_crystal]
+{
+    specializes = arrow_ice_base;
+	[aspect]
+	{
+		textures:0 = b_i_cav_gems-02-static;  // purple
+	}
+}
