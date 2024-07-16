@@ -1,0 +1,58 @@
+[t:template,n:c24_3_base_crystal_beast]
+{
+    specializes = rock_beast_base;
+
+    common:screen_name = "Crystal Beast";
+}
+
+[t:template,n:c24_3_crystal_beast_red]
+{
+    specializes = c24_3_base_crystal_beast;
+
+    aspect:textures:0 = b_i_cav_gems-05-static;  // red
+  	[common]
+    {
+		[template_triggers]
+		{
+			[*]
+			{
+				action* = call_sfx_script("ice_warrior");
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+			}
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				no_trig_bits = true;
+				action* = call_sfx_script("unique_light_red(sgx)");
+			}
+		}
+    }
+}
+
+[t:template,n:c24_3_crystal_beast_gold]
+{
+    specializes = c24_3_base_crystal_beast;
+
+    aspect:textures:0 = b_i_cav_gems-06-static;  // gold
+  	[common]
+    {
+		[template_triggers]
+		{
+			[*]
+			{
+				action* = call_sfx_script("ice_warrior");
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+			}
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				no_trig_bits = true;
+				action* = call_sfx_script("unique_light_yellow(sgx)");
+			}
+		}
+    }
+}
