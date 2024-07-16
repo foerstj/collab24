@@ -211,7 +211,7 @@
 				condition* = receive_world_message("WE_ENTERED_WORLD");
 				single_shot = true;
 				no_trig_bits = true;
-				action* = call_sfx_script("unique_light_purple(sgx)");
+				action* = call_sfx_script("crystal_light_purple(sgx)");
 			}
 			[*]
 			{

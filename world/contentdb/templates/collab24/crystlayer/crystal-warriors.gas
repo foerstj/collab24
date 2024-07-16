@@ -66,7 +66,7 @@
 				condition* = receive_world_message("WE_ENTERED_WORLD");
 				single_shot = true;
 				no_trig_bits = true;
-				action* = call_sfx_script("unique_light_cyan(sgx)");
+				action* = call_sfx_script("crystal_light_cyan(sgx)");
 			}
 		}
     }
@@ -107,7 +107,7 @@
 				condition* = receive_world_message("WE_ENTERED_WORLD");
 				single_shot = true;
 				no_trig_bits = true;
-				action* = call_sfx_script("unique_light_purple(sgx)");
+				action* = call_sfx_script("crystal_light_purple(sgx)");
 			}
 		}
     }
@@ -148,7 +148,7 @@
 				condition* = receive_world_message("WE_ENTERED_WORLD");
 				single_shot = true;
 				no_trig_bits = true;
-				action* = call_sfx_script("unique_light_green(sgx)");
+				action* = call_sfx_script("crystal_light_green(sgx)");
 			}
 		}
     }
@@ -189,7 +189,7 @@
 				condition* = receive_world_message("WE_ENTERED_WORLD");
 				single_shot = true;
 				no_trig_bits = true;
-				action* = call_sfx_script("unique_light_blue(sgx)");
+				action* = call_sfx_script("crystal_light_blue(sgx)");
 			}
 		}
     }
@@ -230,7 +230,7 @@
 				condition* = receive_world_message("WE_ENTERED_WORLD");
 				single_shot = true;
 				no_trig_bits = true;
-				action* = call_sfx_script("unique_light_red(sgx)");
+				action* = call_sfx_script("crystal_light_red(sgx)");
 			}
 		}
     }
@@ -271,7 +271,7 @@
 				condition* = receive_world_message("WE_ENTERED_WORLD");
 				single_shot = true;
 				no_trig_bits = true;
-				action* = call_sfx_script("unique_light_yellow(sgx)");
+				action* = call_sfx_script("crystal_light_yellow(sgx)");
 			}
 		}
     }

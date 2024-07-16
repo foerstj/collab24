@@ -1,0 +1,65 @@
+[effect_script*]
+{
+	name	=crystal_light_red;
+
+	script	=[[
+			sfx create lightsource #TARGET 
+				"color0(3,0,0)color1(3,0,0)frequency(1)iradius(1)radius(4)";
+			sfx start #POP;
+			]];
+}
+
+[effect_script*]
+{
+	name	=crystal_light_green;
+
+	script	=[[
+			sfx create lightsource #TARGET 
+				"color0(0,3,0)color1(0,3,0)frequency(1)iradius(1)radius(4)";
+			sfx start #POP;
+			]];
+}
+
+[effect_script*]
+{
+	name	=crystal_light_blue;
+
+	script	=[[
+			sfx create lightsource #TARGET 
+				"color0(0,0,3)color1(0,0,3)frequency(1)iradius(1)radius(4)";
+			sfx start #POP;
+			]];
+}
+
+[effect_script*]
+{
+	name	=crystal_light_yellow;
+
+	script	=[[
+			sfx create lightsource #TARGET 
+				"color0(3,3,0)color1(3,3,0)frequency(1)iradius(1)radius(4)";
+			sfx start #POP;
+			]];
+}
+
+[effect_script*]
+{
+	name	=crystal_light_cyan;
+
+	script	=[[
+			sfx create lightsource #TARGET 
+				"color0(0,3,3)color1(0,3,3)frequency(1)iradius(1)radius(4)";
+			sfx start #POP;
+			]];
+}
+
+[effect_script*]
+{
+	name	=crystal_light_purple;
+
+	script	=[[
+			sfx create lightsource #TARGET 
+				"color0(3,0,3)color1(3,0,3)frequency(1)iradius(1)radius(4)";
+			sfx start #POP;
+			]];
+}
