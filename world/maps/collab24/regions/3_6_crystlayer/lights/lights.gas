@@ -16554,7 +16554,7 @@
 	  b affects_actors = true;
 	  b affects_items = true;
 	  b affects_terrain = true;
-	  x color = 0xFFFFFFFF;
+	  x color = 0xFFFF00FF;
 	  b draw_shadow = false;
 	  f inner_radius = 0.000000;
 	  f intensity = 1.000000;
@@ -16564,9 +16564,9 @@
 		[position]
 		{
 		  x node = 0xE5F67CFA;
-		  f x = 2.542701;
+		  f x = -0.119740;
 		  f y = 2.788944;
-		  f z = -3.163322;
+		  f z = -1.711449;
 		}
 	}
 	[t:point,n:light_0xbb49c776]
