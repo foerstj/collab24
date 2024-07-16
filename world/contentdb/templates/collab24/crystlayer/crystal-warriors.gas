@@ -1,28 +1,8 @@
-[t:template,n:c24_3_crystal_warrior]
+[t:template,n:c24_3_base_crystal_warrior]
 {
     specializes = ice_warrior_base;
 
-    aspect:textures:0 = b_i_cav_gems-01-static;  // teal
-  	[common]
-    {
-        screen_name = "Crystal Warrior";
-		[template_triggers]
-		{
-			[*]
-			{
-				action* = call_sfx_script("ice_warrior");
-				condition* = receive_world_message("WE_ENTERED_WORLD");
-				single_shot = true;
-			}
-			[*]
-			{
-				condition* = receive_world_message("WE_ENTERED_WORLD");
-				single_shot = true;
-				no_trig_bits = true;
-				action* = call_sfx_script("unique_light_cyan(sgx)");
-			}
-		}
-    }
+    common:screen_name = "Crystal Warrior";
     [inventory]
     {
 		spew_equipped_kill_count = ;
@@ -34,20 +14,6 @@
 			}
         }
     }
-	[physics]
-	{
-		[break_particulate]
-		{
-			frag_c24_3_crystal_ice_01_teal = 2;
-			frag_c24_3_crystal_ice_02_teal = 1;
-			frag_c24_3_crystal_ice_03_teal = 3;
-			frag_c24_3_crystal_ice_04_teal = 1;
-			frag_c24_3_crystal_ice_05_teal = 2;
-			frag_c24_3_crystal_ice_06_teal = 1;
-			frag_c24_3_crystal_ice_07_teal = 1;
-			frag_c24_3_crystal_ice_08_teal = 3;
-		}
-	}
 
     // stats from krug_raider
 	[actor]
@@ -76,5 +42,46 @@
 	[defend]
 	{
 		  defense = 42;
+	}
+}
+
+[t:template,n:c24_3_crystal_warrior_teal]
+{
+    specializes = c24_3_base_crystal_warrior;
+
+    aspect:textures:0 = b_i_cav_gems-01-static;  // teal
+  	[common]
+    {
+		[template_triggers]
+		{
+			[*]
+			{
+				action* = call_sfx_script("ice_warrior");
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+			}
+            // ADDED:
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				no_trig_bits = true;
+				action* = call_sfx_script("unique_light_cyan(sgx)");
+			}
+		}
+    }
+	[physics]
+	{
+		[break_particulate]
+		{
+			frag_c24_3_crystal_ice_01_teal = 2;
+			frag_c24_3_crystal_ice_02_teal = 1;
+			frag_c24_3_crystal_ice_03_teal = 3;
+			frag_c24_3_crystal_ice_04_teal = 1;
+			frag_c24_3_crystal_ice_05_teal = 2;
+			frag_c24_3_crystal_ice_06_teal = 1;
+			frag_c24_3_crystal_ice_07_teal = 1;
+			frag_c24_3_crystal_ice_08_teal = 3;
+		}
 	}
 }

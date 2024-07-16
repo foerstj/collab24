@@ -71,12 +71,12 @@
 				[all*]
 				{
 					chance = 0.5;
-					il_main = c24_3_crystal_archer;
+					il_main = c24_3_crystal_archer_teal;
 				}
 				[all*]
 				{
 					chance = 0.5;
-					il_main = c24_3_crystal_warrior;
+					il_main = c24_3_crystal_warrior_teal;
 				}
 			}
 		}
