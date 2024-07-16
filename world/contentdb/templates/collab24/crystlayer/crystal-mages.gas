@@ -1,5 +1,4 @@
-[t:template,n:c24_3_crystal_mage] { specializes = c24_3_crystal_mage_base; }
-[t:template,n:c24_3_crystal_mage_base]
+[t:template,n:c24_3_base_crystal_mage]
 {
     specializes = ice_mage_base;
 
@@ -7,19 +6,7 @@
 	[inventory]
 	{
 		selected_active_location = il_active_primary_spell;
-		[other]
-		{
-			il_active_primary_spell = c24_3_spell_crystal_mage_iceblast;
-			il_spell_1 = c24_3_spell_summon_crystal_warriors_monster;
-		}
 	}
-    [mind]
-    {
-		jat_cast 						= world\ai\jobs\common\job_cast.skrit
-			?rand_spell					= true
-			&spell_chances				= "0.5,                     0.5"
-			&spells						= "c24_3_spell_crystal_mage_iceblast, c24_3_spell_summon_crystal_warriors_monster";
-    }
 
     // reveal
 	[mind]
@@ -106,9 +93,142 @@
 		}
 	}
 }
-[t:template,n:c24_3_crystal_mage_ar]
+
+[t:template,n:c24_3_crystal_mage_teal] { specializes = c24_3_crystal_mage_teal_base; }
+[t:template,n:c24_3_crystal_mage_teal_base]
 {
-    specializes = c24_3_crystal_mage_base;
+    specializes = c24_3_base_crystal_mage;
+
+	[inventory]
+	{
+		[other]
+		{
+			il_active_primary_spell = c24_3_spell_crystal_mage_iceblast;
+			il_spell_1 = c24_3_spell_summon_crystal_warriors_monster_teal;
+		}
+	}
+    [mind]
+    {
+		jat_cast 						= world\ai\jobs\common\job_cast.skrit
+			?rand_spell					= true
+			&spell_chances				= "0.5,                     0.5"
+			&spells						= "c24_3_spell_crystal_mage_iceblast, c24_3_spell_summon_crystal_warriors_monster_teal";
+    }
+}
+
+[t:template,n:c24_3_crystal_mage_purple] { specializes = c24_3_crystal_mage_purple_base; }
+[t:template,n:c24_3_crystal_mage_purple_base]
+{
+    specializes = c24_3_base_crystal_mage;
+
+	[inventory]
+	{
+		[other]
+		{
+			il_active_primary_spell = c24_3_spell_crystal_mage_iceblast;
+			il_spell_1 = c24_3_spell_summon_crystal_warriors_monster_purple;
+		}
+	}
+    [mind]
+    {
+		jat_cast 						= world\ai\jobs\common\job_cast.skrit
+			?rand_spell					= true
+			&spell_chances				= "0.5,                     0.5"
+			&spells						= "c24_3_spell_crystal_mage_iceblast, c24_3_spell_summon_crystal_warriors_monster_purple";
+    }
+}
+
+[t:template,n:c24_3_crystal_mage_green] { specializes = c24_3_crystal_mage_green_base; }
+[t:template,n:c24_3_crystal_mage_green_base]
+{
+    specializes = c24_3_base_crystal_mage;
+
+	[inventory]
+	{
+		[other]
+		{
+			il_active_primary_spell = c24_3_spell_crystal_mage_iceblast;
+			il_spell_1 = c24_3_spell_summon_crystal_warriors_monster_green;
+		}
+	}
+    [mind]
+    {
+		jat_cast 						= world\ai\jobs\common\job_cast.skrit
+			?rand_spell					= true
+			&spell_chances				= "0.5,                     0.5"
+			&spells						= "c24_3_spell_crystal_mage_iceblast, c24_3_spell_summon_crystal_warriors_monster_green";
+    }
+}
+
+[t:template,n:c24_3_crystal_mage_blue] { specializes = c24_3_crystal_mage_blue_base; }
+[t:template,n:c24_3_crystal_mage_blue_base]
+{
+    specializes = c24_3_base_crystal_mage;
+
+	[inventory]
+	{
+		[other]
+		{
+			il_active_primary_spell = c24_3_spell_crystal_mage_iceblast;
+			il_spell_1 = c24_3_spell_summon_crystal_warriors_monster_blue;
+		}
+	}
+    [mind]
+    {
+		jat_cast 						= world\ai\jobs\common\job_cast.skrit
+			?rand_spell					= true
+			&spell_chances				= "0.5,                     0.5"
+			&spells						= "c24_3_spell_crystal_mage_iceblast, c24_3_spell_summon_crystal_warriors_monster_blue";
+    }
+}
+
+[t:template,n:c24_3_crystal_mage_red] { specializes = c24_3_crystal_mage_red_base; }
+[t:template,n:c24_3_crystal_mage_red_base]
+{
+    specializes = c24_3_base_crystal_mage;
+
+	[inventory]
+	{
+		[other]
+		{
+			il_active_primary_spell = c24_3_spell_crystal_mage_iceblast;
+			il_spell_1 = c24_3_spell_summon_crystal_warriors_monster_red;
+		}
+	}
+    [mind]
+    {
+		jat_cast 						= world\ai\jobs\common\job_cast.skrit
+			?rand_spell					= true
+			&spell_chances				= "0.5,                     0.5"
+			&spells						= "c24_3_spell_crystal_mage_iceblast, c24_3_spell_summon_crystal_warriors_monster_red";
+    }
+}
+
+[t:template,n:c24_3_crystal_mage_gold] { specializes = c24_3_crystal_mage_gold_base; }
+[t:template,n:c24_3_crystal_mage_gold_base]
+{
+    specializes = c24_3_base_crystal_mage;
+
+	[inventory]
+	{
+		[other]
+		{
+			il_active_primary_spell = c24_3_spell_crystal_mage_iceblast;
+			il_spell_1 = c24_3_spell_summon_crystal_warriors_monster_gold;
+		}
+	}
+    [mind]
+    {
+		jat_cast 						= world\ai\jobs\common\job_cast.skrit
+			?rand_spell					= true
+			&spell_chances				= "0.5,                     0.5"
+			&spells						= "c24_3_spell_crystal_mage_iceblast, c24_3_spell_summon_crystal_warriors_monster_gold";
+    }
+}
+
+[t:template,n:c24_3_crystal_mage_gold_ar]
+{
+    specializes = c24_3_crystal_mage_gold_base;
 
     // auto-reveal
 	[mind]

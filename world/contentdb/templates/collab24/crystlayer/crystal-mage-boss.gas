@@ -1,6 +1,6 @@
 [t:template,n:c24_3_crystal_mage_boss]
 {
-    specializes = c24_3_crystal_mage_base;
+    specializes = c24_3_base_crystal_mage;
 
     [common]
     {

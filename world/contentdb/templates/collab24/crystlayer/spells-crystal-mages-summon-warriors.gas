@@ -58,9 +58,14 @@
 	}
 }
 
-[t:template,n:c24_3_spell_summon_crystal_warriors_monster]
+[t:template,n:c24_3_base_spell_summon_crystal_warriors_monster]
 {
     specializes = spell_summon_ice_warriors_monster_base;
+}
+
+[t:template,n:c24_3_spell_summon_crystal_warriors_monster_teal]
+{
+    specializes = c24_3_base_spell_summon_crystal_warriors_monster;
 
 	[inventory]
 	{
@@ -77,6 +82,126 @@
 				{
 					chance = 0.5;
 					il_main = c24_3_crystal_warrior_teal;
+				}
+			}
+		}
+	}
+}
+[t:template,n:c24_3_spell_summon_crystal_warriors_monster_purple]
+{
+    specializes = c24_3_base_spell_summon_crystal_warriors_monster;
+
+	[inventory]
+	{
+		[delayed_pcontent]
+		{
+			[oneof*]
+			{
+				[all*]
+				{
+					chance = 0.5;
+					il_main = c24_3_crystal_archer_purple;
+				}
+				[all*]
+				{
+					chance = 0.5;
+					il_main = c24_3_crystal_warrior_purple;
+				}
+			}
+		}
+	}
+}
+[t:template,n:c24_3_spell_summon_crystal_warriors_monster_green]
+{
+    specializes = c24_3_base_spell_summon_crystal_warriors_monster;
+
+	[inventory]
+	{
+		[delayed_pcontent]
+		{
+			[oneof*]
+			{
+				[all*]
+				{
+					chance = 0.5;
+					il_main = c24_3_crystal_archer_green;
+				}
+				[all*]
+				{
+					chance = 0.5;
+					il_main = c24_3_crystal_warrior_green;
+				}
+			}
+		}
+	}
+}
+[t:template,n:c24_3_spell_summon_crystal_warriors_monster_blue]
+{
+    specializes = c24_3_base_spell_summon_crystal_warriors_monster;
+
+	[inventory]
+	{
+		[delayed_pcontent]
+		{
+			[oneof*]
+			{
+				[all*]
+				{
+					chance = 0.5;
+					il_main = c24_3_crystal_archer_blue;
+				}
+				[all*]
+				{
+					chance = 0.5;
+					il_main = c24_3_crystal_warrior_blue;
+				}
+			}
+		}
+	}
+}
+[t:template,n:c24_3_spell_summon_crystal_warriors_monster_red]
+{
+    specializes = c24_3_base_spell_summon_crystal_warriors_monster;
+
+	[inventory]
+	{
+		[delayed_pcontent]
+		{
+			[oneof*]
+			{
+				[all*]
+				{
+					chance = 0.5;
+					il_main = c24_3_crystal_archer_red;
+				}
+				[all*]
+				{
+					chance = 0.5;
+					il_main = c24_3_crystal_warrior_red;
+				}
+			}
+		}
+	}
+}
+[t:template,n:c24_3_spell_summon_crystal_warriors_monster_gold]
+{
+    specializes = c24_3_base_spell_summon_crystal_warriors_monster;
+
+	[inventory]
+	{
+		[delayed_pcontent]
+		{
+			[oneof*]
+			{
+				[all*]
+				{
+					chance = 0.5;
+					il_main = c24_3_crystal_archer_gold;
+				}
+				[all*]
+				{
+					chance = 0.5;
+					il_main = c24_3_crystal_warrior_gold;
 				}
 			}
 		}
