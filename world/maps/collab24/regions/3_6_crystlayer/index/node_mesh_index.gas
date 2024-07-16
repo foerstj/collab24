@@ -118,8 +118,11 @@
 	0x03600a0e = t_xxx_wal_04-thin;
 	0x03600a11 = t_xxx_wal_04-tx-08-l;
 	0x03600a12 = t_xxx_wal_04-tx-08-r;
+	0x03600a18 = t_xxx_wal_08-diag-thick-l;
 	0x03600a19 = t_xxx_wal_08-diag-thick-r;
+	0x03600a1a = t_xxx_wal_08-diag-thin-l;
 	0x03600a1b = t_xxx_wal_08-diag-thin-r;
+	0x03600a22 = t_xxx_wal_08-thck;
 	0x03600a23 = t_xxx_wal_08-thin;
 	0x03600a24 = t_xxx_wal_08-tx-02b-l;
 	0x03600a26 = t_xxx_wal_08-tx-04-l;

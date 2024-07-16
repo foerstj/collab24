@@ -929,12 +929,60 @@
 	  p position = 2.48373,-1.90735e-006,-3.43359,0xa1b6fd22;
 	}
 }
-[t:c24_3_crystal_warrior_gold,n:0x036003d2]
+[t:c24_3_crystal_warrior_gold,n:0x03600577]
 {
 	[placement]
 	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = -2.24216,0,1.57824,0x870fd775;
+	  q orientation = 0,0.0261767,0,-0.999657;
+	  p position = 0.700952,0,-1.96421,0x0b26ed71;
+	}
+}
+[t:c24_3_crystal_warrior_gold,n:0x03600578]
+{
+	[placement]
+	{
+	  q orientation = 0,0.965926,0,-0.258819;
+	  p position = 1.60658,1.90735e-006,0.0267143,0x0b26ed71;
+	}
+}
+[t:c24_3_shard_gold,n:0x0360007a]
+{
+	[placement]
+	{
+	  q orientation = 0,0.740218,0,0.672367;
+	  p position = -0.0902443,0,-0.671507,0xb8e65fcd;
+	}
+}
+[t:c24_3_shard_gold,n:0x0360007b]
+{
+	[placement]
+	{
+	  q orientation = 0,0.0523361,0,0.998629;
+	  p position = 0.719576,0,-1.6561,0xb8e65fcd;
+	}
+}
+[t:c24_3_crystal_warrior_gold,n:0x036003d0]
+{
+	[placement]
+	{
+	  q orientation = 0,0.980785,0,0.19509;
+	  p position = -1.20266,0,1.78382,0x8e3a35c6;
+	}
+}
+[t:c24_3_crystal_warrior_gold,n:0x036003d1]
+{
+	[placement]
+	{
+	  q orientation = 0,0.980785,0,0.19509;
+	  p position = -0.566265,0,0.454851,0x8e3a35c6;
+	}
+}
+[t:c24_3_crystal_warrior_gold,n:0x03600576]
+{
+	[placement]
+	{
+	  q orientation = 0,0.97437,0,-0.224951;
+	  p position = 0.56094,0,1.56634,0x8e3a35c6;
 	}
 }
 [t:c24_3_coil_gob_01,n:0x0360001b]
@@ -953,43 +1001,20 @@
 	  p position = 2.20033,0,0.57476,0xe35bb79f;
 	}
 }
-[t:c24_3_crystal_golem_gold,n:0x0360044b]
+[t:c24_3_crystal_mage,n:0x036001da]
 {
 	[placement]
 	{
-	  q orientation = 0,0.999848,0,0.0174523;
-	  p position = 3.66167,0,1.91623,0xd29d5b46;
+	  q orientation = 0,0.207912,0,0.978148;
+	  p position = 3.80941,-0.00645447,-0.0129089,0x5c2e4489;
 	}
 }
-[t:c24_3_crystal_golem_gold,n:0x0360044c]
+[t:c24_3_crystal_golem_gold,n:0x03600416]
 {
 	[placement]
 	{
-	  q orientation = 0,0.956305,0,0.292372;
-	  p position = 3.31042,0,0.0674796,0xd29d5b46;
-	}
-}
-[t:c24_3_shard_gold,n:0x036003d3]
-{
-	[placement]
-	{
-	  q orientation = 0,0.980785,0,0.19509;
-	  p position = -0.991615,0,-0.622738,0x0fdd5087;
-	}
-}
-[t:c24_3_crystal_mage,n:0x036002ea]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.824126,0,0.566407;
-	  p position = -1.56363,-2.05,-3.97281,0xb03506c8;
-	}
-}
-[t:c24_3_coil_gob_01,n:0x03600015]
-{
-	[placement]
-	{
-	  p position = -0.151428,2,2.74174,0xe25250ea;
+	  q orientation = 0,0.93358,0,0.358368;
+	  p position = 0.529961,1,3.73227,0x5c2e4489;
 	}
 }
 [t:c24_3_crystal_beast_gold,n:0x03600160]
@@ -1060,107 +1085,179 @@
 	  p position = 1.66203,-1.0338,-3.5732,0x19cc3edc;
 	}
 }
-[t:c24_3_crystal_warrior_gold,n:0x036003d0]
+[t:c24_3_coil_gob_01,n:0x03600015]
+{
+	[placement]
+	{
+	  p position = -0.151428,2,2.74174,0xe25250ea;
+	}
+}
+[t:c24_3_crystal_golem_gold,n:0x0360044b]
+{
+	[placement]
+	{
+	  q orientation = 0,0.999848,0,0.0174523;
+	  p position = 3.66167,0,1.91623,0xd29d5b46;
+	}
+}
+[t:c24_3_crystal_golem_gold,n:0x0360044c]
+{
+	[placement]
+	{
+	  q orientation = 0,0.956305,0,0.292372;
+	  p position = 3.31042,0,0.0674796,0xd29d5b46;
+	}
+}
+[t:c24_3_shard_gold,n:0x036003d3]
 {
 	[placement]
 	{
 	  q orientation = 0,0.980785,0,0.19509;
-	  p position = -1.20266,0,1.78382,0x8e3a35c6;
+	  p position = -0.991615,0,-0.622738,0x0fdd5087;
 	}
 }
-[t:c24_3_crystal_warrior_gold,n:0x036003d1]
+[t:c24_3_crystal_warrior_gold,n:0x036003d2]
 {
 	[placement]
 	{
-	  q orientation = 0,0.980785,0,0.19509;
-	  p position = -0.566265,0,0.454851,0x8e3a35c6;
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -2.24216,0,1.57824,0x870fd775;
 	}
 }
-[t:c24_3_crystal_warrior_gold,n:0x03600576]
+[t:c24_3_crystal_mage,n:0x036002ea]
 {
 	[placement]
 	{
-	  q orientation = 0,0.97437,0,-0.224951;
-	  p position = 0.56094,0,1.56634,0x8e3a35c6;
+	  q orientation = 0,-0.824126,0,0.566407;
+	  p position = -1.56363,-2.05,-3.97281,0xb03506c8;
 	}
 }
-[t:c24_3_crystal_mage,n:0x036001da]
+[t:c24_3_crystal_mage,n:0x03600575]
 {
 	[placement]
 	{
-	  q orientation = 0,0.207912,0,0.978148;
-	  p position = 3.80941,-0.00645447,-0.0129089,0x5c2e4489;
+	  q orientation = 0,0.350207,0,0.936672;
+	  p position = -1.02225,-0.447224,1.03781,0x4f995085;
 	}
 }
-[t:c24_3_crystal_golem_gold,n:0x03600416]
+[t:c24_3_crystal_warrior_gold,n:0x0360055d]
 {
 	[placement]
 	{
-	  q orientation = 0,0.93358,0,0.358368;
-	  p position = 0.529961,1,3.73227,0x5c2e4489;
+	  q orientation = 0,0.309017,0,0.951056;
+	  p position = 2.06031,-0.15341,-0.30682,0x0a4d9951;
 	}
 }
-[t:c24_3_shard_gold,n:0x0360007a]
+[t:c24_3_crystal_warrior_gold,n:0x0360055e]
 {
 	[placement]
 	{
-	  q orientation = 0,0.740218,0,0.672367;
-	  p position = -0.0902443,0,-0.671507,0xb8e65fcd;
+	  q orientation = 0,0.887011,0,0.461748;
+	  p position = 2.05355,0.683064,1.91533,0x0a4d9951;
 	}
 }
-[t:c24_3_shard_gold,n:0x0360007b]
+[t:c24_3_crystal_mage,n:0x03600574]
 {
 	[placement]
 	{
-	  q orientation = 0,0.0523361,0,0.998629;
-	  p position = 0.719576,0,-1.6561,0xb8e65fcd;
+	  q orientation = 0,0.976296,0,0.21644;
+	  p position = 1.14058,0.903591,3.01796,0x0a4d9951;
 	}
 }
-[t:c24_3_crystal_warrior_gold,n:0x03600577]
+[t:c24_3_crystal_warrior_gold,n:0x03600530]
 {
 	[placement]
 	{
-	  q orientation = 0,0.0261767,0,-0.999657;
-	  p position = 0.700952,0,-1.96421,0x0b26ed71;
+	  q orientation = 0,0.965926,0,0.258819;
+	  p position = -3.98716,-1.90735e-006,-2.35987,0x8b6c7a3c;
 	}
 }
-[t:c24_3_crystal_warrior_gold,n:0x03600578]
+[t:c24_3_crystal_mage,n:0x03600528]
 {
 	[placement]
 	{
-	  q orientation = 0,0.965926,0,-0.258819;
-	  p position = 1.60658,1.90735e-006,0.0267143,0x0b26ed71;
+	  q orientation = 0,0.580703,0,0.814115;
+	  p position = 3.81214,-1.90735e-006,1.74469,0x523df830;
 	}
 }
-[t:c24_3_coil_gob_01,n:0x0360001c]
+[t:c24_3_crystal_mage,n:0x03600527]
 {
 	[placement]
 	{
-	  p position = 1.31585,0.975061,3.3753,0x38439159;
+	  q orientation = 0,0.224951,0,0.97437;
+	  p position = 2.49565,0.555576,1.27788,0x21bc0219;
 	}
 }
-[t:c24_3_crystal_mage,n:0x036000c3]
+[t:c24_3_crystal_warrior_gold,n:0x0360052d]
 {
 	[placement]
 	{
-	  q orientation = 0,0.182235,0,-0.983255;
-	  p position = -2.36854,0.484019,-3.66439,0xbe78445c;
+	  q orientation = 0,0.981627,0,-0.190809;
+	  p position = -1.19721,0.573557,-0.214817,0x21bc0219;
 	}
 }
-[t:c24_3_crystal_mage,n:0x03600170]
+[t:c24_3_crystal_warrior_gold,n:0x0360052f]
 {
 	[placement]
 	{
-	  q orientation = 0,0.948324,0,0.317304;
-	  p position = 3.87254,0,-3.58232,0x9aa4e16b;
+	  q orientation = 0,0.923879,0,-0.382684;
+	  p position = -0.878958,0.514622,0.799831,0x21bc0219;
 	}
 }
-[t:c24_3_crystal_mage,n:0x036001d3]
+[t:c24_3_crystal_warrior_gold,n:0x03600532]
 {
 	[placement]
 	{
-	  q orientation = 0,-0.104528,0,0.994522;
-	  p position = -2.39989,0,-2.37514,0x9aa4e16b;
+	  q orientation = 0,0.939693,0,0.34202;
+	  p position = -3.00624,0,2.95012,0x60efbbf3;
+	}
+}
+[t:c24_3_crystal_mage,n:0x03600535]
+{
+	[placement]
+	{
+	  q orientation = 0,0.406736,0,-0.913546;
+	  p position = -1.18967,0,-1.00444,0x60efbbf3;
+	}
+}
+[t:c24_3_crystal_warrior_gold,n:0x03600534]
+{
+	[placement]
+	{
+	  q orientation = 0,0.382683,0,0.92388;
+	  p position = 0.697182,0,-3.57533,0xd9d2b85f;
+	}
+}
+[t:c24_3_crystal_mage,n:0x03600536]
+{
+	[placement]
+	{
+	  q orientation = 0,0.882948,0,0.469472;
+	  p position = 1.18395,0,1.45969,0x9285bd40;
+	}
+}
+[t:c24_3_crystal_mage,n:0x03600537]
+{
+	[placement]
+	{
+	  q orientation = 0,0.898794,0,0.438371;
+	  p position = 0.35256,0,-0.238199,0x9285bd40;
+	}
+}
+[t:c24_3_crystal_warrior_gold,n:0x03600581]
+{
+	[placement]
+	{
+	  q orientation = 0,0.325568,0,-0.945519;
+	  p position = -0.722985,0,0.963518,0x9285bd40;
+	}
+}
+[t:c24_3_crystal_warrior_gold,n:0x03600582]
+{
+	[placement]
+	{
+	  q orientation = 0,0.594823,0,-0.803857;
+	  p position = 2.03066,0,-0.145077,0x9285bd40;
 	}
 }
 [t:c24_3_shard_gold,n:0x036003d4]
@@ -1291,6 +1388,21 @@
 	  p position = -3.08554,0,-1.95638,0xcfd7045b;
 	}
 }
+[t:c24_3_crystal_mage,n:0x036000c3]
+{
+	[placement]
+	{
+	  q orientation = 0,0.182235,0,-0.983255;
+	  p position = -2.36854,0.484019,-3.66439,0xbe78445c;
+	}
+}
+[t:c24_3_coil_gob_01,n:0x0360001c]
+{
+	[placement]
+	{
+	  p position = 1.31585,0.975061,3.3753,0x38439159;
+	}
+}
 [t:c24_3_crystal_warrior_gold,n:0x03600531]
 {
 	[placement]
@@ -1315,44 +1427,36 @@
 	  p position = 0.974277,-0.487137,-3.6349,0x8d2e8a36;
 	}
 }
-[t:c24_3_crystal_warrior_gold,n:0x03600534]
+[t:c24_3_crystal_warrior_gold,n:0x03600584]
 {
 	[placement]
 	{
-	  q orientation = 0,0.382683,0,0.92388;
-	  p position = 0.697182,0,-3.57533,0xd9d2b85f;
+	  q orientation = 0,0.760406,0,0.649448;
+	  p position = 0.234656,1.95,1.77455,0x91e827be;
 	}
 }
-[t:c24_3_crystal_mage,n:0x03600536]
+[t:c24_3_crystal_warrior_gold,n:0x03600583]
 {
 	[placement]
 	{
-	  q orientation = 0,0.882948,0,0.469472;
-	  p position = 1.18395,0,1.45969,0x9285bd40;
+	  q orientation = 0,0.920505,0,0.390731;
+	  p position = 1.60131,0,-0.39629,0x7b31461b;
 	}
 }
-[t:c24_3_crystal_mage,n:0x03600537]
+[t:c24_3_crystal_mage,n:0x03600170]
 {
 	[placement]
 	{
-	  q orientation = 0,0.898794,0,0.438371;
-	  p position = 0.35256,0,-0.238199,0x9285bd40;
+	  q orientation = 0,0.948324,0,0.317304;
+	  p position = 3.87254,0,-3.58232,0x9aa4e16b;
 	}
 }
-[t:c24_3_crystal_warrior_gold,n:0x03600581]
+[t:c24_3_crystal_mage,n:0x036001d3]
 {
 	[placement]
 	{
-	  q orientation = 0,0.325568,0,-0.945519;
-	  p position = -0.722985,0,0.963518,0x9285bd40;
-	}
-}
-[t:c24_3_crystal_warrior_gold,n:0x03600582]
-{
-	[placement]
-	{
-	  q orientation = 0,0.594823,0,-0.803857;
-	  p position = 2.03066,0,-0.145077,0x9285bd40;
+	  q orientation = 0,-0.104528,0,0.994522;
+	  p position = -2.39989,0,-2.37514,0x9aa4e16b;
 	}
 }
 [t:c24_3_crystal_warrior_gold,n:0x03600579]
@@ -1377,94 +1481,6 @@
 	{
 	  q orientation = 0,0.0610483,0,-0.998135;
 	  p position = 0.202703,0,0.698907,0x0e296225;
-	}
-}
-[t:c24_3_crystal_warrior_gold,n:0x03600532]
-{
-	[placement]
-	{
-	  q orientation = 0,0.939693,0,0.34202;
-	  p position = -3.00624,0,2.95012,0x60efbbf3;
-	}
-}
-[t:c24_3_crystal_mage,n:0x03600535]
-{
-	[placement]
-	{
-	  q orientation = 0,0.406736,0,-0.913546;
-	  p position = -1.18967,0,-1.00444,0x60efbbf3;
-	}
-}
-[t:c24_3_crystal_mage,n:0x03600527]
-{
-	[placement]
-	{
-	  q orientation = 0,0.224951,0,0.97437;
-	  p position = 2.49565,0.555576,1.27788,0x21bc0219;
-	}
-}
-[t:c24_3_crystal_warrior_gold,n:0x0360052d]
-{
-	[placement]
-	{
-	  q orientation = 0,0.981627,0,-0.190809;
-	  p position = -1.19721,0.573557,-0.214817,0x21bc0219;
-	}
-}
-[t:c24_3_crystal_warrior_gold,n:0x0360052f]
-{
-	[placement]
-	{
-	  q orientation = 0,0.923879,0,-0.382684;
-	  p position = -0.878958,0.514622,0.799831,0x21bc0219;
-	}
-}
-[t:c24_3_crystal_mage,n:0x03600528]
-{
-	[placement]
-	{
-	  q orientation = 0,0.580703,0,0.814115;
-	  p position = 3.81214,-1.90735e-006,1.74469,0x523df830;
-	}
-}
-[t:c24_3_crystal_warrior_gold,n:0x03600530]
-{
-	[placement]
-	{
-	  q orientation = 0,0.965926,0,0.258819;
-	  p position = -3.98716,-1.90735e-006,-2.35987,0x8b6c7a3c;
-	}
-}
-[t:c24_3_crystal_warrior_gold,n:0x0360055d]
-{
-	[placement]
-	{
-	  q orientation = 0,0.309017,0,0.951056;
-	  p position = 2.06031,-0.15341,-0.30682,0x0a4d9951;
-	}
-}
-[t:c24_3_crystal_warrior_gold,n:0x0360055e]
-{
-	[placement]
-	{
-	  q orientation = 0,0.887011,0,0.461748;
-	  p position = 2.05355,0.683064,1.91533,0x0a4d9951;
-	}
-}
-[t:c24_3_crystal_mage,n:0x03600574]
-{
-	[placement]
-	{
-	  q orientation = 0,0.976296,0,0.21644;
-	  p position = 1.14058,0.903591,3.01796,0x0a4d9951;
-	}
-}
-[t:c24_3_crystal_mage,n:0x03600575]
-{
-	[placement]
-	{
-	  q orientation = 0,0.350207,0,0.936672;
-	  p position = -1.02225,-0.447224,1.03781,0x4f995085;
 	}
 }
 [t:c24_3_crystal_warrior_gold,n:0x03600538]
@@ -1551,22 +1567,6 @@
 	{
 	  q orientation = 0,0.382683,0,0.923879;
 	  p position = 0.934715,0,-1.34237,0x5af9d467;
-	}
-}
-[t:c24_3_crystal_warrior_gold,n:0x03600583]
-{
-	[placement]
-	{
-	  q orientation = 0,0.920505,0,0.390731;
-	  p position = 1.60131,0,-0.39629,0x7b31461b;
-	}
-}
-[t:c24_3_crystal_warrior_gold,n:0x03600584]
-{
-	[placement]
-	{
-	  q orientation = 0,0.760406,0,0.649448;
-	  p position = 0.234656,1.95,1.77455,0x91e827be;
 	}
 }
 [t:c24_3_shard_gold,n:0x0360041d]

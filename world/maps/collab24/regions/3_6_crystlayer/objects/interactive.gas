@@ -29,6 +29,30 @@
 		use_point_scids = 0x0360017a;
 	}
 }
+[t:sign_glb_01,n:0x0360015c]
+{
+	[common]
+	{
+		screen_name = "Sadowland";
+	}
+	[placement]
+	{
+	  q orientation = 0,-5.96046e-008,0,1;
+	  p position = 0.281562,-0.579863,-3.75917,0x8898563e;
+	}
+}
+[t:sign_glb_01,n:0x0360016c]
+{
+	[common]
+	{
+		screen_name = "Shroomington";
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,1.78814e-007;
+	  p position = 0.630387,-0.680654,-3.89747,0x8898563e;
+	}
+}
 [t:lever_glb_05,n:0x03600017]
 {
 	[on_off_lever]
@@ -65,30 +89,6 @@
 	  q orientation = 0,0.707107,0,0.707107;
 	  p position = -0.0252342,-1.5,1.08401,0x26aba53f;
 		use_point_scids = 0x03600019;
-	}
-}
-[t:sign_glb_01,n:0x0360015c]
-{
-	[common]
-	{
-		screen_name = "Sadowland";
-	}
-	[placement]
-	{
-	  q orientation = 0,-5.96046e-008,0,1;
-	  p position = 0.281562,-0.579863,-3.75917,0x8898563e;
-	}
-}
-[t:sign_glb_01,n:0x0360016c]
-{
-	[common]
-	{
-		screen_name = "Shroomington";
-	}
-	[placement]
-	{
-	  q orientation = 0,1,0,1.78814e-007;
-	  p position = 0.630387,-0.680654,-3.89747,0x8898563e;
 	}
 }
 [t:sign_glb_01,n:0x0360016e]
