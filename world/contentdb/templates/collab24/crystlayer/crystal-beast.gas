@@ -3,6 +3,7 @@
     specializes = rock_beast_base;
 
     common:screen_name = "Crystal Beast";
+    aspect:material = ice;
 }
 
 [t:template,n:c24_3_crystal_beast_red]
