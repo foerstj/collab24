@@ -61,6 +61,26 @@
 			}
 		}
     }
+	[physics]
+	{
+		[break_particulate]
+		{
+			frag_c24_3_crystal_rock_beast_01_red = 1;
+			frag_c24_3_crystal_rock_beast_02_red = 1;
+			frag_c24_3_crystal_rock_beast_03_red = 1;
+			frag_c24_3_crystal_rock_beast_04_red = 1;
+			frag_c24_3_crystal_rock_beast_05_red = 1;
+			frag_c24_3_crystal_rock_beast_06_red = 2;
+			frag_c24_3_crystal_rock_beast_07_red = 3;
+			frag_c24_3_crystal_rock_beast_08_red = 4;
+			frag_c24_3_crystal_stone_01_red = 6;
+			frag_c24_3_crystal_stone_02_red = 4;
+			frag_c24_3_crystal_stone_03_red = 3;
+			frag_c24_3_crystal_stone_04_red = 6;
+			frag_c24_3_crystal_stone_05_red = 9;
+			frag_c24_3_crystal_stone_06_red = 5;
+		}
+	}
 }
 
 [t:template,n:c24_3_crystal_beast_gold]
@@ -119,4 +139,24 @@
 			}
 		}
     }
+	[physics]
+	{
+		[break_particulate]
+		{
+			frag_c24_3_crystal_rock_beast_01_gold = 1;
+			frag_c24_3_crystal_rock_beast_02_gold = 1;
+			frag_c24_3_crystal_rock_beast_03_gold = 1;
+			frag_c24_3_crystal_rock_beast_04_gold = 1;
+			frag_c24_3_crystal_rock_beast_05_gold = 1;
+			frag_c24_3_crystal_rock_beast_06_gold = 2;
+			frag_c24_3_crystal_rock_beast_07_gold = 3;
+			frag_c24_3_crystal_rock_beast_08_gold = 4;
+			frag_c24_3_crystal_stone_01_gold = 6;
+			frag_c24_3_crystal_stone_02_gold = 4;
+			frag_c24_3_crystal_stone_03_gold = 3;
+			frag_c24_3_crystal_stone_04_gold = 6;
+			frag_c24_3_crystal_stone_05_gold = 9;
+			frag_c24_3_crystal_stone_06_gold = 5;
+		}
+	}
 }
