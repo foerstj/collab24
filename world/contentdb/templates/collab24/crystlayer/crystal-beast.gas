@@ -61,6 +61,10 @@
 			}
 		}
     }
+	[inventory]
+	{
+		[other] { il_active_primary_spell = c24_3_spell_beast_blast_red; }
+    }
 	[physics]
 	{
 		[break_particulate]
@@ -138,6 +142,10 @@
 				action* = call_sfx_script("crystal_light_yellow(sgx)");
 			}
 		}
+    }
+	[inventory]
+	{
+		[other] { il_active_primary_spell = c24_3_spell_beast_blast_gold; }
     }
 	[physics]
 	{
