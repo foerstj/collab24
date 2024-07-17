@@ -25,7 +25,7 @@
 	}
 	[t:start_group,n:test_clu_eled]
 	{
-	  b default = false;
+	  b default = true;
 		description = "";
 	  b dev_only = false;
 	  i id = 1698412;
@@ -48,7 +48,7 @@
 	}
 	[t:start_group,n:test_clu_eleu]
 	{
-	  b default = true;
+	  b default = false;
 		description = "";
 	  b dev_only = false;
 	  i id = 361;

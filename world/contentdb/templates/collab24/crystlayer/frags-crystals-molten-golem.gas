@@ -1,0 +1,15 @@
+// Crystal frags based on the molten-golem models
+
+// red
+[t:template,n:frag_c24_3_crystal_golem_01_red] { specializes = fragment; [aspect] { model = m_i_glb_frag-molten-golem-01; textures:0 = b_i_cav_gems-05-static; } }
+[t:template,n:frag_c24_3_crystal_golem_02_red] { specializes = fragment; [aspect] { model = m_i_glb_frag-molten-golem-02; textures:0 = b_i_cav_gems-05-static; } }
+[t:template,n:frag_c24_3_crystal_golem_03_red] { specializes = fragment; [aspect] { model = m_i_glb_frag-molten-golem-03; textures:0 = b_i_cav_gems-05-static; } }
+[t:template,n:frag_c24_3_crystal_golem_04_red] { specializes = fragment; [aspect] { model = m_i_glb_frag-molten-golem-04; textures:0 = b_i_cav_gems-05-static; } }
+[t:template,n:frag_c24_3_crystal_golem_05_red] { specializes = fragment; [aspect] { model = m_i_glb_frag-molten-golem-05; textures:0 = b_i_cav_gems-05-static; } }
+
+// gold
+[t:template,n:frag_c24_3_crystal_golem_01_gold] { specializes = fragment; [aspect] { model = m_i_glb_frag-molten-golem-01; textures:0 = b_i_cav_gems-06-static; } }
+[t:template,n:frag_c24_3_crystal_golem_02_gold] { specializes = fragment; [aspect] { model = m_i_glb_frag-molten-golem-02; textures:0 = b_i_cav_gems-06-static; } }
+[t:template,n:frag_c24_3_crystal_golem_03_gold] { specializes = fragment; [aspect] { model = m_i_glb_frag-molten-golem-03; textures:0 = b_i_cav_gems-06-static; } }
+[t:template,n:frag_c24_3_crystal_golem_04_gold] { specializes = fragment; [aspect] { model = m_i_glb_frag-molten-golem-04; textures:0 = b_i_cav_gems-06-static; } }
+[t:template,n:frag_c24_3_crystal_golem_05_gold] { specializes = fragment; [aspect] { model = m_i_glb_frag-molten-golem-05; textures:0 = b_i_cav_gems-06-static; } }

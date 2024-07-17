@@ -1,4 +1,4 @@
-// Crystal frags based on the rock_beast models
+// Crystal frags based on the rock-beast models
 
 // base
 [t:template,n:base_frag_glb_rock_beast_01] { specializes = fragment; doc = "misc"; [aspect] { model = m_i_glb_frag-rock-beast-01; } }

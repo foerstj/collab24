@@ -221,6 +221,17 @@
 			}
 		}
     }
+	[physics]
+	{
+		[break_particulate]
+		{
+			frag_c24_3_crystal_golem_01_red = 1;
+			frag_c24_3_crystal_golem_02_red = 6;
+			frag_c24_3_crystal_golem_03_red = 1;
+			frag_c24_3_crystal_golem_04_red = 2;
+			frag_c24_3_crystal_golem_05_red = 1;
+		}
+	}
 }
 
 [t:template,n:c24_3_crystal_golem_gold]
@@ -247,4 +258,15 @@
 			}
 		}
     }
+	[physics]
+	{
+		[break_particulate]
+		{
+			frag_c24_3_crystal_golem_01_gold = 1;
+			frag_c24_3_crystal_golem_02_gold = 6;
+			frag_c24_3_crystal_golem_03_gold = 1;
+			frag_c24_3_crystal_golem_04_gold = 2;
+			frag_c24_3_crystal_golem_05_gold = 1;
+		}
+	}
 }
