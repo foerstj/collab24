@@ -1,3 +1,27 @@
+[t:c24_3_emt_shroom_sparkles,n:0x03600d0f]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.922662;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.996153,0,0.0876277;
+	  p position = -3.73044,-3,-3.47035,0xd54da38f;
+	}
+}
+[t:c24_3_emt_shroom_sparkles,n:0x03600d10]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.933895;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.694121,0,0.719859;
+	  p position = 3.91082,-11.95,-3.62006,0xc126b6cf;
+	}
+}
 [t:emt_sound,n:0x036004c7]
 {
 	[placement]
