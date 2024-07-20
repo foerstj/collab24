@@ -39,6 +39,8 @@
 {
     specializes = bw_g_c_dsx_nat_avg_base;
 
+    common:is_pcontent_allowed = false;
+
     // stats from bw_g_c_dsx_spd_avg (Spidersilk Bow)
     [attack]
     {

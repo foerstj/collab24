@@ -33,6 +33,7 @@
 {
     specializes = bd_le_m_g_c_avg_beaded_dsx_base;
 
+    common:is_pcontent_allowed = false;
     defend:defense = 10;
     gui:equip_requirements = ;
 }
@@ -73,6 +74,7 @@
 {
     specializes = bo_bo_sc_m_g_c_avg_beaded_dsx_base;
 
+    common:is_pcontent_allowed = false;
     defend:defense = 1;
     gui:equip_requirements = ;
 }
@@ -114,6 +116,7 @@
 {
     specializes = he_vi_pl_m_beaded_headband_dsx_base;
 
+    common:is_pcontent_allowed = false;
     defend:defense = 2;
     gui:equip_requirements = ;
 }
@@ -154,6 +157,7 @@
 {
     specializes = bd_ro_m_g_c_avg_elbead_dsx_base;
 
+    common:is_pcontent_allowed = false;
     defend:defense = 20;
     gui:equip_requirements = intelligence:20;
 }
@@ -194,6 +198,7 @@
 {
     specializes = he_vi_pl_m_beaded_headdress_dsx_base;
 
+    common:is_pcontent_allowed = false;
     defend:defense = 5;
     gui:equip_requirements = intelligence:20;
 }

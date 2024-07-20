@@ -33,6 +33,7 @@
 {
     specializes = bd_le_m_g_c_avg_ceramic_dsx_base;
 
+    common:is_pcontent_allowed = false;
     defend:defense = 30;
     gui:equip_requirements = dexterity:13;
 }
@@ -73,6 +74,7 @@
 {
     specializes = bo_bo_sc_m_g_c_avg_ceramic_dsx_base;
 
+    common:is_pcontent_allowed = false;
     defend:defense = 5;
     gui:equip_requirements = dexterity:12;
 }
@@ -113,6 +115,7 @@
 {
     specializes = he_vi_pl_m_ceramic_headdress_dsx_base;
 
+    common:is_pcontent_allowed = false;
     defend:defense = 10;
     gui:equip_requirements = dexterity:14;
 }
@@ -153,6 +156,7 @@
 {
     specializes = bd_ro_m_g_c_avg_cebead_dsx_base;
 
+    common:is_pcontent_allowed = false;
     defend:defense = 50;
     gui:equip_requirements = dexterity:15;
 }
@@ -193,6 +197,7 @@
 {
     specializes = he_vi_pl_m_ceramic_headband_dsx_base;
 
+    common:is_pcontent_allowed = false;
     defend:defense = 5;
     gui:equip_requirements = dexterity:12;
 }
