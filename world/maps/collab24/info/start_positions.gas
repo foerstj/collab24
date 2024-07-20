@@ -117,7 +117,7 @@
 	}
 	[t:start_group,n:test_town]
 	{
-	  b default = true;
+	  b default = false;
 		description = "";
 	  b dev_only = false;
 	  i id = 340;
@@ -140,7 +140,7 @@
 	}
 	[t:start_group,n:test_wlu_eled]
 	{
-	  b default = false;
+	  b default = true;
 		description = "";
 	  b dev_only = false;
 	  i id = 370;
