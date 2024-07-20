@@ -170,6 +170,64 @@
 	  p position = 1.03708,0,-1.64034,0xa612d31c;
 	}
 }
+[t:trigger_change_mood_box,n:0x0370000c]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("collab24_3_wormlayer_3");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(12.000000,2.000000,1.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 3.99228,-0.0473709,-0.0782719,0x02df8e2e;
+	}
+}
+[t:trigger_change_mood_box,n:0x0370000f]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("collab24_3_wormlayer_3_goblin");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(12.000000,2.000000,1.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -0.567184,-0.0473709,-0.361422,0xb982c3f1;
+	}
+}
 [t:use_point,n:0x03700311]
 {
 	[placement]
@@ -290,63 +348,5 @@
 	[placement]
 	{
 	  p position = 0.0381422,-0.499499,-0.293922,0x1b31d8e8;
-	}
-}
-[t:trigger_change_mood_box,n:0x0370000c]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = mood_change("collab24_3_wormlayer_3");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(12.000000,2.000000,1.000000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = 3.99228,-0.0473709,-0.0782719,0x02df8e2e;
-	}
-}
-[t:trigger_change_mood_box,n:0x0370000f]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = mood_change("collab24_3_wormlayer_3_goblin");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(12.000000,2.000000,1.000000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = -0.567184,-0.0473709,-0.361422,0xb982c3f1;
 	}
 }

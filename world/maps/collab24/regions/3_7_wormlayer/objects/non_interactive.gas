@@ -34,6 +34,18 @@
 	  p position = -0.0329742,-0.0493317,1.11236,0x7cb876d0;
 	}
 }
+[t:c24_3_crystals_xs_gold,n:0x03700016]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.900362;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.641711,0,0.766947;
+	  p position = -1.53825,-2.05,-3.9646,0x62711306;
+	}
+}
 [t:mushrooms_cav_07,n:0x03700434]
 {
 	[aspect]
@@ -106,6 +118,66 @@
 	  p position = 1.56553,0,-1.60565,0xf425dcc4;
 	}
 }
+[t:c24_3_crystals_lg_gold,n:0x03700010]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.950624;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.819957,0,0.572425;
+	  p position = 3.09984,-3,-2.22748,0x459f4646;
+	}
+}
+[t:c24_3_crystals_md_gold,n:0x03700011]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.09107;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.307152,0,0.951661;
+	  p position = -1.48505,-3,-3.00341,0x459f4646;
+	}
+}
+[t:c24_3_crystals_md_gold,n:0x03700012]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.979217;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.985751,0,0.16821;
+	  p position = -2.55442,-3,-1.77837,0x459f4646;
+	}
+}
+[t:c24_3_crystals_xs_gold,n:0x03700018]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.977992;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.390609,0,0.920557;
+	  p position = 2.65308,-3,0.944173,0x459f4646;
+	}
+}
+[t:c24_3_crystals_xs_gold,n:0x03700019]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.917279;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.0722455,0,0.997387;
+	  p position = 2.41331,-3,1.61728,0x459f4646;
+	}
+}
 [t:rocks_cav_02,n:0x0370026e]
 {
 	[aspect]
@@ -128,6 +200,30 @@
 	{
 	  q orientation = 0,0.948324,0,0.317304;
 	  p position = 3.72036,-2.99999,2.36187,0x459f4646;
+	}
+}
+[t:c24_3_crystals_sm_gold,n:0x0370001c]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.960094;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.912249,0,0.409636;
+	  p position = -1.65677,0,1.38078,0x1620406e;
+	}
+}
+[t:c24_3_crystals_sm_gold,n:0x03700015]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.915938;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.992927,0,0.118726;
+	  p position = 1.49592,1.90735e-006,1.27115,0xfe59d984;
 	}
 }
 [t:rocks_cav_02,n:0x03700271]
@@ -164,6 +260,18 @@
 	{
 	  q orientation = 0,0.0697568,0,0.997564;
 	  p position = 1.69462,-2.00001,-0.348436,0x8e6b17cd;
+	}
+}
+[t:c24_3_crystals_sm_gold,n:0x03700014]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.94937;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.966859,0,0.255312;
+	  p position = -0.436463,-1.90735e-006,-1.9204,0x583e3415;
 	}
 }
 [t:rocks_cav_02,n:0x0370026f]
@@ -7371,6 +7479,18 @@
 	  p position = 1.72921,-2.05,-3.31603,0x3e174cd9;
 	}
 }
+[t:c24_3_crystals_xs_gold,n:0x03700017]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.09923;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.160827,0,0.986983;
+	  p position = -1.61767,-1.90735e-006,-1.87809,0xcaae2c80;
+	}
+}
 [t:rocks_cav_04,n:0x037002b9]
 {
 	[aspect]
@@ -7477,6 +7597,30 @@
 	{
 	  q orientation = 0,0.981627,0,0.190809;
 	  p position = -2.24263,0,1.23794,0x95a760bb;
+	}
+}
+[t:c24_3_crystals_md_gold,n:0x03700013]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.03138;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.719185,0,0.694819;
+	  p position = 0.480086,0,0.945419,0x13f4e367;
+	}
+}
+[t:c24_3_crystals_xs_gold,n:0x0370001a]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.09914;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.84176,0,0.539852;
+	  p position = 1.8941,-5.48363e-006,0.494884,0x13f4e367;
 	}
 }
 [t:rocks_cav_01,n:0x0370011f]
