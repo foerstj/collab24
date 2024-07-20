@@ -39256,6 +39256,18 @@
 	  p position = -3.23688,-12,-1.94416,0xd992e600;
 	}
 }
+[t:lamp_glb_oil_02,n:0x03600d0e]
+{
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x21665762;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,-1.66939e-007;
+	  p position = -0.0180531,-0.178879,1.30539,0x26aba53f;
+	}
+}
 [t:c24_3_crystals_sm_gold_x2,n:0x0360012f]
 {
 	[aspect]
