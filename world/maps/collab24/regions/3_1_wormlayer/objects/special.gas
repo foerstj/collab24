@@ -16,7 +16,7 @@
 			{
 				action* = set_player_world_location("wormlayer");
 			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(8.000000,2.000000,8.000000,"on_every_enter");
+				condition* = party_member_within_bounding_box(16.000000,2.000000,16.000000,"on_every_enter");
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
@@ -32,6 +32,37 @@
 	[placement]
 	{
 	  p position = 0.0626564,-3,3.17146,0xa5a96ca3;
+	}
+}
+[t:trigger_change_mood_box,n:0x0310001f]
+{
+	[common]
+	{
+		dev_instance_text = "DEV STARTPOS - MOOD & FADES";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("collab24_3_wormlayer_1");
+				action* = fade_nodes(0x00000032,1,-1,-1,"out:instant"), doc("fade out crystlayer");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(2.000000,1.000000,2.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,0.682559,0,0.73083;
+	  p position = 0.623608,0,0.639705,0x2b4fd50b;
 	}
 }
 [t:use_point,n:0x031008e3]

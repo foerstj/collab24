@@ -29,7 +29,7 @@
 		description = "";
 	  b dev_only = false;
 	  i id = 1698412;
-		screen_name = "";
+		screen_name = "CL-U ELE-D";
 		[start_position]
 		{
 		  i id = 1;
@@ -117,7 +117,7 @@
 	}
 	[t:start_group,n:test_town]
 	{
-	  b default = true;
+	  b default = false;
 		description = "";
 	  b dev_only = false;
 	  i id = 340;
@@ -132,6 +132,29 @@
 			  f distance = 20.000000;
 			  f orbit = 0.000000;
 				position = -0.031152,0.000000,-0.014565,0x02AB4F69;
+			}
+		}
+		[world_levels]
+		{
+		}
+	}
+	[t:start_group,n:test_wld_eled]
+	{
+	  b default = true;
+		description = "";
+	  b dev_only = false;
+	  i id = 1698412;
+		screen_name = "WL-D ELE-D";
+		[start_position]
+		{
+		  i id = 1;
+			position = 0.094360,0.000000,0.009315,0x2B4FD50B;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 0.094360,0.000000,0.009315,0x2B4FD50B;
 			}
 		}
 		[world_levels]
