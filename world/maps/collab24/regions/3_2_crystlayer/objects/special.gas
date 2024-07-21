@@ -34,6 +34,39 @@
 	  p position = -0.122508,-3,3.08106,0x4894d590;
 	}
 }
+[t:trigger_change_mood_box,n:0x032003dd]
+{
+	[common]
+	{
+		dev_instance_text = "DEV STARTPOS - MOOD & FADES";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("collab24_3_crystlayer_blue");
+				action* = fade_nodes(0x00000032,2,-1,-1,"out:instant"), doc("ele tube");
+				action* = fade_nodes(0x00000031,1,-1,-1,"out:instant"), doc("wormlayer");
+				action* = fade_nodes(0x00000033,1,-1,-1,"out:instant"), doc("shroomlayer");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(4.000000,1.000000,4.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,0.19509,0,0.980785;
+	  p position = -6.33546,2,0.524704,0x7b480fdd;
+	}
+}
 [t:use_point,n:0x032004a9]
 {
 	[placement]
