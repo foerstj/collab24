@@ -12,20 +12,22 @@
 	  x elevator_node = 0x2625D180;
 		material = "dm_small";
 		moving1_actioninfo = "
-            0x00000037,1,-1,-1,out:instant,0;
-            0x00000036,2,-1,-1,out:instant,0;
-            collab24_3_crystlayer_red,4;
-            0x00000035,1,-1,-1,out:black,12;
-            0x00000035,2,-1,-1,in,16;
-            0x00000036,1,-1,-1,in,16
+            collab24_3_ele_up,0;
+            0x00000035,1,-1,-1,out:black,8;
+            0x00000035,2,-1,-1,in,8;
+            0x00000036,1,-1,-1,in,8;
+            collab24_3_crystlayer_red_quick,15;
+            0x00000037,1,-1,-1,out:instant,16;
+            0x00000036,2,-1,-1,out:instant,16
         ";
 		moving2_actioninfo = "
-            0x00000036,1,-1,-1,out:black,0;
-            0x00000035,2,-1,-1,out:black,0;
-            0x00000035,1,-1,-1,in,4;
-            collab24_3_shroomlayer_1,4;
-            0x00000037,1,-1,-1,in:instant,16;
-            0x00000036,2,-1,-1,in:instant,16
+            0x00000037,1,-1,-1,in:instant,0;
+            0x00000036,2,-1,-1,in:instant,0;
+            collab24_3_ele_down,0;
+            0x00000036,1,-1,-1,out:black,8;
+            0x00000035,2,-1,-1,out:black,8;
+            0x00000035,1,-1,-1,in,8;
+            collab24_3_shroomlayer_1,8
         ";
 	}
 	[placement]

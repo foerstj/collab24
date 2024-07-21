@@ -1,4 +1,4 @@
-[mood_setting*]
+[mood_setting*]  // way down - green
 {
 	mood_name				= collab24_3_crystlayer_green;
 	transition_time			= 8.0f;
@@ -24,7 +24,7 @@
 	}
 }
 
-[mood_setting*]
+[mood_setting*]  // way down - teal
 {
 	mood_name				= collab24_3_crystlayer_teal;
 	transition_time			= 8.0f;
@@ -50,7 +50,7 @@
 	}
 }
 
-[mood_setting*]
+[mood_setting*]  // way down - blue
 {
 	mood_name				= collab24_3_crystlayer_blue;
 	transition_time			= 8.0f;
@@ -75,8 +75,34 @@
 		room_type			= rt_arena;
 	}
 }
+[mood_setting*]  // way down - blue (quick)
+{
+	mood_name				= collab24_3_crystlayer_blue_quick;
+	transition_time			= 1.0f;
+	interior				= true;
 
-[mood_setting*]
+	[fog]
+	{
+		fog_near_dist		= 10.0f;
+		fog_far_dist		= 50.0f;
+		fog_lowdetail_near_dist		= 10.0f;
+		fog_lowdetail_far_dist		= 45.0f;
+		fog_color			= 0xFF001020;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_intro_delay = 4.0f;
+		standard_repeat_delay = 16.0f;
+		standard_track		= s_m_SubRiver_05;
+		room_type			= rt_arena;
+	}
+}
+
+
+[mood_setting*]  // way up - red
 {
 	mood_name				= collab24_3_crystlayer_red;
 	transition_time			= 8.0f;
@@ -101,8 +127,33 @@
 		room_type			= rt_arena;
 	}
 }
+[mood_setting*]  // way up - red (quick)
+{
+	mood_name				= collab24_3_crystlayer_red_quick;
+	transition_time			= 1.0f;
+	interior				= true;
 
-[mood_setting*]
+	[fog]
+	{
+		fog_near_dist		= 10.0f;
+		fog_far_dist		= 50.0f;
+		fog_lowdetail_near_dist		= 10.0f;
+		fog_lowdetail_far_dist		= 45.0f;
+		fog_color			= 0xFF200010;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_intro_delay = 4.0f;
+		standard_repeat_delay = 16.0f;
+		standard_track		= s_m_SubRiver_03;  // calm
+		room_type			= rt_arena;
+	}
+}
+
+[mood_setting*]  // way up - gold
 {
 	mood_name				= collab24_3_crystlayer_gold;
 	transition_time			= 8.0f;

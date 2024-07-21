@@ -13,16 +13,18 @@
 		material = "dm_small";
 		moving1_actioninfo = "
             0x00000035,1,-1,-1,in:instant,0;
-            collab24_3_wormlayer_2,4;
-            0x00000036,1,-1,-1,out:black,12;
-            0x00000036,2,-1,-1,in,16;
-            0x00000037,1,-1,-1,in,16
+            collab24_3_ele_up,0;
+            0x00000036,1,-1,-1,out:black,8;
+            0x00000036,2,-1,-1,in,8;
+            0x00000037,1,-1,-1,in,8;
+            collab24_3_wormlayer_2_quick,15
         ";
 		moving2_actioninfo = "
-            0x00000037,1,-1,-1,out:black,0;
-            0x00000036,2,-1,-1,out:black,0;
-            0x00000036,1,-1,-1,in,4;
-            collab24_3_crystlayer_gold,4;
+            collab24_3_ele_down,0;
+            0x00000037,1,-1,-1,out:black,8;
+            0x00000036,2,-1,-1,out:black,8;
+            0x00000036,1,-1,-1,in,8;
+            collab24_3_crystlayer_gold,8;
             0x00000035,1,-1,-1,out:instant,16
         ";
 	}
