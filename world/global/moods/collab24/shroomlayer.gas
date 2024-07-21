@@ -2,7 +2,7 @@
 {
 	mood_name				= collab24_3_shroomlayer_1;
 	transition_time			= 8.0f;
-	interior				= false;
+	interior				= true;
 
 	[fog]
 	{
@@ -53,7 +53,7 @@
 {
 	mood_name				= collab24_3_shroomlayer_2;
 	transition_time			= 5.0f;
-	interior				= false;
+	interior				= true;
 
 	[fog]
 	{
@@ -78,7 +78,7 @@
 {
 	mood_name				= collab24_3_shroomlayer_3;
 	transition_time			= 5.0f;
-	interior				= false;
+	interior				= true;
 
 	[fog]
 	{
@@ -103,7 +103,7 @@
 {
 	mood_name				= collab24_3_shroomlayer_4;
 	transition_time			= 9.0f;
-	interior				= false;
+	interior				= true;
 
 	[fog]
 	{
@@ -128,7 +128,7 @@
 {
 	mood_name				= collab24_3_shroomlayer_5;
 	transition_time			= 8.0f;
-	interior				= false;
+	interior				= true;
 
 	[fog]
 	{
@@ -209,7 +209,7 @@
 {
 	mood_name				= collab24_3_shroomlayer_town_viewpoint;
 	transition_time			= 1.0f;
-	interior				= false;
+	interior				= true;
 
     [frustum]
     {
