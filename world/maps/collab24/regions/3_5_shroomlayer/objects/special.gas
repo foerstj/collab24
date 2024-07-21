@@ -8,7 +8,7 @@
 			[*]
 			{
 				action* = fade_nodes(0x00000035,2,-1,-1,"in:instant"), doc("ele tube");
-				action* = when_false fade_nodes(0x00000036,1,-1,-1,"in:instant"), doc("crystlayer");
+				action* = fade_nodes(0x00000036,1,-1,-1,"in:instant"), doc("crystlayer");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(16.000000,2.000000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -531,7 +531,7 @@
 			[*]
 			{
 				action* = fade_nodes(0x00000035,2,-1,-1,"out:instant"), doc("ele tube");
-				action* = when_false fade_nodes(0x00000036,1,-1,-1,"out:instant"), doc("crystlayer");
+				action* = fade_nodes(0x00000036,1,-1,-1,"out:instant"), doc("crystlayer");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(16.000000,2.000000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
