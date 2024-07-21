@@ -1,0 +1,44 @@
+[mood_setting*]  // ele down (quick transition)
+{
+	mood_name				= collab24_3_ele_down;
+	transition_time			= 1.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 20.0f;
+		fog_far_dist		= 25.0f;
+		fog_lowdetail_near_dist		= 15.0f;
+		fog_lowdetail_far_dist		= 20.0f;
+		fog_color			= 0xFF000000;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_wind_mines";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]  // ele up (slow transition)
+{
+	mood_name				= collab24_3_ele_up;
+	transition_time			= 8.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 20.0f;
+		fog_far_dist		= 25.0f;
+		fog_lowdetail_near_dist		= 15.0f;
+		fog_lowdetail_far_dist		= 20.0f;
+		fog_color			= 0xFF000000;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_wind_mines";
+		room_type			= rt_generic;
+	}
+}

@@ -23,6 +23,31 @@
 		room_type			= rt_cave;
 	}
 }
+[mood_setting*]  // way down, quick transition for ele up from crystlayer
+{
+	mood_name				= collab24_3_wormlayer_1_quick;
+	transition_time			= 1.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 20.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 15.0f;
+		fog_lowdetail_far_dist		= 30.0f;
+		fog_color			= 0xff000000;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_intro_delay = 4.0f;
+		standard_repeat_delay = 16.0f;
+		standard_track		= s_m_drums_01;
+		room_type			= rt_cave;
+	}
+}
 
 [mood_setting*]  // way up, bottom
 {
