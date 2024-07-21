@@ -20587,6 +20587,27 @@
 		  f z = 0.234877;
 		}
 	}
+	[t:point,n:light_0xf28bc059]
+	{
+	  b active = true;
+	  b affects_actors = true;
+	  b affects_items = true;
+	  b affects_terrain = true;
+	  x color = 0xFF7FFF7F;
+	  b draw_shadow = false;
+	  f inner_radius = 0.000000;
+	  f intensity = 1.000000;
+	  b occlude_geometry = false;
+	  b on_timer = false;
+	  f outer_radius = 20.000000;
+		[position]
+		{
+		  x node = 0x9B01016F;
+		  f x = 0.005559;
+		  f y = 12.069839;
+		  f z = -0.151657;
+		}
+	}
 	[t:point,n:light_0xf2d1814e]
 	{
 	  b active = true;
