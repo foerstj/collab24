@@ -628,7 +628,7 @@
 	  x nodelevel = 0xFFFFFFFF;
 	  x nodeobject = 0xFFFFFFFF;
 	  x nodesection = 0x00000002;
-	  b occludes_camera = false;
+	  b occludes_camera = true;
 	  b occludes_light = false;
 		texsetabbr = dgn09;
 		[door*]
@@ -906,7 +906,7 @@
 	  x nodelevel = 0xFFFFFFFF;
 	  x nodeobject = 0xFFFFFFFF;
 	  x nodesection = 0x00000002;
-	  b occludes_camera = false;
+	  b occludes_camera = true;
 	  b occludes_light = false;
 		texsetabbr = dgn09;
 		[door*]
@@ -1631,7 +1631,7 @@
 	  x nodelevel = 0xFFFFFFFF;
 	  x nodeobject = 0xFFFFFFFF;
 	  x nodesection = 0x00000002;
-	  b occludes_camera = false;
+	  b occludes_camera = true;
 	  b occludes_light = false;
 		texsetabbr = dgn09;
 		[door*]
@@ -3540,7 +3540,7 @@
 	  x nodelevel = 0xFFFFFFFF;
 	  x nodeobject = 0xFFFFFFFF;
 	  x nodesection = 0x00000002;
-	  b occludes_camera = false;
+	  b occludes_camera = true;
 	  b occludes_light = false;
 		texsetabbr = dgn09;
 		[door*]
@@ -4213,7 +4213,7 @@
 	  x nodelevel = 0xFFFFFFFF;
 	  x nodeobject = 0xFFFFFFFF;
 	  x nodesection = 0x00000002;
-	  b occludes_camera = false;
+	  b occludes_camera = true;
 	  b occludes_light = false;
 		texsetabbr = dgn09;
 		[door*]
@@ -7583,7 +7583,7 @@
 	  x nodelevel = 0xFFFFFFFF;
 	  x nodeobject = 0xFFFFFFFF;
 	  x nodesection = 0x00000002;
-	  b occludes_camera = false;
+	  b occludes_camera = true;
 	  b occludes_light = false;
 		texsetabbr = dgn09;
 		[door*]
@@ -7608,7 +7608,7 @@
 	  x nodelevel = 0xFFFFFFFF;
 	  x nodeobject = 0xFFFFFFFF;
 	  x nodesection = 0x00000002;
-	  b occludes_camera = false;
+	  b occludes_camera = true;
 	  b occludes_light = false;
 		texsetabbr = dgn09;
 		[door*]
@@ -8288,7 +8288,7 @@
 	  x nodelevel = 0xFFFFFFFF;
 	  x nodeobject = 0xFFFFFFFF;
 	  x nodesection = 0x00000002;
-	  b occludes_camera = false;
+	  b occludes_camera = true;
 	  b occludes_light = false;
 		texsetabbr = dgn09;
 		[door*]
@@ -9054,7 +9054,7 @@
 	  x nodelevel = 0xFFFFFFFF;
 	  x nodeobject = 0xFFFFFFFF;
 	  x nodesection = 0x00000002;
-	  b occludes_camera = false;
+	  b occludes_camera = true;
 	  b occludes_light = false;
 		texsetabbr = dgn09;
 		[door*]
