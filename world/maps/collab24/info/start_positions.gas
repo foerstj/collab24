@@ -1,12 +1,12 @@
 [start_positions]
 {
-	[t:start_group,n:default]
+	[t:start_group,n:test_pre]
 	{
-	  b default = false;
+	  b default = true;
 		description = "This is the default group.";
 	  b dev_only = false;
 	  i id = 300;
-		screen_name = "";
+		screen_name = "Test - before Underland";
 		[start_position]
 		{
 		  i id = 1;
@@ -28,7 +28,7 @@
 	  b default = false;
 		description = "";
 	  b dev_only = false;
-	  i id = 1699084;
+	  i id = 322;
 		screen_name = "CL-D ELE-D";
 		[start_position]
 		{
@@ -51,7 +51,7 @@
 	  b default = false;
 		description = "";
 	  b dev_only = false;
-	  i id = 1699084;
+	  i id = 321;
 		screen_name = "CL-D ELE-U";
 		[start_position]
 		{
@@ -74,7 +74,7 @@
 	  b default = false;
 		description = "";
 	  b dev_only = false;
-	  i id = 1698412;
+	  i id = 361;
 		screen_name = "CL-U ELE-D";
 		[start_position]
 		{
@@ -97,7 +97,7 @@
 	  b default = false;
 		description = "";
 	  b dev_only = false;
-	  i id = 361;
+	  i id = 362;
 		screen_name = "CL-U ELE-U";
 		[start_position]
 		{
@@ -161,35 +161,12 @@
 		{
 		}
 	}
-	[t:start_group,n:test_town]
-	{
-	  b default = true;
-		description = "";
-	  b dev_only = false;
-	  i id = 340;
-		screen_name = "TOWN";
-		[start_position]
-		{
-		  i id = 1;
-			position = -0.031152,0.000000,-0.014565,0x02AB4F69;
-			[camera]
-			{
-			  f azimuth = 0.500000;
-			  f distance = 20.000000;
-			  f orbit = 0.000000;
-				position = -0.031152,0.000000,-0.014565,0x02AB4F69;
-			}
-		}
-		[world_levels]
-		{
-		}
-	}
 	[t:start_group,n:test_wld_eled]
 	{
 	  b default = false;
 		description = "";
 	  b dev_only = false;
-	  i id = 1698412;
+	  i id = 310;
 		screen_name = "WL-D ELE-D";
 		[start_position]
 		{
@@ -228,6 +205,117 @@
 		}
 		[world_levels]
 		{
+		}
+	}
+	[t:start_group,n:underland]
+	{
+	  b default = false;
+		description = "The Underling town of Shroomington.";
+	  b dev_only = false;
+	  i id = 30;
+		screen_name = "Underland";
+		[start_position]
+		{
+		  i id = 1;
+			position = 0.033010,0.000000,0.013102,0x02AB4F69;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -0.031152,0.000000,-0.014565,0x02AB4F69;
+			}
+		}
+		[start_position]
+		{
+		  i id = 2;
+			position = -0.979822,0.000000,0.024516,0x02AB4F69;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 0.000000,0.000000,0.000000,0x02AB4F69;
+			}
+		}
+		[start_position]
+		{
+		  i id = 3;
+			position = 1.056240,0.000000,0.017408,0x02AB4F69;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 0.000000,0.000000,0.000000,0x217392D8;
+			}
+		}
+		[start_position]
+		{
+		  i id = 4;
+			position = 1.911425,0.000000,0.040385,0x217392D8;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 0.000000,0.000000,0.000000,0x217392D8;
+			}
+		}
+		[start_position]
+		{
+		  i id = 5;
+			position = 0.015898,0.000000,1.977535,0xD6F03D86;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 0.000000,0.000000,0.000000,0xD6F03D86;
+			}
+		}
+		[start_position]
+		{
+		  i id = 6;
+			position = 0.913813,0.000000,0.018395,0x217392D8;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 0.000000,0.000000,0.000000,0x217392D8;
+			}
+		}
+		[start_position]
+		{
+		  i id = 7;
+			position = -0.004297,-0.000002,1.000589,0xD6F03D86;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 0.000000,0.000000,0.000000,0xD6F03D86;
+			}
+		}
+		[start_position]
+		{
+		  i id = 8;
+			position = -0.010330,0.000000,0.046057,0x217392D8;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 0.000000,0.000000,0.000000,0x217392D8;
+			}
+		}
+		[world_levels]
+		{
+			[regular]
+			{
+			  i required_level = 6;
+			}
 		}
 	}
 }

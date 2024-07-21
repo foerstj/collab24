@@ -30,7 +30,7 @@
 {
 	[common]
 	{
-		dev_instance_text = "DEV STARTPOS - FADE & MOOD";
+		dev_instance_text = "STARTPOS - FADE & MOOD";
 		[instance_triggers]
 		{
 			[*]
@@ -57,7 +57,7 @@
 	[placement]
 	{
 	  q orientation = 0,-8.9407e-008,0,1;
-	  p position = 1.27872,-1.90735e-006,-0.126764,0x02ab4f69;
+	  p position = 0.0271969,-1.90735e-006,1.31754,0x02ab4f69;
 	}
 }
 [t:trigger_change_mood_box,n:0x0340015a]
