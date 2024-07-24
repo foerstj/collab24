@@ -47,6 +47,7 @@
 	0x0370086e = t_xxx_pth_08x08-b;
 	0x0370086f = t_xxx_pth_08x08-c;
 	0x03700870 = t_xxx_pth_08x08-d;
+	0x03700873 = t_xxx_pth_08x08-g;
 	0x03700874 = t_xxx_pth_08x08-h;
 	0x03700888 = t_xxx_rmp_cnr-ccav;
 	0x03700889 = t_xxx_rmp_cnr-cnvx;
@@ -79,6 +80,7 @@
 	0x03700a26 = t_xxx_wal_08-tx-04-l;
 	0x03700a27 = t_xxx_wal_08-tx-04-r;
 	0x03700a28 = t_xxx_wal_08-tx-12-l;
+	0x03700a30 = t_xxx_wal_12-diag-thick-l;
 	0x03700a31 = t_xxx_wal_12-diag-thick-r;
 	0x03700a33 = t_xxx_wal_12-diag-thin-r;
 	0x03700a38 = t_xxx_wal_12-thck;
@@ -89,6 +91,10 @@
 	0x03700a41 = t_xxx_wal_12-tx-rmp-r;
 	0x03700a45 = t_xxx_wal_24-diag-thick-r;
 	0x03700a46 = t_xxx_wal_24-diag-thin-l;
+	0x03700a47 = t_xxx_wal_24-diag-thin-r;
 	0x03700a48 = t_xxx_wal_24-thck;
 	0x03700a49 = t_xxx_wal_24-thin;
+	0x03700a83 = t_xxx_wal_cave-split-24-front-base;
+	0x03700a86 = t_xxx_wal_cave-split-24-front-sides;
+	0x03700a88 = t_xxx_wal_cave-split-24-front-top;
 }
