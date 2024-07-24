@@ -2,17 +2,17 @@
 {
 	[common]
 	{
+		dev_instance_text = "ACTIVATE SKILL SCROLLS";
 		[instance_triggers]
 		{
 			[*]
 			{
-				action* = mood_change("map_world_ac_r1_1");
 				action* = send_world_message("we_req_activate",0x03000004,0f,"default","every",0);
 				action* = send_world_message("we_req_activate",0x03000005,0f,"default","every",0);
 				action* = send_world_message("we_req_activate",0x03000006,0f,"default","every",0);
 				action* = send_world_message("we_req_activate",0x03000007,0f,"default","every",0);
 			  b can_self_destruct = true;
-				condition* = party_member_within_sphere(2.500000,"on_every_enter");
+				condition* = party_member_within_sphere(32.000000,"on_every_enter");
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
@@ -27,20 +27,21 @@
 	}
 	[placement]
 	{
-	  p position = 0.839463,0,0.874518,0x5eab80d7;
+	  p position = 0.0514963,0,-1.08238,0x5eab80d7;
 	}
 }
-[t:trigger_generic,n:0x03000001]
+[t:trigger_change_mood_box,n:0x03000025]
 {
 	[common]
 	{
+		dev_instance_text = "DEV STARTPOS - MOOD";
 		[instance_triggers]
 		{
 			[*]
 			{
-				action* = mood_change("map_world_ac_r1_2");
+				action* = mood_change("map_expansion_a9_r2_discokrug");
 			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(4.000000,1.000000,1.000000,"on_every_enter");
+				condition* = party_member_within_bounding_box(2.000000,1.000000,2.000000,"on_every_enter");
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
@@ -55,46 +56,19 @@
 	}
 	[placement]
 	{
-	  p position = -0.43227,-11.3133,1.87594,0xa1647c0f;
+	  p position = 0.0639949,0,1.09527,0x5eab80d7;
 	}
 }
-[t:trigger_generic,n:0x03000002]
+[t:trigger_change_mood_box,n:0x03000026]
 {
 	[common]
 	{
+		dev_instance_text = "ENTRY - MOOD";
 		[instance_triggers]
 		{
 			[*]
 			{
-				action* = mood_change("map_world_sr_r1_1");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(4.000000,1.000000,1.000000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  p position = -0.044419,-11.95,5.14928,0x6592343d;
-	}
-}
-[t:trigger_generic,n:0x03000019]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = mood_change("map_world_sr_r1_1");
+				action* = mood_change("map_expansion_a9_r2_discokrug");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(8.000000,1.000000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -111,7 +85,6 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = -2.50171,0,0.101588,0x4eec8df4;
+	  p position = 0.185034,-11.997,-5.22615,0xbc8ed509;
 	}
 }
