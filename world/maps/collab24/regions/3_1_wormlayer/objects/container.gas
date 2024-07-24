@@ -166,6 +166,62 @@
 	  p position = 2.69354,-1.90735e-006,-2.23271,0x3e8e2752;
 	}
 }
+[t:barrel_glb_path2sd,n:0x0310082b]
+{
+	[placement]
+	{
+	  q orientation = 0,0.0958454,0,-0.995396;
+	  p position = 2.40388,0,-1.39909,0x97335c38;
+	}
+}
+[t:barrel_glb_path2sd,n:0x0310082c]
+{
+	[placement]
+	{
+	  q orientation = 0,0.976296,0,-0.21644;
+	  p position = 3.16979,0,-1.06053,0x97335c38;
+	}
+}
+[t:barrel_glb_path2sd,n:0x0310082d]
+{
+	[placement]
+	{
+	  q orientation = 0,0.656059,0,0.75471;
+	  p position = 2.5172,0,-0.686796,0x97335c38;
+	}
+}
+[t:barrel_glb_path2sd,n:0x0310082e]
+{
+	[placement]
+	{
+	  q orientation = 0,0.544639,0,-0.838671;
+	  p position = 0.241998,1.90735e-006,-1.58382,0x97335c38;
+	}
+}
+[t:barrel_glb_path2sd,n:0x0310082f]
+{
+	[placement]
+	{
+	  q orientation = 0,0.0174524,0,0.999848;
+	  p position = -0.156894,-1.90735e-006,-0.942633,0x97335c38;
+	}
+}
+[t:barrel_glb_path2sd,n:0x03100824]
+{
+	[placement]
+	{
+	  q orientation = 0,0.292371,0,-0.956305;
+	  p position = 2.88591,0,-0.267548,0x22a38f8b;
+	}
+}
+[t:crate_des_01_path2sd,n:0x03100825]
+{
+	[placement]
+	{
+	  q orientation = 0,0.87462,0,-0.48481;
+	  p position = 2.04967,0,0.35358,0x22a38f8b;
+	}
+}
 [t:barrel_glb_path2sd,n:0x031007f5]
 {
 	[placement]
@@ -300,62 +356,6 @@
 	{
 	  q orientation = 0,0.559193,0,0.829038;
 	  p position = 0.380619,1.90735e-006,0.194783,0x9a83a9a8;
-	}
-}
-[t:barrel_glb_path2sd,n:0x0310082b]
-{
-	[placement]
-	{
-	  q orientation = 0,0.0958454,0,-0.995396;
-	  p position = 2.40388,0,-1.39909,0x97335c38;
-	}
-}
-[t:barrel_glb_path2sd,n:0x0310082c]
-{
-	[placement]
-	{
-	  q orientation = 0,0.976296,0,-0.21644;
-	  p position = 3.16979,0,-1.06053,0x97335c38;
-	}
-}
-[t:barrel_glb_path2sd,n:0x0310082d]
-{
-	[placement]
-	{
-	  q orientation = 0,0.656059,0,0.75471;
-	  p position = 2.5172,0,-0.686796,0x97335c38;
-	}
-}
-[t:barrel_glb_path2sd,n:0x0310082e]
-{
-	[placement]
-	{
-	  q orientation = 0,0.544639,0,-0.838671;
-	  p position = 0.241998,1.90735e-006,-1.58382,0x97335c38;
-	}
-}
-[t:barrel_glb_path2sd,n:0x0310082f]
-{
-	[placement]
-	{
-	  q orientation = 0,0.0174524,0,0.999848;
-	  p position = -0.156894,-1.90735e-006,-0.942633,0x97335c38;
-	}
-}
-[t:barrel_glb_path2sd,n:0x03100824]
-{
-	[placement]
-	{
-	  q orientation = 0,0.292371,0,-0.956305;
-	  p position = 2.88591,0,-0.267548,0x22a38f8b;
-	}
-}
-[t:crate_des_01_path2sd,n:0x03100825]
-{
-	[placement]
-	{
-	  q orientation = 0,0.87462,0,-0.48481;
-	  p position = 2.04967,0,0.35358,0x22a38f8b;
 	}
 }
 [t:crate_des_01_path2sd,n:0x0310080f]

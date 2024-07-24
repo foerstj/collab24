@@ -10,4 +10,12 @@
 			0x00003121 = 0xA5A96CA3,14;
 		}
 	}
+	[t:stitch_editor,n:3_pre]
+	{
+		dest_region = 3_pre;
+		[node_ids]
+		{
+			0x00000f23 = 0xA05EB593,7;
+		}
+	}
 }

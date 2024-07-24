@@ -2,4 +2,12 @@
 {
 	source_region_guid = 0x00000030;
 	source_region_name = 3_pre;
+	[t:stitch_editor,n:3_1_wormlayer]
+	{
+		dest_region = 3_1_wormlayer;
+		[node_ids]
+		{
+			0x00000f23 = 0xBC8ED509,7;
+		}
+	}
 }

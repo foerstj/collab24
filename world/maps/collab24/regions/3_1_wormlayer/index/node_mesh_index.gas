@@ -148,4 +148,7 @@
 	0x03100a54 = t_xxx_wal_32-diag-thin-r;
 	0x03100a55 = t_xxx_wal_32-thck;
 	0x03100a57 = t_xxx_wal_32-thin;
+	0x03100a7b = t_xxx_wal_cave-split-24-back-base;
+	0x03100a7e = t_xxx_wal_cave-split-24-back-sides;
+	0x03100a80 = t_xxx_wal_cave-split-24-back-top;
 }

@@ -72,6 +72,36 @@
 	  p position = 0.390221,2,1.21683,0xbe2612c4;
 	}
 }
+[t:trigger_generic,n:0x03100017]
+{
+	[common]
+	{
+		dev_instance_text = "ENTRY - FADE";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = fade_nodes(0x00000032,1,-1,-1,"out:instant"), doc("fade out crystlayer");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(10.000000,1.000000,1.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -1.38539,0,1.96436,0x2707f124;
+	}
+}
 [t:trigger_generic,n:0x03100006]
 {
 	[common]
@@ -113,8 +143,8 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = 1.77446,0,-0.149384,0x8b77733a;
+	  q orientation = 0,1,0,0;
+	  p position = 0.0108719,-12,1.51109,0xa05eb593;
 	}
 }
 [t:trigger_generic,n:0x03100016]
@@ -143,38 +173,8 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = 2.89212,0,-0.164848,0x8b77733a;
-	}
-}
-[t:trigger_generic,n:0x03100017]
-{
-	[common]
-	{
-		dev_instance_text = "ENTRY - FADE";
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = fade_nodes(0x00000032,1,-1,-1,"out:instant"), doc("fade out crystlayer");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(10.000000,1.000000,1.000000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = 0.670944,0,-0.124611,0x8b77733a;
+	  q orientation = 0,1,0,0;
+	  p position = -0.00459288,-12,0.393433,0xa05eb593;
 	}
 }
 [t:use_point,n:0x03100014]
