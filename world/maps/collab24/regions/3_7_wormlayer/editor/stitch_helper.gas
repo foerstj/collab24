@@ -10,4 +10,12 @@
 			0x00003671 = 0x459F4646,14;
 		}
 	}
+	[t:stitch_editor,n:3_post]
+	{
+		dest_region = 3_post;
+		[node_ids]
+		{
+			0x00000f34 = 0xDDB62E07,7;
+		}
+	}
 }

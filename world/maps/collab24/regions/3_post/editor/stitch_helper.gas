@@ -1,5 +1,13 @@
 [stitch_helper_data]
 {
 	source_region_guid = 0x00000038;
-	source_region_name = 3_8_tx;
+	source_region_name = 3_post;
+	[t:stitch_editor,n:3_7_wormlayer]
+	{
+		dest_region = 3_7_wormlayer;
+		[node_ids]
+		{
+			0x00000f34 = 0xAF50F1D9,7;
+		}
+	}
 }
