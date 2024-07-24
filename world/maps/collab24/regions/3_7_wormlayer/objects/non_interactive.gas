@@ -1314,6 +1314,213 @@
 	  p position = -0.220715,0,1.77984,0xfe98733a;
 	}
 }
+[t:debris_cav_01,n:0x03700028]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.02642;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.891007,0,0.45399;
+	  p position = 1.47916,0,1.26941,0x1924dc73;
+	}
+}
+[t:debris_cav_01,n:0x03700029]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.03294;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.522499,0,0.85264;
+	  p position = 0.99585,0,-0.943581,0x1924dc73;
+	}
+}
+[t:debris_cav_01,n:0x0370002a]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.16995;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.996917,0,-0.0784594;
+	  p position = 1.12845,0,-2.80039,0x1924dc73;
+	}
+}
+[t:debris_cav_02,n:0x0370002d]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.95656;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.997564,0,-0.0697567;
+	  p position = -2.28659,0,1.19368,0x1924dc73;
+	}
+}
+[t:mushrooms_cav_01,n:0x03700033]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.922038;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.0697565,0,0.997564;
+	  p position = 3.67429,0,-2.17235,0x1924dc73;
+	}
+}
+[t:mushrooms_cav_07,n:0x03700035]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.913184;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.34202,0,0.939693;
+	  p position = -1.19228,0,-2.77684,0x1924dc73;
+	}
+}
+[t:roots_glb_01,n:0x03700037]
+{
+	[placement]
+	{
+	  p position = 3.55479,1.90735e-006,-3.22531,0x1924dc73;
+	}
+}
+[t:roots_glb_02,n:0x03700038]
+{
+	[placement]
+	{
+	  q orientation = 0,0.382684,0,0.92388;
+	  p position = 2.20068,1.90735e-006,-2.63712,0x1924dc73;
+	}
+}
+[t:debris_cav_02,n:0x0370002c]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.991758;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.731354,0,0.681998;
+	  p position = -1.95367,-12,-3.94809,0xa3bd19ed;
+	}
+}
+[t:debris_cav_01,n:0x03700027]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.978145;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.996195,0,0.0871552;
+	  p position = -1.13304,0,0.663193,0xfbc89ab2;
+	}
+}
+[t:debris_cav_02,n:0x0370002b]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.12724;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.833886,0,0.551937;
+	  p position = 0.507778,0,-0.443375,0xfbc89ab2;
+	}
+}
+[t:mushrooms_cav_01,n:0x0370002f]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.911894;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.902585,0,0.430511;
+	  p position = 2.82665,0,3.47254,0x20be5b22;
+	}
+}
+[t:mushrooms_cav_01,n:0x03700032]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.950596;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.333807,0,0.942641;
+	  p position = 2.99403,0,-1.29851,0x20be5b22;
+	}
+}
+[t:debris_cav_03,n:0x03700034]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.03429;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.529919,0,0.848048;
+	  p position = 1.57887,0,-3.66306,0x20be5b22;
+	}
+}
+[t:mushrooms_cav_01,n:0x0370002e]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.906106;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.993572,0,0.113203;
+	  p position = -16.8578,-12,-20.5489,0xa660f4b4;
+	}
+}
+[t:debris_cav_03,n:0x03700030]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.01746;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.48481,0,0.87462;
+	  p position = -0.42453,0,-0.986851,0x5ce7088b;
+	}
+}
+[t:debris_cav_03,n:0x03700031]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.05954;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.67559,0,0.737277;
+	  p position = -2.55778,0,-0.123814,0xba232c1e;
+	}
+}
+[t:mushrooms_cav_07,n:0x03700036]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.913184;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.34202,0,0.939693;
+	  p position = -2.04025,0,1.39825,0x4d9a54d7;
+	}
+}
 [t:debris_cav_01,n:0x037003a0]
 {
 	[aspect]
@@ -1384,6 +1591,14 @@
 	{
 	  q orientation = 0,0.999391,0,-0.0348997;
 	  p position = -0.298273,-1.90735e-006,1.90689,0x4d9a54d7;
+	}
+}
+[t:roots_glb_04,n:0x0370003a]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,5.96046e-008;
+	  p position = -3.40658,-4,-1.62232,0x50cc7be0;
 	}
 }
 [t:debris_cav_03,n:0x0370039d]
@@ -1679,7 +1894,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.857167,0,0.515038;
-	  p position = -2.9633,-0.222862,-3.61429,0x27bcd203;
+	  p position = -3.69463,-0.222862,-1.12596,0x27bcd203;
 	}
 }
 [t:debris_cav_02,n:0x03700077]
@@ -8209,5 +8424,13 @@
 	{
 	  q orientation = 0,0.594823,0,0.803857;
 	  p position = 1.12281,0,0.307875,0x1c9f2bbf;
+	}
+}
+[t:roots_glb_03,n:0x03700039]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,-7.47325e-007;
+	  p position = 1.98724,-12,-1.98531,0x9f6cc288;
 	}
 }

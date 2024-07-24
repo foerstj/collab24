@@ -2197,6 +2197,122 @@
 	  p position = -0.574943,-9.53674e-007,1.59166,0xed9919c5;
 	}
 }
+[t:roots_glb_03,n:0x03100033]
+{
+	[placement]
+	{
+	  q orientation = 0,0.923879,0,-0.382684;
+	  p position = 3.0929,-11.9546,-3.52778,0x98447591;
+	}
+}
+[t:debris_cav_02,n:0x03100030]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.09152;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.953717,0,-0.300706;
+	  p position = 1.13815,0,-0.511528,0x2ccd0e75;
+	}
+}
+[t:mushrooms_cav_02,n:0x0310002f]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.10033;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.0436197,0,0.999048;
+	  p position = -0.760208,0,0.267197,0xa3cb4049;
+	}
+}
+[t:debris_cav_02,n:0x0310002e]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.09152;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.953717,0,-0.300706;
+	  p position = -1.30106,0,-0.253929,0x20458cf7;
+	}
+}
+[t:roots_glb_02,n:0x03100032]
+{
+	[placement]
+	{
+	  q orientation = 0,0.382683,0,0.92388;
+	  p position = -0.960693,0,-1.26855,0x20458cf7;
+	}
+}
+[t:debris_cav_02,n:0x0310002a]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.19177;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -2.71927,0,-0.190895,0x9fa8fd0d;
+	}
+}
+[t:mushrooms_cav_02,n:0x0310002b]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.10033;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.0436197,0,0.999048;
+	  p position = 2.59731,0,-1.03265,0x9fa8fd0d;
+	}
+}
+[t:mushrooms_cav_05_x2,n:0x0310002c]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.10761;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.976296,0,0.21644;
+	  p position = -2.74287,0,-0.291969,0x9fa8fd0d;
+	}
+}
+[t:mushrooms_cav_05,n:0x0310002d]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.01462;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.891006,0,-0.453991;
+	  p position = -0.559677,0,-1.02222,0x9fa8fd0d;
+	}
+}
+[t:roots_glb_01,n:0x03100031]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -3.40877,0,-1.21486,0x9fa8fd0d;
+	}
+}
+[t:roots_glb_04,n:0x03100034]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -3.96942,-6,1.84962,0xa189121c;
+	}
+}
 [t:rock_grs_06,n:0x0310029e]
 {
 	[aspect]

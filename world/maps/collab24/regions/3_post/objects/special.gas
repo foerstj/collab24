@@ -24,7 +24,7 @@
 	}
 	[placement]
 	{
-	  p position = -0.04061,0,-2.80367,0xa35735ee;
+	  p position = 0.0646821,0,-1.14,0xa35735ee;
 	}
 }
 [t:trigger_change_mood_box,n:0x03800014]
@@ -54,6 +54,6 @@
 	[placement]
 	{
 	  q orientation = 0,1,0,0;
-	  p position = -0.505836,-12,1.58004,0xaf50f1d9;
+	  p position = 0.00165796,-12,1.68142,0xaf50f1d9;
 	}
 }
