@@ -92,9 +92,32 @@
 		{
 		}
 	}
-	[t:start_group,n:test_pre]
+	[t:start_group,n:test_post]
 	{
 	  b default = true;
+		description = "";
+	  b dev_only = false;
+	  i id = 399;
+		screen_name = "Test - after Underland";
+		[start_position]
+		{
+		  i id = 1;
+			position = -0.019016,-0.000001,-1.868920,0xA35735EE;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -0.019016,-0.000001,-1.868920,0xA35735EE;
+			}
+		}
+		[world_levels]
+		{
+		}
+	}
+	[t:start_group,n:test_pre]
+	{
+	  b default = false;
 		description = "This is the default group.";
 	  b dev_only = false;
 	  i id = 300;
