@@ -1,7 +1,7 @@
 [stitch_helper_data]
 {
 	source_region_guid = 0x00000030;
-	source_region_name = 3_0_tx;
+	source_region_name = 3_pre;
 	[t:stitch_editor,n:3_1_wormlayer]
 	{
 		dest_region = 3_1_wormlayer;
