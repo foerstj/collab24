@@ -4,6 +4,12 @@
 	transition_time			= 8.0f;
 	interior				= true;
 
+	[frustum]
+	{
+	  f frustum_height = 100.000000;  // enough height for big elevators
+	  f frustum_width = 45.000000;
+	}
+
 	[fog]
 	{
 		fog_near_dist		= 20.0f;
@@ -104,6 +110,12 @@
 	mood_name				= collab24_3_wormlayer_3;
 	transition_time			= 8.0f;
 	interior				= true;
+
+	[frustum]
+	{
+	  f frustum_height = 100.000000;  // enough height for big elevators
+	  f frustum_width = 45.000000;
+	}
 
 	[fog]
 	{

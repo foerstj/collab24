@@ -159,7 +159,7 @@
 	[frustum]
 	{
 		frustum_width		= 45.0f;  // back to default frustum after viewpoint
-		frustum_height		= 100.0f;
+		frustum_height		= 100.0f;  // enough height for big elevators
 	}
 
 	[fog]
