@@ -10,8 +10,8 @@ set copyright=CC-BY-SA %year%
 set author=Johannes Förstner
 set title=%map_cs%
 
-:: path of DSLOA documents dir (where Bits are)
-set doc_dsloa=%USERPROFILE%\Documents\Dungeon Siege LoA
+:: path of Bits dir
+set bits=%~dp0.
 :: path of DS installation
 set ds=%DungeonSiege%
 :: path of TankCreator
@@ -29,7 +29,7 @@ if not "%mode%"=="light" (
   if "%mode%"=="release" (
     set checks=all
   )
-  venv\Scripts\python -m build.pre_build_checks %map% --check !checks!
+  venv\Scripts\python -m build.pre_build_checks %map% --check !checks! --bits "%bits%"
   if !errorlevel! neq 0 pause
 )
 endlocal
@@ -37,7 +37,7 @@ popd
 
 :: Compile map file
 rmdir /S /Q "%tmp%\Bits"
-robocopy "%doc_dsloa%\Bits\world\maps\%map%" "%tmp%\Bits\world\maps\%map%" /S
+robocopy "%bits%\world\maps\%map%" "%tmp%\Bits\world\maps\%map%" /S
 pushd %gaspy%
 venv\Scripts\python -m build.fix_start_positions_required_levels %map% "%tmp%\Bits"
 if %errorlevel% neq 0 pause
@@ -47,11 +47,11 @@ if %errorlevel% neq 0 pause
 
 :: Compile main resource file
 rmdir /S /Q "%tmp%\Bits"
-robocopy "%doc_dsloa%\Bits\art" "%tmp%\Bits\art" /S /xd git-ignore
-robocopy "%doc_dsloa%\Bits\world\ai\jobs\minibits" "%tmp%\Bits\world\ai\jobs\minibits" /S
-robocopy "%doc_dsloa%\Bits\world\contentdb\templates\minibits" "%tmp%\Bits\world\contentdb\templates\minibits" /S
-robocopy "%doc_dsloa%\Bits\world\contentdb\templates\%res%" "%tmp%\Bits\world\contentdb\templates\%res%" /S
-robocopy "%doc_dsloa%\Bits\world\global\moods\%res%" "%tmp%\Bits\world\global\moods\%res%" /S
-robocopy "%doc_dsloa%\Bits\world\global\effects" "%tmp%\Bits\world\global\effects" %res%-*.gas /S
+robocopy "%bits%\art" "%tmp%\Bits\art" /S /xd git-ignore
+robocopy "%bits%\world\ai\jobs\minibits" "%tmp%\Bits\world\ai\jobs\minibits" /S
+robocopy "%bits%\world\contentdb\templates\minibits" "%tmp%\Bits\world\contentdb\templates\minibits" /S
+robocopy "%bits%\world\contentdb\templates\%res%" "%tmp%\Bits\world\contentdb\templates\%res%" /S
+robocopy "%bits%\world\global\moods\%res%" "%tmp%\Bits\world\global\moods\%res%" /S
+robocopy "%bits%\world\global\effects" "%tmp%\Bits\world\global\effects" %res%-*.gas /S
 "%tc%\RTC.exe" -source "%tmp%\Bits" -out "%ds%\DSLOA\%map_cs%.dsres" -copyright "%copyright%" -title "%title%" -author "%author%"
 if %errorlevel% neq 0 pause
