@@ -66,6 +66,36 @@
 	  p position = 1.06952,5.48363e-006,0.469848,0x386b26e2;
 	}
 }
+[t:trigger_generic,n:0x0370005f]
+{
+	[common]
+	{
+		dev_instance_text = "ENTRY - FADE";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = fade_nodes(0x00000036,1,-1,-1,"out:instant"), doc("fade out crystlayer");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(8.500000,0.500000,1.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -0.300827,0,-0.182816,0x24f2cad6;
+	}
+}
 [t:trigger_generic,n:0x0370005e]
 {
 	[common]
@@ -92,8 +122,8 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,2.98023e-008,0,1;
-	  p position = -0.248604,-12,-3.15563,0xddb62e07;
+	  q orientation = 0,1,0,0;
+	  p position = 0.175262,-12.2181,-2.87553,0x8614c24d;
 	}
 }
 [t:trigger_change_mood_box,n:0x037001d9]
@@ -137,38 +167,7 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,1,0,2.98023e-008;
-	  p position = -0.278366,-12,-5.31258,0xddb62e07;
-	}
-}
-[t:trigger_generic,n:0x0370005f]
-{
-	[common]
-	{
-		dev_instance_text = "ENTRY - FADE";
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = fade_nodes(0x00000036,1,-1,-1,"out:instant"), doc("fade out crystlayer");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(8.500000,0.500000,1.000000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = -2.26966,0,1.74385,0x3a0f9314;
+	  p position = 0.205025,-12.0478,-0.71859,0x8614c24d;
 	}
 }
 [t:trigger_change_mood_box,n:0x0370000c]
