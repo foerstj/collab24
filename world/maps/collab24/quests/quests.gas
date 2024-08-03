@@ -1,8 +1,8 @@
 [chapters]
 {
-	[c24_chapter_3]
+	[chapter_03_underland]
 	{
-		screen_name = "Chapter 3: Underland";
+		screen_name = "Chapter III: Underland";
 		[*]
 		{
 			description = "Deep below the surface of the world, there lie wondrous lands where crystals and mushrooms grow...";
@@ -15,7 +15,7 @@
 {
 	[c24_3_crystal_master]
 	{
-		chapter = c24_chapter_3;
+		chapter = chapter_03_underland;
 		screen_name = "The Crystal Master";
 		victory_sample = s_e_level_up_quest;
 		[*]
