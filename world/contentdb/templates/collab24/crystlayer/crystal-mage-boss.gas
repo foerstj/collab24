@@ -49,7 +49,7 @@
 	}
     aspect:textures:0 = b_c_edm_sw-03;  // Lost Witch
 
-    // stats & loot from krug_shaman_boss_01 "Huskar the Shaman"
+    // stats & loot from krug_shaman_boss_01 "Huskar the Shaman", increased
 	[actor]
 	{
 		[skills]
@@ -64,10 +64,11 @@
 	[aspect]
 	{
 		experience_value = 85;
-		life = 44;
 		mana = 500;
-		max_life = 44;
 		max_mana = 500;
+        // EDITED - quadrupled, was 44
+		life = 176;
+		max_life = 176;
 	}
 	[attack]
 	{
