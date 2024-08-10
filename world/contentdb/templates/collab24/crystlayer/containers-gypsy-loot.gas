@@ -25,22 +25,21 @@
 {
     specializes = barrel_glb_floating_03_base;
 
-    // from crate_ice_01_path2nt
+    // from crate_ice_01_path2nt, increased
 	[inventory]
 	{
 		[pcontent]
 		{
-			[oneof*]
+			[all*]
 			{
 				[gold*]
 				{
-					chance = 0.2;
+					chance = 0.5;
 					max = 100;
 					min = 75;
 				}
 				[oneof*]
 				{
-					chance = 0.3;
 					il_main = #weapon/12-28;
 					il_main = #armor/19-60;
 					il_main = #*/12-28;
@@ -80,22 +79,21 @@
 {
     specializes = barrel_glb_floating_04_base;
 
-    // from crate_ice_01_path2nt
+    // from crate_ice_01_path2nt, increased
 	[inventory]
 	{
 		[pcontent]
 		{
-			[oneof*]
+			[all*]
 			{
 				[gold*]
 				{
-					chance = 0.2;
+					chance = 0.5;
 					max = 100;
 					min = 75;
 				}
 				[oneof*]
 				{
-					chance = 0.3;
 					il_main = #weapon/12-28;
 					il_main = #armor/19-60;
 					il_main = #*/12-28;
