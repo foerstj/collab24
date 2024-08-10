@@ -1191,6 +1191,10 @@
 }
 [t:statue_cav_01,n:0x034000f9]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.95;
+	}
 	[placement]
 	{
 	  q orientation = 0,1,0,-1.49012e-007;
@@ -1249,6 +1253,10 @@
 }
 [t:statue_cav_01,n:0x034000f8]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.95;
+	}
 	[placement]
 	{
 	  q orientation = 0,1,0,-1.49012e-007;
