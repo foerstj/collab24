@@ -52,6 +52,7 @@ if %errorlevel% neq 0 pause
 :: Compile main resource file
 rmdir /S /Q "%tmp%\Bits"
 robocopy "%bits%\art" "%tmp%\Bits\art" /S /xd git-ignore
+robocopy "%bits%\ui" "%tmp%\Bits\ui" /S
 robocopy "%bits%\world\ai\jobs\minibits" "%tmp%\Bits\world\ai\jobs\minibits" /S
 robocopy "%bits%\world\contentdb\templates\minibits" "%tmp%\Bits\world\contentdb\templates\minibits" /S
 robocopy "%bits%\world\contentdb\templates\%res%" "%tmp%\Bits\world\contentdb\templates\%res%" /S

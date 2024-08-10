@@ -102,11 +102,36 @@
 	  p position = -1.38539,0,1.96436,0x2707f124;
 	}
 }
+[t:activate_chapter,n:0x03100035]
+{
+	[activate_chapter]
+	{
+		chapter = "chapter_03_underland";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -0.859406,0.0252876,0.00434878,0x2707f124;
+	}
+}
+[t:interface_fade,n:0x03100036]
+{
+	[interface_fade]
+	{
+	  f duration = 10;
+		interface = "chapter_3-underland";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 0.395538,3.8147e-006,-0.40287,0x2707f124;
+	}
+}
 [t:trigger_generic,n:0x03100006]
 {
 	[common]
 	{
-		dev_instance_text = "MOOD & PWL";
+		dev_instance_text = "MOOD & PWL & CHAPTER";
 		[instance_triggers]
 		{
 			[*]
@@ -137,6 +162,22 @@
 			  f reset_duration = 0.000000;
 			  b single_player = false;
 			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x03100035,0f,"default","every",0), doc("chapter activate");
+				action* = send_world_message("we_req_activate",0x03100036,0f,"0x4003","every",0), doc("chapter interface fade");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(10.000000,1.000000,1.000000,"on_first_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = false;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = true;
 			  b start_active = true;
 			}
 		}
