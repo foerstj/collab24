@@ -38,4 +38,22 @@
 		  	b required = false;
 		}
     }
+    [c24_3_3_amulet]
+    {
+		chapter = chapter_03_underland;
+		screen_name = "Lost Amulet";
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			description = "Find Persephone's amulet lost in the Crystlayer on the way to Larissa";
+		  	i order = 0;
+		  	b required = false;
+		}
+		[*]
+		{
+			description = "Deliver the Elder Wood Amulet to Persephone in Larissa";
+		  	i order = 1;
+		  	b required = false;
+		}
+    }
 }

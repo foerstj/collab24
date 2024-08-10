@@ -1,3 +1,35 @@
+[t:amulet_keeper,n:0x034001ac]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = change_quest_state("c24_3_3_amulet","active",1);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_picked_up",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[gui]
+	{
+	  b can_sell = false;
+	}
+	[placement]
+	{
+	  p position = 0.336427,-9.53674e-007,-0.916843,0x8b12dd5e;
+	}
+}
 [t:bd_le_m_g_c_avg_beaded_c24,n:0x034000b5]
 {
 	[aspect]

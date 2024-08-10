@@ -201,11 +201,68 @@ What can I show you?";
 		screen_text = "Come, sit down, Overling, and have some Mhulliq'n'Shrooms with us. The cantina here serves the best of traditional Underling cuisine. There's always some kind of meat - be it Mhulliq, Skrubb, or Angler - and two or three side dishes made from various Shrooms.";
 	}
 }
-[inn_v_stand]
+
+[inn_v_stand_inactive]
+{
+	[text*]
+	{
+		choice = more;
+	  i order = 0;
+		screen_text = "I've been to Shroomington before, but never that long. We're essentially stuck here. By now I've lost all sense of day and night. It feels weird, but to these people it's normal, I guess...";
+	}
+	[text*]
+	{
+		activate_quest* = c24_3_3_amulet,0;
+		screen_text = "Our wares and cart are lost in the Crystlayer, but we can replace them. However, we were delivering an amulet to a Larissan lady called Persephone, which got lost as well. It's a family heirloom of hers. If you dare to go this way, would you look for the amulet? Lady Persephone would be very thankful to receive it.";
+	  f scroll_rate = 10.000000;
+	}
+}
+[inn_v_stand_active]
+{
+	[text*]
+	{
+		screen_text = "Our wares and cart are lost in the Crystlayer, but we can replace them. However, we were delivering an amulet to a Larissan lady called Persephone, which got lost as well. It's a family heirloom of hers. If you dare to go this way, would you look for the amulet? Lady Persephone would be very thankful to receive it.";
+	  f scroll_rate = 10.000000;
+	}
+}
+[inn_v_stand_completed]
 {
 	[text*]
 	{
 		screen_text = "I've been to Shroomington before, but never that long. We're essentially stuck here. By now I've lost all sense of day and night. It feels weird, but to these people it's normal, I guess...";
+	}
+}
+[persephone_inactive]
+{
+	[text*]
+	{
+		screen_text = "Hi I'm lady Persephone";
+	  f scroll_rate = 10.000000;
+	}
+}
+[persephone_active_0]
+{
+	[text*]
+	{
+		screen_text = "Oh, how I miss my amulet!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[persephone_active_1]
+{
+	[text*]
+	{
+		complete_quest* = c24_3_3_amulet;
+		screen_text = "Thanks for bringing me the amulet! Here, have some cookies!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[persephone_completed]
+{
+	[text*]
+	{
+		screen_text = "Capri Denim";
+	  f scroll_rate = 10.000000;
 	}
 }
 
