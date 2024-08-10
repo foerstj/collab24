@@ -71,7 +71,7 @@
 	}
 	[t:start_group,n:3_test_clu_eleu]
 	{
-	  b default = true;
+	  b default = false;
 		description = "";
 	  b dev_only = true;
 	  i id = 362;
@@ -339,7 +339,7 @@
 	}
 	[t:start_group,n:3_underland_town]
 	{
-	  b default = false;
+	  b default = true;
 		description = "The Underling town of Shroomington.";
 	  b dev_only = false;
 	  i id = 34;
