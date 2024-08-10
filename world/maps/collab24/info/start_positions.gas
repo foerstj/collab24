@@ -71,7 +71,7 @@
 	}
 	[t:start_group,n:3_test_clu_eleu]
 	{
-	  b default = false;
+	  b default = true;
 		description = "";
 	  b dev_only = true;
 	  i id = 362;
@@ -117,7 +117,7 @@
 	}
 	[t:start_group,n:3_test_pre]
 	{
-	  b default = true;
+	  b default = false;
 		description = "This is the default group.";
 	  b dev_only = true;
 	  i id = 300;
