@@ -990,7 +990,7 @@
 	[placement]
 	{
 	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = -1.30194,0,-1.77296,0xe35bb79f;
+	  p position = 2.79085,0,-0.505379,0xe35bb79f;
 	}
 }
 [t:c24_3_crystal_mage_purple,n:0x03600082]
@@ -999,6 +999,13 @@
 	{
 	  q orientation = 0,0.92388,0,-0.382683;
 	  p position = 2.20033,0,0.57476,0xe35bb79f;
+	}
+}
+[t:c24_3_coil_gob_01,n:0x0360001c]
+{
+	[placement]
+	{
+	  p position = -0.670425,0.925427,3.12714,0x5c2e4489;
 	}
 }
 [t:c24_3_crystal_mage_gold,n:0x036001da]
@@ -1015,6 +1022,14 @@
 	{
 	  q orientation = 0,0.93358,0,0.358368;
 	  p position = 0.529961,1,3.73227,0x5c2e4489;
+	}
+}
+[t:c24_3_coil_gob_01,n:0x03600015]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -1.48038,0,1.40422,0x53acb84c;
 	}
 }
 [t:c24_3_crystal_beast_purple,n:0x03600160]
@@ -1083,13 +1098,6 @@
 	{
 	  q orientation = 0,0.754709,0,-0.656059;
 	  p position = 1.66203,-1.0338,-3.5732,0x19cc3edc;
-	}
-}
-[t:c24_3_coil_gob_01,n:0x03600015]
-{
-	[placement]
-	{
-	  p position = -0.151428,2,2.74174,0xe25250ea;
 	}
 }
 [t:c24_3_crystal_golem_gold,n:0x0360044b]
@@ -1394,13 +1402,6 @@
 	{
 	  q orientation = 0,0.182235,0,-0.983255;
 	  p position = -2.36854,0.484019,-3.66439,0xbe78445c;
-	}
-}
-[t:c24_3_coil_gob_01,n:0x0360001c]
-{
-	[placement]
-	{
-	  p position = 1.31585,0.975061,3.3753,0x38439159;
 	}
 }
 [t:c24_3_crystal_warrior_gold,n:0x03600531]
