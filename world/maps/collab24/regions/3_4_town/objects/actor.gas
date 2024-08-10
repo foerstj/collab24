@@ -489,27 +489,3 @@
 	  p position = -0.118765,0,-1.1947,0x7137e6f1;
 	}
 }
-[t:mp_townfolk_m_04,n:0x034001ab]
-{
-	[common]
-	{
-		screen_name = "Dummy Pesha";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = pesha_active;
-			* = pesha_completed;
-			* = pesha_inactive;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_quest.skrit?namespace=pesha&quest=c24_3_2_gypsy_greetings&tri_state=true;
-	}
-	[placement]
-	{
-	  p position = -0.469306,0,-0.10231,0x657ab36e;
-	}
-}

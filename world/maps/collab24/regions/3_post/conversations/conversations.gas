@@ -1,0 +1,25 @@
+[pesha_inactive]
+{
+	[text*]
+	{
+		screen_text = "I'm worrying about my friends";
+	  f scroll_rate = 10.000000;
+	}
+}
+[pesha_active]
+{
+	[text*]
+	{
+		complete_quest* = c24_3_2_gypsy_greetings;
+		screen_text = "Thanks for telling me!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[pesha_completed]
+{
+	[text*]
+	{
+		screen_text = "Here, have some hummus";
+	  f scroll_rate = 10.000000;
+	}
+}

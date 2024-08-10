@@ -1,0 +1,25 @@
+[t:mp_townfolk_m_04,n:0x03800015]
+{
+	[common]
+	{
+		screen_name = "Pesha";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = pesha_active;
+			* = pesha_completed;
+			* = pesha_inactive;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_quest.skrit?namespace=pesha&quest=c24_3_2_gypsy_greetings&tri_state=true;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.382683,0,0.92388;
+	  p position = 1.78375,0,0.633008,0x92a2209d;
+	}
+}
