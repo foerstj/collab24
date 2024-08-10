@@ -57,3 +57,16 @@
 		damage_min = 11;
     }
 }
+
+[t:template,n:c24_3_spell_crystal_mage_boss_iceblast]
+{
+    specializes = spell_ice_mage_iceblast_base;
+
+    // stats from rock_krug (krug_throw), increased
+    [attack]
+    {
+        // EDITED - doubled, was 11-12
+		damage_max = 24;
+		damage_min = 22;
+    }
+}
