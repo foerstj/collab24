@@ -117,7 +117,7 @@
 	}
 	[t:start_group,n:3_test_pre]
 	{
-	  b default = false;
+	  b default = true;
 		description = "This is the default group.";
 	  b dev_only = true;
 	  i id = 300;
@@ -230,12 +230,119 @@
 		{
 		}
 	}
-	[t:start_group,n:3_underland]
+	[t:start_group,n:3_underland_start]
 	{
-	  b default = true;
+	  b default = false;
+		description = "Enter the Wormlayer.";
+	  b dev_only = false;
+	  i id = 31;
+		screen_name = "Underland (start)";
+		[start_position]
+		{
+		  i id = 1;
+			position = -2.743607,0.000000,0.001000,0xBF485F5E;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -2.743607,0.000000,0.001000,0xBF485F5E;
+			}
+		}
+		[start_position]
+		{
+		  i id = 2;
+			position = -2.444931,0.000000,0.812370,0xBF485F5E;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -2.444931,0.000000,0.812370,0xBF485F5E;
+			}
+		}
+		[start_position]
+		{
+		  i id = 3;
+			position = -1.630737,0.000000,0.927452,0xBF485F5E;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -1.630737,0.000000,0.927452,0xBF485F5E;
+			}
+		}
+		[start_position]
+		{
+		  i id = 4;
+			position = -1.045944,0.000000,0.586700,0xBF485F5E;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -1.045944,0.000000,0.586700,0xBF485F5E;
+			}
+		}
+		[start_position]
+		{
+		  i id = 5;
+			position = -1.042480,0.000000,0.074158,0xBF485F5E;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -1.042480,0.000000,0.074158,0xBF485F5E;
+			}
+		}
+		[start_position]
+		{
+		  i id = 6;
+			position = -1.126312,0.000000,-0.584427,0xBF485F5E;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -1.126312,0.000000,-0.584427,0xBF485F5E;
+			}
+		}
+		[start_position]
+		{
+		  i id = 7;
+			position = -1.844971,0.000000,-1.106422,0xBF485F5E;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -1.844971,0.000000,-1.106422,0xBF485F5E;
+			}
+		}
+		[start_position]
+		{
+		  i id = 8;
+			position = -2.486969,0.000000,-0.662315,0xBF485F5E;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -2.486969,0.000000,-0.662315,0xBF485F5E;
+			}
+		}
+		[world_levels]
+		{
+		}
+	}
+	[t:start_group,n:3_underland_town]
+	{
+	  b default = false;
 		description = "The Underling town of Shroomington.";
 	  b dev_only = false;
-	  i id = 30;
+	  i id = 34;
 		screen_name = "Underland";
 		[start_position]
 		{

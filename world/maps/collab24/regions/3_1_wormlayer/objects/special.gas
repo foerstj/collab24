@@ -38,7 +38,7 @@
 {
 	[common]
 	{
-		dev_instance_text = "DEV STARTPOS - MOOD & FADES";
+		dev_instance_text = "DEV STARTPOS - MOOD & FADES & PWL";
 		[instance_triggers]
 		{
 			[*]
@@ -57,6 +57,21 @@
 			  b single_shot = false;
 			  b start_active = true;
 			}
+			[*]
+			{
+				action* = set_player_world_location("wormlayer");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(2.000000,1.000000,2.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
+			  b single_shot = false;
+			  b start_active = true;
+			}
 		}
 	}
 	[placement]
@@ -70,6 +85,51 @@
 	[placement]
 	{
 	  p position = 0.390221,2,1.21683,0xbe2612c4;
+	}
+}
+[t:trigger_generic,n:0x0310003a]
+{
+	[common]
+	{
+		dev_instance_text = "STARTPOS - FADE & MOOD & PWL";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("collab24_3_wormlayer_1");
+				action* = fade_nodes(0x00000032,1,-1,-1,"out:instant"), doc("fade out crystlayer");
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(2.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("wormlayer");
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(2.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = -1.9397,0,-0.00746149,0xbf485f5e;
 	}
 }
 [t:trigger_generic,n:0x03100017]
@@ -127,11 +187,41 @@
 	  p position = 0.395538,3.8147e-006,-0.40287,0x2707f124;
 	}
 }
+[t:trigger_generic,n:0x03100042]
+{
+	[common]
+	{
+		dev_instance_text = "CHAPTER";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x03100035,0f,"default","every",0), doc("chapter activate");
+				action* = send_world_message("we_req_activate",0x03100036,0f,"0x4003","every",0), doc("chapter interface fade");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(4.000000,1.000000,8.000000,"on_unique_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = 1.56601,0,0.126854,0x2707f124;
+	}
+}
 [t:trigger_generic,n:0x03100006]
 {
 	[common]
 	{
-		dev_instance_text = "MOOD & PWL & CHAPTER";
+		dev_instance_text = "MOOD & PWL";
 		[instance_triggers]
 		{
 			[*]
@@ -161,22 +251,6 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = false;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-			[*]
-			{
-				action* = send_world_message("we_req_activate",0x03100035,0f,"default","every",0), doc("chapter activate");
-				action* = send_world_message("we_req_activate",0x03100036,0f,"0x4003","every",0), doc("chapter interface fade");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(10.000000,1.000000,1.000000,"on_unique_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -233,12 +307,12 @@
 				condition* = party_member_within_bounding_box(10.000000,1.000000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
 			  b flip_flop = false;
-			  b multi_player = true;
+			  b multi_player = false;
 			  b no_trig_bits = false;
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
-			  b single_shot = false;
+			  b single_shot = true;
 			  b start_active = true;
 			}
 		}
