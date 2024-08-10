@@ -15,6 +15,6 @@
 	[text*]
 	{
 		screen_text = "If you happen to come across the Crystal Master and aren't afraid of him, it would be a big relief for us if you could take him out.";
-        activate_quest* = c24_3_crystal_master;
+        activate_quest* = c24_3_1_crystal_master;
 	}
 }
