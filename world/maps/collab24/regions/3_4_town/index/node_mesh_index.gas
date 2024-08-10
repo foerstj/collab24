@@ -20,11 +20,14 @@
 	0x03400623 = t_xxx_dgn_wal_ex-thin-a;
 	0x03400624 = t_xxx_dgn_wal_ex-thin-pipe-a;
 	0x03400625 = t_xxx_dgn_wal_ex-thin-pipe-h2o-a;
+	0x03400635 = t_xxx_dgn_cap-02x02-a;
 	0x03400636 = t_xxx_dgn_cap-02x04-2-a;
+	0x03400637 = t_xxx_dgn_cap-02x04-a;
 	0x03400639 = t_xxx_dgn_cap-04x04-a;
 	0x0340063a = t_xxx_dgn_cap-04x04-b;
 	0x03400640 = t_xxx_dgn_cap-archway-b;
 	0x03400641 = t_xxx_dgn_cap-diag-a;
+	0x03400642 = t_xxx_dgn_cap-stairway-a;
 	0x03400643 = t_xxx_dgn_cap-stairway-b;
 	0x03400647 = t_xxx_dgn_cap-vertical-04x08-b;
 }
