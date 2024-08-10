@@ -23,3 +23,45 @@
 	  f scroll_rate = 10.000000;
 	}
 }
+
+[persephone_inactive]
+{
+	[text*]
+	{
+		screen_text = "Hi I'm lady Persephone";
+	  f scroll_rate = 10.000000;
+	}
+}
+[persephone_active_0]
+{
+	[text*]
+	{
+		screen_text = "Hi I'm lady Persephone";
+	  f scroll_rate = 10.000000;
+	}
+}
+[persephone_active_1]
+{
+	[text*]
+	{
+		screen_text = "Oh, how I miss my amulet!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[persephone_active_2]
+{
+	[text*]
+	{
+		complete_quest* = c24_3_3_amulet;
+		screen_text = "Thanks for bringing me the amulet! Here, have some cookies!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[persephone_completed]
+{
+	[text*]
+	{
+		screen_text = "Capri Denim";
+	  f scroll_rate = 10.000000;
+	}
+}

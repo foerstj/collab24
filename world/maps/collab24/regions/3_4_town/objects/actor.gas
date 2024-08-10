@@ -130,33 +130,6 @@
 	  p position = -0.87682,0,-1.10448,0xada05cb4;
 	}
 }
-[t:mp_townfolk_f_03,n:0x034001ab]
-{
-	[common]
-	{
-		screen_name = "Persephone";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = persephone_active_0;
-			* = persephone_active_1;
-			* = persephone_active_2;
-			* = persephone_completed;
-			* = persephone_inactive;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_quest.skrit?namespace=persephone&quest=c24_3_3_amulet&numeric=true;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = 0.86056,-1.5,-1.62147,0x61cd4a07;
-	}
-}
 [t:c24_3_underling_npc_01,n:0x03400071]
 {
 	[conversation]
