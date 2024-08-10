@@ -45,14 +45,22 @@
 		victory_sample = s_e_level_up_quest;
 		[*]
 		{
-			description = "Find Persephone's amulet lost in the Crystlayer on the way to Larissa";
+            // if you find the amulet first
+			description = "Ask the Gypsies in Shroomington about their lost amulet";
 		  	i order = 0;
 		  	b required = false;
 		}
 		[*]
 		{
-			description = "Deliver the Elder Wood Amulet to Persephone in Larissa";
+            // if you speak to the gypsy first
+			description = "Find Persephone's amulet lost in the Crystlayer on the way to Larissa";
 		  	i order = 1;
+		  	b required = false;
+		}
+		[*]
+		{
+			description = "Deliver the Elder Wood Amulet to Persephone in Larissa";
+		  	i order = 2;
 		  	b required = false;
 		}
     }

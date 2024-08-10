@@ -213,15 +213,34 @@ What can I show you?";
 	[text*]
 	{
 		activate_quest* = c24_3_3_amulet,0;
+		activate_quest* = c24_3_3_amulet,1;
 		screen_text = "Our wares and cart are lost in the Crystlayer, but we can replace them. However, we were delivering an amulet to a Larissan lady called Persephone, which got lost as well. It's a family heirloom of hers. If you dare to go this way, would you look for the amulet? Lady Persephone would be very thankful to receive it.";
 	  f scroll_rate = 10.000000;
 	}
 }
-[inn_v_stand_active]
+[inn_v_stand_active_0]
+{
+	[text*]
+	{
+		activate_quest* = c24_3_3_amulet,1;
+		activate_quest* = c24_3_3_amulet,2;
+		screen_text = "You found the amulet! We were delivering it to a Larissan lady called Persephone. She would be very thankful to receive it - it's a family heirloom of hers.";
+	  f scroll_rate = 10.000000;
+	}
+}
+[inn_v_stand_active_1]
 {
 	[text*]
 	{
 		screen_text = "Our wares and cart are lost in the Crystlayer, but we can replace them. However, we were delivering an amulet to a Larissan lady called Persephone, which got lost as well. It's a family heirloom of hers. If you dare to go this way, would you look for the amulet? Lady Persephone would be very thankful to receive it.";
+	  f scroll_rate = 10.000000;
+	}
+}
+[inn_v_stand_active_2]
+{
+	[text*]
+	{
+		screen_text = "Lady Persephone would be very thankful to receive her amulet - it's a family heirloom of hers.";
 	  f scroll_rate = 10.000000;
 	}
 }
@@ -244,11 +263,19 @@ What can I show you?";
 {
 	[text*]
 	{
-		screen_text = "Oh, how I miss my amulet!";
+		screen_text = "Hi I'm lady Persephone";
 	  f scroll_rate = 10.000000;
 	}
 }
 [persephone_active_1]
+{
+	[text*]
+	{
+		screen_text = "Oh, how I miss my amulet!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[persephone_active_2]
 {
 	[text*]
 	{

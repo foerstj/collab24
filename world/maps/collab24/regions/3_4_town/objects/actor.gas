@@ -142,6 +142,7 @@
 		{
 			* = persephone_active_0;
 			* = persephone_active_1;
+			* = persephone_active_2;
 			* = persephone_completed;
 			* = persephone_inactive;
 		}
@@ -220,7 +221,9 @@
 	{
 		[conversations]
 		{
-			* = inn_v_stand_active;
+			* = inn_v_stand_active_0;
+			* = inn_v_stand_active_1;
+			* = inn_v_stand_active_2;
 			* = inn_v_stand_completed;
 			* = inn_v_stand_inactive;
 		}
@@ -228,7 +231,7 @@
 	[mind]
 	{
 	  b actor_auto_fidgets = false;
-		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_quest.skrit?face_back=true&namespace=inn_v_stand&quest=c24_3_3_amulet&tri_state=true;
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_quest.skrit?face_back=true&namespace=inn_v_stand&quest=c24_3_3_amulet&numeric=true;
 	}
 	[placement]
 	{
