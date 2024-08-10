@@ -226,9 +226,9 @@
     }
 }
 
-[t:template,n:c24_3_crystal_mage_gold_ar]
+[t:template,n:c24_3_crystal_mage_purple_ar]
 {
-    specializes = c24_3_crystal_mage_gold_base;
+    specializes = c24_3_crystal_mage_purple_base;
 
     // auto-reveal
 	[mind]
