@@ -169,15 +169,15 @@
 				action* = send_world_message("we_req_activate",0x03100035,0f,"default","every",0), doc("chapter activate");
 				action* = send_world_message("we_req_activate",0x03100036,0f,"0x4003","every",0), doc("chapter interface fade");
 			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(10.000000,1.000000,1.000000,"on_first_enter");
+				condition* = party_member_within_bounding_box(10.000000,1.000000,1.000000,"on_unique_enter");
 			  f delay = 0.000000;
 			  b flip_flop = false;
-			  b multi_player = false;
+			  b multi_player = true;
 			  b no_trig_bits = false;
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
-			  b single_shot = true;
+			  b single_shot = false;
 			  b start_active = true;
 			}
 		}
