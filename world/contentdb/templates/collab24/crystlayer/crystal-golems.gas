@@ -197,6 +197,50 @@
     common:screen_name = "Crystal Golem";
 }
 
+[t:template,n:c24_3_crystal_golem_purple]
+{
+    specializes = c24_3_base_crystal_golem;
+
+    aspect:textures:0 = b_i_cav_gems-02-static;  // purple
+  	[common]
+    {
+		[template_triggers]
+		{
+			[*]
+			{
+				action* = call_sfx_script("ice_warrior");
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+			}
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				no_trig_bits = true;
+				action* = call_sfx_script("crystal_light_purple(sgx)");
+			}
+		}
+    }
+    [inventory]
+    {
+		[other] 
+		{ 
+			il_active_primary_spell = c24_3_spell_golem_blast_purple; 
+		}
+    }
+	[physics]
+	{
+		[break_particulate]
+		{
+			frag_c24_3_crystal_molten_golem_01_purple = 1;
+			frag_c24_3_crystal_molten_golem_02_purple = 6;
+			frag_c24_3_crystal_molten_golem_03_purple = 1;
+			frag_c24_3_crystal_molten_golem_04_purple = 2;
+			frag_c24_3_crystal_molten_golem_05_purple = 1;
+		}
+	}
+}
+
 [t:template,n:c24_3_crystal_golem_red]
 {
     specializes = c24_3_base_crystal_golem;

@@ -1,5 +1,15 @@
 // Crystal frags based on the stone models
 
+// purple
+[t:template,n:frag_c24_3_crystal_stone_01_purple]  { specializes = fragment; [aspect] { model = m_i_glb_frag-stone-01; textures:0 = b_i_cav_gems-02-static; } }
+[t:template,n:frag_c24_3_crystal_stone_02_purple]  { specializes = fragment; [aspect] { model = m_i_glb_frag-stone-02; textures:0 = b_i_cav_gems-02-static; } }
+[t:template,n:frag_c24_3_crystal_stone_03_purple]  { specializes = fragment; [aspect] { model = m_i_glb_frag-stone-03; textures:0 = b_i_cav_gems-02-static; } }
+[t:template,n:frag_c24_3_crystal_stone_04_purple]  { specializes = fragment; [aspect] { model = m_i_glb_frag-stone-04; textures:0 = b_i_cav_gems-02-static; } }
+[t:template,n:frag_c24_3_crystal_stone_05_purple]  { specializes = fragment; [aspect] { model = m_i_glb_frag-stone-05; textures:0 = b_i_cav_gems-02-static; } }
+[t:template,n:frag_c24_3_crystal_stone_06_purple]  { specializes = fragment; [aspect] { model = m_i_glb_frag-stone-06; textures:0 = b_i_cav_gems-02-static; } }
+[t:template,n:frag_c24_3_crystal_stone_07_purple]  { specializes = fragment; [aspect] { model = m_i_glb_frag-stone-07; textures:0 = b_i_cav_gems-02-static; } }
+[t:template,n:frag_c24_3_crystal_stone_08_purple]  { specializes = fragment; [aspect] { model = m_i_glb_frag-stone-08; textures:0 = b_i_cav_gems-02-static; } }
+
 // red
 [t:template,n:frag_c24_3_crystal_stone_01_red]  { specializes = fragment; [aspect] { model = m_i_glb_frag-stone-01; textures:0 = b_i_cav_gems-05-static; } }
 [t:template,n:frag_c24_3_crystal_stone_02_red]  { specializes = fragment; [aspect] { model = m_i_glb_frag-stone-02; textures:0 = b_i_cav_gems-05-static; } }

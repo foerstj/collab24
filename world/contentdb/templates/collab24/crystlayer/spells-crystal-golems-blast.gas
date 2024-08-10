@@ -29,6 +29,13 @@
 	}
 }
 
+[t:template,n:c24_3_spell_golem_blast_purple]
+{
+    specializes = dsx_spell_golem_frost_blast_base;
+
+    spell_damage_volume:effect_script = crystal_golem_blast_c24_3_purple;
+}
+
 [t:template,n:c24_3_spell_golem_blast_red]
 {
     specializes = dsx_spell_golem_frost_blast_base;

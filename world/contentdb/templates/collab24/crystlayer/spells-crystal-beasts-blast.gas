@@ -28,6 +28,13 @@
 	}
 }
 
+[t:template,n:c24_3_spell_beast_blast_purple]
+{
+    specializes = spell_rock_beast_blast_base;
+
+    spell_damage_volume:effect_script = crystal_beast_blast_c24_3_purple;
+}
+
 [t:template,n:c24_3_spell_beast_blast_red]
 {
     specializes = spell_rock_beast_blast_base;
