@@ -160,17 +160,23 @@
 }
 [t:mp_gypsy_female_01,n:0x03400072]
 {
+	[common]
+	{
+		screen_name = "Ria";
+	}
 	[conversation]
 	{
 		[conversations]
 		{
-			* = inn_v_sit;
+			* = inn_v_sit_active;
+			* = inn_v_sit_completed;
+			* = inn_v_sit_inactive;
 		}
 	}
 	[mind]
 	{
 	  b actor_auto_fidgets = false;
-		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_npc.skrit?face_player=false&talk_anim=;
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_quest.skrit?face_player=false&talk_anim=&namespace=inn_v_sit&quest=c24_3_2_gypsy_greetings&tri_state=true;
 	}
 	[placement]
 	{
@@ -481,5 +487,29 @@
 	{
 	  q orientation = 0,0.707107,0,0.707107;
 	  p position = -0.118765,0,-1.1947,0x7137e6f1;
+	}
+}
+[t:mp_townfolk_m_04,n:0x034001ab]
+{
+	[common]
+	{
+		screen_name = "Dummy Pesha";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = pesha_active;
+			* = pesha_completed;
+			* = pesha_inactive;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_quest.skrit?namespace=pesha&quest=c24_3_2_gypsy_greetings&tri_state=true;
+	}
+	[placement]
+	{
+	  p position = -0.469306,0,-0.10231,0x657ab36e;
 	}
 }

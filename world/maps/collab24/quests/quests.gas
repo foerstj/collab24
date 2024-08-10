@@ -26,4 +26,16 @@
 		  	b required = false;
 		}
 	}
+    [c24_3_2_gypsy_greetings]
+    {
+		chapter = chapter_03_underland;
+		screen_name = "Gypsy Greetings";
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			description = "Inform Pesha in Larissa about the holdup of the Gypsies in Shroomington";
+		  	i order = 0;
+		  	b required = false;
+		}
+    }
 }

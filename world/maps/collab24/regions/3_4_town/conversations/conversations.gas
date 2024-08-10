@@ -194,13 +194,6 @@ What can I show you?";
 		screen_text = "Could of picked a better time to visit Shroomington, eh? Someone's gotta drive these Crystal Mages out to wherever they came from! The guards got all hands busy, and the Slingers out there are walking about in broad Shroomlight!";
 	}
 }
-[inn_v_stand]
-{
-	[text*]
-	{
-		screen_text = "I've been to Shroomington before, but never that long. We're essentially stuck here. By now I've lost all sense of day and night. It feels weird, but to these people it's normal, I guess...";
-	}
-}
 [inn_u_sit]
 {
 	[text*]
@@ -208,11 +201,69 @@ What can I show you?";
 		screen_text = "Come, sit down, Overling, and have some Mhulliq'n'Shrooms with us. The cantina here serves the best of traditional Underling cuisine. There's always some kind of meat - be it Mhulliq, Skrubb, or Angler - and two or three side dishes made from various Shrooms.";
 	}
 }
-[inn_v_sit]
+[inn_v_stand]
+{
+	[text*]
+	{
+		screen_text = "I've been to Shroomington before, but never that long. We're essentially stuck here. By now I've lost all sense of day and night. It feels weird, but to these people it's normal, I guess...";
+	}
+}
+
+[inn_v_sit_inactive]
+{
+	[text*]
+	{
+		choice = more;
+	  i order = 0;
+		screen_text = "We've come from far, far away, to do trade in Larissa. We took the route through Underland as we knew the Underlings are nice people and make good Champignon beer. But on the way back up we were attacked by these crazy Crystal Warriors - I could have never imagined such a thing! Now we've lost our wares and have been stuck down here for a week.";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		activate_quest* = c24_3_2_gypsy_greetings,0;
+		screen_text = "We have friends waiting for us in Larissa, they're probably already wondering where we are. If you make it there, please find Pesha and tell him of our holdup, so he doesn't worry too much. Thank you.";
+	  f scroll_rate = 10.000000;
+	}
+}
+[inn_v_sit_active]
+{
+	[text*]
+	{
+		screen_text = "We have friends waiting for us in Larissa, they're probably already wondering where we are. If you make it there, please find Pesha and tell him of our holdup, so he doesn't worry too much. Thank you.";
+	  f scroll_rate = 10.000000;
+	}
+}
+[inn_v_sit_completed]
 {
 	[text*]
 	{
 		screen_text = "We've come from far, far away, to do trade in Larissa. We took the route through Underland as we knew the Underlings are nice people and make good Champignon beer. But on the way back up we were attacked by these crazy Crystal Warriors - I could have never imagined such a thing! Now we've lost our wares and have been stuck down here for a week.";
+	  f scroll_rate = 10.000000;
+	}
+}
+[pesha_inactive]
+{
+	[text*]
+	{
+		screen_text = "I'm worrying about my friends";
+	  f scroll_rate = 10.000000;
+	}
+}
+[pesha_active]
+{
+	[text*]
+	{
+		complete_quest* = c24_3_2_gypsy_greetings;
+		screen_text = "Thanks for telling me!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[pesha_completed]
+{
+	[text*]
+	{
+		screen_text = "Here, have some hummus";
+	  f scroll_rate = 10.000000;
 	}
 }
 
