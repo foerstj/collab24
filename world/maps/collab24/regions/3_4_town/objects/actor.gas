@@ -55,6 +55,49 @@
 	  p position = 1.27152,-1.5,-2.697,0x7b73dd0b;
 	}
 }
+[t:c24_3_underling_npc_01,n:0x0340006a]
+{
+	[common]
+	{
+		screen_name = "Farmer";
+	}
+	[mind]
+	{
+	  b actor_auto_fidgets = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,-1.66939e-007;
+	  p position = 1.67723,0,0.0764408,0x1772cec4;
+	}
+}
+[t:c24_3_underling_npc_01,n:0x03400069]
+{
+	[common]
+	{
+		screen_name = "Farmer";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = farmer;
+		}
+	}
+	[inventory]
+	{
+		[equipment]
+		{
+			es_chest = bd_le_m_g_c_avg_beaded_c24;
+			es_feet = bo_bo_sc_m_g_c_avg_beaded_c24;
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -0.118765,0,-1.1947,0x7137e6f1;
+	}
+}
 [t:c24_3_underling_shop_mage,n:0x03400019]
 {
 	[common]
@@ -452,48 +495,5 @@
 	{
 	  q orientation = 0,0.382683,0,0.923879;
 	  p position = 1.16495,-1.5,-0.787848,0x5fc800c9;
-	}
-}
-[t:c24_3_underling_npc_01,n:0x0340006a]
-{
-	[common]
-	{
-		screen_name = "Farmer";
-	}
-	[mind]
-	{
-	  b actor_auto_fidgets = false;
-	}
-	[placement]
-	{
-	  q orientation = 0,1,0,-1.66939e-007;
-	  p position = 1.67723,0,0.0764408,0x1772cec4;
-	}
-}
-[t:c24_3_underling_npc_01,n:0x03400069]
-{
-	[common]
-	{
-		screen_name = "Farmer";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = farmer;
-		}
-	}
-	[inventory]
-	{
-		[equipment]
-		{
-			es_chest = bd_le_m_g_c_avg_beaded_c24;
-			es_feet = bo_bo_sc_m_g_c_avg_beaded_c24;
-		}
-	}
-	[placement]
-	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = -0.118765,0,-1.1947,0x7137e6f1;
 	}
 }
