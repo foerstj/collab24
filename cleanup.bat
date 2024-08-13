@@ -1,6 +1,5 @@
-chcp 65001
 :: name of map, case-sensitive
-set map_cs=Collab 24
+set map_cs=Collab 24 Firstie
 :: path of DS installation
 set ds=%DungeonSiege%
 

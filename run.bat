@@ -1,4 +1,3 @@
-chcp 65001
 :: name of map
 set map=collab24
 :: path of Bits dir

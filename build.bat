@@ -1,13 +1,12 @@
-chcp 65001
 :: name of map
 set map=collab24
 set res=%map%
 :: name of map, case-sensitive
-set map_cs=Collab 24
+set map_cs=Collab 24 Firstie
 :: tank properties
 set year=2024
 set copyright=CC-BY-SA %year%
-set author=Johannes Förstner
+set author=Firstie
 set title=%map_cs%
 
 :: path of Bits dir
