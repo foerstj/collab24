@@ -503,26 +503,3 @@
 	  p position = -0.118765,0,-1.1947,0x7137e6f1;
 	}
 }
-[t:mp_townfolk_m_01,n:0x034001b9]
-{
-	[common]
-	{
-		screen_name = "Mayor of Frostfingers";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = init_quest_mayor_greet;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk.skrit;
-	}
-	[placement]
-	{
-	  q orientation = 0,1,0,-1.66939e-007;
-	  p position = -1.89626,-1.5,-1.24269,0x7b7d9a86;
-	}
-}

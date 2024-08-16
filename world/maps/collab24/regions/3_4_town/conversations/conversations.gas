@@ -11,15 +11,6 @@
         screen_text = "We're all doing double shifts right now, because the crystals are just going crazy...";
     }
 }
-[init_quest_mayor_greet]
-{
-	[text*]
-	{
-		activate_quest* = collab24_slice2_quest_mayor_greet,0;
-		screen_text = "Greet the mayor of Shroomington from me!";
-	  f scroll_rate = 10.000000;
-	}
-}
 [mayor_first]
 {
 	[text*]
