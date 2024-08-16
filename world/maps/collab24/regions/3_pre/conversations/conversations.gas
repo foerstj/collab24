@@ -7,3 +7,12 @@
 	  f scroll_rate = 10.000000;
 	}
 }
+[init_quest_mayor_greet]
+{
+	[text*]
+	{
+		activate_quest* = collab24_slice2_quest_mayor_greet,0;
+		screen_text = "Greet the mayor of Shroomington from me!";
+	  f scroll_rate = 10.000000;
+	}
+}

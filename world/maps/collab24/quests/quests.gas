@@ -64,4 +64,23 @@
 		  	b required = false;
 		}
     }
+
+    [collab24_slice2_quest_mayor_greet]
+    {
+        chapter = chapter_03_underland;
+        screen_name = "Mayor Greetings";
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			description = "Greet the mayor";
+		  	i order = 0;
+		  	b required = false;
+		}
+		[*]
+		{
+			description = "You greeted the mayor";
+		  	i order = 1;
+		  	b required = false;
+		}
+    }
 }
