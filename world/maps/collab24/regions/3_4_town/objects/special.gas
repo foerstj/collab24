@@ -412,3 +412,32 @@
 	  p position = 0.3517,0,-0.715527,0x5b31af17;
 	}
 }
+[t:event_manager,n:0x034001ba]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x034000EF,0f,"default","",0);
+				action* = send_world_message("we_req_activate",0x034000EE,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_activate",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = -1.95598,-1.5,-1.45877,0xca0033e5;
+	}
+}

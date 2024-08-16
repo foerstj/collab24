@@ -24,7 +24,7 @@
 	}
 	[mind]
 	{
-		jat_talk = world\ai\jobs\collab24\job_talk_mayor_3.skrit?quest=collab24_slice2_quest_mayor_greet&first=true;
+		jat_talk = world\ai\jobs\collab24\job_talk_mayor_3.skrit?quest=collab24_slice2_quest_mayor_greet&first=true&activate_scid=0x034001ba;
 	}
 	[placement]
 	{
