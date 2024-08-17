@@ -25984,7 +25984,7 @@
 	  x nodesection = 0x00000001;
 	  b occludes_camera = false;
 	  b occludes_light = true;
-		texsetabbr = for01;
+		texsetabbr = dgn13;
 		[door*]
 		{
 		  i fardoor = 11;
