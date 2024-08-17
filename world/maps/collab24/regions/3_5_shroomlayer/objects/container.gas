@@ -189,6 +189,19 @@
 	  p position = -2.16721,-3.8147e-006,2.0988,0xd7f09530;
 	}
 }
+[t:cask_glb_ale,n:0x03501123]
+{
+	[aspect]
+	{
+	  b is_invincible = true;
+	  b is_selectable = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 1.97148,-5.33943,-1.83385,0x05f6ddf7;
+	}
+}
 [t:barrel_cav_02_path2dm,n:0x03501550]
 {
 	[placement]

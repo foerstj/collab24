@@ -11535,6 +11535,14 @@
 	  p position = -0.278141,-2.86102e-006,-1.7265,0x0f000a97;
 	}
 }
+[t:mug_glb,n:0x03501125]
+{
+	[placement]
+	{
+	  q orientation = 0,5.96046e-008,0,1;
+	  p position = 1.99893,0.689318,1.82348,0x0f000a97;
+	}
+}
 [t:shroom_cav_group_09,n:0x0350046c]
 {
 	[aspect]
@@ -11581,6 +11589,37 @@
 	{
 	  q orientation = 0,-0.136806,0,0.990598;
 	  p position = 1.7965,0,1.19838,0xf9a94b3e;
+	}
+}
+[t:mug_glb,n:0x03501124]
+{
+	[placement]
+	{
+	  q orientation = 0,0.382683,0,0.923879;
+	  p position = 3.86134,0.677186,1.78833,0xf9a94b3e;
+	}
+}
+[t:mug_glb,n:0x03501127]
+{
+	[placement]
+	{
+	  q orientation = 0,0.382683,0,0.92388;
+	  p position = 3.58869,0,1.97664,0xf9a94b3e;
+	}
+}
+[t:mug_glb,n:0x03501128]
+{
+	[placement]
+	{
+	  p position = 0.799438,0,-1.07071,0xf9a94b3e;
+	}
+}
+[t:stand_csl_02,n:0x03501122]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.67559,0,0.737277;
+	  p position = 1.88572,-6,-1.8016,0x05f6ddf7;
 	}
 }
 [t:shroom_cav_group_09,n:0x03500529]
