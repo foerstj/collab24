@@ -136,12 +136,60 @@
 	  p position = 0.00418472,-1.5,-0.517673,0x553c946c;
 	}
 }
+[t:sign_glb_inn_03,n:0x034001c1]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.75;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.382683,0,0.92388;
+	  p position = 0.67362,-1.5,-0.648674,0x300aeac6;
+	}
+}
+[t:sign_glb_inn_03,n:0x034001c0]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.75;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.382683,0,0.92388;
+	  p position = 0.632069,-1.5,-0.660439,0xba0c6408;
+	}
+}
 [t:sign_glb_magic_left,n:0x0340007c]
 {
 	[placement]
 	{
 	  q orientation = 0,0.707107,0,0.707107;
 	  p position = -1.72254,-1.5,-0.970142,0xfbeb7a9b;
+	}
+}
+[t:sign_glb_magicshop_01,n:0x034001bb]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.75;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.92388,0,0.382683;
+	  p position = 0.618247,-1.5,-0.627556,0xb1171871;
+	}
+}
+[t:sign_glb_magicshop_01,n:0x034001bf]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.75;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.92388,0,0.382683;
+	  p position = 0.641487,-1.5,-0.627295,0x73c2bacf;
 	}
 }
 [t:door_glb_keep_02,n:0x03400051]
@@ -225,6 +273,66 @@
 	{
 	  q orientation = 0,1,0,-1.66939e-007;
 	  p position = -0.0110617,-1.5,0.528862,0x4f6ce0a8;
+	}
+}
+[t:sign_glb_01,n:0x034001c3]
+{
+	[common]
+	{
+		screen_name = "Townhall";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.382684,0,0.92388;
+	  p position = -1.75058,-1.33363,-0.487878,0x19e2dd4b;
+	}
+}
+[t:sign_glb_01,n:0x034001c7]
+{
+	[common]
+	{
+		screen_name = "Azunite Shrine of Passion";
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,-2.68221e-007;
+	  p position = -1.85819,-1.5,-1.5653,0x19e2dd4b;
+	}
+}
+[t:sign_glb_01,n:0x034001c4]
+{
+	[common]
+	{
+		screen_name = "Smithy";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.382683,0,0.92388;
+	  p position = 0.277977,0,-1.45761,0xd6f03d86;
+	}
+}
+[t:sign_glb_01,n:0x034001c5]
+{
+	[common]
+	{
+		screen_name = "Guestroom";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.382683,0,0.92388;
+	  p position = 0.273231,-0.205767,-1.46312,0xd6f03d86;
+	}
+}
+[t:sign_glb_01,n:0x034001c6]
+{
+	[common]
+	{
+		screen_name = "Tavern";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.382683,0,0.92388;
+	  p position = -0.525823,0.229842,-1.71436,0xd6f03d86;
 	}
 }
 [t:lever_glb_05,n:0x034000f3]
@@ -426,10 +534,14 @@
 }
 [t:sign_glb_blacksmith_03,n:0x03400015]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.75;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.382683,0,0.92388;
-	  p position = 0.473076,-1.5,-1.03031,0xfa8aa29d;
+	  p position = 0.97735,-1.5,-1.47016,0xfa8aa29d;
 	}
 }
 [t:door_glb_keep_02,n:0x03400047]
@@ -485,10 +597,14 @@
 }
 [t:sign_glb_blacksmith_03,n:0x03400016]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.75;
+	}
 	[placement]
 	{
 	  q orientation = -1.19209e-007,-0.382683,-3.27826e-007,0.923879;
-	  p position = -0.451101,-1.5,-1.01911,0xfe1f4016;
+	  p position = -0.970966,-1.5,-1.45316,0xfe1f4016;
 	}
 }
 [t:door_glb_keep_02,n:0x03400043]
