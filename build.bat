@@ -1,6 +1,6 @@
 :: name of map
-set map=collab24
-set res=%map%
+set map=collab24-firstie
+set res=collab24
 :: name of map, case-sensitive
 set map_cs=Collab 24 Firstie
 :: tank properties
