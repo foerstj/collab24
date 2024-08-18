@@ -335,6 +335,10 @@
 		}
 		[world_levels]
 		{
+			[regular]
+			{
+			  i required_level = 5;
+			}
 		}
 	}
 	[t:start_group,n:3_underland_town]
