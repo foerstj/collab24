@@ -5,6 +5,7 @@
 		order = 0;
 		screen_text = "This is a bad business, but we're no' the only ones in it! These crystals up there in the Crystlayer are getting stirred up by these mages, but there'll be a blasted goblin behind this or I'm a mule's father!";
         choice = more;
+        activate_quest* = i_must_scream;
 	}
 	[text*]
 	{
