@@ -1,0 +1,56 @@
+[t:template,n:c24_3_base_crystals_md]
+{
+    specializes = c24_3_base_crystals;
+
+    doc = "crystals md";
+	[aspect]
+	{
+		does_block_camera = TRUE;
+		lodfi_lower = 0.1;
+		lodfi_upper = 0.8;
+		model = m_i_cav_gems-03;
+	}
+	[generic_emitter]
+	{
+		rep_freq_min = 25;
+		rep_freq_max = 35;
+		other_effect = crystal_spark;
+	}
+}
+[t:template,n:c24_3_crystals_md_teal]   { specializes = c24_3_base_crystals_md; aspect:textures:0 = b_i_cav_gems-01-static; generic_emitter:other_params = "[color0(.5,1,1)]";  }
+[t:template,n:c24_3_crystals_md_purple] { specializes = c24_3_base_crystals_md; aspect:textures:0 = b_i_cav_gems-02-static; generic_emitter:other_params = "[color0(1,.5,1)]";  }
+[t:template,n:c24_3_crystals_md_green]  { specializes = c24_3_base_crystals_md; aspect:textures:0 = b_i_cav_gems-03-static; generic_emitter:other_params = "[color0(.5,1,.5)]"; }
+[t:template,n:c24_3_crystals_md_blue]   { specializes = c24_3_base_crystals_md; aspect:textures:0 = b_i_cav_gems-04-static; generic_emitter:other_params = "[color0(.5,.5,1)]"; }
+[t:template,n:c24_3_crystals_md_red]    { specializes = c24_3_base_crystals_md; aspect:textures:0 = b_i_cav_gems-05-static; generic_emitter:other_params = "[color0(1,.5,.5)]"; }
+[t:template,n:c24_3_crystals_md_gold]   { specializes = c24_3_base_crystals_md; aspect:textures:0 = b_i_cav_gems-06-static; generic_emitter:other_params = "[color0(1,1,.5)]";  }
+
+[t:template,n:c24_3_base_crystals_md_x]
+{
+    specializes = c24_3_base_crystals_md;
+
+    [light_flicker_lightweight]
+    {
+        magnitude = 0;
+    }
+}
+[t:template,n:c24_3_base_crystals_md_x_teal]   { specializes = c24_3_base_crystals_md_x; aspect:textures:0 = b_i_cav_gems-01-static; generic_emitter:other_params = "[color0(.5,1,1)]";  }
+[t:template,n:c24_3_base_crystals_md_x_purple] { specializes = c24_3_base_crystals_md_x; aspect:textures:0 = b_i_cav_gems-02-static; generic_emitter:other_params = "[color0(1,.5,1)]";  }
+[t:template,n:c24_3_base_crystals_md_x_green]  { specializes = c24_3_base_crystals_md_x; aspect:textures:0 = b_i_cav_gems-03-static; generic_emitter:other_params = "[color0(.5,1,.5)]"; }
+[t:template,n:c24_3_base_crystals_md_x_blue]   { specializes = c24_3_base_crystals_md_x; aspect:textures:0 = b_i_cav_gems-04-static; generic_emitter:other_params = "[color0(.5,.5,1)]"; }
+[t:template,n:c24_3_base_crystals_md_x_red]    { specializes = c24_3_base_crystals_md_x; aspect:textures:0 = b_i_cav_gems-05-static; generic_emitter:other_params = "[color0(1,.5,.5)]"; }
+[t:template,n:c24_3_base_crystals_md_x_gold]   { specializes = c24_3_base_crystals_md_x; aspect:textures:0 = b_i_cav_gems-06-static; generic_emitter:other_params = "[color0(1,1,.5)]";  }
+
+
+[t:template,n:c24_3_crystals_md_teal_x1]   { specializes = c24_3_base_crystals_md_x_teal;   aspect:scale_base = 1.00; }
+[t:template,n:c24_3_crystals_md_purple_x1] { specializes = c24_3_base_crystals_md_x_purple; aspect:scale_base = 1.00; }
+[t:template,n:c24_3_crystals_md_green_x1]  { specializes = c24_3_base_crystals_md_x_green;  aspect:scale_base = 1.00; }
+[t:template,n:c24_3_crystals_md_blue_x1]   { specializes = c24_3_base_crystals_md_x_blue;   aspect:scale_base = 1.00; }
+[t:template,n:c24_3_crystals_md_red_x1]    { specializes = c24_3_base_crystals_md_x_red;    aspect:scale_base = 1.00; }
+[t:template,n:c24_3_crystals_md_gold_x1]   { specializes = c24_3_base_crystals_md_x_gold;   aspect:scale_base = 1.00; }
+
+[t:template,n:c24_3_crystals_md_teal_x2]   { specializes = c24_3_base_crystals_md_x_teal;   aspect:scale_base = 1.26; }
+[t:template,n:c24_3_crystals_md_purple_x2] { specializes = c24_3_base_crystals_md_x_purple; aspect:scale_base = 1.26; }
+[t:template,n:c24_3_crystals_md_green_x2]  { specializes = c24_3_base_crystals_md_x_green;  aspect:scale_base = 1.26; }
+[t:template,n:c24_3_crystals_md_blue_x2]   { specializes = c24_3_base_crystals_md_x_blue;   aspect:scale_base = 1.26; }
+[t:template,n:c24_3_crystals_md_red_x2]    { specializes = c24_3_base_crystals_md_x_red;    aspect:scale_base = 1.26; }
+[t:template,n:c24_3_crystals_md_gold_x2]   { specializes = c24_3_base_crystals_md_x_gold;   aspect:scale_base = 1.26; }

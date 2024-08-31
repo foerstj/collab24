@@ -1,0 +1,50 @@
+[t:template,n:c24_3_base_crystals_lg]
+{
+    specializes = c24_3_base_crystals;
+
+    doc = "crystals lg";
+	[aspect]
+	{
+		does_block_camera = TRUE;
+		lodfi_lower = 0.2;
+		lodfi_upper = 1;
+		model = m_i_cav_gems-02;
+	}
+}
+[t:template,n:c24_3_crystals_lg_teal]   { specializes = c24_3_base_crystals_lg; aspect:textures:0 = b_i_cav_gems-01-static; }
+[t:template,n:c24_3_crystals_lg_purple] { specializes = c24_3_base_crystals_lg; aspect:textures:0 = b_i_cav_gems-02-static; }
+[t:template,n:c24_3_crystals_lg_green]  { specializes = c24_3_base_crystals_lg; aspect:textures:0 = b_i_cav_gems-03-static; }
+[t:template,n:c24_3_crystals_lg_blue]   { specializes = c24_3_base_crystals_lg; aspect:textures:0 = b_i_cav_gems-04-static; }
+[t:template,n:c24_3_crystals_lg_red]    { specializes = c24_3_base_crystals_lg; aspect:textures:0 = b_i_cav_gems-05-static; }
+[t:template,n:c24_3_crystals_lg_gold]   { specializes = c24_3_base_crystals_lg; aspect:textures:0 = b_i_cav_gems-06-static; }
+
+[t:template,n:c24_3_base_crystals_lg_x]
+{
+    specializes = c24_3_base_crystals_lg;
+
+    [light_flicker_lightweight]
+    {
+        magnitude = 0;
+    }
+}
+[t:template,n:c24_3_base_crystals_lg_x_teal]   { specializes = c24_3_base_crystals_lg_x; aspect:textures:0 = b_i_cav_gems-01-static; }
+[t:template,n:c24_3_base_crystals_lg_x_purple] { specializes = c24_3_base_crystals_lg_x; aspect:textures:0 = b_i_cav_gems-02-static; }
+[t:template,n:c24_3_base_crystals_lg_x_green]  { specializes = c24_3_base_crystals_lg_x; aspect:textures:0 = b_i_cav_gems-03-static; }
+[t:template,n:c24_3_base_crystals_lg_x_blue]   { specializes = c24_3_base_crystals_lg_x; aspect:textures:0 = b_i_cav_gems-04-static; }
+[t:template,n:c24_3_base_crystals_lg_x_red]    { specializes = c24_3_base_crystals_lg_x; aspect:textures:0 = b_i_cav_gems-05-static; }
+[t:template,n:c24_3_base_crystals_lg_x_gold]   { specializes = c24_3_base_crystals_lg_x; aspect:textures:0 = b_i_cav_gems-06-static; }
+
+
+[t:template,n:c24_3_crystals_lg_teal_x1]   { specializes = c24_3_base_crystals_lg_x_teal;   aspect:scale_base = 1.00; }
+[t:template,n:c24_3_crystals_lg_purple_x1] { specializes = c24_3_base_crystals_lg_x_purple; aspect:scale_base = 1.00; }
+[t:template,n:c24_3_crystals_lg_green_x1]  { specializes = c24_3_base_crystals_lg_x_green;  aspect:scale_base = 1.00; }
+[t:template,n:c24_3_crystals_lg_blue_x1]   { specializes = c24_3_base_crystals_lg_x_blue;   aspect:scale_base = 1.00; }
+[t:template,n:c24_3_crystals_lg_red_x1]    { specializes = c24_3_base_crystals_lg_x_red;    aspect:scale_base = 1.00; }
+[t:template,n:c24_3_crystals_lg_gold_x1]   { specializes = c24_3_base_crystals_lg_x_gold;   aspect:scale_base = 1.00; }
+
+[t:template,n:c24_3_crystals_lg_teal_x2]   { specializes = c24_3_base_crystals_lg_x_teal;   aspect:scale_base = 1.26; }
+[t:template,n:c24_3_crystals_lg_purple_x2] { specializes = c24_3_base_crystals_lg_x_purple; aspect:scale_base = 1.26; }
+[t:template,n:c24_3_crystals_lg_green_x2]  { specializes = c24_3_base_crystals_lg_x_green;  aspect:scale_base = 1.26; }
+[t:template,n:c24_3_crystals_lg_blue_x2]   { specializes = c24_3_base_crystals_lg_x_blue;   aspect:scale_base = 1.26; }
+[t:template,n:c24_3_crystals_lg_red_x2]    { specializes = c24_3_base_crystals_lg_x_red;    aspect:scale_base = 1.26; }
+[t:template,n:c24_3_crystals_lg_gold_x2]   { specializes = c24_3_base_crystals_lg_x_gold;   aspect:scale_base = 1.26; }

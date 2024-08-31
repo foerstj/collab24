@@ -1,0 +1,7 @@
+[t:template,n:c24_3_base_crystals]
+{
+    specializes = non_interactive_nonblocking;
+
+    category_name = "rocks";
+    doc = "crystals";
+}
