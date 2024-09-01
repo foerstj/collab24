@@ -82,13 +82,13 @@
 	[collab24_slice2_quest_mayor_greet]
 	{
 		chapter = chapter_02_path_of_merchant;
-		quest_image = b_gui_ig_mnu_jnl_quest_c24_2_giants;
+		quest_image = b_gui_ig_mnu_jnl_quest_c24_2_greet_mayor;
 		screen_name = Men in Power Bonding;
 		victory_sample = s_e_level_up_quest;
 		[*]
 		{
 			address = 2_3_town_and_outskirts:conversations:conv_r4_mayor_last;
-			description = Greet Mayor of Shroomington from Mayor of Frostfingers;
+			description = Greet Mayor of Shroomington in the Underlands from Mayor of Frostfingers;
 		  b is_consumable = true;
 		  i order = 0;
 		  b required = true;
