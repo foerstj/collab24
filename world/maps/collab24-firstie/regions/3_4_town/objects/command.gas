@@ -83,10 +83,11 @@
 	  i animation = 1650811954;
 	  x client_scid = 0x0340006C;
 	  b initially_active = true;
+	  x next_scid = 0x034001CA;
 	}
 	[common]
 	{
-		dev_instance_text = "MP";
+		dev_instance_text = "MP SLEEP";
 	  b is_single_player = false;
 	}
 	[placement]
@@ -169,6 +170,25 @@
 	[placement]
 	{
 	  p position = -1.12983,0,-1.64006,0xdd083b93;
+	}
+}
+[t:cmd_animation_command,n:0x034001ca]
+{
+	[cmd_animation_command]
+	{
+	  i animation = 1650811955;
+	  x client_scid = 0x0340006C;
+	  b repeat_animation = false;
+	  b start_fidget = true;
+	}
+	[common]
+	{
+		dev_instance_text = "MP WAKE";
+	  b is_single_player = false;
+	}
+	[placement]
+	{
+	  p position = -1.59315,0,-0.0582163,0xdd083b93;
 	}
 }
 [t:cmd_animation_command,n:0x03400126]
