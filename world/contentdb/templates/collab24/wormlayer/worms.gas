@@ -179,7 +179,7 @@
 {
     specializes = googore_base;
 
-    // stats & loot from rector
+    // stats & loot from rector, EDITED
 	[actor]
 	{
 		[skills]
@@ -193,10 +193,11 @@
 	[aspect]
 	{
 		experience_value = 44;
-		life = 41;
-        max_life = 41;
         mana = 14;
         max_mana = 14;
+        // DOUBLED, was 41 - they need to feel more bulky
+		life = 82;
+        max_life = 82;
 	}
 	[attack]
 	{
@@ -552,7 +553,7 @@
 {
     specializes = mine_worm_base;
 
-    // stats & loot from rector
+    // stats & loot from rector, EDITED
 	[actor]
 	{
 		[skills]
@@ -566,10 +567,11 @@
 	[aspect]
 	{
 		experience_value = 44;
-		life = 41;
-        max_life = 41;
         mana = 14;
         max_mana = 14;
+        // DOUBLED, was 41 - they need to feel more bulky
+		life = 82;
+        max_life = 82;
 	}
 	[attack]
 	{
