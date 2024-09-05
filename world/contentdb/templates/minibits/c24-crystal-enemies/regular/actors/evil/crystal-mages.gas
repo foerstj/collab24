@@ -1,14 +1,14 @@
 [t:template,n:c24_3_base_crystal_mage]
 {
-    specializes = ice_mage_base;
+	specializes = ice_mage_base;
 
-    common:screen_name = "Crystal Mage";
+	common:screen_name = "Crystal Mage";
 	[inventory]
 	{
 		selected_active_location = il_active_primary_spell;
 	}
 
-    // reveal
+	// reveal
 	[mind]
 	{
 		jat_startup = world\ai\jobs\common\job_startup_reveal.skrit
@@ -29,7 +29,7 @@
 		}
 	}
 
-    // stats & loot from krug_shaman
+	// stats & loot from krug_shaman, edited
 	[actor]
 	{
 		[skills]
@@ -76,12 +76,12 @@
 					  il_main = potion_health_small;
 					  max = 2;
 					  min = 1;
-                      chance = 0.3;
+					  chance = 0.3;
 				}
 				[all*]
 				{
 					  chance = 0.3;
-					  il_main = spell_fireshot;
+					  il_main = #spell/0-10;  // EDITED was hard-coded spell_fireshot
 				}
 				[oneof*]
 				{
@@ -89,7 +89,7 @@
 					  il_main = book_glb_magic_01;
 					  il_main = #body,ro/12-17;
 				}
-             }
+			}
 		}
 	}
 }

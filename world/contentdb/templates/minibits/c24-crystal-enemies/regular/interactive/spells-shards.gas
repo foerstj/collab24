@@ -15,11 +15,11 @@
 	}
 	[spell_default] {}
 
-    // stats from spell_mucosa_poison
+    // stats from spell_mucosa_poison, DOUBLED because the mucosa poison effect deals damage twice (trackball + fire)
 	[attack]
 	{
-		damage_max = 15;
-		damage_min = 10;
+		damage_max = 30;
+		damage_min = 20;
 	}
 }
 
